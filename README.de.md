@@ -13,11 +13,11 @@
 Eine mechanische Full-Size-Tastatur für ISO-DE und ANSI, von Grund auf in KiCad
 entworfen.
 
-Das soll kein weiteres DIY-Keyboard werden, das einmal gebaut wird und dann
-einschläft. Ziel ist eine Full-Size-Tastatur, die aktuell bleibt — mit aktuellem
-KiCad, QMK und Bauteilen, die man wirklich kaufen kann — und stetig wächst. Jeder
-Schritt landet in diesem Repository, und der Fahrplan unten wird mit dem Projekt
-weitergeschrieben.
+Das soll kein weiteres Einmal-DIY-Keyboard werden. Ziel ist ein standardisiertes
+Full-Size-Kernprojekt, auf dem andere aufbauen können: günstig und einfach zu
+fertigen, aber sauber und modern — mit aktuellem KiCad, QMK, USB-C und Bauteilen,
+die man wirklich kaufen kann. Gehäuse, Beleuchtung oder Layout-Varianten setzen
+auf diesem Kern auf, statt ihn zu verbiegen.
 
 > **Status: am Anfang.** Die Tastenmatrix ist erzeugt und jeder Schalter hat
 > seinen endgültigen Footprint. Controller, Platinenumriss und Routing fehlen
@@ -32,6 +32,8 @@ weitergeschrieben.
   Shift und Backslash (in Arbeit)
 - 6 × 21 Diodenmatrix (SOD-123)
 - Geplant: RP2040 als Controller, USB-C
+- Geplant: einfarbige Hintergrundbeleuchtung, Bestückung optional — über QMK
+  schaltbar, dimmbar und mit „Breathing“; Anzeige für Caps Lock und Num Lock
 - Tastenfeld: 428,6 × 123,8 mm (22,5 × 6,5 u)
 
 ## Repository
@@ -54,7 +56,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/keyboard-fullsize
 - [x] Footprints für alle Tastengrößen
 - [ ] ANSI-Alternativpositionen
 - [ ] Controller-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD-Schutz
-- [ ] Beleuchtung: Hintergrundbeleuchtung oder per-Key-RGB (noch offen)
+- [ ] Einfarbige Hintergrundbeleuchtung: LED-Footprints und MOSFET auf der
+  Platine, Bestückung optional
 - [ ] Platinenumriss und Befestigungslöcher (gemeinsam mit dem Gehäuse)
 - [ ] Routing, DRC, Fertigungsdaten
 - [ ] Firmware (QMK)

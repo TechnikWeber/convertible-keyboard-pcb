@@ -12,11 +12,11 @@
 A full-size mechanical keyboard for ISO-DE and ANSI, designed from scratch in
 KiCad.
 
-This is not meant to be yet another DIY keyboard that gets built once and then
-goes quiet. The goal is a full-size board that stays up to date — with current
-KiCad, QMK and parts that can actually be bought — and keeps growing. Every step
-lands in this repository, and the roadmap below is extended as the project moves
-on.
+This is not meant to be yet another one-off DIY keyboard. The goal is a
+standardised full-size core design that others can build on: cheap and simple to
+make, but clean and modern — current KiCad, QMK, USB-C and parts that can
+actually be bought. A case, lighting or layout variants build on this core
+instead of bending it into something else.
 
 > **Status: early.** The key matrix is generated and every switch has its final
 > footprint. The controller, board outline and routing are still to do. Nothing
@@ -31,6 +31,8 @@ on.
   backslash (in progress)
 - 6 × 21 diode matrix (SOD-123)
 - Planned: RP2040 controller, USB-C
+- Planned: single-colour backlight, optional to populate — switched, dimmed and
+  "breathing" via QMK; Caps Lock and Num Lock indicators
 - Key field: 428.6 × 123.8 mm (22.5 × 6.5 u)
 
 ## Repository
@@ -53,7 +55,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/keyboard-fullsize
 - [x] Footprints for all key sizes
 - [ ] ANSI alternative positions
 - [ ] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
-- [ ] Lighting: backlight or per-key RGB (to be decided)
+- [ ] Single-colour backlight: LED footprints and MOSFET on the PCB, populating
+  them is optional
 - [ ] Board outline and mounting holes (together with the case)
 - [ ] Routing, DRC, manufacturing files
 - [ ] Firmware (QMK)
