@@ -5,8 +5,8 @@
 	(uuid "adcd902f-6f68-4580-a98c-38219e33a0b5")
 	(paper "A3")
 	(title_block
-		(comment 1 "https://github.com/adamws/kicad-kbplacer")
-		(comment 2 "Auto-generated with kicad-kbplacer, requires validation before production!")
+		(title "convertible-keyboard-pcb")
+		(comment 1 "Key matrix generated with kicad-kbplacer (github.com/adamws/kicad-kbplacer)")
 	)
 	(lib_symbols
 		(symbol "Device:D_Small"
@@ -991,6 +991,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "ANSI alternatives - populate instead of the matching ISO keys\nSW106  Backslash 1.5u: no LED, switch rotated 270° on the PCB (clears the ISO Enter stabilizer)\nSW107  Enter 2.25u: same matrix position as ISO Enter SW71 (ROW3 / COL13)\nSW108  Left Shift 2.25u: same matrix position as ISO Left Shift SW75 (ROW4 / COL0)\nSW71 is drawn rotated 180°: pin 2 = COL13, pin 1 = diode (keeps its pads clear of SW106)"
+		(exclude_from_sim no)
+		(at 302.26 12.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c900c377-e949-4e54-a14f-3cc2358baa67")
 	)
 	(junction
 		(at 190.5 121.92)
@@ -2282,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 40.64) (xy 365.76 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09181808-49e5-453b-8018-028d7d11a401")
+	)
+	(wire
+		(pts
 			(xy 69.85 95.25) (xy 69.85 96.52)
 		)
 		(stroke
@@ -3472,6 +3493,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 49.53) (xy 325.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a482b2-50cd-4d17-9613-1a815837e5d4")
+	)
+	(wire
+		(pts
 			(xy 115.57 81.28) (xy 114.3 81.28)
 		)
 		(stroke
@@ -3529,6 +3560,16 @@
 			(type default)
 		)
 		(uuid "4a0b83fc-8459-490b-8c27-f2e93ca71236")
+	)
+	(wire
+		(pts
+			(xy 345.44 40.64) (xy 345.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a63c1b4-c5f5-41dc-bdae-5b86bc7d8dba")
 	)
 	(wire
 		(pts
@@ -4752,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 40.64) (xy 325.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85461bd4-c9c7-4c19-9f2c-a6a7713f06ea")
+	)
+	(wire
+		(pts
 			(xy 26.67 20.32) (xy 25.4 20.32)
 		)
 		(stroke
@@ -5352,6 +5403,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 35.56) (xy 358.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60bf721-6369-447d-add8-15e1bab86dbb")
+	)
+	(wire
+		(pts
 			(xy 234.95 54.61) (xy 234.95 55.88)
 		)
 		(stroke
@@ -5509,6 +5570,16 @@
 			(type default)
 		)
 		(uuid "ab65a27e-0214-49dd-9733-3ced8258f56b")
+	)
+	(wire
+		(pts
+			(xy 345.44 49.53) (xy 345.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab973841-05d7-46f6-8076-6920d48daf4f")
 	)
 	(wire
 		(pts
@@ -6039,6 +6110,16 @@
 			(type default)
 		)
 		(uuid "c997fed3-8623-4e72-bdac-0c8b7b534c5f")
+	)
+	(wire
+		(pts
+			(xy 365.76 49.53) (xy 365.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab20a85-bcfc-49e3-b862-43afca7e1c11")
 	)
 	(wire
 		(pts
@@ -6742,6 +6823,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 35.56) (xy 317.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f63c46-7e49-4217-9b74-663ae0ff2cec")
+	)
+	(wire
+		(pts
 			(xy 102.87 60.96) (xy 101.6 60.96)
 		)
 		(stroke
@@ -7132,6 +7223,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 35.56) (xy 337.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa351e5-7f3e-4c3b-8d58-ebeb3439d9ef")
+	)
+	(wire
+		(pts
 			(xy 95.25 86.36) (xy 95.25 90.17)
 		)
 		(stroke
@@ -7436,6 +7537,30 @@
 			)
 		)
 	)
+	(global_label "COL13"
+		(shape input)
+		(at 337.82 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "371465b3-aba5-4d5b-bf97-37a3fa71582b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "COL8"
 		(shape input)
 		(at 127 140.97 270)
@@ -7532,6 +7657,30 @@
 			)
 		)
 	)
+	(global_label "COL0"
+		(shape input)
+		(at 358.14 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69545170-f677-47f9-8471-e8c925451a0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "COL7"
 		(shape input)
 		(at 114.3 140.97 270)
@@ -7545,6 +7694,30 @@
 		(uuid "6a5ff205-b6cd-437e-b842-c6ed5b44950a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.0491 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 365.76 52.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f61fdfc-23f5-4933-881a-8b3f9eeb6975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,6 +7766,30 @@
 		(uuid "8b1f0fd4-9d7d-4f48-9add-e3590a034f3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.1491 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "COL13"
+		(shape input)
+		(at 317.5 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7a6600b-cb85-46ec-bb63-ef701d5716fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,6 +8065,30 @@
 			)
 		)
 	)
+	(global_label "ROW2"
+		(shape input)
+		(at 325.12 52.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7c145e-dc34-4618-bfbc-af2566717dba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ROW3"
 		(shape input)
 		(at 292.1 96.52 0)
@@ -7905,6 +8126,30 @@
 		(uuid "e5f656c7-4577-44e7-ae66-8cdf9cccf1bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.1491 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 345.44 52.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8dcf30c-ad23-4ebd-bb2a-46b69869181b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12557,6 +12802,86 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
+		(at 322.58 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42167f80-17d2-4e46-a001-d0c4b2cfa82a")
+		(property "Reference" "SW106"
+			(at 322.58 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 322.58 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_Only:MXOnly-1.5U-NoLED"
+			(at 322.58 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 322.58 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43f3eb76-165c-42d0-824c-0d04613811ce")
+		)
+		(pin "2"
+			(uuid "66328b53-2453-48d9-84c8-220b4b445152")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "SW106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -13800,6 +14125,88 @@
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
 					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 365.76 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ed28be1-1148-4356-855b-ed75a8c5d66d")
+		(property "Reference" "D108"
+			(at 363.728 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 367.792 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 365.76 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 365.76 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0eb5a2e-956b-420b-9230-655803253127")
+		)
+		(pin "2"
+			(uuid "ce5cf578-e31b-485b-9c97-3fa54019df61")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "D108")
 					(unit 1)
 				)
 			)
@@ -16300,6 +16707,88 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 345.44 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d5c6094-4d36-48a0-8310-47880c32400b")
+		(property "Reference" "D107"
+			(at 343.408 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 347.472 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 345.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 345.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d65c7ca7-cb23-4f6b-8b39-381eeb1a9183")
+		)
+		(pin "2"
+			(uuid "a5fcf1f7-7a45-494e-a196-e76ad0785942")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 31.75 31.75 90)
 		(unit 1)
 		(body_style 1)
@@ -17045,6 +17534,88 @@
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
 					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 325.12 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "762cdb30-3d95-4ff6-baac-156fb6265805")
+		(property "Reference" "D106"
+			(at 323.088 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 327.152 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 325.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 325.12 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1780d35d-4113-40b2-b702-90d8e0149ff2")
+		)
+		(pin "2"
+			(uuid "51baea14-2ae9-47a5-a687-739be970b493")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -18745,7 +19316,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 194.31 83.82 0)
+		(at 194.31 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21420,6 +21991,86 @@
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
 					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 363.22 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b314d7b6-dfa5-468c-a672-324db27f82a7")
+		(property "Reference" "SW108"
+			(at 363.22 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 363.22 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_Only:MXOnly-2.25U-NoLED"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 363.22 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaa51f60-164c-44aa-8d37-fab143631113")
+		)
+		(pin "2"
+			(uuid "40cae8f2-0373-443d-9d4f-34fa6d412819")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "SW108")
 					(unit 1)
 				)
 			)
@@ -25139,6 +25790,86 @@
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 342.9 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e382e094-84ed-46aa-8dd9-9ecf30e08133")
+		(property "Reference" "SW107"
+			(at 342.9 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 342.9 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_Only:MXOnly-2.25U-NoLED"
+			(at 342.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 342.9 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcc3f7a9-5f12-4a06-a50d-8adbc536e5e5")
+		)
+		(pin "2"
+			(uuid "a5aac857-121c-47ac-9035-71e2dfdf2573")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
+					(reference "SW107")
 					(unit 1)
 				)
 			)
