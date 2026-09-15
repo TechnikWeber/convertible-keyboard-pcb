@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ce2bed77-bf8c-55f3-a198-d323afbb9b21")
+	(uuid "302fc45a-74ba-5e28-bf1a-3dfd4869aa43")
 	(paper "A3")
 	(title_block
 		(title "MCU, USB and power")
@@ -4689,7 +4689,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "e6f84fbc-0924-5d02-b52a-7b2a1866b1a2")
+		(uuid "52c9ace3-cde3-50ec-a752-87bffdd38b03")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -4701,7 +4701,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7577ab33-19eb-5288-9a19-fe9b34a1aabe")
+		(uuid "1f2d7ff5-b784-5f39-a78a-41c862a1f5de")
 		(property "Reference" "J1"
 			(at 40.64 38.735 0)
 			(effects
@@ -4746,59 +4746,59 @@
 			)
 		)
 		(pin "A1"
-			(uuid "81f89802-c3b5-5f02-96fc-6827bf702238")
+			(uuid "77919b9e-590a-5f0b-bc60-544c7acdd672")
 		)
 		(pin "A4"
-			(uuid "a5cdec1a-d4d9-5225-9eb3-4bbe7acac7bb")
+			(uuid "829624b4-daec-53e8-b37b-6ad04b5a3b61")
 		)
 		(pin "A5"
-			(uuid "9fe60da7-4f30-58f8-8787-f21fead65bc3")
+			(uuid "edaa6ad7-273b-5996-b07a-1c00d95c5076")
 		)
 		(pin "A6"
-			(uuid "bdae2523-975f-5a3e-8b36-e8af7c497cda")
+			(uuid "5b5c6836-f549-5a3c-88f4-c92e246fdc4e")
 		)
 		(pin "A7"
-			(uuid "1ef0be26-0aaa-5956-af7e-9e64244c9a5f")
+			(uuid "69efe522-7544-5359-b69f-db4879945b73")
 		)
 		(pin "A8"
-			(uuid "1cd2855e-66ed-5890-9ed5-6bda2904f7a8")
+			(uuid "073436fa-85c3-5dff-9ad0-612ad50a2488")
 		)
 		(pin "A9"
-			(uuid "577538e7-26b3-58a6-a7fb-54ef3454234a")
+			(uuid "6f5538fa-bfd4-5c08-bfab-053f13b7e5dd")
 		)
 		(pin "A12"
-			(uuid "4167b1df-e902-58d7-9648-620aa0497eaf")
+			(uuid "6d813c87-8eaa-5152-bdaf-334ac62932e6")
 		)
 		(pin "B1"
-			(uuid "37562145-6037-5f19-a670-845de530b7d4")
+			(uuid "5bcac0d9-77ff-56c4-ae76-cb501360a8b7")
 		)
 		(pin "B4"
-			(uuid "94aa6854-3993-53df-ba63-8484ccba6d30")
+			(uuid "e68d9449-676c-5a57-8bca-29e711869244")
 		)
 		(pin "B5"
-			(uuid "cfeed85a-3492-5ca9-be91-4cc8659944b2")
+			(uuid "5e72046d-ba55-57f2-9423-f3be6d0a532f")
 		)
 		(pin "B6"
-			(uuid "3b299e68-d73d-55f8-98e5-99394fe45569")
+			(uuid "657ac441-96cf-59fd-9f84-26ba453bd513")
 		)
 		(pin "B7"
-			(uuid "77d333fb-5769-5475-82aa-1fe71fc68cf0")
+			(uuid "4356a716-fe47-52e5-b354-db40c5e74448")
 		)
 		(pin "B8"
-			(uuid "e6bcbb31-8dd9-5188-8a1b-67f8a40ccf6e")
+			(uuid "48867450-3d1b-5b39-9f48-eda83f8f4ee4")
 		)
 		(pin "B9"
-			(uuid "1c356138-121f-5023-a919-3cc0e520e1d0")
+			(uuid "a3fb23de-99b9-5780-a180-5992d84e7067")
 		)
 		(pin "B12"
-			(uuid "5a41755c-e863-53bb-a360-47f6dd40cf58")
+			(uuid "d9a1cb90-9557-5481-a289-e413987f0a64")
 		)
 		(pin "SH"
-			(uuid "eeba6209-8fd4-5559-9c30-60e3160bbd13")
+			(uuid "0146ad9d-3fa6-5211-b884-2b5304952d7d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "J1")
 					(unit 1)
 				)
@@ -4814,7 +4814,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ac6ef0fe-96cb-5cb1-9fb0-bd24b36fe488")
+		(uuid "b6340244-bc3c-510b-a43b-602af2ff4a13")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -4826,8 +4826,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cafd9661-4332-5bfc-8145-b9228b585e6d")
-		(property "Reference" "#PWR0116"
+		(uuid "791048cd-e0ca-5d03-a1a6-1ca883dc08f7")
+		(property "Reference" "#PWR2001"
 			(at 60.96 49.53 0)
 			(hide yes)
 			(effects
@@ -4872,12 +4872,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "44b56895-0c74-58f8-9087-5e29efb6981c")
+			(uuid "95f4966c-c80e-5f2e-8691-6fb2e7d44136")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0116")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2001")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4892,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3b0c2576-1108-5c84-9976-dedd7c34be03")
+		(uuid "1bbb367d-dcf3-5aab-94cb-5aa22311834f")
 	)
 	(label "CC1"
 		(at 58.42 50.8 0)
@@ -4903,7 +4903,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e9ee158-0894-5de3-a593-b801b6aa8c28")
+		(uuid "8685eca0-c973-5c0a-8c91-9ac6ded7a5bb")
 	)
 	(wire
 		(pts
@@ -4914,7 +4914,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "713170aa-7397-5750-9a35-6236175be6a8")
+		(uuid "bddd44e8-4470-55d0-9c58-46f91b15ee72")
 	)
 	(label "CC2"
 		(at 58.42 53.34 0)
@@ -4925,7 +4925,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "84df9256-91a3-55f5-97d0-e4ff8bf9734e")
+		(uuid "d90c7ef9-52b6-50bc-a6ef-a6410e785662")
 	)
 	(wire
 		(pts
@@ -4936,7 +4936,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fd99a603-b585-5038-b740-fdaad7c41502")
+		(uuid "79665807-f983-5915-9fbd-c5f8de2203ce")
 	)
 	(label "USB_CONN_DP"
 		(at 58.42 63.5 0)
@@ -4947,7 +4947,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ea2fd665-3321-50d3-b2d5-95de432ce972")
+		(uuid "556e9d27-047c-5041-a65a-94eebb3202ad")
 	)
 	(wire
 		(pts
@@ -4958,7 +4958,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1163ee65-c221-5a46-850c-355d9d0a8f98")
+		(uuid "4320d73b-36b9-5e20-94d5-08120c9affd4")
 	)
 	(label "USB_CONN_DP"
 		(at 58.42 66.04 0)
@@ -4969,7 +4969,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fab4919c-c835-56e1-b616-3667b4f84714")
+		(uuid "2f5221c9-f240-5425-aa36-58a7ce7deaff")
 	)
 	(wire
 		(pts
@@ -4980,7 +4980,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "05104fda-1fee-5031-95bb-540396f8dfcb")
+		(uuid "19a8e615-6c2d-5236-a082-eea7e5a0b78c")
 	)
 	(label "USB_CONN_DM"
 		(at 58.42 58.42 0)
@@ -4991,7 +4991,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9231954e-9e5f-5d70-85b2-1aa52553d5ed")
+		(uuid "8c7b1d25-2ce7-5b95-8750-e29ba1b6017f")
 	)
 	(wire
 		(pts
@@ -5002,7 +5002,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4f3d432f-48c7-5dbd-99eb-8fbe6a0babe5")
+		(uuid "5bb2abba-ba0d-592e-9d07-445b6f458585")
 	)
 	(label "USB_CONN_DM"
 		(at 58.42 60.96 0)
@@ -5013,15 +5013,15 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "066be23a-1725-5666-8087-824c666cb1e3")
+		(uuid "6dff6abe-a095-5734-b3b9-78932cf0a5c1")
 	)
 	(no_connect
 		(at 55.88 73.66)
-		(uuid "6a5917c9-cafa-56f5-bca2-4dbd25cbb21c")
+		(uuid "501bae26-442c-5128-9326-c8b5f04f1ca6")
 	)
 	(no_connect
 		(at 55.88 76.2)
-		(uuid "6acef351-0993-58d2-80fc-981103cc7f36")
+		(uuid "2db6f7b8-bb4f-5092-8d85-5b5cbbfe30dc")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5033,8 +5033,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "84551b18-b0bc-5e99-94b5-33ef14c4c340")
-		(property "Reference" "#PWR0117"
+		(uuid "af152359-1bbb-50f3-bec9-474d41d3e091")
+		(property "Reference" "#PWR2002"
 			(at 40.64 90.17 0)
 			(hide yes)
 			(effects
@@ -5079,12 +5079,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0759663-7657-5514-98ff-e8d81cefcd0a")
+			(uuid "dc8ce7c0-877d-56d9-9c44-63c7afca4ec7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0117")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2002")
 					(unit 1)
 				)
 			)
@@ -5099,7 +5099,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "818b3c0b-11df-5304-8d97-04cfadbde4e1")
+		(uuid "1bfd1e5f-6dd2-515e-8d63-e82db0341ff5")
 	)
 	(label "SHIELD"
 		(at 33.02 86.36 270)
@@ -5110,7 +5110,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1f0d3568-2a91-5bfa-a7fa-479762a8b814")
+		(uuid "19a97880-1f1c-517c-99bd-47b3e17a11e5")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5122,7 +5122,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f22fb390-d846-523a-9567-d875b7be01d3")
+		(uuid "597978c4-6f8b-557f-8946-4fd54497b0c8")
 		(property "Reference" "R201"
 			(at 83.312 60.325 0)
 			(effects
@@ -5169,14 +5169,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6e42dec-94a2-5468-b31b-9c5a90af2b89")
+			(uuid "be6e6f1f-16ad-5212-b5cb-a3dd73a83c2c")
 		)
 		(pin "2"
-			(uuid "bdb623d3-75c6-5663-8f86-9c530ee5a1c4")
+			(uuid "9c4a3164-0ea5-571e-bf39-f366a7af4374")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R201")
 					(unit 1)
 				)
@@ -5192,7 +5192,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d7500d48-c5f3-5b94-b4f2-f5c9d1e7ac8b")
+		(uuid "6653707d-fedc-5e14-aefb-8f033be407e9")
 	)
 	(label "CC1"
 		(at 81.28 55.88 90)
@@ -5203,7 +5203,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8789dd12-ffad-5883-adf6-c3102bb8a063")
+		(uuid "ec34e96f-c85f-5d80-9855-6b9a1af078cc")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5215,8 +5215,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df587f7d-4517-5832-bff8-56ca10b47c17")
-		(property "Reference" "#PWR0118"
+		(uuid "0b58079a-382e-5f58-bdb7-66fc43b359f7")
+		(property "Reference" "#PWR2003"
 			(at 81.28 69.85 0)
 			(hide yes)
 			(effects
@@ -5261,12 +5261,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d4020bf-2bd2-52fc-9486-efe747de217e")
+			(uuid "5baeb2e5-4a84-50c0-8a2b-2395644438e5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0118")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2003")
 					(unit 1)
 				)
 			)
@@ -5282,7 +5282,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "97903617-237a-5ce8-9aee-40b724d8d09e")
+		(uuid "33c88e77-57c4-5368-a6b0-036d21fb3b4a")
 		(property "Reference" "R202"
 			(at 93.472 60.325 0)
 			(effects
@@ -5329,14 +5329,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b71f1fb-d95e-51d6-bdb6-26ebc2563cc2")
+			(uuid "cf2e5f87-2917-5f37-bf8a-924eb47cc585")
 		)
 		(pin "2"
-			(uuid "0b7d5aeb-ab51-5a3e-9314-ced1f4228c5d")
+			(uuid "07fe4db0-0ff2-5fa1-bd01-aabae60e7099")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R202")
 					(unit 1)
 				)
@@ -5352,7 +5352,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a1bc669f-8735-5ad9-8a6f-c48e129a1703")
+		(uuid "caa12240-bb4d-5dfc-a2a8-4da188d2835d")
 	)
 	(label "CC2"
 		(at 91.44 55.88 90)
@@ -5363,7 +5363,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2b11b719-a3f4-5e3a-b875-c74bc7bb919c")
+		(uuid "456d526e-12c3-5e0b-be5b-fb4064e15a1e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5375,8 +5375,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "360be366-792e-5aeb-9f93-c33c04299e54")
-		(property "Reference" "#PWR0119"
+		(uuid "07a1797b-7089-5d37-bdd2-23743f739eb5")
+		(property "Reference" "#PWR2004"
 			(at 91.44 69.85 0)
 			(hide yes)
 			(effects
@@ -5421,12 +5421,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bbe400c-462d-546d-878a-66b0b5302a36")
+			(uuid "7ce339c5-32e7-50b5-b3d8-de8e01656054")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0119")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2004")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5442,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a4df456-88e1-574c-b2f5-efc7fcd7584c")
+		(uuid "ebb144c4-4609-5b66-afcf-587fe09e5268")
 		(property "Reference" "R203"
 			(at 103.632 60.325 0)
 			(effects
@@ -5489,14 +5489,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "55f7615c-5c24-5589-a253-6ed625827071")
+			(uuid "dc0b3c8a-0abf-5883-9b3d-3057056e0605")
 		)
 		(pin "2"
-			(uuid "34e01d8b-630c-54e9-87a7-ebe58943b9c2")
+			(uuid "ea951d6d-9e93-5360-bb36-db3594285216")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R203")
 					(unit 1)
 				)
@@ -5512,7 +5512,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "deb4f05e-4bb9-5fc0-9761-b0a9ccc15566")
+		(uuid "9bf3fc07-3093-59b6-a33e-f0e2b127c4fd")
 	)
 	(label "SHIELD"
 		(at 101.6 55.88 90)
@@ -5523,7 +5523,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c44bc1b-3a31-517d-bd58-f14f74ddf211")
+		(uuid "8dd35135-99d6-5377-a82f-225c0b504e29")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5535,8 +5535,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0b0436ae-db86-503f-9449-57c144ea7cdb")
-		(property "Reference" "#PWR0120"
+		(uuid "dfc3469a-b7dd-59e6-a20d-1f20a2149e01")
+		(property "Reference" "#PWR2005"
 			(at 101.6 69.85 0)
 			(hide yes)
 			(effects
@@ -5581,12 +5581,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3457329c-ac54-53c6-99c7-8c3407d5c378")
+			(uuid "058dd039-ca58-56f4-a823-9bbca7d0f0b6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0120")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2005")
 					(unit 1)
 				)
 			)
@@ -5602,7 +5602,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "888e4d5b-1d5c-5f06-b497-b68f1fa6a321")
+		(uuid "446bd675-b0aa-5fa9-88ca-038fe5ea2ac5")
 		(property "Reference" "C201"
 			(at 113.792 60.325 0)
 			(effects
@@ -5649,14 +5649,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "601906b5-ebee-5161-9428-cb22466cd757")
+			(uuid "c68c4b96-4e46-5d5d-95e7-e4ee4de89466")
 		)
 		(pin "2"
-			(uuid "5b81d6b8-5499-573f-8f0d-a695a6f95368")
+			(uuid "60d663c3-224a-57e1-b9e4-d451daab60a4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C201")
 					(unit 1)
 				)
@@ -5672,7 +5672,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "83d1b4f3-7e2e-5fbe-86f6-455772e25304")
+		(uuid "45ac25d5-2f90-569d-a9e1-2fcabbda9ebe")
 	)
 	(label "SHIELD"
 		(at 111.76 55.88 90)
@@ -5683,7 +5683,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ceddf0c7-1791-5520-b056-375eb1f23bbe")
+		(uuid "416544de-24d3-5b8f-b342-9c0ca763d6a6")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5695,8 +5695,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b172c817-d059-56c7-af17-78eba1917dd2")
-		(property "Reference" "#PWR0121"
+		(uuid "14f08a3b-bf8f-562f-80e4-be0e99000f49")
+		(property "Reference" "#PWR2006"
 			(at 111.76 69.85 0)
 			(hide yes)
 			(effects
@@ -5741,12 +5741,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceac530b-c0c0-5d23-8c50-2611b92a10a6")
+			(uuid "df12be6e-7dc3-558b-8584-402d634f7550")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0121")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2006")
 					(unit 1)
 				)
 			)
@@ -5762,7 +5762,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9513ab40-dc91-5bb9-8ae0-d99d7696107f")
+		(uuid "5c7ab569-4dbd-551a-b3e5-3261650d62f7")
 		(property "Reference" "U4"
 			(at 86.995 98.425 0)
 			(effects
@@ -5811,26 +5811,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "5dca4c7b-7254-5da2-b8e1-0ce3c3c8e8d3")
+			(uuid "0e58a278-1757-56a2-890b-e129ea0fddc0")
 		)
 		(pin "2"
-			(uuid "49ec3501-3fba-5e80-8640-3d2c608ca9aa")
+			(uuid "708ddb6f-922a-5619-8541-b59ef33bb75a")
 		)
 		(pin "3"
-			(uuid "d0541827-2b7e-5a22-a2fa-0cac65825af7")
+			(uuid "ebcdbcf5-6b1e-5c4d-90f1-cf471a8cd0d9")
 		)
 		(pin "4"
-			(uuid "00772767-7b6d-5a56-aa41-b4ce3129fd31")
+			(uuid "22309a81-302f-5f00-90f8-e5bbb4381187")
 		)
 		(pin "5"
-			(uuid "663d2bb5-87c7-543a-8bf6-9fd57e1cff3a")
+			(uuid "52ef3e5e-b3e0-59fa-93e4-fc119f383134")
 		)
 		(pin "6"
-			(uuid "847e28bb-2394-5711-b493-5699316acd86")
+			(uuid "b3691dc7-bf38-5b0c-8bc6-d91721c09e79")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "U4")
 					(unit 1)
 				)
@@ -5846,7 +5846,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ce6846bb-32b4-5a87-9f16-393e7d44d6bc")
+		(uuid "3ad923d6-9da2-5e06-bf85-c811c47c1ee8")
 	)
 	(label "USB_CONN_DP"
 		(at 78.74 104.14 180)
@@ -5857,7 +5857,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "16fd4f20-eb7a-533f-a3e5-780bf4f1c5b5")
+		(uuid "04e531fe-5738-5cad-b453-c87d99fc8175")
 	)
 	(wire
 		(pts
@@ -5868,7 +5868,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a11e5427-8915-539e-ae09-c88138c3acf0")
+		(uuid "eafcd63e-9a17-50e7-b941-dcfab4456f33")
 	)
 	(label "USB_CONN_DP"
 		(at 93.98 104.14 0)
@@ -5879,7 +5879,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6ed2118f-a1b0-527a-b675-4d7ff07b7e69")
+		(uuid "be30fbe4-0fc5-55b1-9c37-46048d6f5840")
 	)
 	(wire
 		(pts
@@ -5890,7 +5890,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a9b364d2-b53a-524f-8242-459cff3ce407")
+		(uuid "8b1ae6bb-5b78-590d-a0f0-3f494d588215")
 	)
 	(label "USB_CONN_DM"
 		(at 78.74 106.68 180)
@@ -5901,7 +5901,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e5af22a2-48bf-599f-b963-f4ba911b5f9d")
+		(uuid "d342ba1a-5373-5c2f-b577-58054e02fd20")
 	)
 	(wire
 		(pts
@@ -5912,7 +5912,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6cbe49b2-3832-570d-9a15-99c711732543")
+		(uuid "90029536-124c-5904-9438-f7d226d811d3")
 	)
 	(label "USB_CONN_DM"
 		(at 93.98 106.68 0)
@@ -5923,7 +5923,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c66113ac-aade-5f5c-b772-4ff43ec594a3")
+		(uuid "7b01426a-d8e9-5c50-9a59-00e0c7ccb4fb")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -5935,8 +5935,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a777ce8e-d45b-550c-9e85-95ff153703e1")
-		(property "Reference" "#PWR0122"
+		(uuid "de1e83c7-1e72-57e6-b12a-45e60551bf6f")
+		(property "Reference" "#PWR2007"
 			(at 86.36 102.87 0)
 			(hide yes)
 			(effects
@@ -5981,12 +5981,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3af2737b-6cb9-5b0b-85fc-2b960af73c51")
+			(uuid "af165ea1-8e5f-5722-8d09-4c0af74dbb60")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0122")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2007")
 					(unit 1)
 				)
 			)
@@ -6002,8 +6002,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "43d28f76-afa0-5e08-b07d-7063fa75110f")
-		(property "Reference" "#PWR0123"
+		(uuid "a505b993-9a03-5ffc-809b-09cca3910499")
+		(property "Reference" "#PWR2008"
 			(at 86.36 118.11 0)
 			(hide yes)
 			(effects
@@ -6048,12 +6048,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "410213e4-75a9-59d8-bf88-0553009ac416")
+			(uuid "c59ef28f-d0dd-5660-9ff4-8faf369a883a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0123")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2008")
 					(unit 1)
 				)
 			)
@@ -6069,7 +6069,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a4fb3349-741e-516d-adf0-137831c81276")
+		(uuid "05bbe6ac-ba46-5a25-b199-31316b66de06")
 		(property "Reference" "F1"
 			(at 123.952 103.505 0)
 			(effects
@@ -6117,14 +6117,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa15548d-fc40-5335-83b2-e836993d403b")
+			(uuid "d9f5d105-03b7-5704-a2ee-c5e5ff6c9ca6")
 		)
 		(pin "2"
-			(uuid "2f23214f-5072-5474-98b0-39faf116c5c8")
+			(uuid "e610afa3-b00c-5f2e-8ed1-eef4f2ac0ef4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "F1")
 					(unit 1)
 				)
@@ -6141,8 +6141,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9494d173-30dd-5597-9aec-d5d29ec1d617")
-		(property "Reference" "#PWR0124"
+		(uuid "65332aad-672c-5db1-8e2b-82fb92d3fa32")
+		(property "Reference" "#PWR2009"
 			(at 121.92 105.41 0)
 			(hide yes)
 			(effects
@@ -6187,12 +6187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d258c84f-dc69-5ddc-8bc3-2816db73059b")
+			(uuid "04297866-b465-5ff8-bf23-9fc2a92fae9c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0124")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2009")
 					(unit 1)
 				)
 			)
@@ -6208,8 +6208,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e0cec197-a1a4-5f86-9506-7b3d84e30132")
-		(property "Reference" "#PWR0125"
+		(uuid "2ed65434-9906-5714-986f-7f9342f5b741")
+		(property "Reference" "#PWR2010"
 			(at 121.92 102.87 0)
 			(hide yes)
 			(effects
@@ -6254,12 +6254,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a76ecd19-dccf-5264-a072-f1cc4f2b27ad")
+			(uuid "1854ce19-4849-579f-839f-c080291b78be")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0125")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2010")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6275,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49949ffb-66d4-5fa7-88f5-8d08e8fb2a66")
+		(uuid "2dabcdc4-2795-5c97-9702-50cd4d959288")
 		(property "Reference" "R204"
 			(at 139.192 103.505 0)
 			(effects
@@ -6322,14 +6322,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "540ebd99-a523-5d93-88ef-c43a10c07fba")
+			(uuid "5b609b25-7ad5-5468-b034-43979232c19a")
 		)
 		(pin "2"
-			(uuid "2193206e-6ed3-555c-829a-078ee9596002")
+			(uuid "a0ee7351-7d2e-5e7b-94fb-5b28d72671e5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R204")
 					(unit 1)
 				)
@@ -6345,7 +6345,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cb84130b-3bb2-5231-83bc-5cd23bccdb5d")
+		(uuid "285807f6-ed62-581c-9504-4e4e90dde7bc")
 	)
 	(label "USB_CONN_DP"
 		(at 137.16 99.06 90)
@@ -6356,7 +6356,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2fda4bc2-10dc-5a79-903e-139c48fae515")
+		(uuid "ef281f16-6e54-5614-bf2f-7ad39b6b634d")
 	)
 	(wire
 		(pts
@@ -6367,7 +6367,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "67937f1e-60cc-5f07-91a8-d8891f47574a")
+		(uuid "c6b8e35e-9bcb-5a51-9626-f1bad820421e")
 	)
 	(label "USB_DP"
 		(at 137.16 109.22 270)
@@ -6378,7 +6378,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f520b28b-8c4a-5f1d-a283-cc505d2dd78b")
+		(uuid "b9ae4d5c-59a5-5db9-a115-43d65b82058c")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -6390,7 +6390,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "446b2722-ffb1-534f-8cac-8c8d36c63727")
+		(uuid "25562151-a7b5-5c00-be50-c4011a634229")
 		(property "Reference" "R205"
 			(at 151.892 103.505 0)
 			(effects
@@ -6437,14 +6437,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bebcdc3f-8b59-5957-8d26-bfd3655a86e3")
+			(uuid "92ade49a-0840-5863-998b-eb882ded7566")
 		)
 		(pin "2"
-			(uuid "125a5448-b35a-567e-8426-ce9aa2b8533c")
+			(uuid "b9e155eb-0124-576e-a010-60cd486a8dac")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R205")
 					(unit 1)
 				)
@@ -6460,7 +6460,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b787434e-c15f-569e-8614-dd41b42be9f3")
+		(uuid "2109ce09-ecdd-5cbc-8f80-1d4e7c043e73")
 	)
 	(label "USB_CONN_DM"
 		(at 149.86 99.06 90)
@@ -6471,7 +6471,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e0a7f9ee-be5b-5f45-833a-b27d90bed47e")
+		(uuid "cad0b2c0-16cd-50f5-8fd9-71a865d7df78")
 	)
 	(wire
 		(pts
@@ -6482,7 +6482,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1da7d1b4-9015-599b-a8ae-19fa491bdebf")
+		(uuid "3634c3b8-734f-53b1-91c2-3898c9375e6e")
 	)
 	(label "USB_DM"
 		(at 149.86 109.22 270)
@@ -6493,7 +6493,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "feed0d44-fec2-57c1-9dfb-064f68f9930d")
+		(uuid "dab2322b-c21f-575d-9ff0-ad3d1967b1ca")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -6505,8 +6505,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "76cf0fc0-d294-5e96-a72b-477c09c556d0")
-		(property "Reference" "#PWR0126"
+		(uuid "db703a6e-b08c-537e-850c-aa7efe8f6115")
+		(property "Reference" "#PWR2011"
 			(at 124.46 128.27 0)
 			(hide yes)
 			(effects
@@ -6551,12 +6551,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc83f5aa-5c23-529f-96ea-8c07958a917a")
+			(uuid "4357f906-c28f-5ac8-bff2-863d2dfc5e1b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0126")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2011")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6572,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8cba5442-49a4-5041-bb75-88de03f50b14")
+		(uuid "3a39790e-01b0-57e0-a317-8eeee0e809de")
 		(property "Reference" "#FLG01"
 			(at 124.46 126.365 0)
 			(hide yes)
@@ -6618,11 +6618,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4322bc46-01e9-50a7-8531-6cf4b9603a58")
+			(uuid "ac01cd6f-7370-5d1f-9d8c-9b2956fc43e9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -6639,8 +6639,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "69afa64a-02ff-5d37-8cb7-05aff7620bf7")
-		(property "Reference" "#PWR0127"
+		(uuid "ab3c5aa1-5436-52ff-a5f3-5dfd7da1de32")
+		(property "Reference" "#PWR2012"
 			(at 134.62 128.27 0)
 			(hide yes)
 			(effects
@@ -6685,12 +6685,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d13c2e66-7bd6-529e-bc2f-346828b1d15f")
+			(uuid "6d7ac037-cef8-5e55-a70d-5deede0c6f23")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0127")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2012")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ecf1580f-647c-5532-bf77-66e4900e25ea")
+		(uuid "3905f8a0-3d99-5282-ba32-2e0f7907952e")
 		(property "Reference" "#FLG02"
 			(at 134.62 126.365 0)
 			(hide yes)
@@ -6752,11 +6752,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2e75d3a-4f8c-5185-b594-3b2e93aaf41c")
+			(uuid "ab7e73b0-f22c-5c0d-97ab-c763e134df85")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -6773,8 +6773,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "053d8f55-ba60-5f7d-8640-523d3e369ba6")
-		(property "Reference" "#PWR0128"
+		(uuid "69f35571-c669-5716-a573-357d614e4e9e")
+		(property "Reference" "#PWR2013"
 			(at 144.78 130.81 0)
 			(hide yes)
 			(effects
@@ -6819,12 +6819,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5666ccc1-dbae-5d44-94b7-991eb30c18dd")
+			(uuid "d8c4503e-f447-53a5-82f6-8080cd0180d2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0128")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2013")
 					(unit 1)
 				)
 			)
@@ -6840,7 +6840,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "306179aa-bf7f-5b3f-8887-7cf0da20df6e")
+		(uuid "4a90c2b3-f688-5cdd-b055-b0ceeba19634")
 		(property "Reference" "#FLG03"
 			(at 144.78 122.555 0)
 			(hide yes)
@@ -6886,11 +6886,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2775529b-a7be-5a9c-a716-bde9250599ff")
+			(uuid "b0544612-42d8-584e-a2da-5cfa5ec2b241")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -6906,7 +6906,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "69abd3cd-4e3a-53e8-aabd-dc124595472a")
+		(uuid "b2af0507-bb48-54f0-9e79-8a45be190118")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
@@ -6918,7 +6918,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd331046-d28f-5031-bd8b-6d7ed26ca97b")
+		(uuid "7e48262f-d499-575a-8fd2-e4fe6527542a")
 		(property "Reference" "U3"
 			(at 53.34 132.08 0)
 			(effects
@@ -6965,23 +6965,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "539e595d-0f69-5eb2-a985-7733cfa0156d")
+			(uuid "7ef5ede9-e701-5637-a05c-5f125579165c")
 		)
 		(pin "2"
-			(uuid "7cfd5641-ff49-50a3-8c3c-d668cd6c6e3f")
+			(uuid "0d729ec4-eef4-5e1f-b40b-afad5a5765f8")
 		)
 		(pin "3"
-			(uuid "fa735a04-b093-52b9-a0cc-cb63cd1a189a")
+			(uuid "8616f972-afb7-5269-85a4-47ed72dbe130")
 		)
 		(pin "4"
-			(uuid "f2818b5e-5df7-5c0d-bf2f-7ffddd5167c4")
+			(uuid "11cd8e4f-1872-58f0-b7bf-d3faae9709f3")
 		)
 		(pin "5"
-			(uuid "0d497c2d-9fca-551b-8fff-e239567a93c7")
+			(uuid "7150cafb-44ef-528e-8f65-f55b642143c3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "U3")
 					(unit 1)
 				)
@@ -6997,7 +6997,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "89123a2f-1883-5d87-a19f-587fa8677360")
+		(uuid "8de96595-d0bb-53f3-8a2f-b5c8feb404b1")
 	)
 	(wire
 		(pts
@@ -7008,7 +7008,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd914a4-d4da-550e-a55f-683b07dc90c0")
+		(uuid "1914c282-b616-5646-a74d-6d7521c3f64d")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -7020,8 +7020,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22e7c34a-85e3-5d9f-9e0e-41ab84e9b18b")
-		(property "Reference" "#PWR0129"
+		(uuid "70ed0d28-c6fb-59b1-893a-0f7393322ee9")
+		(property "Reference" "#PWR2014"
 			(at 45.72 140.97 0)
 			(hide yes)
 			(effects
@@ -7066,12 +7066,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "47aa3b54-3a20-5bde-8d9d-1487f5b39503")
+			(uuid "d74d730f-e44a-5be4-b0c5-9ea681813667")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0129")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2014")
 					(unit 1)
 				)
 			)
@@ -7087,8 +7087,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b3463515-d4be-50a5-87c3-beccfb0029e8")
-		(property "Reference" "#PWR0130"
+		(uuid "b8ad66dd-caa1-59c7-9cb5-2fae918cdccb")
+		(property "Reference" "#PWR2015"
 			(at 58.42 153.67 0)
 			(hide yes)
 			(effects
@@ -7133,12 +7133,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ecee6d3-8a4f-57f4-9eab-64f13b989404")
+			(uuid "c0ce4d7b-0c20-5031-98ca-cbef806285c3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0130")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2015")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7146,7 @@
 	)
 	(no_connect
 		(at 63.5 139.7)
-		(uuid "0bcdbfe5-1a56-5df2-8a65-5f50b53ad71b")
+		(uuid "648ecc40-3921-50e7-89d5-568096c08f2d")
 	)
 	(wire
 		(pts
@@ -7157,7 +7157,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e3b2a4d5-5a1d-5414-90bc-6fb60f0cdcd0")
+		(uuid "cc3b9f83-b7dc-5d80-9c2d-d156c6f96b74")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -7169,8 +7169,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ec5d7c26-5879-5828-984d-ff44a49fd21a")
-		(property "Reference" "#PWR0131"
+		(uuid "96ea65bd-699d-5d53-8b62-78dc927fa682")
+		(property "Reference" "#PWR2016"
 			(at 71.12 140.97 0)
 			(hide yes)
 			(effects
@@ -7215,12 +7215,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "51a816b5-2da8-5405-8b37-234cf6c831ea")
+			(uuid "19c69ffe-858a-5702-bb64-933b7f23da6d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0131")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2016")
 					(unit 1)
 				)
 			)
@@ -7236,7 +7236,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b29d6179-f3a1-5343-950d-c45a6856cda5")
+		(uuid "dd84ca1b-964a-5748-b1ea-70ddbc960b24")
 		(property "Reference" "C202"
 			(at 40.132 144.145 0)
 			(effects
@@ -7283,14 +7283,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f24c31ac-338d-5ce0-a0ea-b5f4d9454b79")
+			(uuid "6aeb8435-d16c-5bed-af0f-24f2e29c9df2")
 		)
 		(pin "2"
-			(uuid "25d7df04-e5b7-5926-b9d8-034dae2f32db")
+			(uuid "b4ade872-eda4-5ef4-b312-8c0e2d732dd2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C202")
 					(unit 1)
 				)
@@ -7307,8 +7307,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c4816e38-9adc-50d1-b145-d1eb21031147")
-		(property "Reference" "#PWR0132"
+		(uuid "460b1001-30e2-5965-8d5f-8e9774849ae6")
+		(property "Reference" "#PWR2017"
 			(at 38.1 146.05 0)
 			(hide yes)
 			(effects
@@ -7353,12 +7353,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfcd0718-c213-5d50-bc03-dd3a9457d34e")
+			(uuid "78e13384-3f23-56b8-bc46-f08e5e2ab174")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0132")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2017")
 					(unit 1)
 				)
 			)
@@ -7374,8 +7374,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d4b3d7dc-811a-596d-9482-1bdd5dc25a3c")
-		(property "Reference" "#PWR0133"
+		(uuid "ed12c898-f9fd-5615-a254-6ee1774213b5")
+		(property "Reference" "#PWR2018"
 			(at 38.1 153.67 0)
 			(hide yes)
 			(effects
@@ -7420,12 +7420,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceeafd21-01ce-5bbd-92e5-1f6a5b98230d")
+			(uuid "605cc11b-0b25-5d1f-b67d-ccff96e285d4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0133")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2018")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7441,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b99d23a6-6575-5f47-bc00-010c96fb384d")
+		(uuid "b31d61f8-21f6-5d64-826e-c9bb9b9dc173")
 		(property "Reference" "C203"
 			(at 80.772 144.145 0)
 			(effects
@@ -7488,14 +7488,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc363f05-6b60-5152-9544-042a3150bd86")
+			(uuid "db18dd7d-afee-5b5c-83c5-8453ebca2860")
 		)
 		(pin "2"
-			(uuid "32ae3b7f-f2a9-5580-a03d-32e8cf076f4e")
+			(uuid "e20c3e8a-6ff7-5254-9839-780c935895ac")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C203")
 					(unit 1)
 				)
@@ -7512,8 +7512,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "db053fa7-0cbf-5490-b372-291e105d1922")
-		(property "Reference" "#PWR0134"
+		(uuid "5a2aae18-5de2-5adb-8f5e-355aadc20382")
+		(property "Reference" "#PWR2019"
 			(at 78.74 146.05 0)
 			(hide yes)
 			(effects
@@ -7558,12 +7558,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a499e97-ba8b-5461-9bc7-0f435fc68b50")
+			(uuid "404b74e9-c9d5-5d03-8b07-6a22be038c23")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0134")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2019")
 					(unit 1)
 				)
 			)
@@ -7579,8 +7579,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2016fc14-ff75-5624-84d6-ba558cf4295e")
-		(property "Reference" "#PWR0135"
+		(uuid "70b3e308-f7ee-5bf2-be0a-06c2a6d337d7")
+		(property "Reference" "#PWR2020"
 			(at 78.74 153.67 0)
 			(hide yes)
 			(effects
@@ -7625,12 +7625,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0250b1af-a716-55b9-8e0c-53559c210447")
+			(uuid "6f035f31-a427-5c4c-b14d-51a84fbbffd7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0135")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2020")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7645,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "9e473618-6839-5ef6-a7b2-da12ab77940b")
+		(uuid "c170499f-bf29-5793-81e9-ed0fdb4284a1")
 	)
 	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
@@ -7657,7 +7657,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d8e60c6-5815-5450-a940-d6b262d783b0")
+		(uuid "67c19024-c00a-5683-aa93-fff920675f4c")
 		(property "Reference" "U1"
 			(at 246.126 102.616 0)
 			(effects
@@ -7704,179 +7704,179 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cb7b530-b6cb-5d25-a888-d761f9108da5")
+			(uuid "7b4d76ac-df8a-5b21-98ba-ad4c93b11f92")
 		)
 		(pin "2"
-			(uuid "d6a397eb-25a0-5c8d-8431-a8b9ec7b958c")
+			(uuid "19dbffd9-626b-5911-9a34-0773bbe57ab8")
 		)
 		(pin "3"
-			(uuid "fbc98fe7-f022-5c15-8deb-560df3260f68")
+			(uuid "8ac2ddda-e0d0-58b8-b7fe-9365ba8a36ef")
 		)
 		(pin "4"
-			(uuid "4e0759e3-492c-56f7-9652-ccea70fa9a4b")
+			(uuid "eb0114fc-a7db-55d9-93d0-d82e8ca52ee9")
 		)
 		(pin "5"
-			(uuid "eaae73f2-57f8-58b5-b7d4-7f7273876657")
+			(uuid "6e1c442e-579d-596f-9c9e-9b9d9deebe60")
 		)
 		(pin "6"
-			(uuid "1be98da6-41c0-5650-b74a-1e9a35d21225")
+			(uuid "7039a7bc-7ab6-5ca2-a809-6fdb5e1ec54e")
 		)
 		(pin "7"
-			(uuid "cddedcd3-fe7b-5de8-a778-9052780f6d7a")
+			(uuid "1a5c03df-d404-5451-bda2-90b5a3bd7f62")
 		)
 		(pin "8"
-			(uuid "e04c099d-5945-50d6-b196-51c36b488d4e")
+			(uuid "215fec64-effe-5019-a610-6f4f6ebc09ac")
 		)
 		(pin "9"
-			(uuid "ec1b9960-a014-591d-be65-61d9fe2f9ef8")
+			(uuid "74a57bf1-75c2-5772-9690-b82d977c859b")
 		)
 		(pin "10"
-			(uuid "0cb780d0-9762-50a5-ba92-8fd7d42dc7a1")
+			(uuid "cb5d7d09-54b8-5156-86c7-68f63f62d60b")
 		)
 		(pin "11"
-			(uuid "187c0fc0-0d23-5326-adc9-681b5f191e92")
+			(uuid "0d3620db-b318-510f-b068-0b353e45d495")
 		)
 		(pin "12"
-			(uuid "9ca28924-21ce-5acc-878a-26df9815b29d")
+			(uuid "de878e76-29bf-5587-99d5-877c9b010a3b")
 		)
 		(pin "13"
-			(uuid "da8bf132-a51c-5335-b52f-0a094dbfbbb4")
+			(uuid "27683efb-a31c-5be3-aa15-b0c89b69f332")
 		)
 		(pin "14"
-			(uuid "a0645bc1-6a0c-5bd4-9062-39caade719eb")
+			(uuid "84f7c10d-fe18-5204-8b49-354039af6b3d")
 		)
 		(pin "15"
-			(uuid "a1ec5e54-4791-5476-ba3e-e902a8b91b9c")
+			(uuid "fe14358a-82ad-561d-b32f-1cc359a62678")
 		)
 		(pin "16"
-			(uuid "ab121589-855a-508b-959f-92dc0897cc7f")
+			(uuid "6e151fb8-3de1-5b1b-a79c-4622ba5aae23")
 		)
 		(pin "17"
-			(uuid "a5efb21a-7641-5c23-bb1b-bc28748c2fea")
+			(uuid "a39f4ff8-ce2f-5957-8ce5-dec4702d7670")
 		)
 		(pin "18"
-			(uuid "0150e7fc-a343-5a11-bbb0-4cabab14baf6")
+			(uuid "b5c80344-a932-5422-9cc7-892747878b70")
 		)
 		(pin "19"
-			(uuid "a86516ed-6212-5e43-9df1-b7ec7ca72bca")
+			(uuid "98467fec-f0b2-57fe-bebb-4fee1b14fa40")
 		)
 		(pin "20"
-			(uuid "f942c31a-17d3-511c-988d-1ae250b71ec4")
+			(uuid "4675ebd1-27af-55bf-9012-5e2f74e48732")
 		)
 		(pin "21"
-			(uuid "71b091e7-2889-58a6-97a5-47ad91a1508f")
+			(uuid "726e7243-fc69-531e-b978-984a343f7872")
 		)
 		(pin "22"
-			(uuid "25e47694-daee-5e90-8c8b-e02ccdf21215")
+			(uuid "eb61b367-3c6d-5ab3-ac9f-a8c96a04df03")
 		)
 		(pin "23"
-			(uuid "87d69489-c716-5d9c-96fd-194e4d8db518")
+			(uuid "f794122e-9fec-516e-8d8a-cd177d433550")
 		)
 		(pin "24"
-			(uuid "bb0b1cec-27db-5841-aac4-f91c747bd3ae")
+			(uuid "c5439ed2-b05b-5d7d-a3e4-f7427aeb886d")
 		)
 		(pin "25"
-			(uuid "4a271488-ff47-55ed-a014-e75781448f7e")
+			(uuid "2fc87014-6a5e-575b-add1-ce54945a3451")
 		)
 		(pin "26"
-			(uuid "40849af2-d3f3-5f38-87a0-c8bcbd7fe557")
+			(uuid "724b5c1d-f562-5616-9517-303f3e0d8b30")
 		)
 		(pin "27"
-			(uuid "1f54fff7-2d42-542b-bf90-b92c3334fa57")
+			(uuid "8a85e545-3dbe-5471-b1ac-a7975bfaa519")
 		)
 		(pin "28"
-			(uuid "d27970ac-332d-531f-ad00-a8fe2d760de1")
+			(uuid "14b91eb6-5242-517a-8b9f-a93412fb65b3")
 		)
 		(pin "29"
-			(uuid "e2294141-6ce9-5daf-8938-072cff0e79d5")
+			(uuid "0e49f6a9-97ff-58d8-82f8-d56945fb0431")
 		)
 		(pin "30"
-			(uuid "cdb7edb0-943d-599d-8db5-20678553d2b5")
+			(uuid "4fe43700-769e-543d-a0e6-c985ad631f95")
 		)
 		(pin "31"
-			(uuid "08a30de2-3050-5bcb-b4ff-3a5165e869ad")
+			(uuid "5b4143d4-d8ac-52d3-8213-c2e9d0cc8036")
 		)
 		(pin "32"
-			(uuid "76d3a7df-09c1-5044-90f1-795654490a1b")
+			(uuid "66e7987c-c433-54d5-b9ee-660b30d3f9cd")
 		)
 		(pin "33"
-			(uuid "40587960-b73c-5421-8a96-cec2b876b546")
+			(uuid "02a16da9-4c9e-5fe6-970b-b15c1804c475")
 		)
 		(pin "34"
-			(uuid "846a9820-16fa-5270-9303-fc2e4dbb31a7")
+			(uuid "403da48e-dfce-5be7-8b17-5a9a6ece3353")
 		)
 		(pin "35"
-			(uuid "a37db277-37d2-5e49-ac68-85d89451af5c")
+			(uuid "54aa4841-bd59-5665-8d82-fa518ac623c9")
 		)
 		(pin "36"
-			(uuid "9b9540ae-2b53-5b0d-ae45-08fe209b8d45")
+			(uuid "ef2e0c22-3756-5a4b-ba16-4fdd1354373a")
 		)
 		(pin "37"
-			(uuid "bf2d2f4b-bd63-53a7-a2cf-49fac23d98ac")
+			(uuid "d7bf71a8-8c83-5453-ac35-2e1d06be6e0d")
 		)
 		(pin "38"
-			(uuid "4ecef920-3f66-5954-9946-43c9555c2b7a")
+			(uuid "23d8cd61-24ff-52bc-aaec-96cffba5e771")
 		)
 		(pin "39"
-			(uuid "a34987a1-f86c-5b61-9084-9542e4eadbaa")
+			(uuid "1664c37b-b3c2-50e6-83c4-3fce677fefcb")
 		)
 		(pin "40"
-			(uuid "04b1001f-710d-568b-8650-8ae8a177534a")
+			(uuid "035c7ec9-be37-54d3-b966-d44208234355")
 		)
 		(pin "41"
-			(uuid "642a404e-3990-5a20-9180-947043f706d9")
+			(uuid "bd0f137c-f45a-50f0-b08c-5855dffa577d")
 		)
 		(pin "42"
-			(uuid "24e346b9-b3f6-5167-ae00-326c908b2ba9")
+			(uuid "6f85b3ec-fa1d-5c73-8602-68e69a0a785e")
 		)
 		(pin "43"
-			(uuid "b9402e08-96db-5bf8-a0c0-d9182a935711")
+			(uuid "c2a7b857-f62f-5b00-abe1-04e9ad83c238")
 		)
 		(pin "44"
-			(uuid "d525f9f2-0dde-5144-9b1c-27aa5ffa5e43")
+			(uuid "9c39d37b-25af-509c-8eb3-3d52cee95dd7")
 		)
 		(pin "45"
-			(uuid "e0e244f2-4d41-59da-b96c-74c3f4c71034")
+			(uuid "b4a95f0c-8a81-5471-9dfd-a9db0990440a")
 		)
 		(pin "46"
-			(uuid "892b2ad1-fbb9-5a62-b510-a1cfcc261653")
+			(uuid "e3362eb2-8077-5656-ba6d-ded939c8b818")
 		)
 		(pin "47"
-			(uuid "be56a6fa-5d1d-5afc-8365-6cfe32eb73e8")
+			(uuid "d68556d7-0b0b-5db3-9970-ad992761b32b")
 		)
 		(pin "48"
-			(uuid "7f81bf4d-d1ea-5cb4-ba31-6501870df5c1")
+			(uuid "662dcba6-ad77-554e-bd56-6d557fb1a560")
 		)
 		(pin "49"
-			(uuid "ebe44d8d-df87-5537-9fac-b86ce86d51fc")
+			(uuid "0564e4b6-84e3-5220-bc49-ca1266081453")
 		)
 		(pin "50"
-			(uuid "5ee60183-83cc-5339-873e-5814141727dc")
+			(uuid "8ec6d423-0971-55c8-b3a6-e738e70be1d5")
 		)
 		(pin "51"
-			(uuid "09b3ddda-de3e-5e4d-9cb1-214a24e3e53e")
+			(uuid "2c23fc4d-3367-53c4-b170-12948eb69f03")
 		)
 		(pin "52"
-			(uuid "92e401fe-1ed6-53ef-8aa7-fb2a4437dff5")
+			(uuid "bd14d985-25a4-5c56-855e-456b87bf5db1")
 		)
 		(pin "53"
-			(uuid "dd8efee6-4b3c-5de1-9c47-0367cc2c2fee")
+			(uuid "76cfa225-72d3-5c84-8af8-476b66ee9963")
 		)
 		(pin "54"
-			(uuid "f708846f-203c-5c47-8cfd-9498fd69ebec")
+			(uuid "92223772-5239-5399-892c-52d8832a4990")
 		)
 		(pin "55"
-			(uuid "abe2f196-aee5-5796-b2ce-a867ce098f2a")
+			(uuid "650b1911-965a-5b01-84b2-915d3bed3865")
 		)
 		(pin "56"
-			(uuid "1156c9c4-67e0-56b7-a707-116dce70fbc3")
+			(uuid "c37ff055-d387-5749-9837-6a07c5655d7f")
 		)
 		(pin "57"
-			(uuid "76b4d9a5-c05b-5798-a4d3-380c91ba5542")
+			(uuid "9f4bd021-b192-58b6-9eae-84910da7f3de")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "U1")
 					(unit 1)
 				)
@@ -7892,7 +7892,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8cee7d91-83f3-57a9-a0ce-aede63a2f733")
+		(uuid "b6fc50e8-4a41-5c59-9539-2d7d6863c102")
 	)
 	(global_label "COL0"
 		(shape bidirectional)
@@ -7904,7 +7904,7 @@
 			)
 			(justify left)
 		)
-		(uuid "45afbc6e-3abe-5d02-b706-ea0ad8fd0932")
+		(uuid "cb61bce6-5fc8-5256-8884-9e7bef9c0179")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 111.76 0)
 			(hide yes)
@@ -7925,7 +7925,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "14a74215-e283-563a-9cae-667f456502c2")
+		(uuid "8e38ee9d-c9ab-5b82-ada1-6f9a6cda9cef")
 	)
 	(global_label "COL1"
 		(shape bidirectional)
@@ -7937,7 +7937,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7872aebd-edc5-5589-8b75-90149e5a327f")
+		(uuid "dc057bd7-8db1-509d-81e5-bed5e04c564f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 114.3 0)
 			(hide yes)
@@ -7958,7 +7958,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "058557c2-b164-5d15-addb-04c9cb3a926a")
+		(uuid "3235f901-0c37-58cd-a73e-f09beb0416b6")
 	)
 	(global_label "COL2"
 		(shape bidirectional)
@@ -7970,7 +7970,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5e0c0a21-f58a-5fd9-ac97-a9ac4d51f2a2")
+		(uuid "72b5b719-961a-5244-9726-f10ec06cef56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 116.84 0)
 			(hide yes)
@@ -7991,7 +7991,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "29a351d6-5899-5d14-8ea3-17b530db98a7")
+		(uuid "91603f71-d601-5972-8021-11e1bffd992c")
 	)
 	(global_label "COL3"
 		(shape bidirectional)
@@ -8003,7 +8003,7 @@
 			)
 			(justify left)
 		)
-		(uuid "84c8b515-6577-54c8-8591-8e6e4bac6694")
+		(uuid "1119a3dc-a577-5a9d-b440-9f29aafd70ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 119.38 0)
 			(hide yes)
@@ -8024,7 +8024,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cce5da1e-b6bf-562e-a172-9925b5f4e682")
+		(uuid "a4ed9a85-337c-5def-ac0e-7b1528332e9e")
 	)
 	(global_label "COL4"
 		(shape bidirectional)
@@ -8036,7 +8036,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a634cb5c-5f92-5619-98bf-7587b9467691")
+		(uuid "e684feab-7956-5074-85db-91479b07f882")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 121.92 0)
 			(hide yes)
@@ -8057,7 +8057,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "187431c2-9133-5c7c-8ddb-eb408af5114d")
+		(uuid "e975a224-6eec-5817-9719-7e985f5d0030")
 	)
 	(global_label "COL5"
 		(shape bidirectional)
@@ -8069,7 +8069,7 @@
 			)
 			(justify left)
 		)
-		(uuid "80031646-4f8c-5993-9627-1d2ef3603179")
+		(uuid "f9f39ebc-25e5-54c3-9baa-d3877accfe58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 124.46 0)
 			(hide yes)
@@ -8090,7 +8090,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f236298b-7e1a-5669-9a9b-eb541e6f3627")
+		(uuid "fad9c359-58c8-5e81-bd61-ed393a02554b")
 	)
 	(global_label "COL6"
 		(shape bidirectional)
@@ -8102,7 +8102,7 @@
 			)
 			(justify left)
 		)
-		(uuid "845360b3-5488-5cc3-bbb2-9b0bd0afb40e")
+		(uuid "52fe9c67-935e-55df-b174-d029b5ab973e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 127 0)
 			(hide yes)
@@ -8123,7 +8123,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "06f37ee4-bc4d-5a46-bec1-5b15079434c7")
+		(uuid "8830cc91-3593-57fb-aa59-3ef7399f68b1")
 	)
 	(global_label "COL7"
 		(shape bidirectional)
@@ -8135,7 +8135,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1c48875f-36d2-5c70-bdda-347cc78187e1")
+		(uuid "e5b08a59-6e10-55e6-9562-39582fb9cbd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 129.54 0)
 			(hide yes)
@@ -8156,7 +8156,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f9233aeb-0a83-5c88-a69e-fd53c197ddd0")
+		(uuid "d3ae0ccd-6daa-5335-b21a-b532c927257d")
 	)
 	(global_label "COL8"
 		(shape bidirectional)
@@ -8168,7 +8168,7 @@
 			)
 			(justify left)
 		)
-		(uuid "270403ef-e131-5769-84ba-3e0e995c9d0f")
+		(uuid "59c6218e-b17a-5832-9a03-977b5e472632")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 132.08 0)
 			(hide yes)
@@ -8189,7 +8189,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b68dc9c8-4557-5a60-853a-12476e4637c6")
+		(uuid "62413562-1361-516f-9aa8-b989022319c6")
 	)
 	(global_label "COL9"
 		(shape bidirectional)
@@ -8201,7 +8201,7 @@
 			)
 			(justify left)
 		)
-		(uuid "226e807d-79ef-52aa-b00b-d9bd932183e3")
+		(uuid "3739fd0c-df9d-518c-b675-e578988957d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 134.62 0)
 			(hide yes)
@@ -8222,7 +8222,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f400fd29-511e-5726-9e84-7158c35d5f37")
+		(uuid "a8615766-29c3-512f-92a6-d7ba3f5112b6")
 	)
 	(global_label "COL10"
 		(shape bidirectional)
@@ -8234,7 +8234,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dfd928be-34e0-50e4-9c97-9bd889710fdf")
+		(uuid "e669a875-43fb-5bd8-8956-9eb1b5d90871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 137.16 0)
 			(hide yes)
@@ -8255,7 +8255,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "596988d0-bab7-5f6c-8c26-5a112608daaf")
+		(uuid "b103ecf8-a869-5380-8b42-67a69466b9d7")
 	)
 	(global_label "COL11"
 		(shape bidirectional)
@@ -8267,7 +8267,7 @@
 			)
 			(justify left)
 		)
-		(uuid "187145d0-58b2-5bde-b503-c14fec753692")
+		(uuid "b69815b6-9986-5538-808f-2dd24391f1d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 139.7 0)
 			(hide yes)
@@ -8288,7 +8288,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "55817fa5-4608-5807-83ac-3a9e13025676")
+		(uuid "ec8bc78d-47fb-599c-9450-028085a619ba")
 	)
 	(global_label "COL12"
 		(shape bidirectional)
@@ -8300,7 +8300,7 @@
 			)
 			(justify left)
 		)
-		(uuid "71ce1612-e714-547c-a3a9-150397443b0d")
+		(uuid "236e165c-e5a6-5dcf-8038-909c9ab860de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 142.24 0)
 			(hide yes)
@@ -8321,7 +8321,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7916ebb8-07eb-5c76-b6b5-318e271e081d")
+		(uuid "8f0be022-3078-5d26-94a1-c4d45473221d")
 	)
 	(global_label "COL13"
 		(shape bidirectional)
@@ -8333,7 +8333,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f0ff2168-5bf2-550b-861e-0a5d7ffff6a7")
+		(uuid "6b69ef46-21f5-5463-9a3a-3c9e07c9a0fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 144.78 0)
 			(hide yes)
@@ -8354,7 +8354,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ade0ca97-19a1-5d69-ad16-cdb7c60e97d0")
+		(uuid "4e60c026-f9cd-50fa-9c38-9a4867630106")
 	)
 	(global_label "COL14"
 		(shape bidirectional)
@@ -8366,7 +8366,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b162d757-1b37-504d-8b93-11aa9c7b75fa")
+		(uuid "0ef7586b-7478-53a1-93d9-c266e9c8be39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 147.32 0)
 			(hide yes)
@@ -8387,7 +8387,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6372b29a-7262-5b60-9f38-d87426fa0489")
+		(uuid "1ba0e7b0-4daf-594c-9d5e-71e93966278c")
 	)
 	(global_label "COL15"
 		(shape bidirectional)
@@ -8399,7 +8399,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dd5346ea-afe5-5fa1-b9b0-26f80c9ee9d3")
+		(uuid "2ca15a54-b228-59a6-8dd0-6fbfa2d15ab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 149.86 0)
 			(hide yes)
@@ -8420,7 +8420,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a2447871-93a7-5538-8a43-b7d5a2a4f6f0")
+		(uuid "8ba9f440-3aa4-5836-aab6-678f7867138b")
 	)
 	(global_label "COL16"
 		(shape bidirectional)
@@ -8432,7 +8432,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c62ffe77-6141-5d27-a520-ab5efb1f11cf")
+		(uuid "48199a74-60d3-5096-8874-9d892636c063")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 152.4 0)
 			(hide yes)
@@ -8453,7 +8453,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "053f8880-65c1-5a8d-a2e3-c3e362c584f8")
+		(uuid "a0bed8d6-1c0e-5abf-b3ad-bd9b305f7cc3")
 	)
 	(global_label "COL17"
 		(shape bidirectional)
@@ -8465,7 +8465,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d6d0d4b6-21ff-5001-97a3-b8eb69cf1f9a")
+		(uuid "933c3332-f417-5b61-9a3c-cfc168201a5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 154.94 0)
 			(hide yes)
@@ -8486,7 +8486,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "baa37752-f4d1-5dde-8951-e584b79b87ba")
+		(uuid "532e122e-ec4a-56c0-b267-3f31fc3ae44c")
 	)
 	(global_label "COL18"
 		(shape bidirectional)
@@ -8498,7 +8498,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3ad482f7-4f19-5b7f-bedc-04e82e34e100")
+		(uuid "83fe26d6-b1f9-5ed3-86a0-0f953f7a98ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 157.48 0)
 			(hide yes)
@@ -8519,7 +8519,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c3aa8066-f464-5633-b7ec-2907ce3d42da")
+		(uuid "12c5d957-bd8a-5b4c-b0d7-99fef47d7399")
 	)
 	(global_label "COL19"
 		(shape bidirectional)
@@ -8531,7 +8531,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5780a4ee-ad9b-5ebf-b0b9-266e4cb7c28c")
+		(uuid "cfb88d63-9a61-5339-a07e-bf26ffb59340")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 160.02 0)
 			(hide yes)
@@ -8552,7 +8552,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "76aeccd1-1ffd-599f-93d4-7f2c0527e111")
+		(uuid "5f61e8b6-6add-5a4b-8ff4-26a65dc15753")
 	)
 	(global_label "COL20"
 		(shape bidirectional)
@@ -8564,7 +8564,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1232c391-46f8-58fd-af07-2265312547c9")
+		(uuid "694cb46e-b093-5601-b18b-df96c9b97cca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 162.56 0)
 			(hide yes)
@@ -8585,7 +8585,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c89012c0-ebbd-521c-a864-d945721b70a4")
+		(uuid "286de9af-1366-5959-9cec-165b58fa0abc")
 	)
 	(global_label "ROW0"
 		(shape bidirectional)
@@ -8597,7 +8597,7 @@
 			)
 			(justify left)
 		)
-		(uuid "24c8f1fa-4f8e-55da-8dee-ef4d1243ce55")
+		(uuid "7e21a28d-5b98-59c5-b88e-98535ca14304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 165.1 0)
 			(hide yes)
@@ -8618,7 +8618,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1002d6e7-bd8d-5558-8c8a-b2795417ed18")
+		(uuid "f80ad40e-4a36-5f15-b8c3-30b98a30cbe6")
 	)
 	(global_label "ROW1"
 		(shape bidirectional)
@@ -8630,7 +8630,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4f478191-946d-50a0-aa2b-7a40cb995b18")
+		(uuid "08ec2d19-d255-563b-87ea-30cdfd75a464")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 167.64 0)
 			(hide yes)
@@ -8651,7 +8651,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5fae8d58-5d62-5fe8-a636-313b495bb7ba")
+		(uuid "53f9708b-e6c1-5e6e-823b-bac3941ce931")
 	)
 	(global_label "ROW2"
 		(shape bidirectional)
@@ -8663,7 +8663,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7d77e2ac-9af0-53f4-8f1d-1293b3fda04a")
+		(uuid "8cb7193d-2a9e-5bbb-95b5-ade30bd32dbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 170.18 0)
 			(hide yes)
@@ -8684,7 +8684,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b49405ae-01a6-528e-820b-b8a1c725429a")
+		(uuid "e63dd539-e13b-5cc3-89cd-80c39a39e2b8")
 	)
 	(global_label "ROW3"
 		(shape bidirectional)
@@ -8696,7 +8696,7 @@
 			)
 			(justify left)
 		)
-		(uuid "da6bdc9e-b518-5fb8-b1ae-666ddace4ec5")
+		(uuid "aae0b9f4-284b-5612-a2b8-526e92b66ef7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 172.72 0)
 			(hide yes)
@@ -8717,7 +8717,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dd8741a0-3caf-567e-8d10-1a6fbc8dda5d")
+		(uuid "702693ca-673b-5266-a024-85fb281e681b")
 	)
 	(global_label "ROW4"
 		(shape bidirectional)
@@ -8729,7 +8729,7 @@
 			)
 			(justify left)
 		)
-		(uuid "80da10ba-cf8c-5128-828c-4acf719945a1")
+		(uuid "b590c270-747f-506b-956d-7f0bf1df2256")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 175.26 0)
 			(hide yes)
@@ -8750,7 +8750,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e6cf6f0f-73fd-5f3d-858b-e4facb2d6213")
+		(uuid "140cad4f-9e90-5313-92ce-78e09d525345")
 	)
 	(global_label "ROW5"
 		(shape bidirectional)
@@ -8762,7 +8762,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bfbd9b4d-0dd7-5040-9e7b-99a6b807c368")
+		(uuid "43d2ca63-0024-50fd-8851-ef6a46161164")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 180.34 0)
 			(hide yes)
@@ -8783,7 +8783,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39f5da9c-e260-525a-9239-46c55c63036f")
+		(uuid "3d9892a4-417d-5a32-8ba6-7908659d37b5")
 	)
 	(global_label "BL_PWM"
 		(shape bidirectional)
@@ -8795,7 +8795,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4a835ef7-8e74-53a2-9d2b-03965d88c053")
+		(uuid "72e102ad-a57d-547f-9762-90e154f7581f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 182.88 0)
 			(hide yes)
@@ -8816,7 +8816,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "939546d9-d9f4-5f8d-9f1d-926a19811284")
+		(uuid "750f636d-4042-54c2-9cca-515c2a2c9394")
 	)
 	(global_label "CAPS_LED"
 		(shape bidirectional)
@@ -8828,7 +8828,7 @@
 			)
 			(justify left)
 		)
-		(uuid "259f4bbf-fe5e-5565-8f83-fa107a42b583")
+		(uuid "a56c62cc-13dc-5cdf-b266-3cc0527d407f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 185.42 0)
 			(hide yes)
@@ -8849,7 +8849,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e69c7a9e-5aa4-5990-9480-4497e0f45262")
+		(uuid "d9a617bb-3928-5f07-8ab9-4bf46cfbeacc")
 	)
 	(global_label "NUM_LED"
 		(shape bidirectional)
@@ -8861,7 +8861,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2736e573-5988-56be-a855-024caf335f7f")
+		(uuid "ecbd7145-537a-53a6-b838-fcc6448c0435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 187.96 0)
 			(hide yes)
@@ -8882,7 +8882,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a674fc98-e679-550e-8de6-f459b4400280")
+		(uuid "bfc855c6-5c16-550b-a0ec-7303ae515a63")
 	)
 	(label "SWDIO"
 		(at 200.66 185.42 180)
@@ -8893,7 +8893,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "27f6c4c0-e3af-5184-8541-fd461aa6cfeb")
+		(uuid "3b841a61-41b8-56a7-990d-5396cc2cbf0b")
 	)
 	(wire
 		(pts
@@ -8904,7 +8904,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39ca1fc2-966c-5bff-b7d6-4932c8895d38")
+		(uuid "6a394c4d-d26c-5ab4-8640-d030996c65de")
 	)
 	(label "SWCLK"
 		(at 200.66 182.88 180)
@@ -8915,7 +8915,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ba2d3508-87cc-5fd2-99f8-9ecb4035a593")
+		(uuid "a59c475b-7ae8-5b14-bb20-60e09ba674d4")
 	)
 	(wire
 		(pts
@@ -8926,7 +8926,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53e80d9b-e729-5d68-a8a4-cabed51298cb")
+		(uuid "8dc7a134-2176-5ece-b331-e4510f7668fe")
 	)
 	(label "XOUT"
 		(at 200.66 175.26 180)
@@ -8937,7 +8937,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "011eac2b-5c37-5a7a-ad18-3765a6dce0a9")
+		(uuid "5489cb94-8e5f-5743-8b1d-1cc2d2023a7d")
 	)
 	(wire
 		(pts
@@ -8948,7 +8948,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3b69d004-78f6-567b-9177-d41d7e2ba473")
+		(uuid "1f876859-69b2-59c4-b8eb-06b51e3040bd")
 	)
 	(label "XIN"
 		(at 200.66 165.1 180)
@@ -8959,7 +8959,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c18f6c55-32d1-592b-9eba-5ba8f8e360cb")
+		(uuid "b12fec62-5364-5d72-8e37-f78151e5b6a4")
 	)
 	(wire
 		(pts
@@ -8970,7 +8970,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f3009a41-f89a-5162-95e6-6bfef125fb45")
+		(uuid "876b5818-99c5-5cf2-8d76-91ce5013ff95")
 	)
 	(label "QSPI_SD0"
 		(at 200.66 149.86 180)
@@ -8981,7 +8981,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a605cd6c-c6be-571e-b93c-1bf28e4a9938")
+		(uuid "a8a8da07-e1e5-586f-861e-d4cce699bcd3")
 	)
 	(wire
 		(pts
@@ -8992,7 +8992,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef5501d1-0c8c-571c-ade7-c6928947d279")
+		(uuid "c33bc9ea-1ed2-5417-9cb9-df4c333dda61")
 	)
 	(label "QSPI_SD1"
 		(at 200.66 152.4 180)
@@ -9003,7 +9003,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b6ac50c-14a3-5509-bac6-aeef60ac1461")
+		(uuid "35fad5ad-4ba1-522c-bc37-0d9411219fa6")
 	)
 	(wire
 		(pts
@@ -9014,7 +9014,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9c33d557-4d9a-527e-8055-aa2072c66cc6")
+		(uuid "da87d147-439d-58e1-9ef3-ad6f6f7c50fb")
 	)
 	(label "QSPI_SD2"
 		(at 200.66 154.94 180)
@@ -9025,7 +9025,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "757dbf8f-c68f-59da-92f6-37be406773ff")
+		(uuid "7e94d440-8c1d-5e72-985e-88b6cbe023bf")
 	)
 	(wire
 		(pts
@@ -9036,7 +9036,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2fb96faf-062c-5b73-b13a-c2b18b6edffd")
+		(uuid "06af1837-b991-5050-8f1f-768abd95441f")
 	)
 	(label "QSPI_SD3"
 		(at 200.66 157.48 180)
@@ -9047,7 +9047,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e5750f95-ab73-5adc-89c9-437713dc8653")
+		(uuid "777f1377-4589-5473-8cc5-c2eb25a22a42")
 	)
 	(wire
 		(pts
@@ -9058,7 +9058,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a2e65342-352c-55f0-a9b7-ea7b8c511868")
+		(uuid "c42fb01e-a08a-5208-a1cf-59156f15d125")
 	)
 	(label "QSPI_SCLK"
 		(at 200.66 147.32 180)
@@ -9069,7 +9069,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5048219f-7b56-527d-8af1-11f907ed831a")
+		(uuid "2c2169f4-6e52-58cb-ae0e-f9fa5e3b964f")
 	)
 	(wire
 		(pts
@@ -9080,7 +9080,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "94743ebb-9c35-5916-9847-0ec9b35c9cab")
+		(uuid "2a450c74-ad50-538c-a158-8c940fa4c7b2")
 	)
 	(label "QSPI_SS"
 		(at 200.66 144.78 180)
@@ -9091,7 +9091,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9fcc0962-bc2a-5646-8a37-ec2883aaac4d")
+		(uuid "35e14a94-da4f-573a-a02d-0d50bfe84484")
 	)
 	(wire
 		(pts
@@ -9102,7 +9102,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "feacb1df-44dd-590f-82e9-f69c7083f91e")
+		(uuid "18668484-3549-53a1-9bf6-564d082124da")
 	)
 	(label "USB_DP"
 		(at 200.66 137.16 180)
@@ -9113,7 +9113,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ecce0f07-25a1-5a63-8922-359f8c9acfa8")
+		(uuid "7bf69884-291f-5c98-9a89-ed851b97ca77")
 	)
 	(wire
 		(pts
@@ -9124,7 +9124,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eebe0231-a7f5-5d9a-9f3c-ad6d0e804e4f")
+		(uuid "31d21219-b033-5cee-a0cb-998f81580712")
 	)
 	(label "USB_DM"
 		(at 200.66 134.62 180)
@@ -9135,7 +9135,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "87fe79f5-665b-5af5-8930-ee400206cdc1")
+		(uuid "fa99a4d8-3d6a-500b-8041-c77e13483e82")
 	)
 	(wire
 		(pts
@@ -9146,7 +9146,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c7980d4c-2fa2-540b-af9d-f4ef836a8177")
+		(uuid "c8b36cfa-3670-5601-b288-12c709dc3846")
 	)
 	(label "RUN"
 		(at 200.66 127 180)
@@ -9157,7 +9157,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b6784787-d14b-5c30-8edb-1414d2ccf1ec")
+		(uuid "7880e4ef-420e-5d34-a85f-6ff6dffb4e51")
 	)
 	(wire
 		(pts
@@ -9168,7 +9168,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ecf487d6-0249-5667-8344-604dbf4ac3bc")
+		(uuid "a186e0fe-35f6-5c66-ae42-7efdcc0096d1")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9180,8 +9180,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4187afa1-4021-5208-a078-be1ed89c0cf1")
-		(property "Reference" "#PWR0136"
+		(uuid "eeba1f9e-e12c-5ed3-8177-48a368a5655e")
+		(property "Reference" "#PWR2021"
 			(at 198.12 125.73 0)
 			(hide yes)
 			(effects
@@ -9226,12 +9226,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e1b0887-be4a-5f6d-a7e2-bccefeb7e567")
+			(uuid "176b4cf2-f791-569a-9f04-0c9fe70a38fb")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0136")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2021")
 					(unit 1)
 				)
 			)
@@ -9247,8 +9247,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c4e7522-f623-50c1-9fb3-7ba95cdd57e3")
-		(property "Reference" "#PWR0137"
+		(uuid "98dfe5fa-4e34-53ba-8ccc-f8852e68872c")
+		(property "Reference" "#PWR2022"
 			(at 228.6 201.93 0)
 			(hide yes)
 			(effects
@@ -9293,12 +9293,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0fa2815-1741-5e69-bc16-6c83f1593036")
+			(uuid "85bcd139-48c5-5768-8894-a2df0065b2fb")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0137")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2022")
 					(unit 1)
 				)
 			)
@@ -9313,7 +9313,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b1359eef-4c5f-557b-90f8-808b80d89967")
+		(uuid "dfed5ccb-4019-5884-a078-0e773989e261")
 	)
 	(wire
 		(pts
@@ -9324,7 +9324,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0daf07dd-d90d-5884-b708-d377a35443ab")
+		(uuid "a7eb2958-61d8-5509-bea0-ada21def6798")
 	)
 	(wire
 		(pts
@@ -9335,7 +9335,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e3f21d1e-d9a4-5525-b777-cf3e8369e4b8")
+		(uuid "9ca377c4-842d-5243-be4a-0160cc474a09")
 	)
 	(wire
 		(pts
@@ -9346,7 +9346,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "33664284-b5b6-538a-bfa1-9904e7e2ca45")
+		(uuid "36da8437-7168-5d80-9dc2-af64c8f65d5b")
 	)
 	(wire
 		(pts
@@ -9357,7 +9357,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e5a75a67-3c71-539c-87eb-499d8d85df8c")
+		(uuid "77f09cf5-79e2-55e8-b7de-31a524b17307")
 	)
 	(wire
 		(pts
@@ -9368,7 +9368,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "901a77d6-feac-5607-9007-0fa02a2b87e5")
+		(uuid "8431ee76-7ccc-5e44-b94e-b34b16f7db4f")
 	)
 	(wire
 		(pts
@@ -9379,19 +9379,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "57c9fcd1-ab1f-5563-a06d-6cad56ad7ba7")
+		(uuid "4a415684-62fa-508b-bf22-a893265cf5fe")
 	)
 	(junction
 		(at 218.44 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51383f35-9fd5-59cd-bcb8-60525790ab61")
+		(uuid "9afbcda7-ca2d-53f5-ba5a-b17c0a30bd18")
 	)
 	(junction
 		(at 226.06 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f91a50c-c42a-5937-bb0e-806935b432d4")
+		(uuid "5c320709-657c-534a-8634-8f6f647c3405")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -9403,8 +9403,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2d048366-4ba0-5dc7-b4e7-ec32e9b6c344")
-		(property "Reference" "#PWR0138"
+		(uuid "d07ffc27-6b9b-51c9-8552-8a29121de4b6")
+		(property "Reference" "#PWR2023"
 			(at 215.9 102.87 0)
 			(hide yes)
 			(effects
@@ -9449,12 +9449,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "49df3e26-0cfa-524f-a5a8-e546eb79353f")
+			(uuid "c9afef98-afbc-59ae-8324-3dfff70d2c57")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0138")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2023")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9469,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d4ae6568-ff52-5b58-b4b2-8bee3a6905c4")
+		(uuid "07438466-d23a-555e-95d0-0088a7d8fb63")
 	)
 	(wire
 		(pts
@@ -9480,7 +9480,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "49f6b1ad-ced7-5158-948e-94be3a8d8595")
+		(uuid "ef8c9b57-a8a6-50f5-8404-a2b56746ddd5")
 	)
 	(wire
 		(pts
@@ -9491,7 +9491,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b67dda92-59ed-50df-a23f-5b0ce51bc885")
+		(uuid "b5c49a68-3bc7-5f35-8631-58b9b21c9e9b")
 	)
 	(symbol
 		(lib_id "power:+1V1")
@@ -9503,8 +9503,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "759c5019-930a-5bec-a46e-41fd3e1326c9")
-		(property "Reference" "#PWR0139"
+		(uuid "beefd816-20d0-5bc7-8ef9-b91d397aabb8")
+		(property "Reference" "#PWR2024"
 			(at 241.3 102.87 0)
 			(hide yes)
 			(effects
@@ -9549,12 +9549,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1549ce92-1f7b-5121-b6b9-c3b07a6ef44a")
+			(uuid "5fa221e5-e7f1-530d-8c24-7531777348a0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0139")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2024")
 					(unit 1)
 				)
 			)
@@ -9570,7 +9570,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9c2b27f8-d752-5c4e-beb4-91ba3f3701b1")
+		(uuid "7298be1f-59fc-5d09-af6c-257b1a0acc41")
 		(property "Reference" "C210"
 			(at 167.132 75.565 0)
 			(effects
@@ -9617,14 +9617,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "946926a1-9df2-55b6-93e4-6eab7d932cd0")
+			(uuid "544e5d35-b177-5b84-8a73-9d387dd9a9d0")
 		)
 		(pin "2"
-			(uuid "2a907d97-4d5e-5d16-8569-cf94560a602f")
+			(uuid "64faefbd-a527-5214-9736-10dd0fd7fc26")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C210")
 					(unit 1)
 				)
@@ -9641,8 +9641,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5eb8d6d3-4f61-5614-9957-00ff434cba9d")
-		(property "Reference" "#PWR0140"
+		(uuid "8e070347-ee52-5608-a0db-9f19fba879bd")
+		(property "Reference" "#PWR2025"
 			(at 165.1 77.47 0)
 			(hide yes)
 			(effects
@@ -9687,12 +9687,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fba4816-695a-58e8-85bb-439caafe1de9")
+			(uuid "ed20992c-b706-5414-99ec-85088edcbb2f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0140")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2025")
 					(unit 1)
 				)
 			)
@@ -9708,8 +9708,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9007e43-82d1-5d7d-ac6a-b7131ee00562")
-		(property "Reference" "#PWR0141"
+		(uuid "7bd7ad4f-90b5-5bd3-9b9e-386ee2be098f")
+		(property "Reference" "#PWR2026"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(effects
@@ -9754,12 +9754,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f36315df-fe76-5569-8f1e-d15750c6c366")
+			(uuid "990c05be-c55c-5cb6-b448-7f505cfa86b2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0141")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2026")
 					(unit 1)
 				)
 			)
@@ -9775,7 +9775,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4e85c550-8cf0-562d-81f2-23cf43cd03cc")
+		(uuid "c09e7da1-4934-5a51-acc9-4509fb942d04")
 		(property "Reference" "C211"
 			(at 177.292 75.565 0)
 			(effects
@@ -9822,14 +9822,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "de53c8cd-7f65-5b84-a8aa-34d1d345e3a4")
+			(uuid "a89705b9-00c1-5ee1-aa61-8a0a500abdc8")
 		)
 		(pin "2"
-			(uuid "fc947cb2-6640-5c44-a056-2871ab6c5af1")
+			(uuid "8aa21a46-c636-5fb9-8eb6-5fa9ed443bb6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C211")
 					(unit 1)
 				)
@@ -9846,8 +9846,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da2654c9-2c5a-50ed-b384-18cb4b4508cf")
-		(property "Reference" "#PWR0142"
+		(uuid "a145b838-f23d-565c-b9f1-5c151c7036b7")
+		(property "Reference" "#PWR2027"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(effects
@@ -9892,12 +9892,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "20465ffb-aa2e-5a7f-bfda-4f1be56b1c56")
+			(uuid "ee5d1cfa-d1a2-585c-bb1d-3ed10d1f3366")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0142")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2027")
 					(unit 1)
 				)
 			)
@@ -9913,8 +9913,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "14f90e7c-7853-570c-8594-09045ea6cbc0")
-		(property "Reference" "#PWR0143"
+		(uuid "6c241273-4c53-5b91-a615-0b324a4f5c82")
+		(property "Reference" "#PWR2028"
 			(at 175.26 85.09 0)
 			(hide yes)
 			(effects
@@ -9959,12 +9959,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9589bbf-80c0-5c2d-b2cd-72d6228bddcf")
+			(uuid "c143cbe1-c507-516c-808d-31d38f3dd7ae")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0143")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2028")
 					(unit 1)
 				)
 			)
@@ -9980,7 +9980,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d58d8046-1f95-5583-9e37-3316942d90f8")
+		(uuid "4a1bfc55-34e2-5d55-b7d3-40ad5a4ea343")
 		(property "Reference" "C212"
 			(at 187.452 75.565 0)
 			(effects
@@ -10027,14 +10027,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d408d51a-6b21-5f95-8377-e2222ffa76b5")
+			(uuid "50704bbc-299c-5843-92b2-53f78354028f")
 		)
 		(pin "2"
-			(uuid "2e86150e-8987-5a74-8f47-176d82b8cdd5")
+			(uuid "20849484-8eb8-5d3e-8412-017a3c85f0aa")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C212")
 					(unit 1)
 				)
@@ -10051,8 +10051,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3179093d-52df-5fab-8ac7-0877b151ec09")
-		(property "Reference" "#PWR0144"
+		(uuid "e58330ff-5626-52e0-944f-e0c3b390a47a")
+		(property "Reference" "#PWR2029"
 			(at 185.42 77.47 0)
 			(hide yes)
 			(effects
@@ -10097,12 +10097,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fa6b181-4444-507b-9041-4f09d173ef32")
+			(uuid "523362cc-75a0-5005-9850-7842586c67a5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0144")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2029")
 					(unit 1)
 				)
 			)
@@ -10118,8 +10118,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d4c4ea47-42c2-5e6a-8dbb-4a24c3c1481f")
-		(property "Reference" "#PWR0145"
+		(uuid "7960491f-fef4-525d-9ad0-aff7c5867297")
+		(property "Reference" "#PWR2030"
 			(at 185.42 85.09 0)
 			(hide yes)
 			(effects
@@ -10164,12 +10164,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d48b647-399b-593e-b1e3-a742f5a706e1")
+			(uuid "78a31d9c-b19c-5f7d-aca0-735494641bb3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0145")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2030")
 					(unit 1)
 				)
 			)
@@ -10185,7 +10185,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f74fe8af-78a7-5690-b824-41fa51fc5730")
+		(uuid "3aea3015-6f50-5998-be40-eb22f03ba70b")
 		(property "Reference" "C213"
 			(at 197.612 75.565 0)
 			(effects
@@ -10232,14 +10232,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3712e5dc-1e28-506c-8571-3a5332038960")
+			(uuid "7a41842c-5a98-51be-b207-1dd148f2377b")
 		)
 		(pin "2"
-			(uuid "c875a707-6986-5db6-b6b9-7ebf66927386")
+			(uuid "25b53b9f-73de-54fd-8fc0-a1b4485f03e9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C213")
 					(unit 1)
 				)
@@ -10256,8 +10256,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "32535109-954e-5851-94b8-c512ee168c7d")
-		(property "Reference" "#PWR0146"
+		(uuid "f3b9400f-8b92-5558-8c8b-60f5e7e851fe")
+		(property "Reference" "#PWR2031"
 			(at 195.58 77.47 0)
 			(hide yes)
 			(effects
@@ -10302,12 +10302,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaefcedc-da1b-53e6-a3f3-dcf099539f05")
+			(uuid "d0c2de0f-d4f1-5f82-b321-be422d84e294")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0146")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2031")
 					(unit 1)
 				)
 			)
@@ -10323,8 +10323,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "656ada71-cbe5-5fc1-9086-ed952840661b")
-		(property "Reference" "#PWR0147"
+		(uuid "e2ab3908-65c5-5fc6-a124-ba903aa083b8")
+		(property "Reference" "#PWR2032"
 			(at 195.58 85.09 0)
 			(hide yes)
 			(effects
@@ -10369,12 +10369,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1ad1627-a60a-5e55-8318-227ce935c0f8")
+			(uuid "2a91bb00-3dca-5094-ae7b-06778be5f4c1")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0147")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2032")
 					(unit 1)
 				)
 			)
@@ -10390,7 +10390,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74d334f2-54c2-5c51-a9d6-58b9485e41fa")
+		(uuid "5d27fb46-e8f2-5ed6-85c4-d4c3c414100f")
 		(property "Reference" "C214"
 			(at 207.772 75.565 0)
 			(effects
@@ -10437,14 +10437,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "18911ce8-91be-5ca4-9622-05ed8407a736")
+			(uuid "3ca556f9-9143-5344-89d0-a3d237277814")
 		)
 		(pin "2"
-			(uuid "7a8539f7-e25b-5c76-ad1b-a7a1d838a3c5")
+			(uuid "488385e2-5885-5562-8193-e11aa9be76a2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C214")
 					(unit 1)
 				)
@@ -10461,8 +10461,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "68949bfa-2af0-5a07-b63c-102422243b94")
-		(property "Reference" "#PWR0148"
+		(uuid "8b03d2e2-e338-5a08-94d9-814b34204290")
+		(property "Reference" "#PWR2033"
 			(at 205.74 77.47 0)
 			(hide yes)
 			(effects
@@ -10507,12 +10507,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2280a11-6ec9-5741-b8bb-f079d0e53749")
+			(uuid "760d94d7-c16b-58e1-aeb8-347623e547ce")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0148")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2033")
 					(unit 1)
 				)
 			)
@@ -10528,8 +10528,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1000582b-fa06-58a7-a350-75b94e9de88e")
-		(property "Reference" "#PWR0149"
+		(uuid "e50d2711-9d65-556c-b879-59dafe7ff4b5")
+		(property "Reference" "#PWR2034"
 			(at 205.74 85.09 0)
 			(hide yes)
 			(effects
@@ -10574,12 +10574,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d696fad-25e4-5e2f-868f-f722245e7c5f")
+			(uuid "6529331e-65be-5f00-905b-180cd4936a31")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0149")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2034")
 					(unit 1)
 				)
 			)
@@ -10595,7 +10595,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4ee6c3ff-2ca1-5093-8625-bf9718230f24")
+		(uuid "1aad0905-17b9-5e2d-a1ee-dc295bd9510f")
 		(property "Reference" "C215"
 			(at 217.932 75.565 0)
 			(effects
@@ -10642,14 +10642,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb71cc00-4a1d-5801-89f4-4b2680e12bb0")
+			(uuid "5bb62a33-7775-51bd-bf58-c905ec8b60bf")
 		)
 		(pin "2"
-			(uuid "7d260b05-1aad-587d-a287-3acb2b7d89c2")
+			(uuid "2a5a7118-f666-5e67-89b2-cd422d0dc9f6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C215")
 					(unit 1)
 				)
@@ -10666,8 +10666,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fcd6f463-0714-58ae-abc0-e614ed4bd409")
-		(property "Reference" "#PWR0150"
+		(uuid "8b10cc74-c8b0-5aec-8bdb-8818d1ab238a")
+		(property "Reference" "#PWR2035"
 			(at 215.9 77.47 0)
 			(hide yes)
 			(effects
@@ -10712,12 +10712,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f13ca56-f6ed-5b5e-b86a-36871edec466")
+			(uuid "5364b42d-1b89-517e-af22-eae7530d64d9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0150")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2035")
 					(unit 1)
 				)
 			)
@@ -10733,8 +10733,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3fb6bd77-09fd-542d-b4d2-292664d21ff4")
-		(property "Reference" "#PWR0151"
+		(uuid "3d5f38c4-eb9d-556f-8280-43eba763895b")
+		(property "Reference" "#PWR2036"
 			(at 215.9 85.09 0)
 			(hide yes)
 			(effects
@@ -10779,12 +10779,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "249f684b-23c4-5ebf-a301-7b0a50533aea")
+			(uuid "a5fde1fe-b588-57d2-b9ec-f8d203e43f4c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0151")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2036")
 					(unit 1)
 				)
 			)
@@ -10800,7 +10800,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e15c5834-65e7-579f-b7d0-64371bc7f2ca")
+		(uuid "2dbb890e-1501-5be7-b05c-fcf780369b08")
 		(property "Reference" "C216"
 			(at 228.092 75.565 0)
 			(effects
@@ -10847,14 +10847,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c495054-5507-5752-9eb4-2d06ec792478")
+			(uuid "6dd7be68-efdc-55a0-af92-c0594b08cdaa")
 		)
 		(pin "2"
-			(uuid "6842bfc2-c720-59f4-9a29-354cf5b55e4b")
+			(uuid "c8e82aa4-b747-5025-9013-0b852830c8f8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C216")
 					(unit 1)
 				)
@@ -10871,8 +10871,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "48341bbf-e04c-5fb5-a7d9-5edc22d7c017")
-		(property "Reference" "#PWR0152"
+		(uuid "c80e2ef1-e987-55d1-9a8c-b7d007b5c541")
+		(property "Reference" "#PWR2037"
 			(at 226.06 77.47 0)
 			(hide yes)
 			(effects
@@ -10917,12 +10917,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc894d2d-1b6b-554b-a245-ab876f55052f")
+			(uuid "89281a59-e012-5f86-bb14-1907a6ce979b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0152")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2037")
 					(unit 1)
 				)
 			)
@@ -10938,8 +10938,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "964eb0d0-eaad-5af3-9eb6-6fbe501c60d3")
-		(property "Reference" "#PWR0153"
+		(uuid "dd0157c4-f00a-5a99-bfad-07a8cbca44b5")
+		(property "Reference" "#PWR2038"
 			(at 226.06 85.09 0)
 			(hide yes)
 			(effects
@@ -10984,12 +10984,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "52de0422-fc2e-5703-940b-adf5c73da2d3")
+			(uuid "c91a96f6-cc43-5224-85a9-6146f72d4839")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0153")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2038")
 					(unit 1)
 				)
 			)
@@ -11005,7 +11005,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8bfaddb8-f417-5869-8d61-9cb70da5f42c")
+		(uuid "2da11ff5-d1d8-50a3-80f0-eea477540b10")
 		(property "Reference" "C217"
 			(at 238.252 75.565 0)
 			(effects
@@ -11052,14 +11052,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6add53f7-2128-532c-84fc-ab042ec73317")
+			(uuid "2f62d6aa-8a8e-53f8-8c5b-d6a77ea9b9cd")
 		)
 		(pin "2"
-			(uuid "652cbc7a-8ead-5fb4-a549-55b45f8ae94e")
+			(uuid "2f75393b-e085-5626-9ff2-38435a5b1050")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C217")
 					(unit 1)
 				)
@@ -11076,8 +11076,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "09a969d1-69b3-5672-bb33-3d21dd07059e")
-		(property "Reference" "#PWR0154"
+		(uuid "589beef1-9408-54c1-958e-a848d0a435ff")
+		(property "Reference" "#PWR2039"
 			(at 236.22 77.47 0)
 			(hide yes)
 			(effects
@@ -11122,12 +11122,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "997b7196-9868-5262-b6ed-90ec18d19bc7")
+			(uuid "0573a1f9-ff0e-5224-95fb-75f21a1e4ea2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0154")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2039")
 					(unit 1)
 				)
 			)
@@ -11143,8 +11143,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "364a2a57-69b1-565d-a6e7-214def96c6fd")
-		(property "Reference" "#PWR0155"
+		(uuid "08c2ad44-fe05-557a-beaf-d9313ebcb980")
+		(property "Reference" "#PWR2040"
 			(at 236.22 85.09 0)
 			(hide yes)
 			(effects
@@ -11189,12 +11189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b71f303-6e1d-529c-8d62-4a0b08157292")
+			(uuid "2d1d8bfa-b16a-5820-afb1-e43b69d87d84")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0155")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2040")
 					(unit 1)
 				)
 			)
@@ -11210,7 +11210,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd2f3095-62f7-5d65-bdce-dc636f954264")
+		(uuid "c8bfdf6e-90c3-5ab1-acb6-6dd4dac9f328")
 		(property "Reference" "C218"
 			(at 248.412 75.565 0)
 			(effects
@@ -11257,14 +11257,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce8e4cf8-1b04-5265-8b40-29840042c61a")
+			(uuid "31eb1edd-3fc8-5c05-9e59-82e5db2ebdf6")
 		)
 		(pin "2"
-			(uuid "db6ecb7b-e591-5933-8970-e3d77e51374b")
+			(uuid "04279578-2640-5cea-8220-7ef9859c5339")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C218")
 					(unit 1)
 				)
@@ -11281,8 +11281,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5b253477-5af0-5b56-9e21-e5b6101e1b45")
-		(property "Reference" "#PWR0156"
+		(uuid "bc5a66cf-0c64-579a-b85e-4c8c8bc5a438")
+		(property "Reference" "#PWR2041"
 			(at 246.38 77.47 0)
 			(hide yes)
 			(effects
@@ -11327,12 +11327,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "88ec06bb-f1d4-529e-bb15-8388ec5b1cac")
+			(uuid "e766de0e-2dee-551d-acb3-4107af85ca6a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0156")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2041")
 					(unit 1)
 				)
 			)
@@ -11348,8 +11348,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "26fb3a7b-8dea-5ae6-98b6-4e6016a0bfaf")
-		(property "Reference" "#PWR0157"
+		(uuid "5d8135ce-b5f8-5792-9598-f5f6c66a560a")
+		(property "Reference" "#PWR2042"
 			(at 246.38 85.09 0)
 			(hide yes)
 			(effects
@@ -11394,12 +11394,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c73c81e-6ac6-56b6-83bc-02606715a685")
+			(uuid "1966ba1c-d3f7-5260-b508-7c1d52d42d7b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0157")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2042")
 					(unit 1)
 				)
 			)
@@ -11415,7 +11415,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "69d9caa4-545e-5559-9bc0-cd2f091e710d")
+		(uuid "f297ddba-68e7-55ca-8180-fa86e9d5ee23")
 		(property "Reference" "C219"
 			(at 258.572 75.565 0)
 			(effects
@@ -11462,14 +11462,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "934394a4-9f6c-5597-98ae-d18b15f2394b")
+			(uuid "692323eb-defa-5b53-b3c4-0d16c1573c9c")
 		)
 		(pin "2"
-			(uuid "a417873f-c528-5a1b-a2a9-75790e81a63c")
+			(uuid "9a174040-2c0b-5ce6-a55e-7bd3441107d5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C219")
 					(unit 1)
 				)
@@ -11486,8 +11486,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0b6f450c-9119-50b0-bd74-1d2d7c20ab68")
-		(property "Reference" "#PWR0158"
+		(uuid "b95ac7ad-226e-5330-97ed-716a4bfce46d")
+		(property "Reference" "#PWR2043"
 			(at 256.54 77.47 0)
 			(hide yes)
 			(effects
@@ -11532,12 +11532,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc1b05bc-778f-5a65-9145-c3b19e2fc583")
+			(uuid "afe09507-4f48-50b6-90d5-9a3cb9b573b8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0158")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2043")
 					(unit 1)
 				)
 			)
@@ -11553,8 +11553,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fe31dea5-d817-5141-99cb-d6b3e5d55f27")
-		(property "Reference" "#PWR0159"
+		(uuid "631a1349-4092-5cba-8477-cec5a89358a7")
+		(property "Reference" "#PWR2044"
 			(at 256.54 85.09 0)
 			(hide yes)
 			(effects
@@ -11599,12 +11599,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90f8cc86-be90-51fb-ac5a-894c47d30e8b")
+			(uuid "8f45b2ad-0b2d-55f0-b4c4-946edc48abd6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0159")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2044")
 					(unit 1)
 				)
 			)
@@ -11620,7 +11620,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81d9a000-b38c-5236-9827-bdf21ff94c4a")
+		(uuid "68401e0b-d6a0-5022-8b91-433a3bfa09c6")
 		(property "Reference" "C220"
 			(at 268.732 75.565 0)
 			(effects
@@ -11667,14 +11667,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dcfa6c6-b72a-525a-908e-96bfc4e1429b")
+			(uuid "e1645a96-ca37-5040-be7e-9a80632fb4f7")
 		)
 		(pin "2"
-			(uuid "2698b1c6-ae91-5a5d-ba89-fbd8a8cbb566")
+			(uuid "d8839c27-335e-5d54-96f4-836d03a093ef")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C220")
 					(unit 1)
 				)
@@ -11691,8 +11691,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6352056a-a9fc-57d8-a2ad-546085af0b36")
-		(property "Reference" "#PWR0160"
+		(uuid "d2cd53b1-d258-5d8d-9be2-f175daba8688")
+		(property "Reference" "#PWR2045"
 			(at 266.7 77.47 0)
 			(hide yes)
 			(effects
@@ -11737,12 +11737,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d1c17f2-e6d3-5ec4-9a03-58536b570637")
+			(uuid "db075825-1b8f-5ac4-821d-55adfbcdcb8a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0160")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2045")
 					(unit 1)
 				)
 			)
@@ -11758,8 +11758,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f122710-674d-5660-a12e-9d13fb831022")
-		(property "Reference" "#PWR0161"
+		(uuid "41cebc4b-5901-56dd-901e-14b274c4931f")
+		(property "Reference" "#PWR2046"
 			(at 266.7 85.09 0)
 			(hide yes)
 			(effects
@@ -11804,12 +11804,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f859d94-28e8-535a-b385-8b8a1a9ebbe8")
+			(uuid "399e52f8-6a3a-5424-b8e8-528fa68f9be4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0161")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2046")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11825,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "36f3d2a3-12d3-56ab-8e19-7446fbebb2a7")
+		(uuid "e6176d13-794e-5483-ab99-4cdd19cc669b")
 		(property "Reference" "C221"
 			(at 278.892 75.565 0)
 			(effects
@@ -11872,14 +11872,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d10a5d3-805d-5e97-8f24-6849c4ab6579")
+			(uuid "59bbad08-167e-5e88-a51e-644b3548559d")
 		)
 		(pin "2"
-			(uuid "6bb3572d-3faf-55a5-99b1-c6163a94466e")
+			(uuid "ea3a0562-fb6e-5b30-9292-ef3e8634a411")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C221")
 					(unit 1)
 				)
@@ -11896,8 +11896,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a30a8d85-b3fb-515e-922a-42edac56d5c3")
-		(property "Reference" "#PWR0162"
+		(uuid "8eea4498-d534-54c3-b44f-b733de01c6f2")
+		(property "Reference" "#PWR2047"
 			(at 276.86 77.47 0)
 			(hide yes)
 			(effects
@@ -11942,12 +11942,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3262b50-1817-5a2a-88e7-53041976e9b2")
+			(uuid "de87b3e0-4d14-5e9e-ab68-96f2b5958a14")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0162")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2047")
 					(unit 1)
 				)
 			)
@@ -11963,8 +11963,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c6738228-f895-5c0b-b809-cd1f4a44c09e")
-		(property "Reference" "#PWR0163"
+		(uuid "40c1ff92-d86c-58a6-a5b8-8fcf7b091aea")
+		(property "Reference" "#PWR2048"
 			(at 276.86 85.09 0)
 			(hide yes)
 			(effects
@@ -12009,12 +12009,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e33db96-005b-5a3f-8b13-f6e17fa9a393")
+			(uuid "8d8001f6-b486-5bb7-8a4c-58f5e7718ca2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0163")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2048")
 					(unit 1)
 				)
 			)
@@ -12029,7 +12029,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "a6d37645-30b6-58f6-a77c-a86155e15d20")
+		(uuid "453c86e4-6909-5e0d-b9bc-3e083f982452")
 	)
 	(text "GPIO assignment\nGPIO0-GPIO20: COL0-COL20\nGPIO21-GPIO26: ROW0-ROW5\nGPIO27: BL_PWM (backlight, PWM)\nGPIO28: CAPS_LED\nGPIO29: NUM_LED\nNo Scroll Lock indicator - its pin drives the backlight"
 		(exclude_from_sim no)
@@ -12040,7 +12040,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "276118c8-cab4-5f49-9a5c-707e2754dd7b")
+		(uuid "21ed1718-d381-552f-b64d-84cbcda5547c")
 	)
 	(text "Crystal 12 MHz"
 		(exclude_from_sim no)
@@ -12051,7 +12051,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "38c382cb-1210-59fe-9670-67fc1c4baf65")
+		(uuid "0e106699-cade-5e0d-b8f5-daf285b992ac")
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
@@ -12063,7 +12063,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9d6f2085-83d4-56d0-9642-d7637bcf916c")
+		(uuid "c5bdf2e1-abc3-5d22-8482-4eb16946e0f8")
 		(property "Reference" "Y1"
 			(at 137.795 167.64 0)
 			(effects
@@ -12110,20 +12110,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "063832e8-6e26-548a-99d8-0e359aa96194")
+			(uuid "3903878a-c665-5d25-81df-294559c9ce46")
 		)
 		(pin "2"
-			(uuid "130fca02-dc23-560b-af4e-87a760eab1f1")
+			(uuid "88dadffc-9a5c-59b4-a65e-c4c87cabc208")
 		)
 		(pin "3"
-			(uuid "6c3f3140-ad61-5432-800f-f77a45ca3aef")
+			(uuid "73380ae1-b85b-537b-a565-04862db006e5")
 		)
 		(pin "4"
-			(uuid "a9e6394f-6dc3-5e38-9443-9767145841d7")
+			(uuid "3a59e99f-1b07-58c9-a3c4-aac4fdc68760")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -12139,7 +12139,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a0b21d76-82ef-5e28-b719-7d1f8e9e1670")
+		(uuid "606c465d-32b4-592f-8adc-a13e399fb6c2")
 	)
 	(label "XIN"
 		(at 128.27 172.72 180)
@@ -12150,7 +12150,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "672646e1-5b12-54d6-bfb3-ed5c6c33d9a2")
+		(uuid "97f6f1c0-f62f-5890-8fd3-066d71ee4688")
 	)
 	(wire
 		(pts
@@ -12161,7 +12161,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6a0ab201-8cb5-5061-904f-3ac7a5f0849d")
+		(uuid "1ca0cad7-9feb-5d8a-9eb0-cbf6c1b3adcf")
 	)
 	(label "XOUT_R"
 		(at 140.97 172.72 0)
@@ -12172,7 +12172,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "87b775ad-2b40-5b13-b664-1cab1b5917f9")
+		(uuid "105afa9f-7ccd-5da7-9d62-f46ee31a58b6")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12184,8 +12184,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cd7f27fa-daa1-5b0e-97b8-cff976ac54b4")
-		(property "Reference" "#PWR0164"
+		(uuid "3c4bd68e-e65d-5adc-b1d7-cdd9f74b7179")
+		(property "Reference" "#PWR2049"
 			(at 134.62 184.15 0)
 			(hide yes)
 			(effects
@@ -12230,12 +12230,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce0b3590-1c56-50c2-8392-6170b20aaaad")
+			(uuid "f03335e4-5d20-5f61-924b-c28198ee260a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0164")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2049")
 					(unit 1)
 				)
 			)
@@ -12251,7 +12251,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "01b0faa5-1223-5559-9043-ad09dcfd6624")
+		(uuid "4b3f19bf-4cd7-53d5-a25c-601a522b7ef4")
 		(property "Reference" "C204"
 			(at 121.412 187.325 0)
 			(effects
@@ -12298,14 +12298,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "84409029-91b3-5b0a-863c-2df85c2697cf")
+			(uuid "2a62b03d-ebe2-55e8-8cb7-7ec1d766686f")
 		)
 		(pin "2"
-			(uuid "c2cb2e55-556c-5cb3-9b0e-263ddc15b061")
+			(uuid "85ca90b5-d5cd-5b30-a007-395733b27905")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C204")
 					(unit 1)
 				)
@@ -12321,7 +12321,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "72931bc2-956a-538b-925e-d920bfda4b32")
+		(uuid "c4d5914f-c017-52af-a73f-5b545be1f7e6")
 	)
 	(label "XIN"
 		(at 119.38 182.88 90)
@@ -12332,7 +12332,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ca0c5549-1f12-5730-bc3f-dc88ace4f1ea")
+		(uuid "6d551772-18a6-5b7c-8ab9-563bc8b1ccbf")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12344,8 +12344,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "93eb496e-931f-5851-9475-a72abc0ccf20")
-		(property "Reference" "#PWR0165"
+		(uuid "681e253b-15a7-5cdf-86b8-23b8016f4d28")
+		(property "Reference" "#PWR2050"
 			(at 119.38 196.85 0)
 			(hide yes)
 			(effects
@@ -12390,12 +12390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fad47ad-7307-57d2-a920-25699717d12c")
+			(uuid "d8b8b4b8-d35d-5481-9977-a7fea2679a61")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0165")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2050")
 					(unit 1)
 				)
 			)
@@ -12411,7 +12411,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8c1ce6e3-6285-5560-a674-5394375aff0a")
+		(uuid "d0dc172b-dd6c-5291-a429-eafa0bfaca00")
 		(property "Reference" "C205"
 			(at 151.892 187.325 0)
 			(effects
@@ -12458,14 +12458,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4cb4f28-e5c5-513b-8071-d652a4e18b65")
+			(uuid "92a621be-2c44-5bfd-94e4-7cd499be1921")
 		)
 		(pin "2"
-			(uuid "d8192a7d-f43c-534a-ab94-62b7750ba791")
+			(uuid "9c1c6a0f-3597-5f4b-9a60-524c5ad3c51e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C205")
 					(unit 1)
 				)
@@ -12481,7 +12481,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "435156e1-92ca-51cf-b76a-a442031de986")
+		(uuid "84238095-c734-5213-b094-a5f814d373b2")
 	)
 	(label "XOUT_R"
 		(at 149.86 182.88 90)
@@ -12492,7 +12492,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "941233dd-7cf1-51d9-b4e6-af6843caaa9f")
+		(uuid "41a83e84-03e7-5711-a05d-c4e1cdef348a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12504,8 +12504,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "785d4da8-c568-5282-9fea-6e6136bbb12b")
-		(property "Reference" "#PWR0166"
+		(uuid "861b7939-3f55-5f22-a757-75cb0bf1855b")
+		(property "Reference" "#PWR2051"
 			(at 149.86 196.85 0)
 			(hide yes)
 			(effects
@@ -12550,12 +12550,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5e495ad-a35a-5836-9cad-302fe4771343")
+			(uuid "2988861f-e3c2-513c-98af-97e386d5e4e9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0166")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2051")
 					(unit 1)
 				)
 			)
@@ -12571,7 +12571,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0af76634-97ea-5075-b9f2-50e04a8e7532")
+		(uuid "d267c3a4-05e6-586d-900d-b6269100a2b1")
 		(property "Reference" "R206"
 			(at 164.592 172.085 0)
 			(effects
@@ -12618,14 +12618,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "304c96ab-97d7-58f8-97bf-b526816a5aa5")
+			(uuid "d93fb8e3-d8e0-5245-a8b9-348782aefa75")
 		)
 		(pin "2"
-			(uuid "0e55d4ee-b95b-57e4-afd7-bdfd4111073e")
+			(uuid "2668b746-4f36-56c5-a8b2-aa60bd2295e6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R206")
 					(unit 1)
 				)
@@ -12641,7 +12641,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "408efc7f-9821-5e86-8074-6574877649b9")
+		(uuid "9f8ddc62-769d-58aa-aece-63bc59fe1723")
 	)
 	(label "XOUT"
 		(at 162.56 167.64 90)
@@ -12652,7 +12652,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7fe802ce-4515-5d15-9ae6-12c92fa6721a")
+		(uuid "05ab68fd-0ebe-59c8-ae52-c6be9d91ced3")
 	)
 	(wire
 		(pts
@@ -12663,7 +12663,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1f724a00-1d10-5ee8-b6d3-4d725916e5da")
+		(uuid "31e9b356-71a2-5ba9-a229-417f0ce53f1a")
 	)
 	(label "XOUT_R"
 		(at 162.56 177.8 270)
@@ -12674,7 +12674,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5c93d6b0-7ae9-505e-ad63-c0305e2493b9")
+		(uuid "ce1a7834-ca52-5cc8-bd18-86df5c541381")
 	)
 	(text "QSPI flash"
 		(exclude_from_sim no)
@@ -12685,7 +12685,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "d39717da-3d77-5c93-8c19-6563cb15635d")
+		(uuid "7c321f07-c96f-56f9-8290-d89730b00232")
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q16JVSS")
@@ -12697,7 +12697,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e4f8c8c-fca0-5090-81a5-ab37279bbe24")
+		(uuid "75aa0bb9-562b-53fa-8772-aeabb99ea56e")
 		(property "Reference" "U2"
 			(at 138.43 227.33 0)
 			(effects
@@ -12742,32 +12742,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "3af82005-4f8d-5539-a62a-954efbef6bd2")
+			(uuid "147e3fc2-9202-5aae-929d-b4d823913f7f")
 		)
 		(pin "2"
-			(uuid "109eef49-4366-5be5-b3b3-34157a7d49d6")
+			(uuid "d143f479-dbfc-5399-bd7c-c5efc1e62434")
 		)
 		(pin "3"
-			(uuid "873c2c4e-f0c9-5228-8f5f-13bd618a8274")
+			(uuid "163b131b-c4e6-585b-a84a-ff5a1d9828c1")
 		)
 		(pin "4"
-			(uuid "c31436bc-e234-573d-b45c-fc47747d59f3")
+			(uuid "63bdde51-8f57-5f1b-b491-3f66fd64adf3")
 		)
 		(pin "5"
-			(uuid "8fa5ba73-d26d-5f96-beaa-c787356efbec")
+			(uuid "2b92986c-f43b-5d31-adfb-4f6830e461a9")
 		)
 		(pin "6"
-			(uuid "6474477f-5417-5d72-a015-c68f2eb673db")
+			(uuid "ae82b8ac-593d-59f1-b879-69cebcc2ed77")
 		)
 		(pin "7"
-			(uuid "5804ec35-85fc-504b-b4cd-2e51118edfd4")
+			(uuid "ec5bb4df-009c-5cb8-8cbe-2f1173da3b04")
 		)
 		(pin "8"
-			(uuid "d92b349c-19f6-50ed-a4ef-d510cfacb4ec")
+			(uuid "0abef5f4-3931-59bd-a78b-8ece7261fcf0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "U2")
 					(unit 1)
 				)
@@ -12783,7 +12783,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "928db491-6d79-5f0a-96a7-c27aefcdb5c8")
+		(uuid "137cc6b6-95f1-5e42-85cc-411c63ba5164")
 	)
 	(label "QSPI_SS"
 		(at 132.08 231.14 180)
@@ -12794,7 +12794,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "421c0cdf-4b54-50b7-b3e1-e178f056efd9")
+		(uuid "abfc0cd9-1fb7-5958-86b0-2e38903eaf2e")
 	)
 	(wire
 		(pts
@@ -12805,7 +12805,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d1ba5796-75da-5dfc-8840-3622d01bdbaa")
+		(uuid "21065482-f1b5-5952-8044-8426748bc99e")
 	)
 	(label "QSPI_SCLK"
 		(at 132.08 233.68 180)
@@ -12816,7 +12816,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0d941c85-a5cf-531d-aaa1-03f21eaa210e")
+		(uuid "e1f61c07-e68c-5e71-b197-96e2788853cc")
 	)
 	(wire
 		(pts
@@ -12827,7 +12827,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "578fe7cc-ee96-5aae-ac94-aee25270562b")
+		(uuid "2da72a04-7b21-577f-b65f-bb440f974544")
 	)
 	(label "QSPI_SD0"
 		(at 132.08 236.22 180)
@@ -12838,7 +12838,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4e7cbfd8-bd49-562a-8607-f32601ceed32")
+		(uuid "853b7b36-4375-5dbd-b1c1-612d70330b0a")
 	)
 	(wire
 		(pts
@@ -12849,7 +12849,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c6b0a695-a5c7-5d51-8859-ddd8be89ea74")
+		(uuid "73c6af43-ef36-5e07-8e91-b460600dc9a7")
 	)
 	(label "QSPI_SD1"
 		(at 132.08 238.76 180)
@@ -12860,7 +12860,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "948b8f64-aa08-5d71-b2fe-4ea00634a6b8")
+		(uuid "26c14bf5-8488-5a08-997c-ad0645c3e095")
 	)
 	(wire
 		(pts
@@ -12871,7 +12871,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6cbee711-2a11-5811-af56-08c21427504b")
+		(uuid "424e12e0-a154-5614-af96-b38bfbf8b783")
 	)
 	(label "QSPI_SD2"
 		(at 132.08 241.3 180)
@@ -12882,7 +12882,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9d1e3592-13d2-53f3-a568-4436a1b0dac2")
+		(uuid "dff1253f-2cbb-5069-b8a7-b42386f55b9e")
 	)
 	(wire
 		(pts
@@ -12893,7 +12893,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1d503dc4-72f2-57ae-b7f5-4b7b3e15db4c")
+		(uuid "371d6d69-81e9-5b6a-b1d3-e022c3c3f5b9")
 	)
 	(label "QSPI_SD3"
 		(at 132.08 243.84 180)
@@ -12904,7 +12904,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e993f2ba-451a-5958-9c13-33f2b53842a2")
+		(uuid "dfa1db1e-4d39-5350-abc3-e90479bd2e29")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -12916,8 +12916,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b4ca6828-39a7-56e3-8fc6-b4c1cc9ac7b2")
-		(property "Reference" "#PWR0167"
+		(uuid "d26f746d-c20e-586c-93de-887a8b46c1f3")
+		(property "Reference" "#PWR2052"
 			(at 144.78 229.87 0)
 			(hide yes)
 			(effects
@@ -12962,12 +12962,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d9387b0-f826-505d-877b-9f49426954a4")
+			(uuid "9a51293f-aeb2-512f-954a-a297027e2766")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0167")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2052")
 					(unit 1)
 				)
 			)
@@ -12983,8 +12983,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2995f02-1138-505b-80c6-eb05a5d06ade")
-		(property "Reference" "#PWR0168"
+		(uuid "c3402f49-b632-5223-8f7f-fc297f2a2ab7")
+		(property "Reference" "#PWR2053"
 			(at 144.78 257.81 0)
 			(hide yes)
 			(effects
@@ -13029,12 +13029,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4b03c57-5220-51c4-88d0-c699e06404e5")
+			(uuid "681a89f7-982e-5726-ba24-9da158273a82")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0168")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2053")
 					(unit 1)
 				)
 			)
@@ -13050,7 +13050,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3169baaf-af52-52a6-b957-2c6cde32ba94")
+		(uuid "568fdfe8-7933-5130-ab53-1bd2c54744da")
 		(property "Reference" "C206"
 			(at 162.052 238.125 0)
 			(effects
@@ -13097,14 +13097,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb042751-a702-54c7-ba54-3e1abf7efce5")
+			(uuid "5b77704d-d7f2-5731-a81c-f7abb60e0173")
 		)
 		(pin "2"
-			(uuid "9f036a60-9894-53c9-90ce-ae47266513e8")
+			(uuid "940d61a5-dd17-5eb0-95d1-a012795eb56f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "C206")
 					(unit 1)
 				)
@@ -13121,8 +13121,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "de572b15-3162-51f0-8e5a-ad8aded325ae")
-		(property "Reference" "#PWR0169"
+		(uuid "11ba973e-6267-5b06-9e4d-c3afa0a1be39")
+		(property "Reference" "#PWR2054"
 			(at 160.02 240.03 0)
 			(hide yes)
 			(effects
@@ -13167,12 +13167,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "52915706-a4e6-517f-ae24-5154c71ddb8c")
+			(uuid "9e584801-9bdc-5eaf-89a4-82d420182a28")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0169")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2054")
 					(unit 1)
 				)
 			)
@@ -13188,8 +13188,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2b2e8f8d-4119-5b8e-aee6-a929c1de869e")
-		(property "Reference" "#PWR0170"
+		(uuid "4e73d8f3-7f27-57b3-bbef-1ce50e5f6786")
+		(property "Reference" "#PWR2055"
 			(at 160.02 247.65 0)
 			(hide yes)
 			(effects
@@ -13234,12 +13234,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb0af4ee-0453-5739-bcd5-3200cfe887c6")
+			(uuid "82661ee0-f226-50ba-b9a5-108ec66cdbc0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0170")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2055")
 					(unit 1)
 				)
 			)
@@ -13254,7 +13254,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "f4c97cd3-f1d3-5602-b1c8-f8e9f04b13a0")
+		(uuid "01da1a94-6e1f-5f2a-897d-1f48e257959b")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -13266,7 +13266,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49c35474-df0b-5b68-a2bb-6df1cb46fcc4")
+		(uuid "0c481f3e-638d-5fe5-bfa4-3407f41e82e9")
 		(property "Reference" "TP1"
 			(at 27.94 209.042 0)
 			(effects
@@ -13311,11 +13311,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "41c08828-faf2-57e9-9ad4-dcff3cae454c")
+			(uuid "27cc3cb4-2010-5761-b57a-ef00a1840df3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -13331,7 +13331,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ead0168d-8a74-58aa-86cc-d05dd04c709a")
+		(uuid "d0d2ea38-1cfc-5d09-8f9a-3e376eab3c07")
 	)
 	(label "SWCLK"
 		(at 27.94 218.44 270)
@@ -13342,7 +13342,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "13a12473-f1bb-5561-b18b-60d36e447f6a")
+		(uuid "451db219-6012-5636-bfd7-176f3011882f")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -13354,7 +13354,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4cb203da-1c0c-5c88-8bb9-183f00bae8fd")
+		(uuid "308012a7-acb3-5310-b1a0-988a5757ba70")
 		(property "Reference" "TP2"
 			(at 38.1 209.042 0)
 			(effects
@@ -13399,11 +13399,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "132422b9-4da8-5eb2-a876-aead1688a2c6")
+			(uuid "8fa5caac-b8c8-5bf2-84bd-eebd879a86ce")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -13419,7 +13419,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "934ff2f0-2db9-52df-b6a1-08314eaa88af")
+		(uuid "f7eb15d8-b568-50fa-b6c0-0c5434a59d8b")
 	)
 	(label "SWDIO"
 		(at 38.1 218.44 270)
@@ -13430,7 +13430,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "061d2537-d79e-51b2-91e3-aae38b68fb6d")
+		(uuid "66d4375d-dc08-5632-ae4e-49181f064c65")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -13442,7 +13442,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7b8eb841-5524-5ce0-9643-dfafbf88fbd2")
+		(uuid "031b04db-2566-5297-9fa4-93c02a61ccbf")
 		(property "Reference" "TP3"
 			(at 48.26 209.042 0)
 			(effects
@@ -13487,11 +13487,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f4affb2-8aae-5494-b810-59959c60520d")
+			(uuid "b9781b9a-6612-5961-b478-4593eca19d7a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "TP3")
 					(unit 1)
 				)
@@ -13507,7 +13507,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0387f649-747f-59ae-a96b-09ff98478ff2")
+		(uuid "3a22d6a7-d200-55ef-9073-1ede7264e23c")
 	)
 	(label "RUN"
 		(at 48.26 218.44 270)
@@ -13518,7 +13518,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b3d7a4da-a311-541b-9096-09486310d924")
+		(uuid "48304280-1903-5bcd-96ab-0398361b3afa")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -13530,7 +13530,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49b88025-8941-5846-b700-ac39064b1da8")
+		(uuid "7af5ac85-d9dd-5b7d-808f-ad93702ca371")
 		(property "Reference" "TP4"
 			(at 58.42 209.042 0)
 			(effects
@@ -13575,11 +13575,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fca1c8c-4c75-5105-b630-94ca2faec064")
+			(uuid "f96d04d0-21b6-543f-b3e1-fcd7d297c56f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "TP4")
 					(unit 1)
 				)
@@ -13596,8 +13596,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "45687d00-d5b6-5c21-b2ba-62fe4500e633")
-		(property "Reference" "#PWR0171"
+		(uuid "8d5b2305-f7e5-5584-acde-bd2f88b90eb0")
+		(property "Reference" "#PWR2056"
 			(at 58.42 222.25 0)
 			(hide yes)
 			(effects
@@ -13642,12 +13642,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2d2baac-133b-56c7-81d9-5190001422ab")
+			(uuid "798a1b40-eb84-5b65-a134-1c0ddac7c87c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0171")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2056")
 					(unit 1)
 				)
 			)
@@ -13663,7 +13663,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "121bc128-226f-5e5a-a35b-efb6f10cb72a")
+		(uuid "21a9e609-cd9a-5748-bd00-f27011e09908")
 		(property "Reference" "R208"
 			(at 83.312 235.585 0)
 			(effects
@@ -13710,14 +13710,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cffe7ba6-0d5d-54b6-a221-4156ed9532c9")
+			(uuid "db3c24d3-5637-56a6-aa06-416127c5d5e9")
 		)
 		(pin "2"
-			(uuid "82250f7d-cdec-5ccf-962a-04e95f89e2f8")
+			(uuid "3f598701-b5f8-57e5-adfc-213a1ac120a7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R208")
 					(unit 1)
 				)
@@ -13734,8 +13734,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fc9aef7d-daae-5277-b75c-c00438d5d923")
-		(property "Reference" "#PWR0172"
+		(uuid "44024c25-ca55-5183-b1e1-3874161bd48e")
+		(property "Reference" "#PWR2057"
 			(at 81.28 237.49 0)
 			(hide yes)
 			(effects
@@ -13780,12 +13780,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e988ab9f-1094-5150-be31-08285e4fa4cc")
+			(uuid "a4c57f7a-bb2a-5dfc-bd88-63e5c3215786")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0172")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2057")
 					(unit 1)
 				)
 			)
@@ -13801,7 +13801,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dc2a0a7c-15ce-5552-8322-42c011c25ed0")
+		(uuid "f832708c-550e-545d-933d-4404073c0987")
 		(property "Reference" "SW201"
 			(at 87.63 254 90)
 			(effects
@@ -13847,14 +13847,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6837785c-e591-5135-857a-9d30e80ef248")
+			(uuid "93f1ecf4-7f30-508b-ace4-2fa18afe874f")
 		)
 		(pin "2"
-			(uuid "5adf7208-148a-5623-9bf1-da6051cf14b7")
+			(uuid "2c73b6ac-9b8e-5345-87aa-8ab40010e6cc")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "SW201")
 					(unit 1)
 				)
@@ -13870,7 +13870,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7ec33b50-176a-5afb-b9ec-88aac74ba1b1")
+		(uuid "2e8e41f9-e9d5-5303-b62a-400efd3ae609")
 	)
 	(wire
 		(pts
@@ -13881,7 +13881,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "17142fa3-a51e-5a28-b6ac-b4d2e13827b8")
+		(uuid "5b570227-b4c2-5380-97e3-205908fac564")
 	)
 	(label "RUN"
 		(at 81.28 243.84 0)
@@ -13892,7 +13892,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "66d4d337-24eb-54e0-a2e9-edcae1abbcc5")
+		(uuid "66fc4c3e-63c4-5985-ad41-69ffcde16dc7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13904,8 +13904,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e6861ba-697d-5e1d-98c2-3765c6aeb83e")
-		(property "Reference" "#PWR0173"
+		(uuid "f1bbbca6-9cc1-5c88-b3c3-4a5d77edefe5")
+		(property "Reference" "#PWR2058"
 			(at 81.28 265.43 0)
 			(hide yes)
 			(effects
@@ -13950,12 +13950,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e09150e6-81d5-5496-980b-a7e31490651b")
+			(uuid "9f486c8d-cfe9-54d5-9749-8ab50c0a156f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0173")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2058")
 					(unit 1)
 				)
 			)
@@ -13970,7 +13970,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "e6971f35-4e33-50b8-a08a-8ef1d6212134")
+		(uuid "2fefec82-281e-5f9d-927f-932c97dcaf43")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -13982,7 +13982,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "236ac436-dbf4-58b9-9a39-281810254190")
+		(uuid "84993205-a48e-50f7-9b5a-14ec3d58fb68")
 		(property "Reference" "R207"
 			(at 103.632 235.585 0)
 			(effects
@@ -14029,14 +14029,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7682823-f3d8-5798-8a40-dd88d4fc169d")
+			(uuid "c934dfd4-95fe-5695-b787-ac92a2b11472")
 		)
 		(pin "2"
-			(uuid "4c603b4d-4954-5227-b6c6-b0c809cfe3b7")
+			(uuid "17259d88-d115-5155-a672-7a6b93a6e05a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "R207")
 					(unit 1)
 				)
@@ -14052,7 +14052,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bfc3137a-084c-5d49-a1d0-a8bcbf6080be")
+		(uuid "9a75d53f-bb47-56b0-a4ef-ced73f7de6bc")
 	)
 	(label "QSPI_SS"
 		(at 101.6 231.14 90)
@@ -14063,7 +14063,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ed12e945-77bf-550b-8b37-0cc98fea80cb")
+		(uuid "4e9cbc71-a376-5fad-b0b0-a9fc7c1583de")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -14075,7 +14075,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f02514dd-36b6-5742-86d6-55a607e3f08a")
+		(uuid "eb2cf668-2ff4-53f9-9ddf-498e0a2fdc2e")
 		(property "Reference" "SW202"
 			(at 107.95 254 90)
 			(effects
@@ -14121,14 +14121,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7dfa0b2b-1b25-5e3b-8701-3c18c336840f")
+			(uuid "92d7bfac-45bc-50b4-b776-f58ff6d8af86")
 		)
 		(pin "2"
-			(uuid "65de2b07-c93f-5d82-8e72-8c842c00a2d5")
+			(uuid "97ac6123-a792-5ad6-96d9-ce1334049ac1")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
 					(reference "SW202")
 					(unit 1)
 				)
@@ -14144,7 +14144,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3cdfef0a-65c5-5a20-bf3f-9d815c29d819")
+		(uuid "fb3700cc-aa60-5407-a28e-23f81270f285")
 	)
 	(wire
 		(pts
@@ -14155,7 +14155,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "35d72093-aeb7-5540-9af6-6d2a68c14170")
+		(uuid "d5e61654-4932-5bcd-955f-a2288c4fa753")
 	)
 	(label "BOOT_SW"
 		(at 101.6 243.84 0)
@@ -14166,7 +14166,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dfc811bb-7e01-5c38-a106-ce53df0635c8")
+		(uuid "de164314-c728-576a-85b7-6f5e7a5d1281")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -14178,8 +14178,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57e0bb5e-0a2f-53cc-9281-9b4c98e7aa2e")
-		(property "Reference" "#PWR0174"
+		(uuid "a5ef3eab-b9d5-540a-a69b-458a968a506a")
+		(property "Reference" "#PWR2059"
 			(at 101.6 265.43 0)
 			(hide yes)
 			(effects
@@ -14224,12 +14224,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31f9f372-6dcd-5243-bae7-51157add99f0")
+			(uuid "76f8ecbe-2df5-5725-97a6-cdadb0176d2c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
-				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/1053f427-ef8f-52b0-9555-4409afe3e1a8"
-					(reference "#PWR0174")
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/bcf5f01f-5e1f-5c71-bea6-62dd32de86c5"
+					(reference "#PWR2059")
 					(unit 1)
 				)
 			)
@@ -14244,7 +14244,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "2ac459ee-6dce-5cdb-b895-147e73ccd964")
+		(uuid "efae1be7-5897-51e2-9c64-8d3f7a136c0b")
 	)
 	(embedded_fonts no)
 )

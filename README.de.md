@@ -9,7 +9,8 @@
 > [Issue](https://github.com/TechnikWeber/convertible-keyboard-pcb/issues).
 > Platinenumriss, Befestigungslöcher und die Lage der USB-C-Buchse stehen noch
 > nicht fest und können sich nach deinem Gehäuse richten — für die
-> Full-Size-Variante, die TKL oder beide.
+> Full-Size-Variante, die TKL oder beide. Dasselbe gilt für Position und Bauform
+> der Lock-Anzeigen.
 
 **Eine Tastaturplatine, zwei Größen.** Eine Full-Size-Platine für ISO-DE und
 ANSI, deren Ziffernblock sich an einer Sollbruchstelle abbrechen lässt. Übrig
@@ -32,11 +33,13 @@ diesem Kern auf, statt ihn zu verbiegen.
 - Der Ziffernblock sitzt rechts und hängt über eine Reihe Mouse Bites
   (perforierte Bruchstege) am Rest der Platine.
 - Controller, USB-C sowie die Treiber für Beleuchtung und Lock-Anzeigen liegen
-  alle auf dem TKL-Teil. Nur die Matrix- und Beleuchtungsleitungen des Ziffernblocks laufen
-  über die Bruchkante.
+  alle auf dem TKL-Teil. Nur die Matrix-, Beleuchtungs- und
+  Anzeigeleitungen des Ziffernblocks laufen über die Bruchkante.
 - Ziffernblock abbrechen, und die TKL funktioniert unverändert weiter — die
   Ziffernblocktasten gibt es dann einfach nicht mehr. Die Firmware beschreibt
   beide Layouts.
+- Die klassischen Lock-Anzeigen über dem Ziffernblock gehen mit; für die TKL
+  bestückt man das zweite Paar über dem Navigationsblock.
 - Der abgebrochene Ziffernblock hat keinen eigenen Controller und funktioniert
   allein nicht.
 
@@ -54,8 +57,10 @@ diesem Kern auf, statt ihn zu verbiegen.
 - USB-C (USB 2.0) mit ESD-Schutz, 500-mA-Polyfuse und 3,3-V-LDO
 - Einfarbige Hintergrundbeleuchtung: Widerstände und MOSFET sind auf der Platine,
   die LEDs selbst sind optional — über QMK schaltbar, dimmbar und mit „Breathing“
-- Anzeige für Caps Lock und Num Lock über dem Navigationsblock, damit sie auch bei
-  der TKL bleibt – wahlweise 3-mm-THT oder 0805-SMD bestückt
+- Anzeige für Caps Lock und Num Lock an zwei Stellen: klassisch über dem
+  Ziffernblock (standardmäßig bestückt) und über dem Navigationsblock für die TKL
+  (vorgesehen, nicht bestückt) – jeweils als 3-mm-THT oder 0805-SMD, bestückt
+  wird, was das Gehäuse braucht
 - Alle 30 GPIOs des RP2040 belegt: 27 Matrixleitungen, Beleuchtungs-PWM,
   Caps Lock und Num Lock
 

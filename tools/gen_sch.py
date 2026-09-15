@@ -9,15 +9,21 @@ import sys, os, json
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from kicadlib import *
-import uuid as _uuid, itertools
+import uuid as _uuid
 
 _UID_NS = _uuid.UUID("5b1f3c1e-6d2a-4c1b-9a8e-3f7d2c4b5a60")
-_uid_counter = itertools.count()
+_uid_counters = {}
+_uid_ctx = ["root"]
 
 
-def uid():
-    """Deterministic UUIDs: re-running the generator keeps symbol paths and PCB links stable."""
-    return str(_uuid.uuid5(_UID_NS, str(next(_uid_counter))))
+def uid(key=None):
+    """Deterministic UUIDs, counted per sheet: re-running the generator keeps symbol paths and PCB links
+    stable, and additions on one sheet do not renumber the others."""
+    if key is None:
+        n = _uid_counters.get(_uid_ctx[0], 0)
+        _uid_counters[_uid_ctx[0]] = n + 1
+        key = f"{_uid_ctx[0]}:{n}"
+    return str(_uuid.uuid5(_UID_NS, key))
 
 
 PRJ = os.path.dirname(HERE)
@@ -90,12 +96,12 @@ class Placed:
 
 
 def symbol(sh, lib, name, ref, x, y, rot=0, unit=1, value=None, footprint="", fpos=None, hide_value=False,
-           in_bom=True):
+           in_bom=True, dnp=False):
     ls = sh.lib(lib, name)
     fpos = fpos or {}
     node = S("symbol", S("lib_id", f"{lib}:{name}"), S("at", x, y, rot), S("unit", unit), S("body_style", 1),
              S("exclude_from_sim", Sym("no")), S("in_bom", Sym("yes" if in_bom else "no")), S("on_board", Sym("yes")),
-             S("in_pos_files", Sym("yes")), S("dnp", Sym("no")), S("uuid", uid()))
+             S("in_pos_files", Sym("yes")), S("dnp", Sym("yes" if dnp else "no")), S("uuid", uid()))
     for key in ("Reference", "Value", "Footprint", "Datasheet", "Description"):
         lp = prop(ls, key)
         v = {"Reference": ref, "Value": value if value is not None else (lp[2] if lp else name),
@@ -217,12 +223,12 @@ def rail(sh, pl, pinnums, net, y_rail, end="left"):
 
 def new_sheet(title):
     return S("kicad_sch", S("version", 20260306), S("generator", "eeschema"), S("generator_version", "10.0"),
-             S("uuid", uid()), S("paper", "A3"), S("title_block", S("title", title), S("company", NAME)),
+             S("uuid", uid(f"file:{title}")), S("paper", "A3"), S("title_block", S("title", title), S("company", NAME)),
              [Sym("lib_symbols")], S("embedded_fonts", Sym("no")))
 
 
 def sheet_symbol(sh, root_uuid, name, fname, x, y, w, h, page):
-    u = uid()
+    u = uid(f"sheet:{fname}")
     sh.add(S("sheet", S("at", x, y), S("size", w, h), S("exclude_from_sim", Sym("no")), S("in_bom", Sym("yes")),
              S("on_board", Sym("yes")), S("dnp", Sym("no")), S("fields_autoplaced", Sym("yes")),
              S("stroke", S("width", 0.1524), S("type", Sym("solid"))), S("fill", S("color", 0, 0, 0, 0)),
@@ -334,6 +340,8 @@ if STAGE >= 2:
     bl_uuid = sheet_symbol(R, ROOT_UUID, "Backlight", "backlight.kicad_sch", 302.26, 71.12, 38.1, 10.16, 2)
     bl = new_sheet("Backlight")
     B = Sheet(bl, f"/{ROOT_UUID}/{bl_uuid}")
+    _uid_ctx[0] = "backlight"
+    COUNT["#PWR"] = 1000
     sheets["backlight.kicad_sch"] = bl
     LOCK = {}   # Caps/Num Lock have separate indicator LEDs, see indicator() below
     lit.sort()
@@ -379,19 +387,19 @@ if STAGE >= 2:
         EXPECT[(rpd, "1")] = f"~G{qref}"
 
     text(B, "Drivers - low-side N-MOSFETs switched by the RP2040 (QMK: BACKLIGHT_DRIVER = pwm)", 22.86, 248.92)
-    driver(50.8, 266.7, "Q1", "AO3400A", "BL_PWM", "BL_K", "R121", "R122")
-    driver(127.0, 266.7, "Q2", "2N7002", "CAPS_LED", "CAPS_K", "R123", "R124")
-    driver(203.2, 266.7, "Q3", "2N7002", "NUM_LED", "NUM_K", "R125", "R126")
+    driver(40.64, 266.7, "Q1", "AO3400A", "BL_PWM", "BL_K", "R121", "R122")
+    driver(86.36, 266.7, "Q2", "2N7002", "CAPS_LED", "CAPS_K", "R123", "R124")
+    driver(132.08, 266.7, "Q3", "2N7002", "NUM_LED", "NUM_K", "R125", "R126")
 
-    def indicator(cx, name, net, r_ref, d_tht, d_smd):
+    def indicator(cx, name, net, r_ref, d_tht, d_smd, dnp_tht, dnp_smd):
         """1k from +5V feeding a 3 mm THT and an 0805 LED in parallel - populate one of them."""
         r = symbol(B, "Device", "R_Small", r_ref, cx, 256.54, 0, value="1k", footprint=R0603,
                    fpos={"Reference": (2.032, -0.635, "left"), "Value": (2.032, 1.905, "left")})
         connect(B, r, {"1": "+5V"})
-        l1 = symbol(B, "Device", "LED_Small", d_tht, cx, 264.16, 90, value="3mm", footprint="LED_THT:LED_D3.0mm",
-                    fpos={"Reference": (-3.81, -1.27, None), "Value": (-3.81, 1.27, None)})
+        l1 = symbol(B, "Device", "LED_Small", d_tht, cx, 264.16, 90, value="3mm", footprint="LED_THT:LED_D3.0mm", dnp=dnp_tht,
+                    fpos={"Reference": (-6.35, -1.27, None), "Value": (-6.35, 1.27, None)})
         l2 = symbol(B, "Device", "LED_Small", d_smd, cx + 3 * U, 264.16, 90, value="0805",
-                    footprint="LED_SMD:LED_0805_2012Metric",
+                    footprint="LED_SMD:LED_0805_2012Metric", dnp=dnp_smd,
                     fpos={"Reference": (3.81, -1.27, None), "Value": (3.81, 1.27, None)})
         a1, a2, k1, k2 = l1.pin("2")[0], l2.pin("2")[0], l1.pin("1")[0], l2.pin("1")[0]
         wire(B, r.pin("2")[0], a1)
@@ -406,16 +414,21 @@ if STAGE >= 2:
         EXPECT.update({(r_ref, "2"): f"~{r_ref}", (d_tht, "2"): f"~{r_ref}", (d_smd, "2"): f"~{r_ref}",
                        (d_tht, "1"): net, (d_smd, "1"): net})
 
-    text(B, "Lock indicators above the navigation cluster - populate either the 3 mm THT or the 0805 LED",
-         228.6, 241.3)
-    indicator(233.68, "Num Lock", "NUM_K", "R128", "D123", "D124")
-    indicator(264.16, "Caps Lock", "CAPS_K", "R127", "D121", "D122")
+    text(B, "Lock indicators - standard above the numpad (0805 populated), optional above the navigation cluster\\n"
+            "for the TKL (DNP). Every position takes a 3 mm THT or an 0805 LED; populate what the case needs.",
+         165.1, 240.03)
+    indicator(165.1, "Num - numpad", "NUM_K", "R130", "D127", "D128", dnp_tht=True, dnp_smd=False)
+    indicator(195.58, "Caps - numpad", "CAPS_K", "R129", "D125", "D126", dnp_tht=True, dnp_smd=False)
+    indicator(226.06, "Num - nav (opt.)", "NUM_K", "R128", "D123", "D124", dnp_tht=True, dnp_smd=True)
+    indicator(256.54, "Caps - nav (opt.)", "CAPS_K", "R127", "D121", "D122", dnp_tht=True, dnp_smd=True)
 
 # ============================================================ MCU
 if STAGE >= 3:
     mcu_uuid = sheet_symbol(R, ROOT_UUID, "MCU", "mcu.kicad_sch", 302.26, 91.44, 38.1, 10.16, 3)
     mt = new_sheet("MCU, USB and power")
     M = Sheet(mt, f"/{ROOT_UUID}/{mcu_uuid}")
+    _uid_ctx[0] = "mcu"
+    COUNT["#PWR"] = 2000
     sheets["mcu.kicad_sch"] = mt
 
     # --- USB-C

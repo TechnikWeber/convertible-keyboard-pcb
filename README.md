@@ -8,7 +8,7 @@
 > please [open an issue](https://github.com/TechnikWeber/convertible-keyboard-pcb/issues).
 > Board outline, mounting holes and the USB-C position are not fixed yet, so they
 > can be shaped around your case design — for the full-size board, the TKL, or
-> both.
+> both. The same goes for where the lock indicators sit and which LEDs they use.
 
 **One keyboard PCB, two sizes.** A full-size ISO-DE / ANSI board whose numpad
 snaps off along a breakaway line. What remains is a complete tenkeyless (TKL)
@@ -30,9 +30,12 @@ bending it into something else.
 - The numpad sits on the right-hand side, joined to the rest of the board by a
   row of mouse bites (perforated breakaway tabs).
 - Controller, USB-C and the drivers for backlight and lock indicators all sit
-  on the TKL part. Only the numpad's matrix and backlight lines cross the breakaway line.
+  on the TKL part. Only the numpad's matrix, backlight and indicator lines cross the breakaway
+  line.
 - Snap the numpad off and the TKL keeps working unchanged — the numpad keys are
   simply gone. The firmware describes both layouts.
+- The classic lock indicators above the numpad go with it; for the TKL populate
+  the second pair above the navigation cluster.
 - The snapped-off numpad has no controller of its own and does not work on its
   own.
 
@@ -50,8 +53,9 @@ bending it into something else.
 - USB-C (USB 2.0) with ESD protection, 500 mA polyfuse and a 3.3 V LDO
 - Single-colour backlight: resistors and MOSFET on the board, the LEDs themselves
   are optional — switched, dimmed and "breathing" via QMK
-- Caps Lock and Num Lock indicators above the navigation cluster, so they stay on
-  the TKL – 3 mm THT or 0805 SMD, whichever you populate
+- Caps Lock and Num Lock indicators in two places: classic above the numpad
+  (populated by default) and above the navigation cluster for the TKL (prepared,
+  not populated) – each as 3 mm THT or 0805 SMD, populate what the case needs
 - All 30 RP2040 GPIOs in use: 27 matrix lines, backlight PWM, Caps Lock and
   Num Lock
 

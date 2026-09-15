@@ -46,7 +46,8 @@ for c in findall(find(nl, "components"), "comp"):
             fields[find(f, "name")[1]] = f[2] if len(f) > 2 and isinstance(f[2], str) else ""
     comps[ref] = dict(fp=fp[1] if fp else "", value=find(c, "value")[1],
                       path=find(sp, "tstamps")[1] + find(c, "tstamps")[1],
-                      sheetname=find(sp, "names")[1], sheetfile=props.get("Sheetfile", ""), fields=fields)
+                      sheetname=find(sp, "names")[1], sheetfile=props.get("Sheetfile", ""), fields=fields,
+                      dnp="dnp" in props)
 pinnet = {}
 for n in findall(find(nl, "nets"), "net"):
     for nd in findall(n, "node"):
@@ -137,6 +138,7 @@ for ref, c in comps.items():
     f.SetPath(pcbnew.KIID_PATH(c["path"]))
     f.SetSheetname(c["sheetname"])
     f.SetSheetfile(c["sheetfile"])
+    f.SetDNP(c["dnp"])
     for k, v in c["fields"].items():
         if k in ("Reference", "Value", "Footprint"):
             continue
