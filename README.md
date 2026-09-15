@@ -20,16 +20,17 @@ clean and modern — current KiCad, QMK, USB-C and parts that can actually be
 bought. A case, lighting or layout variants build on this core instead of
 bending it into something else.
 
-> **Status: early.** The key matrix is generated and every switch has its final
-> footprint. The controller, the breakaway line, board outline and routing are
-> still to do. Nothing has been manufactured yet.
+> **Status: early.** The schematic is complete — key matrix, ANSI alternatives,
+> backlight and controller — and every part has its footprint on the PCB.
+> Placement, the breakaway line, board outline and routing are still to do.
+> Nothing has been manufactured yet.
 
 ## Full-size or TKL
 
 - The numpad sits on the right-hand side, joined to the rest of the board by a
   row of mouse bites (perforated breakaway tabs).
-- Controller, USB-C, backlight driver and lock indicators all sit on the TKL
-  part. Only the numpad's matrix and backlight lines cross the breakaway line.
+- Controller, USB-C and the drivers for backlight and lock indicators all sit
+  on the TKL part. Only the numpad's matrix and backlight lines cross the breakaway line.
 - Snap the numpad off and the TKL keeps working unchanged — the numpad keys are
   simply gone. The firmware describes both layouts.
 - The snapped-off numpad has no controller of its own and does not work on its
@@ -40,21 +41,29 @@ bending it into something else.
 - Full-size: 105 keys ISO-DE, key field 428.6 × 123.8 mm (22.5 × 6.5 u)
 - TKL: 88 keys ISO-DE, key field 347.7 × 123.8 mm (18.25 × 6.5 u)
 - ISO-DE and ANSI on one PCB: alternative positions for Enter, left Shift and
-  backslash
+  backslash (the ANSI backslash is the only key without an LED)
 - Cherry MX-compatible switches, soldered, with stabilizer holes on all keys of
   2u and wider
 - 6 × 21 diode matrix (SOD-123)
-- RP2040 controller, USB-C
+- RP2040 controller with 16 Mbit QSPI flash, RESET and BOOTSEL buttons and SWD
+  test pads
+- USB-C (USB 2.0) with ESD protection, 500 mA polyfuse and a 3.3 V LDO
 - Single-colour backlight: resistors and MOSFET on the board, the LEDs themselves
   are optional — switched, dimmed and "breathing" via QMK
-- Caps Lock and Num Lock indicators
+- Caps Lock and Num Lock indicators: the LEDs in those two keys
+- All 30 RP2040 GPIOs in use: 27 matrix lines, backlight PWM, Caps Lock and
+  Num Lock
 
 ## Repository
 
 | Path | Contents |
 |---|---|
-| `convertible-keyboard-pcb.kicad_pro` / `.kicad_sch` / `.kicad_pcb` | KiCad 10 project |
-| `fp-lib-table` | Project footprint library table |
+| `convertible-keyboard-pcb.kicad_pro` / `.kicad_pcb` | KiCad 10 project and PCB |
+| `convertible-keyboard-pcb.kicad_sch` | Root sheet: key matrix and ANSI alternatives |
+| `backlight.kicad_sch` | Key LEDs, series resistors and MOSFET drivers |
+| `mcu.kicad_sch` | RP2040, flash, crystal, USB-C and power |
+| `lib/keyboard.kicad_sym`, `lib/keyboard.pretty` | Project symbol (switch with LED) and footprint |
+| `sym-lib-table`, `fp-lib-table` | Project library tables |
 | `lib/MX_Alps_Hybrid` | Switch footprints by ai03 (git submodule) |
 
 The footprints come from a submodule, so clone with:
@@ -67,15 +76,16 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 
 - [x] Key matrix and diodes
 - [x] Footprints for all key sizes
-- [ ] ANSI alternative positions
-- [ ] Single-colour backlight
-- [ ] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
+- [x] ANSI alternative positions
+- [x] Single-colour backlight
+- [x] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
 - [ ] Breakaway line for the numpad
 - [ ] Board outline and mounting holes (together with the case)
-- [ ] Routing, DRC, manufacturing files
+- [ ] Placement, routing, DRC, manufacturing files
 - [ ] Firmware (QMK) with full-size and TKL layouts
 
 ## Licence
 
 CC BY-NC-SA 4.0 — see [LICENSE](LICENSE). The switch footprints in
-`lib/MX_Alps_Hybrid` are by ai03 under the MIT License.
+`lib/MX_Alps_Hybrid` are by ai03 under the MIT License;
+`lib/keyboard.pretty/MXOnly-ISO-FLIPPED` is derived from them.
