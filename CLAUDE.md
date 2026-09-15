@@ -40,6 +40,11 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 - `mcu.kicad_sch`: U1 RP2040, U2 W25Q16JVSS, Y1 12 MHz (2× 15p, 1k an XOUT), U3 AP2112K-3.3, U4 USBLC6-2SC6,
   J1 USB-C HRO TYPE-C-31-M-12 (CC 5k1, Schirm 1M‖4n7), F1 Polyfuse 500 mA, R204/R205 27 Ω,
   SW201 RESET (RUN, 10k Pull-up), SW202 BOOTSEL (1k an QSPI_SS), TP1–TP4 SWCLK/SWDIO/RUN/GND.
+- Unified Daughterboard (Nutzerwunsch, beide Footprints): J2 Molex Pico-EZmate 78171-0004 (uDB S1/C4/C5-EZM),
+  J3 JST-SH SM04B-SRSS-TB (uDB C3/C5-JSH), beide DNP und parallel zu J1: Pin 1 VBUS, 2 D− (USB_CONN_DM),
+  3 D+ (USB_CONN_DP), 4 + MP GND. Belegung aus den KiCad-Quellen von UDB-S und UDB-C-JSH gelesen;
+  1:1-Kabel, also nie spiegeln. J1 USB-C ist standardmäßig bestückt – für ein Daughterboard J1 weglassen
+  und J2 oder J3 bestücken. Die uDBs haben eigenen ESD-/Überstromschutz.
 - Referenzen: SW/D/R 1–108 = Tasten, R121–R126 + Q1–Q3 = Treiber, x2xx/U1–U4/J1/F1/Y1/TP = MCU-Blatt.
 - Symbol `keyboard:SW_MX_LED` (lib/keyboard.kicad_sym): Einheit A = Schalter (Pins exakt wie SW_Push_45deg),
   Einheit B = LED, Pin 3 = Anode, Pin 4 = Kathode (Belegung der ai03-Footprints; KiCads SW_Push_LED ist umgekehrt!).
@@ -134,6 +139,10 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] Einfarbige Beleuchtung: LED-Footprints, Vorwiderstände, MOSFET-Treiber
 - [x] Lock-Anzeigen (0805): Num + Caps über dem Numpad (bestückt), Caps über BildAuf für die TKL (DNP)
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
+- [x] Unified-Daughterboard-Anschlüsse J2 (Pico-EZmate) + J3 (JST-SH), DNP; USB-C J1 bestückt
+- [ ] Entscheidung Tasten-LEDs: THT (aktuell) oder Reverse-Mount-SMD 1206
+      (`LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm`, eigene Schalter-Footprints nötig,
+      ISO/ANSI-Kollisionsprüfung neu) – Nutzer überlegt noch
 - [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (USB-C-Lage mit Gehäuse-Designer abstimmen)
 - [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock
 - [ ] Platinenumriss, Befestigungslöcher

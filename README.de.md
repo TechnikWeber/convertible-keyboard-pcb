@@ -10,7 +10,8 @@
 > Platinenumriss, Befestigungslöcher und die Lage der USB-C-Buchse stehen noch
 > nicht fest und können sich nach deinem Gehäuse richten — für die
 > Full-Size-Variante, die TKL oder beide. Dasselbe gilt für die genaue Position
-> der Lock-Anzeigen.
+> der Lock-Anzeigen. Die USB-Buchse kann auf der Platine sitzen oder auf einem
+> Unified Daughterboard (Pico-EZmate oder JST-SH).
 
 **Eine Tastaturplatine, zwei Größen.** Eine Full-Size-Platine für ISO-DE und
 ANSI, deren Ziffernblock sich an einer Sollbruchstelle abbrechen lässt. Übrig
@@ -55,7 +56,9 @@ diesem Kern auf, statt ihn zu verbiegen.
 - 6 × 21 Diodenmatrix (SOD-123)
 - RP2040 als Controller mit 16-Mbit-QSPI-Flash, RESET- und BOOTSEL-Taster und
   SWD-Testpads
-- USB-C (USB 2.0) mit ESD-Schutz, 500-mA-Polyfuse und 3,3-V-LDO
+- USB-C (USB 2.0) auf der Platine mit ESD-Schutz, 500-mA-Polyfuse und 3,3-V-LDO –
+  oder stattdessen ein Unified Daughterboard: Anschlüsse für Molex Pico-EZmate
+  (uDB S1, C4, C5-EZM) und JST-SH (uDB C3, C5-JSH) sind vorgesehen, nicht bestückt
 - Einfarbige Hintergrundbeleuchtung: Widerstände und MOSFET sind auf der Platine,
   die LEDs selbst sind optional — über QMK schaltbar, dimmbar und mit „Breathing“
 - Anzeige für Caps Lock und Num Lock (0805) über dem Ziffernblock; für die TKL ist

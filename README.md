@@ -8,7 +8,8 @@
 > please [open an issue](https://github.com/TechnikWeber/convertible-keyboard-pcb/issues).
 > Board outline, mounting holes and the USB-C position are not fixed yet, so they
 > can be shaped around your case design — for the full-size board, the TKL, or
-> both. The same goes for where exactly the lock indicators sit.
+> both. The same goes for where exactly the lock indicators sit. The USB port
+> can sit on the PCB or on a Unified Daughterboard (Pico-EZmate or JST-SH).
 
 **One keyboard PCB, two sizes.** A full-size ISO-DE / ANSI board whose numpad
 snaps off along a breakaway line. What remains is a complete tenkeyless (TKL)
@@ -50,7 +51,9 @@ bending it into something else.
 - 6 × 21 diode matrix (SOD-123)
 - RP2040 controller with 16 Mbit QSPI flash, RESET and BOOTSEL buttons and SWD
   test pads
-- USB-C (USB 2.0) with ESD protection, 500 mA polyfuse and a 3.3 V LDO
+- USB-C (USB 2.0) on the board with ESD protection, 500 mA polyfuse and a 3.3 V
+  LDO – or a Unified Daughterboard instead: connectors for Molex Pico-EZmate
+  (uDB S1, C4, C5-EZM) and JST-SH (uDB C3, C5-JSH) are provided, not populated
 - Single-colour backlight: resistors and MOSFET on the board, the LEDs themselves
   are optional — switched, dimmed and "breathing" via QMK
 - Caps Lock and Num Lock indicators (0805) above the numpad; for the TKL a Caps
