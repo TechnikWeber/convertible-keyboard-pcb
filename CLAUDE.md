@@ -122,8 +122,15 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°, LEDs bei (0, 5.08).
   Ausnahmen ISO/ANSI: D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°;
   R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
-- Lock-Anzeigen stehen an ihren Positionen. MCU-, USB-, Daughterboard- und Treiberbauteile liegen noch
-  unplatziert unterhalb der Tasten (y ≥ 175 mm).
+- Lock-Anzeigen stehen an ihren Positionen.
+- Vorläufige Platzierung (alles B.Cu, Feinschliff beim Routing):
+  - Esc/F1-Lücke (x 45–70): J1 USB-C (57,15 / 32,9, Öffnung zur Oberkante – Board-Oberkante muss dort an der
+    Buchse liegen), U4 ESD, R201/R202 CC, R203/C201 Schirm, R204/R205 27 Ω, F1 + C202, U3 LDO + C203,
+    J2 Pico-EZmate (51,5 / 56,5), J3 JST-SH (63,5 / 56,5).
+  - Streifen unter der F-Reihe (frei y 44,5–60,5): U2 Flash (79 / 52,5), U1 RP2040 (90 / 52,5, 270°: USB/QSPI
+    links, XIN rechts), Entkopplung C210–C221 in Reihen bei y 46,3 und 58,6 (Referenzen ausgeblendet),
+    Y1 + C204/C205 + R206 rechts davon, SW202 BOOTSEL (110), SW201 RESET (120,5), TP1–TP4 (127,5–135).
+  - F4/F5-Lücke: Q1/Q2/Q3 bei x 144 / 150,5 / 157,5 (y 48) mit Gate- und Pulldown-Widerständen darunter.
 
 ## Bekannter DRC-Stand
 
@@ -139,7 +146,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] Lock-Anzeigen (0805): Num + Caps über dem Numpad (bestückt), Caps über BildAuf für die TKL (DNP)
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
 - [x] Unified-Daughterboard-Anschlüsse J2 (Pico-EZmate) + J3 (JST-SH), DNP; USB-C J1 bestückt
-- [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (Plan: B.Cu im Streifen unter der F-Reihe, USB-C in der Esc/F1-Lücke)
+- [x] Vorläufige Platzierung MCU/USB/Treiber auf B.Cu (Esc/F1-Lücke, Streifen unter der F-Reihe, F4/F5-Lücke)
 - [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock
 - [ ] Platinenumriss, Befestigungslöcher
 - [ ] Routing, DRC, Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)

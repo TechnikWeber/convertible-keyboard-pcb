@@ -23,7 +23,8 @@ bending it into something else.
 
 > **Status: early.** The schematic is complete — key matrix, ANSI alternatives,
 > backlight and controller — and every part has its footprint on the PCB.
-> Placement, the breakaway line, board outline and routing are still to do.
+> Controller, USB and drivers are placed on the back; the breakaway line, board
+> outline and routing are still to do.
 > Nothing has been manufactured yet.
 
 ## Full-size or TKL
@@ -91,7 +92,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
 - [ ] Breakaway line for the numpad
 - [ ] Board outline and mounting holes (together with the case)
-- [ ] Placement, routing, DRC, manufacturing files
+- [x] Placement of controller, USB and drivers (preliminary)
+- [ ] Routing, DRC, manufacturing files
 - [ ] Firmware (QMK) with full-size and TKL layouts
 
 ## Licence

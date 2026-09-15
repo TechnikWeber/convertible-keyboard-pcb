@@ -26,8 +26,9 @@ diesem Kern auf, statt ihn zu verbiegen.
 
 > **Status: am Anfang.** Der Schaltplan ist vollständig — Tastenmatrix,
 > ANSI-Alternativen, Beleuchtung und Controller — und jedes Bauteil hat seinen
-> Footprint auf der Platine. Platzierung, Sollbruchstelle, Platinenumriss und
-> Routing fehlen noch. Gefertigt wurde bisher nichts.
+> Footprint auf der Platine; Controller, USB und Treiber sind auf der Rückseite
+> platziert. Sollbruchstelle, Platinenumriss und Routing fehlen noch. Gefertigt
+> wurde bisher nichts.
 
 ## Full-Size oder TKL
 
@@ -96,7 +97,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] Controller-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD-Schutz
 - [ ] Sollbruchstelle für den Ziffernblock
 - [ ] Platinenumriss und Befestigungslöcher (gemeinsam mit dem Gehäuse)
-- [ ] Platzierung, Routing, DRC, Fertigungsdaten
+- [x] Platzierung von Controller, USB und Treibern (vorläufig)
+- [ ] Routing, DRC, Fertigungsdaten
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
 
 ## Lizenz
