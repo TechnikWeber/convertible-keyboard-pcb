@@ -1,0 +1,41 @@
+keyboard-fullsize — License
+Copyright (c) 2026 Philipp Weber.
+
+This work is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0).
+
+  Human-readable summary : https://creativecommons.org/licenses/by-nc-sa/4.0/
+  Full legal text        : https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+================================================================================
+Kurzfassung (unverbindlich — es gilt der volle Lizenztext oben)
+================================================================================
+Du darfst die Tastatur nachbauen, verändern und veränderte Fassungen weitergeben —
+zum Beispiel eine angepasste Platine oder ein eigenes Gehäuse. Bedingungen: Du
+nennst die Quelle, nutzt es NICHT kommerziell und gibst Abwandlungen unter
+derselben Lizenz weiter (ShareAlike).
+
+Under CC BY-NC-SA 4.0 you are free to share (copy and redistribute) and adapt
+(remix, transform and build upon) the material, under these terms:
+  • Attribution   — give appropriate credit and indicate the license.
+  • NonCommercial — you may not use the material for commercial purposes.
+  • ShareAlike    — if you remix, transform, or build upon the material, you must
+                    distribute your contributions under the same license.
+
+================================================================================
+Notes
+================================================================================
+• Building your own: ordering boards from a PCB manufacturer to build a keyboard
+  for your own personal use is not commercial use.
+• Commercial licensing (for example selling PCBs, kits or finished keyboards)
+  requires the prior separate written permission of the copyright holder.
+• Third-party components: the switch footprints in lib/MX_Alps_Hybrid are by ai03
+  and licensed under the MIT License; the KiCad standard libraries are licensed
+  under their own terms. This license applies only to the original material
+  created by the copyright holder and does not modify or supersede those
+  third-party licenses.
+• No warranty: THE DESIGN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. It has
+  not been manufactured or tested yet. To the maximum extent permitted by law, the
+  copyright holder is not liable for any claim, damages, or other liability
+  arising from the design or its use.

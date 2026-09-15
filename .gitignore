@@ -3,4 +3,5 @@ fp-info-cache
 *.kicad_prl
 *.bak
 *~
+~*.lck
 .history/

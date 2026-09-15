@@ -2090,7 +2090,7 @@
 
 (property "Value" "SW_Push" (at 194.31 39.37 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-2U-NoLED" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -2596,7 +2596,7 @@
 
 (property "Value" "SW_Push" (at 29.21 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.5U-NoLED" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -3776,7 +3776,7 @@
 
 (property "Value" "SW_Push" (at 283.21 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers-NoLED" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -3838,7 +3838,7 @@
 
 (property "Value" "SW_Push" (at 29.21 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.75U-NoLED" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -4646,7 +4646,7 @@
 
 (property "Value" "SW_Push" (at 194.31 80.01 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-ISO-NoLED" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -4894,7 +4894,7 @@
 
 (property "Value" "SW_Push" (at 29.21 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -5640,7 +5640,7 @@
 
 (property "Value" "SW_Push" (at 181.61 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-2.75U-NoLED" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -5950,7 +5950,7 @@
 
 (property "Value" "SW_Push" (at 283.21 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers-NoLED" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6012,7 +6012,7 @@
 
 (property "Value" "SW_Push" (at 29.21 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6076,7 +6076,7 @@
 
 (property "Value" "SW_Push" (at 41.91 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6138,7 +6138,7 @@
 
 (property "Value" "SW_Push" (at 67.31 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6200,7 +6200,7 @@
 
 (property "Value" "SW_Push" (at 105.41 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-6.25U-NoLED" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6262,7 +6262,7 @@
 
 (property "Value" "SW_Push" (at 156.21 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6324,7 +6324,7 @@
 
 (property "Value" "SW_Push" (at 168.91 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6386,7 +6386,7 @@
 
 (property "Value" "SW_Push" (at 181.61 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6448,7 +6448,7 @@
 
 (property "Value" "SW_Push" (at 194.31 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
@@ -6696,7 +6696,7 @@
 
 (property "Value" "SW_Push" (at 245.11 120.65 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Footprint" "MX_Only:MXOnly-1U-NoLED" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+(property "Footprint" "MX_Only:MXOnly-2U-NoLED" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
 (property "Datasheet" "~" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
