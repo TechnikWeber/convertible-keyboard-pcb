@@ -646,13 +646,26 @@
       {
         "filename": "convertible-keyboard-pcb.kicad_sch",
         "name": "convertible-keyboard-pcb",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "adcd902f-6f68-4580-a98c-38219e33a0b5"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "adcd902f-6f68-4580-a98c-38219e33a0b5",
+      "convertible-keyboard-pcb"
+    ],
+    [
+      "2d35f0cd-4c43-5d93-9888-631758f327d7",
+      "Backlight"
+    ],
+    [
+      "bcf5f01f-5e1f-5c71-bea6-62dd32de86c5",
+      "MCU"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
