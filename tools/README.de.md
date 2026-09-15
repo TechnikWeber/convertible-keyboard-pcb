@@ -25,6 +25,7 @@ Repository, damit der Entwurf nachvollziehbar ist und man darauf aufbauen kann.
 | `sync_pcb.py` | Aktualisiert die Platine aus der Netzliste wie „PCB aus Schaltplan aktualisieren“: tauscht und ergänzt Footprints, setzt Dioden und LED-Widerstände neben ihren Schalter, verknüpft Footprints mit Symbolen, vergibt Netze, führt den DRC mit Schaltplan-Parität aus |
 | `place_override.json` | Dioden-/Widerstandspositionen, die von der Standardlage neben dem Schalter abweichen (ISO/ANSI-Kollisionen) |
 | `kicadlib.py` | Minimaler S-Expression-Parser/-Serializer und Hilfen für Symbolbibliotheken |
+| `led_variant.py smd\|tht` | Stellt die Tasten-LEDs in den aktuellen KiCad-Dateien zwischen Reverse-Mount-SMD (Standard) und THT um – nur die LED-Footprints ändern sich; führt ERC und DRC aus |
 | `analysis/` | Kollisionsprüfungen zwischen ISO- und ANSI-Footprints, aus denen der gedrehte, unbeleuchtete ANSI-Backslash und die gespiegelten LED-Pads folgen |
 
 ## Verwendung

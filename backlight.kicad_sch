@@ -1032,312 +1032,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keyboard:SW_MX_LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MX_LED"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MX key switch with in-switch LED. Unit A: switch, unit B: LED (pin 3 anode, pin 4 cathode - matches the ai03 MX_Only LED footprints)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch mx key led backlight"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MX_LED_1_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54)
-						(xy -1.524 1.524)
-						(xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54)
-						(xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016)
-						(xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524)
-						(xy 2.54 -2.54)
-						(xy 2.54 -2.54)
-						(xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MX_LED_2_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016)
-						(xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762)
-						(xy -0.508 1.27)
-						(xy -0.254 1.27)
-						(xy -0.508 1.27)
-						(xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27)
-						(xy 0 1.778)
-						(xy 0.254 1.778)
-						(xy 0 1.778)
-						(xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016)
-						(xy -0.762 0)
-						(xy 0.762 1.016)
-						(xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0)
-						(xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1656,7 +1350,7 @@
 		)
 		(uuid "93f0b6e3-e31a-525b-a69e-e582f9f92868")
 	)
-	(text "Backlight - every lit key has its own LED (unit B of the switch symbol) and series resistor.\nThe through-hole LEDs are optional; resistors and drivers are always populated.\nLED pin 3 = anode, pin 4 = cathode. 1k gives about 2 mA per white LED at 5 V.\nCaps Lock and Num Lock have separate 0805 indicator LEDs (bottom right).\nSW106 (ANSI backslash) has no LED."
+	(text "Backlight - every lit key has its own reverse-mount 1206 LED (LEDn, same number as the switch) and 1k series resistor.\nStandard: XINGLIGHT XL-3216UWC-FB, white (LCSC C3646935), on the back of the PCB, shining through the board into the switch's LED window.\nTHT variant: same schematic, only the LED footprint changes (lib/keyboard.pretty MX_LED_THT, _FLIPPED at LED71/76/107).\n1k gives about 1.6 mA per LED at 5 V (Vf 3.4 V). Caps Lock and Num Lock have separate 0805 indicator LEDs (bottom right).\nSW106 (ANSI backslash) has no LED."
 		(exclude_from_sim no)
 		(at 22.86 12.7 0)
 		(effects
@@ -5565,9 +5259,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5575,7 +5269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "024bf6df-288f-5e25-8f27-119f49f25ff9")
-		(property "Reference" "SW12"
+		(property "Reference" "LED12"
 			(at 364.49 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5585,7 +5279,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -5596,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -5629,23 +5323,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "50de8f32-ebb8-5175-8161-7240db64e1ce")
-		)
-		(pin "3"
-			(uuid "c575cf3d-a9af-5cfd-86fa-b8474dd1e50f")
+		(property "LCSC" "C3646935"
+			(at 358.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "d8460b4d-8e1e-400f-95e3-22fa9b8a7335")
+			(uuid "50de8f32-ebb8-5175-8161-7240db64e1ce")
 		)
 		(pin "2"
-			(uuid "e25fd6f3-a9c9-4481-87e8-aeb386dc038c")
+			(uuid "c575cf3d-a9af-5cfd-86fa-b8474dd1e50f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW12")
-					(unit 2)
+					(reference "LED12")
+					(unit 1)
 				)
 			)
 		)
@@ -5886,9 +5583,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5896,7 +5593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05cf8f2f-bc2f-580c-bdb5-d1e9b2e7614d")
-		(property "Reference" "SW32"
+		(property "Reference" "LED32"
 			(at 242.57 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5917,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5950,23 +5647,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "4c9c0136-a26c-50eb-8079-d1c1864fbeb1")
-		)
-		(pin "3"
-			(uuid "1cfa06e3-0f6c-5194-abe8-53ab05bbc0e5")
+		(property "LCSC" "C3646935"
+			(at 236.22 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e65a41e5-ca21-4d81-a622-2741c1b1817a")
+			(uuid "4c9c0136-a26c-50eb-8079-d1c1864fbeb1")
 		)
 		(pin "2"
-			(uuid "efba90d8-e399-42bc-b3c5-64e6cd06d779")
+			(uuid "1cfa06e3-0f6c-5194-abe8-53ab05bbc0e5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW32")
-					(unit 2)
+					(reference "LED32")
+					(unit 1)
 				)
 			)
 		)
@@ -6049,9 +5749,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6059,7 +5759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06d476e5-e1c0-501e-8f01-e32cf8634554")
-		(property "Reference" "SW15"
+		(property "Reference" "LED15"
 			(at 90.17 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -6080,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -6113,23 +5813,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "3c314e8e-98cb-52da-a792-6c940dd496c8")
-		)
-		(pin "3"
-			(uuid "3912333a-2013-58e5-ae18-c5275a026592")
+		(property "LCSC" "C3646935"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6ae78e9d-7612-4491-9008-689e3e95a6c3")
+			(uuid "3c314e8e-98cb-52da-a792-6c940dd496c8")
 		)
 		(pin "2"
-			(uuid "28f639e2-98bd-4ec8-bfbf-1186e99dbe9c")
+			(uuid "3912333a-2013-58e5-ae18-c5275a026592")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW15")
-					(unit 2)
+					(reference "LED15")
+					(unit 1)
 				)
 			)
 		)
@@ -6216,9 +5919,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6226,7 +5929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087d7ac1-89b1-5032-acab-a45d2af6df93")
-		(property "Reference" "SW46"
+		(property "Reference" "LED46"
 			(at 303.53 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +5950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6280,31 +5983,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "d3fe217b-a717-5835-87ea-765548d2a0b1")
-		)
-		(pin "3"
-			(uuid "43da0755-0850-51e5-afa3-8c75e98922e3")
+		(property "LCSC" "C3646935"
+			(at 297.18 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "85cddb39-ca16-4ef2-ae9b-0526b33ba7c2")
+			(uuid "d3fe217b-a717-5835-87ea-765548d2a0b1")
 		)
 		(pin "2"
-			(uuid "efaf504a-267a-4be3-b3b2-6bdd7d2eac5a")
+			(uuid "43da0755-0850-51e5-afa3-8c75e98922e3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW46")
-					(unit 2)
+					(reference "LED46")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6312,7 +6018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0936ed7b-d02d-5973-8f36-2a5cc866a497")
-		(property "Reference" "SW61"
+		(property "Reference" "LED61"
 			(at 29.21 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -6333,7 +6039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -6366,23 +6072,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "c92bb847-e063-5eb7-82df-e0304d98be51")
-		)
-		(pin "3"
-			(uuid "44d24247-2a82-5f1a-86cc-0aa8ddd45439")
+		(property "LCSC" "C3646935"
+			(at 22.86 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "d005d133-dfb9-4432-8922-b443cc192a7f")
+			(uuid "c92bb847-e063-5eb7-82df-e0304d98be51")
 		)
 		(pin "2"
-			(uuid "0857cbba-d268-4792-b13a-f8a2a96a40f0")
+			(uuid "44d24247-2a82-5f1a-86cc-0aa8ddd45439")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW61")
-					(unit 2)
+					(reference "LED61")
+					(unit 1)
 				)
 			)
 		)
@@ -6546,9 +6255,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6556,7 +6265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b27b142-096c-5809-9b0e-b616c5652d63")
-		(property "Reference" "SW47"
+		(property "Reference" "LED47"
 			(at 334.01 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6577,7 +6286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6610,23 +6319,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "81d11c54-780b-52c3-aafb-6b7e53c7bb47")
-		)
-		(pin "3"
-			(uuid "dfefac2d-53fc-5407-b802-b6cb2e348627")
+		(property "LCSC" "C3646935"
+			(at 327.66 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "0f06c851-e536-4767-937d-7b6971805487")
+			(uuid "81d11c54-780b-52c3-aafb-6b7e53c7bb47")
 		)
 		(pin "2"
-			(uuid "8c516ba7-b436-4770-832c-23918006de61")
+			(uuid "dfefac2d-53fc-5407-b802-b6cb2e348627")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW47")
-					(unit 2)
+					(reference "LED47")
+					(unit 1)
 				)
 			)
 		)
@@ -6713,9 +6425,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6723,7 +6435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cae957b-2317-5595-9900-d9f7830da604")
-		(property "Reference" "SW13"
+		(property "Reference" "LED13"
 			(at 29.21 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -6777,23 +6489,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "c622278b-c79c-53c6-adc5-738e8924ca05")
-		)
-		(pin "3"
-			(uuid "56f478c5-e23a-58d9-b658-a3ce18cdfa0b")
+		(property "LCSC" "C3646935"
+			(at 22.86 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "cd2413a5-cdd1-42ee-a4eb-36ca149cce95")
+			(uuid "c622278b-c79c-53c6-adc5-738e8924ca05")
 		)
 		(pin "2"
-			(uuid "df190037-59f5-47fa-8f69-156db6d9706e")
+			(uuid "56f478c5-e23a-58d9-b658-a3ce18cdfa0b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW13")
-					(unit 2)
+					(reference "LED13")
+					(unit 1)
 				)
 			)
 		)
@@ -7362,9 +7077,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7372,7 +7087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10ec95c9-0b84-55e2-9036-7e37a45bfc62")
-		(property "Reference" "SW60"
+		(property "Reference" "LED60"
 			(at 364.49 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7097,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -7393,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -7426,23 +7141,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "04944cc1-8fe6-5d0d-8d63-6d18550e2c1a")
-		)
-		(pin "3"
-			(uuid "9fbb9533-97f1-5d6a-9833-4a64038347e3")
+		(property "LCSC" "C3646935"
+			(at 358.14 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "bc77b0df-db11-483c-8f2c-43eea1262a83")
+			(uuid "04944cc1-8fe6-5d0d-8d63-6d18550e2c1a")
 		)
 		(pin "2"
-			(uuid "b049113a-d23a-4f30-98ea-960cf5477c37")
+			(uuid "9fbb9533-97f1-5d6a-9833-4a64038347e3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW60")
-					(unit 2)
+					(reference "LED60")
+					(unit 1)
 				)
 			)
 		)
@@ -7922,9 +7640,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7932,7 +7650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "139ac2e6-bcb6-5d3e-a980-08979f3ec399")
-		(property "Reference" "SW92"
+		(property "Reference" "LED92"
 			(at 242.57 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -7986,23 +7704,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "a51e69f7-b46f-5d8b-8251-4c94cd42e6d1")
-		)
-		(pin "3"
-			(uuid "2af5feff-fe86-5fac-a3f2-42907effb0c4")
+		(property "LCSC" "C3646935"
+			(at 236.22 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "64a3a1f6-ac1f-4a03-b323-5e81fddea277")
+			(uuid "a51e69f7-b46f-5d8b-8251-4c94cd42e6d1")
 		)
 		(pin "2"
-			(uuid "72df928a-0707-4de0-9788-43f9579835e6")
+			(uuid "2af5feff-fe86-5fac-a3f2-42907effb0c4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW92")
-					(unit 2)
+					(reference "LED92")
+					(unit 1)
 				)
 			)
 		)
@@ -8806,9 +8527,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8816,7 +8537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17df5fd6-9df8-50b3-885f-ea1cc3835e4e")
-		(property "Reference" "SW85"
+		(property "Reference" "LED85"
 			(at 29.21 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +8547,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -8870,31 +8591,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "052d3fba-ab04-524a-a5be-e76140dee6ef")
-		)
-		(pin "3"
-			(uuid "0e2333be-ce0a-5898-a256-7f144c2612da")
+		(property "LCSC" "C3646935"
+			(at 22.86 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "15ffaed3-95ab-46ba-87f5-ab4f40ab7ca0")
+			(uuid "052d3fba-ab04-524a-a5be-e76140dee6ef")
 		)
 		(pin "2"
-			(uuid "5d513950-3a47-4403-96cf-7215e04d5212")
+			(uuid "0e2333be-ce0a-5898-a256-7f144c2612da")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW85")
-					(unit 2)
+					(reference "LED85")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8902,7 +8626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18931eb0-89f6-5bab-b74d-580a15ce6c9f")
-		(property "Reference" "SW50"
+		(property "Reference" "LED50"
 			(at 59.69 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8912,7 +8636,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +8647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -8956,23 +8680,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "5c34751c-2474-57e3-a4eb-7f5a93462a8f")
-		)
-		(pin "3"
-			(uuid "62b716cc-afa6-5e86-811e-bde051e86491")
+		(property "LCSC" "C3646935"
+			(at 53.34 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "649dd53d-5123-4c79-9b95-5a2a14de55aa")
+			(uuid "5c34751c-2474-57e3-a4eb-7f5a93462a8f")
 		)
 		(pin "2"
-			(uuid "c71e25a9-dee2-4313-8868-c8deb8a37670")
+			(uuid "62b716cc-afa6-5e86-811e-bde051e86491")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW50")
-					(unit 2)
+					(reference "LED50")
+					(unit 1)
 				)
 			)
 		)
@@ -9298,9 +9025,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9308,7 +9035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d043377-15dc-52ea-be83-9d7d1dafce25")
-		(property "Reference" "SW64"
+		(property "Reference" "LED64"
 			(at 120.65 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9045,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9329,7 +9056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9362,23 +9089,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "484ce1cc-c890-5398-a8d9-ccbca170685b")
-		)
-		(pin "3"
-			(uuid "de701a2f-54d1-57de-b357-d4d764697466")
+		(property "LCSC" "C3646935"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7c73e6fa-af16-4e21-b2cc-a28396184949")
+			(uuid "484ce1cc-c890-5398-a8d9-ccbca170685b")
 		)
 		(pin "2"
-			(uuid "2f2e420c-b687-4762-a6b4-04aad2db1ba8")
+			(uuid "de701a2f-54d1-57de-b357-d4d764697466")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW64")
-					(unit 2)
+					(reference "LED64")
+					(unit 1)
 				)
 			)
 		)
@@ -9542,9 +9272,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9552,7 +9282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e919a27-7dcf-5ec6-880c-7d203ba6a7d9")
-		(property "Reference" "SW63"
+		(property "Reference" "LED63"
 			(at 90.17 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,7 +9292,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +9303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9606,23 +9336,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "8d7feb4a-4d2f-5c2d-849d-7bf80df2595b")
-		)
-		(pin "3"
-			(uuid "240b0133-5801-521a-b82b-1b4cd65c48a2")
+		(property "LCSC" "C3646935"
+			(at 83.82 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "ce5fb909-b77b-4faf-93f7-f675405c9a4f")
+			(uuid "8d7feb4a-4d2f-5c2d-849d-7bf80df2595b")
 		)
 		(pin "2"
-			(uuid "b52afc95-7fa0-4c30-a126-dcc39442d90e")
+			(uuid "240b0133-5801-521a-b82b-1b4cd65c48a2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW63")
-					(unit 2)
+					(reference "LED63")
+					(unit 1)
 				)
 			)
 		)
@@ -10114,9 +9847,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10124,7 +9857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "259eb63f-b512-5f08-aba6-d539735c3e18")
-		(property "Reference" "SW26"
+		(property "Reference" "LED26"
 			(at 59.69 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -10145,7 +9878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -10178,23 +9911,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "2bf66fa8-d32d-5bca-ab38-ff6cef2d838e")
-		)
-		(pin "3"
-			(uuid "9536d1cc-6baf-5604-882f-bc0585931ad2")
+		(property "LCSC" "C3646935"
+			(at 53.34 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "59082f5f-c038-4d18-96d4-c1956ca9f45d")
+			(uuid "2bf66fa8-d32d-5bca-ab38-ff6cef2d838e")
 		)
 		(pin "2"
-			(uuid "e9924251-1b35-445a-8340-c6fb9cac6182")
+			(uuid "9536d1cc-6baf-5604-882f-bc0585931ad2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW26")
-					(unit 2)
+					(reference "LED26")
+					(unit 1)
 				)
 			)
 		)
@@ -10281,9 +10017,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10291,7 +10027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27bbbf47-3657-5851-ac6f-90388d60ee67")
-		(property "Reference" "SW101"
+		(property "Reference" "LED101"
 			(at 151.13 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -10345,23 +10081,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "e19f0ce8-1d0b-5bed-b405-5ee463bc35b1")
-		)
-		(pin "3"
-			(uuid "09eacc57-0a7b-548d-812c-2cddaaeb431c")
+		(property "LCSC" "C3646935"
+			(at 144.78 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "aff191d4-ca16-42d7-8577-73e6c7695a51")
+			(uuid "e19f0ce8-1d0b-5bed-b405-5ee463bc35b1")
 		)
 		(pin "2"
-			(uuid "b972ec65-7a10-4ff4-9ccd-55d6a5a559b8")
+			(uuid "09eacc57-0a7b-548d-812c-2cddaaeb431c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW101")
-					(unit 2)
+					(reference "LED101")
+					(unit 1)
 				)
 			)
 		)
@@ -10525,9 +10264,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10535,7 +10274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f54def-5d8b-5238-8384-de3a31f6d967")
-		(property "Reference" "SW69"
+		(property "Reference" "LED69"
 			(at 273.05 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10284,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -10556,7 +10295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -10589,23 +10328,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "2a6410ee-cc59-5ebc-86f6-41db4fbc22e1")
-		)
-		(pin "3"
-			(uuid "a0490b8b-be7c-5fd0-a9d7-13ee9965ce94")
+		(property "LCSC" "C3646935"
+			(at 266.7 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "49d6bdaa-dc2f-470b-8737-d7d4c580c5a1")
+			(uuid "2a6410ee-cc59-5ebc-86f6-41db4fbc22e1")
 		)
 		(pin "2"
-			(uuid "abc98dc5-2987-4c06-bbc9-7e8f09be1810")
+			(uuid "a0490b8b-be7c-5fd0-a9d7-13ee9965ce94")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW69")
-					(unit 2)
+					(reference "LED69")
+					(unit 1)
 				)
 			)
 		)
@@ -11017,9 +10759,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11027,7 +10769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c1541ab-eddf-5673-be65-f68c93021d71")
-		(property "Reference" "SW55"
+		(property "Reference" "LED55"
 			(at 212.09 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +10779,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -11048,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -11081,23 +10823,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "213beb0b-cdf7-546e-bd71-c1b4d6e14330")
-		)
-		(pin "3"
-			(uuid "43db2228-abce-584a-bd8a-f7673be10773")
+		(property "LCSC" "C3646935"
+			(at 205.74 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "34d3edee-b801-48a9-956a-8b30ef486b7f")
+			(uuid "213beb0b-cdf7-546e-bd71-c1b4d6e14330")
 		)
 		(pin "2"
-			(uuid "79cf3f66-1beb-41e2-8f40-3e1b23c0696b")
+			(uuid "43db2228-abce-584a-bd8a-f7673be10773")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW55")
-					(unit 2)
+					(reference "LED55")
+					(unit 1)
 				)
 			)
 		)
@@ -11492,9 +11237,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11502,7 +11247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32ed2947-06e8-504f-984e-95ab5c5a4789")
-		(property "Reference" "SW73"
+		(property "Reference" "LED73"
 			(at 29.21 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -11523,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -11556,23 +11301,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "31e6ae91-fc36-5b86-a067-4b809efdea20")
-		)
-		(pin "3"
-			(uuid "13605a3a-da49-503a-82aa-fa25481eadf8")
+		(property "LCSC" "C3646935"
+			(at 22.86 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "869eb736-c765-48ce-8782-c538d3f5c38a")
+			(uuid "31e6ae91-fc36-5b86-a067-4b809efdea20")
 		)
 		(pin "2"
-			(uuid "79cbc1fd-e794-45f1-b846-d3f96313b48d")
+			(uuid "13605a3a-da49-503a-82aa-fa25481eadf8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW73")
-					(unit 2)
+					(reference "LED73")
+					(unit 1)
 				)
 			)
 		)
@@ -12048,9 +11796,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12058,7 +11806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35fdb91f-c74a-5a1c-9014-369d92783875")
-		(property "Reference" "SW11"
+		(property "Reference" "LED11"
 			(at 334.01 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +11816,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -12079,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -12112,23 +11860,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "217128e6-2bb4-564a-934b-21d310d9e7e1")
-		)
-		(pin "3"
-			(uuid "efc3491f-e312-5a8b-90bd-8b4001b64983")
+		(property "LCSC" "C3646935"
+			(at 327.66 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "816e172a-a5e6-41c5-9a2b-cd7641bf6548")
+			(uuid "217128e6-2bb4-564a-934b-21d310d9e7e1")
 		)
 		(pin "2"
-			(uuid "76d63c43-179b-4d31-9906-794d88a86726")
+			(uuid "efc3491f-e312-5a8b-90bd-8b4001b64983")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW11")
-					(unit 2)
+					(reference "LED11")
+					(unit 1)
 				)
 			)
 		)
@@ -12292,9 +12043,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12302,7 +12053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "388f5658-5dd5-59a9-be48-89143ea5a033")
-		(property "Reference" "SW35"
+		(property "Reference" "LED35"
 			(at 334.01 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12312,7 +12063,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -12323,7 +12074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -12356,23 +12107,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f57423c6-2f05-507a-be25-a3fa342e5d16")
-		)
-		(pin "3"
-			(uuid "dac368e7-ee6a-549a-9663-15c5fb442981")
+		(property "LCSC" "C3646935"
+			(at 327.66 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "33c575a6-67ab-4f0f-ba74-ee71b627a697")
+			(uuid "f57423c6-2f05-507a-be25-a3fa342e5d16")
 		)
 		(pin "2"
-			(uuid "0e7535ac-cb11-4b88-8321-1ce7d46f67e8")
+			(uuid "dac368e7-ee6a-549a-9663-15c5fb442981")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW35")
-					(unit 2)
+					(reference "LED35")
+					(unit 1)
 				)
 			)
 		)
@@ -12455,9 +12209,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12465,7 +12219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "391c4df7-1985-5680-ae84-45e654158247")
-		(property "Reference" "SW27"
+		(property "Reference" "LED27"
 			(at 90.17 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -12486,7 +12240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -12519,23 +12273,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "b0d12f0d-9f72-59bc-a2d6-a3ea8bf3bf34")
-		)
-		(pin "3"
-			(uuid "d55bfd67-0e52-5149-a2c9-86decf8d14d7")
+		(property "LCSC" "C3646935"
+			(at 83.82 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6a01a261-dfe4-4783-a54d-5f401573d2b0")
+			(uuid "b0d12f0d-9f72-59bc-a2d6-a3ea8bf3bf34")
 		)
 		(pin "2"
-			(uuid "39a16988-1b3b-4b45-a691-2fb913a11b4b")
+			(uuid "d55bfd67-0e52-5149-a2c9-86decf8d14d7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW27")
-					(unit 2)
+					(reference "LED27")
+					(unit 1)
 				)
 			)
 		)
@@ -12699,9 +12456,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12709,7 +12466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39e49ce6-33f4-50ba-b5d6-93de89ac4ec8")
-		(property "Reference" "SW89"
+		(property "Reference" "LED89"
 			(at 151.13 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12719,7 +12476,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -12730,7 +12487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -12763,23 +12520,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f379c122-d527-51a9-83a7-e13a497e53d0")
-		)
-		(pin "3"
-			(uuid "b340efb2-1e11-5479-90a3-652961bad7e5")
+		(property "LCSC" "C3646935"
+			(at 144.78 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f416f0e4-4862-4e6e-bed6-e5f5aa1c23d4")
+			(uuid "f379c122-d527-51a9-83a7-e13a497e53d0")
 		)
 		(pin "2"
-			(uuid "af1fbd47-c60a-4ff2-b2fd-fc939492ddb3")
+			(uuid "b340efb2-1e11-5479-90a3-652961bad7e5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW89")
-					(unit 2)
+					(reference "LED89")
+					(unit 1)
 				)
 			)
 		)
@@ -13020,9 +12780,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13030,7 +12790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d1e7cc8-5503-5d3d-8117-cca6d3e879ee")
-		(property "Reference" "SW42"
+		(property "Reference" "LED42"
 			(at 181.61 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13040,7 +12800,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -13051,7 +12811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -13084,23 +12844,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "04e93061-6dc8-56ad-8713-75d7ba387599")
-		)
-		(pin "3"
-			(uuid "46733632-87ae-5f80-b9d9-fa28759cfc8f")
+		(property "LCSC" "C3646935"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "00729e7d-4309-4f43-a5a7-ee2f75ab1609")
+			(uuid "04e93061-6dc8-56ad-8713-75d7ba387599")
 		)
 		(pin "2"
-			(uuid "5e6b0628-f3ad-46dc-ae49-d8816aad8e4f")
+			(uuid "46733632-87ae-5f80-b9d9-fa28759cfc8f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW42")
-					(unit 2)
+					(reference "LED42")
+					(unit 1)
 				)
 			)
 		)
@@ -13345,9 +13108,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13355,7 +13118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40bf71b3-ada1-54eb-8d64-eff78d517a2b")
-		(property "Reference" "SW36"
+		(property "Reference" "LED36"
 			(at 364.49 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13365,7 +13128,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -13376,7 +13139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -13409,23 +13172,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "3ab7e0aa-b55d-50b1-b6d5-525a4d6faf82")
-		)
-		(pin "3"
-			(uuid "2ab5a325-7c0c-5ef9-a6c7-b5fd77cca98f")
+		(property "LCSC" "C3646935"
+			(at 358.14 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f1262a07-7757-4b57-868a-6d75a81885ba")
+			(uuid "3ab7e0aa-b55d-50b1-b6d5-525a4d6faf82")
 		)
 		(pin "2"
-			(uuid "4ba0a12c-7e8a-4e73-a9b1-75a8f11e21f5")
+			(uuid "2ab5a325-7c0c-5ef9-a6c7-b5fd77cca98f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW36")
-					(unit 2)
+					(reference "LED36")
+					(unit 1)
 				)
 			)
 		)
@@ -13666,9 +13432,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13676,7 +13442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44572303-06c2-529b-a928-1e290f4db840")
-		(property "Reference" "SW54"
+		(property "Reference" "LED54"
 			(at 181.61 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13686,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -13697,7 +13463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -13730,31 +13496,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "9e938954-9be3-5ae9-9b44-aa7d5cd1a1ed")
-		)
-		(pin "3"
-			(uuid "74ec2531-915f-5de1-8978-f9de38285f39")
+		(property "LCSC" "C3646935"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8b17d733-c51a-4f1c-bbcc-10195d991be5")
+			(uuid "9e938954-9be3-5ae9-9b44-aa7d5cd1a1ed")
 		)
 		(pin "2"
-			(uuid "ad6f6fc1-4f72-45a5-b2af-ff17fb028cc8")
+			(uuid "74ec2531-915f-5de1-8978-f9de38285f39")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW54")
-					(unit 2)
+					(reference "LED54")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13762,7 +13531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44d20d4d-7893-5510-886c-125f6dd91c84")
-		(property "Reference" "SW1"
+		(property "Reference" "LED1"
 			(at 29.21 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +13541,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -13783,7 +13552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -13816,23 +13585,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "51df3a06-6579-560e-b3a1-5c05eea8ab31")
-		)
-		(pin "3"
-			(uuid "fd50bde8-3e6b-5eb9-9f94-e6fc448996fc")
+		(property "LCSC" "C3646935"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1cc2681f-5cf3-434d-8010-090233a99b38")
+			(uuid "51df3a06-6579-560e-b3a1-5c05eea8ab31")
 		)
 		(pin "2"
-			(uuid "e8facf20-8554-4ef9-af6c-979f8819aecb")
+			(uuid "fd50bde8-3e6b-5eb9-9f94-e6fc448996fc")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW1")
-					(unit 2)
+					(reference "LED1")
+					(unit 1)
 				)
 			)
 		)
@@ -14073,9 +13845,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14083,7 +13855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47f2708e-a7e6-59d0-9859-e2ba2dcc9f62")
-		(property "Reference" "SW44"
+		(property "Reference" "LED44"
 			(at 242.57 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14093,7 +13865,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -14104,7 +13876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -14137,23 +13909,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "d224d028-f2c0-5094-be1a-de179dfb2644")
-		)
-		(pin "3"
-			(uuid "9542b315-399a-56ab-99e1-46d80db5768b")
+		(property "LCSC" "C3646935"
+			(at 236.22 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8fc8515d-e5dc-4acb-8db0-7f6d0510af61")
+			(uuid "d224d028-f2c0-5094-be1a-de179dfb2644")
 		)
 		(pin "2"
-			(uuid "b52d72b8-52c8-4d32-b8b9-8072a51d60e4")
+			(uuid "9542b315-399a-56ab-99e1-46d80db5768b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW44")
-					(unit 2)
+					(reference "LED44")
+					(unit 1)
 				)
 			)
 		)
@@ -14398,9 +14173,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14408,7 +14183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a91f05f-5263-5197-a119-3a04f73a6d23")
-		(property "Reference" "SW38"
+		(property "Reference" "LED38"
 			(at 59.69 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,7 +14193,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -14429,7 +14204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.5U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -14462,23 +14237,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "c543d805-5f48-5763-9546-0dbd2efcc030")
-		)
-		(pin "3"
-			(uuid "1c11a156-cbbf-58ea-be65-2e1a524f55b7")
+		(property "LCSC" "C3646935"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e77c708d-bc3a-49b7-8596-969a8a37f2e4")
+			(uuid "c543d805-5f48-5763-9546-0dbd2efcc030")
 		)
 		(pin "2"
-			(uuid "34d137bb-9f79-4532-9143-1f46f8ff1823")
+			(uuid "1c11a156-cbbf-58ea-be65-2e1a524f55b7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW38")
-					(unit 2)
+					(reference "LED38")
+					(unit 1)
 				)
 			)
 		)
@@ -14723,9 +14501,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14733,7 +14511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c0f56a1-7f3d-5c71-95cc-9d4c9dd55361")
-		(property "Reference" "SW107"
+		(property "Reference" "LED107"
 			(at 303.53 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14743,7 +14521,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -14754,7 +14532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.25U-FLIPPED"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -14787,31 +14565,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "28bee587-b7d2-5aa6-bc8b-bdff26a99fac")
-		)
-		(pin "3"
-			(uuid "1e95cf16-9b95-50b5-b15a-aa483c62b59f")
+		(property "LCSC" "C3646935"
+			(at 297.18 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "0325b395-e652-4c53-8bb5-3d1ab2edead6")
+			(uuid "28bee587-b7d2-5aa6-bc8b-bdff26a99fac")
 		)
 		(pin "2"
-			(uuid "b501a242-06df-4f46-b936-1b5164bc678d")
+			(uuid "1e95cf16-9b95-50b5-b15a-aa483c62b59f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW107")
-					(unit 2)
+					(reference "LED107")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14819,7 +14600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dbf1f7d-eff2-5b45-b35d-e778f2aa58ed")
-		(property "Reference" "SW57"
+		(property "Reference" "LED57"
 			(at 273.05 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,7 +14610,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -14840,7 +14621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -14873,23 +14654,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "96e1bc0e-8d54-5a9f-bcc4-b3e805a4b15b")
-		)
-		(pin "3"
-			(uuid "8d33ad9f-138e-5214-bab2-7cbfe8bbf7ed")
+		(property "LCSC" "C3646935"
+			(at 266.7 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "bf105d4a-d19d-44e4-b208-45302b2c587d")
+			(uuid "96e1bc0e-8d54-5a9f-bcc4-b3e805a4b15b")
 		)
 		(pin "2"
-			(uuid "396b41ca-bbb6-4869-a454-7885d9caef2a")
+			(uuid "8d33ad9f-138e-5214-bab2-7cbfe8bbf7ed")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW57")
-					(unit 2)
+					(reference "LED57")
+					(unit 1)
 				)
 			)
 		)
@@ -14972,9 +14756,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14982,7 +14766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e6d55c8-ca70-522c-b6a7-f148498cd7f7")
-		(property "Reference" "SW31"
+		(property "Reference" "LED31"
 			(at 212.09 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14992,7 +14776,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -15003,7 +14787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -15036,31 +14820,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "bdb3299a-ca33-5058-bc0e-fcb2b16f6d20")
-		)
-		(pin "3"
-			(uuid "0d8cb9fb-8657-54f3-aa08-6fec3c79fc8d")
+		(property "LCSC" "C3646935"
+			(at 205.74 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "37cda492-42f6-49e0-a18d-e73327ba4a45")
+			(uuid "bdb3299a-ca33-5058-bc0e-fcb2b16f6d20")
 		)
 		(pin "2"
-			(uuid "daf9155a-df11-40fa-9cd4-3cacf633489e")
+			(uuid "0d8cb9fb-8657-54f3-aa08-6fec3c79fc8d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW31")
-					(unit 2)
+					(reference "LED31")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15068,7 +14855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ebe7a5f-f156-5845-8745-0d7007d46c2e")
-		(property "Reference" "SW6"
+		(property "Reference" "LED6"
 			(at 181.61 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15078,7 +14865,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -15089,7 +14876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -15122,31 +14909,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "474ae947-2e5a-5bb5-b91d-a7c0e832a5d1")
-		)
-		(pin "3"
-			(uuid "25efdd55-a929-58b5-bff2-af9a4243f950")
+		(property "LCSC" "C3646935"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "a70859a1-7c8f-46ef-b1e5-6c007357b170")
+			(uuid "474ae947-2e5a-5bb5-b91d-a7c0e832a5d1")
 		)
 		(pin "2"
-			(uuid "02aa99e4-6645-48ee-993d-326c519fa803")
+			(uuid "25efdd55-a929-58b5-bff2-af9a4243f950")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW6")
-					(unit 2)
+					(reference "LED6")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15154,7 +14944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4eeb1d64-0504-5a3d-b496-2977414451af")
-		(property "Reference" "SW25"
+		(property "Reference" "LED25"
 			(at 29.21 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15164,7 +14954,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -15175,7 +14965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -15208,23 +14998,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "9725653c-b164-5a08-9abb-8f9fd072fce0")
-		)
-		(pin "3"
-			(uuid "7c0c6197-f9ba-5359-b936-57ba70e2385d")
+		(property "LCSC" "C3646935"
+			(at 22.86 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6b65e408-6563-48d8-939e-861f25e61fb9")
+			(uuid "9725653c-b164-5a08-9abb-8f9fd072fce0")
 		)
 		(pin "2"
-			(uuid "dacf4df3-7033-493f-a980-3a4a60a18814")
+			(uuid "7c0c6197-f9ba-5359-b936-57ba70e2385d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW25")
-					(unit 2)
+					(reference "LED25")
+					(unit 1)
 				)
 			)
 		)
@@ -15542,9 +15335,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15552,7 +15345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53c46540-5168-55e4-a23b-e672b84d70c7")
-		(property "Reference" "SW86"
+		(property "Reference" "LED86"
 			(at 59.69 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15562,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -15573,7 +15366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -15606,23 +15399,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "680c2f84-e811-5cff-a1e6-5f27ba56ee77")
-		)
-		(pin "3"
-			(uuid "42aeb281-56bb-538a-92f2-5b0346121fe6")
+		(property "LCSC" "C3646935"
+			(at 53.34 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "4166b723-9559-414b-96c6-8c2b19c3cfa7")
+			(uuid "680c2f84-e811-5cff-a1e6-5f27ba56ee77")
 		)
 		(pin "2"
-			(uuid "384adeaf-2e32-4e5c-be54-c4b35cb7ec4e")
+			(uuid "42aeb281-56bb-538a-92f2-5b0346121fe6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW86")
-					(unit 2)
+					(reference "LED86")
+					(unit 1)
 				)
 			)
 		)
@@ -15709,9 +15505,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15719,7 +15515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56799ddc-8c9a-540b-8202-cbc37f70f674")
-		(property "Reference" "SW79"
+		(property "Reference" "LED79"
 			(at 212.09 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15729,7 +15525,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -15740,7 +15536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -15773,23 +15569,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "7f6a2617-7c36-54d8-b9e1-ed73fb20db2c")
-		)
-		(pin "3"
-			(uuid "df0ec14c-19f2-516e-b5ee-05a5fbfb9a32")
+		(property "LCSC" "C3646935"
+			(at 205.74 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "bcc02053-c650-4a41-a901-868f96e5a77c")
+			(uuid "7f6a2617-7c36-54d8-b9e1-ed73fb20db2c")
 		)
 		(pin "2"
-			(uuid "0afb4757-9161-42db-9c83-0c434c3fc819")
+			(uuid "df0ec14c-19f2-516e-b5ee-05a5fbfb9a32")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW79")
-					(unit 2)
+					(reference "LED79")
+					(unit 1)
 				)
 			)
 		)
@@ -15953,9 +15752,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15963,7 +15762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a83948a-21de-54d5-852c-183c834d2f4e")
-		(property "Reference" "SW80"
+		(property "Reference" "LED80"
 			(at 242.57 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15973,7 +15772,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -15984,7 +15783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -16017,23 +15816,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "e95f9efe-ec82-5dbc-9f2e-303566fd12d4")
-		)
-		(pin "3"
-			(uuid "fe88f024-bfe5-5b1a-959c-7c487f6b5dde")
+		(property "LCSC" "C3646935"
+			(at 236.22 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "19ab76a4-f8e1-4650-8abf-58315bc17cc6")
+			(uuid "e95f9efe-ec82-5dbc-9f2e-303566fd12d4")
 		)
 		(pin "2"
-			(uuid "ff816170-1c34-4347-967c-1e06a0adf341")
+			(uuid "fe88f024-bfe5-5b1a-959c-7c487f6b5dde")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW80")
-					(unit 2)
+					(reference "LED80")
+					(unit 1)
 				)
 			)
 		)
@@ -16201,9 +16003,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16211,7 +16013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf839a5-c76d-5f80-9059-769de730c9ba")
-		(property "Reference" "SW37"
+		(property "Reference" "LED37"
 			(at 29.21 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16221,7 +16023,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -16232,7 +16034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -16265,31 +16067,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1f7fe308-e33d-55e0-bbfe-aa4026178e7c")
-		)
-		(pin "3"
-			(uuid "b565d4cb-9131-5cfd-ae23-e4806c869195")
+		(property "LCSC" "C3646935"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "af617f4e-a6d1-4eb4-aed5-ea9883ed9691")
+			(uuid "1f7fe308-e33d-55e0-bbfe-aa4026178e7c")
 		)
 		(pin "2"
-			(uuid "ea748afe-f60e-4ccb-adb7-0be617d6b11a")
+			(uuid "b565d4cb-9131-5cfd-ae23-e4806c869195")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW37")
-					(unit 2)
+					(reference "LED37")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16297,7 +16102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5da714c2-fae9-5f19-857f-5a7494d48040")
-		(property "Reference" "SW56"
+		(property "Reference" "LED56"
 			(at 242.57 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16307,7 +16112,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -16318,7 +16123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -16351,23 +16156,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "717ae4a6-9724-5734-b878-b45d67d74ed7")
-		)
-		(pin "3"
-			(uuid "abb8c04e-082a-56b4-8cc8-5ce3404f48b6")
+		(property "LCSC" "C3646935"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f00cbed9-4c8a-4a73-aac2-ba66a5a7688a")
+			(uuid "717ae4a6-9724-5734-b878-b45d67d74ed7")
 		)
 		(pin "2"
-			(uuid "74630018-7102-4aa0-bed1-c6392f4d1661")
+			(uuid "abb8c04e-082a-56b4-8cc8-5ce3404f48b6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW56")
-					(unit 2)
+					(reference "LED56")
+					(unit 1)
 				)
 			)
 		)
@@ -16843,9 +16651,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16853,7 +16661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66809f5d-0ea1-552e-8ccd-49162237b65c")
-		(property "Reference" "SW14"
+		(property "Reference" "LED14"
 			(at 59.69 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16863,7 +16671,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -16874,7 +16682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -16907,23 +16715,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "91ddf5ec-a5e9-53d8-86aa-e19f1d62c1dd")
-		)
-		(pin "3"
-			(uuid "ca99e2dd-98f6-53ee-ad0b-62ebd1d28893")
+		(property "LCSC" "C3646935"
+			(at 53.34 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c4eba55f-11b5-4617-acd9-8193a983db99")
+			(uuid "91ddf5ec-a5e9-53d8-86aa-e19f1d62c1dd")
 		)
 		(pin "2"
-			(uuid "f1058d2e-7b8f-4e50-837f-a62389cc9d98")
+			(uuid "ca99e2dd-98f6-53ee-ad0b-62ebd1d28893")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW14")
-					(unit 2)
+					(reference "LED14")
+					(unit 1)
 				)
 			)
 		)
@@ -17166,9 +16977,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17176,7 +16987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6abc1d28-911d-5d06-a5fe-3d2fadc753bb")
-		(property "Reference" "SW84"
+		(property "Reference" "LED84"
 			(at 364.49 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17186,7 +16997,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -17197,7 +17008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -17230,23 +17041,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "b1e07ec9-2a1e-5b57-81ea-8e58c292658f")
-		)
-		(pin "3"
-			(uuid "4d8b22c0-916e-5941-a1f3-868ba323d1f0")
+		(property "LCSC" "C3646935"
+			(at 358.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6cc3f7b7-8210-4fad-af04-7d96db1c4c61")
+			(uuid "b1e07ec9-2a1e-5b57-81ea-8e58c292658f")
 		)
 		(pin "2"
-			(uuid "12c3c890-f04b-4a0d-8780-e001b6f60f46")
+			(uuid "4d8b22c0-916e-5941-a1f3-868ba323d1f0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW84")
-					(unit 2)
+					(reference "LED84")
+					(unit 1)
 				)
 			)
 		)
@@ -17414,9 +17228,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17424,7 +17238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ea05f71-a1e8-505e-a00b-cde2575ae991")
-		(property "Reference" "SW102"
+		(property "Reference" "LED102"
 			(at 181.61 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17434,7 +17248,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -17445,7 +17259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -17478,23 +17292,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "26215d09-3f11-58a2-8f2b-74792575d219")
-		)
-		(pin "3"
-			(uuid "407ab72f-863f-56c7-846b-1bc54cee1de7")
+		(property "LCSC" "C3646935"
+			(at 175.26 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b196edcc-0b7b-4ec8-840e-9fc95790cd6a")
+			(uuid "26215d09-3f11-58a2-8f2b-74792575d219")
 		)
 		(pin "2"
-			(uuid "36f7bc07-d39c-4f2f-8247-e5501f64d831")
+			(uuid "407ab72f-863f-56c7-846b-1bc54cee1de7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW102")
-					(unit 2)
+					(reference "LED102")
+					(unit 1)
 				)
 			)
 		)
@@ -17893,9 +17710,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17903,7 +17720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72adc513-a6a1-5693-9182-68698c4537ed")
-		(property "Reference" "SW94"
+		(property "Reference" "LED94"
 			(at 303.53 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17913,7 +17730,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -17924,7 +17741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -17957,31 +17774,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f6af9d91-1da7-5dca-8022-e38f8bf07411")
-		)
-		(pin "3"
-			(uuid "7e65a871-61ae-59c7-833d-019499136abd")
+		(property "LCSC" "C3646935"
+			(at 297.18 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "d331e63d-d994-4d27-bec8-b1ea51c57f80")
+			(uuid "f6af9d91-1da7-5dca-8022-e38f8bf07411")
 		)
 		(pin "2"
-			(uuid "7edac9ef-7f53-4526-a4d5-98ec22019cce")
+			(uuid "7e65a871-61ae-59c7-833d-019499136abd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW94")
-					(unit 2)
+					(reference "LED94")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17989,7 +17809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74fec839-5cad-5790-88df-986697386f22")
-		(property "Reference" "SW96"
+		(property "Reference" "LED96"
 			(at 364.49 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17999,7 +17819,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -18010,7 +17830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-6.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -18043,23 +17863,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "9cf077d4-f15d-52c9-a59a-5a7af5fe8cd6")
-		)
-		(pin "3"
-			(uuid "41da9e06-62e1-5968-ae35-3c63516b3921")
+		(property "LCSC" "C3646935"
+			(at 358.14 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "4c1d1c87-eea6-4bde-8c20-618c206899d8")
+			(uuid "9cf077d4-f15d-52c9-a59a-5a7af5fe8cd6")
 		)
 		(pin "2"
-			(uuid "24c17845-587a-4e53-9ad7-9dfdd2da1c37")
+			(uuid "41da9e06-62e1-5968-ae35-3c63516b3921")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW96")
-					(unit 2)
+					(reference "LED96")
+					(unit 1)
 				)
 			)
 		)
@@ -18223,9 +18046,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18233,7 +18056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79099e5e-32d5-5271-a011-0d6597d8f16e")
-		(property "Reference" "SW83"
+		(property "Reference" "LED83"
 			(at 334.01 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18243,7 +18066,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -18254,7 +18077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -18287,23 +18110,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "6ca70f0a-52e0-5eee-accd-19921755fe88")
-		)
-		(pin "3"
-			(uuid "146c95f9-7bde-51d8-8198-7df79490c1e0")
+		(property "LCSC" "C3646935"
+			(at 327.66 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "949200af-8832-4100-afd9-a2c7d46fdafe")
+			(uuid "6ca70f0a-52e0-5eee-accd-19921755fe88")
 		)
 		(pin "2"
-			(uuid "446233b4-4043-4120-b55e-7012e7fafdb3")
+			(uuid "146c95f9-7bde-51d8-8198-7df79490c1e0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW83")
-					(unit 2)
+					(reference "LED83")
+					(unit 1)
 				)
 			)
 		)
@@ -18471,9 +18297,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18481,7 +18307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a855919-6136-5700-b8aa-a9f7c0d8a6b1")
-		(property "Reference" "SW66"
+		(property "Reference" "LED66"
 			(at 181.61 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18491,7 +18317,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -18502,7 +18328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -18535,23 +18361,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "2fce5fdd-3fad-5ff2-9c5e-7add2e5b0d21")
-		)
-		(pin "3"
-			(uuid "a701eae5-90ab-5ad2-a9aa-89bfd82a7196")
+		(property "LCSC" "C3646935"
+			(at 175.26 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "71e53049-a8af-4f32-bd18-8cf0adadc3b2")
+			(uuid "2fce5fdd-3fad-5ff2-9c5e-7add2e5b0d21")
 		)
 		(pin "2"
-			(uuid "c75db4b2-2341-4b35-914c-b1c03d1fc8b9")
+			(uuid "a701eae5-90ab-5ad2-a9aa-89bfd82a7196")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW66")
-					(unit 2)
+					(reference "LED66")
+					(unit 1)
 				)
 			)
 		)
@@ -18954,9 +18783,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18964,7 +18793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f2d8853-3cfc-5c92-bd4b-56ccc10d3ef2")
-		(property "Reference" "SW75"
+		(property "Reference" "LED75"
 			(at 90.17 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18974,7 +18803,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -18985,7 +18814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -19018,23 +18847,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "daa86285-009f-5cf4-92a2-2acda4e7ad79")
-		)
-		(pin "3"
-			(uuid "0d44ef5c-a339-5871-b2c6-65950f8cef25")
+		(property "LCSC" "C3646935"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "d18b2fb2-2533-467b-b785-eb36bbae458b")
+			(uuid "daa86285-009f-5cf4-92a2-2acda4e7ad79")
 		)
 		(pin "2"
-			(uuid "b9746d0a-e3c1-4fa4-bb02-0dca7e647c54")
+			(uuid "0d44ef5c-a339-5871-b2c6-65950f8cef25")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW75")
-					(unit 2)
+					(reference "LED75")
+					(unit 1)
 				)
 			)
 		)
@@ -19587,9 +19419,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19597,7 +19429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82db3325-00f1-5d41-b960-38cfc9f3094f")
-		(property "Reference" "SW72"
+		(property "Reference" "LED72"
 			(at 364.49 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19607,7 +19439,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -19618,7 +19450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -19651,23 +19483,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "5dde1342-6de2-5380-b000-f9433456c7e9")
-		)
-		(pin "3"
-			(uuid "beb493aa-1b7e-5bf7-98fc-b0a5ddedc7a8")
+		(property "LCSC" "C3646935"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "461c45c5-a558-46df-8d37-42ffa4149759")
+			(uuid "5dde1342-6de2-5380-b000-f9433456c7e9")
 		)
 		(pin "2"
-			(uuid "7e1c89dc-4a00-4cf6-be55-c7895681a27e")
+			(uuid "beb493aa-1b7e-5bf7-98fc-b0a5ddedc7a8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW72")
-					(unit 2)
+					(reference "LED72")
+					(unit 1)
 				)
 			)
 		)
@@ -19912,9 +19747,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19922,7 +19757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85620619-3598-5857-b5af-3e4d7386619e")
-		(property "Reference" "SW4"
+		(property "Reference" "LED4"
 			(at 120.65 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19932,7 +19767,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -19943,7 +19778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -19976,23 +19811,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "34d108df-37e2-5308-a4bc-f98b1db0a834")
-		)
-		(pin "3"
-			(uuid "ea95d36b-9cfa-543c-aebe-f69c45a9d083")
+		(property "LCSC" "C3646935"
+			(at 114.3 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "44a111cd-6750-4e67-8468-e46c609f5acb")
+			(uuid "34d108df-37e2-5308-a4bc-f98b1db0a834")
 		)
 		(pin "2"
-			(uuid "d6604e54-ed5d-42e9-a0f5-d94d42aeaa43")
+			(uuid "ea95d36b-9cfa-543c-aebe-f69c45a9d083")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW4")
-					(unit 2)
+					(reference "LED4")
+					(unit 1)
 				)
 			)
 		)
@@ -20075,9 +19913,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20085,7 +19923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87940242-a580-5f4c-b58c-f3affb25ff76")
-		(property "Reference" "SW105"
+		(property "Reference" "LED105"
 			(at 273.05 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20095,7 +19933,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -20106,7 +19944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -20139,23 +19977,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "7f509d0d-7edd-56a0-8480-00f8e1cb23bd")
-		)
-		(pin "3"
-			(uuid "507a42f0-78e9-5db1-b034-1f02f2e98c93")
+		(property "LCSC" "C3646935"
+			(at 266.7 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "a59aa1c9-15ec-4f18-bf74-21780eefe9fc")
+			(uuid "7f509d0d-7edd-56a0-8480-00f8e1cb23bd")
 		)
 		(pin "2"
-			(uuid "07f2eb70-757c-46d2-bfd9-528038011f75")
+			(uuid "507a42f0-78e9-5db1-b034-1f02f2e98c93")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW105")
-					(unit 2)
+					(reference "LED105")
+					(unit 1)
 				)
 			)
 		)
@@ -20238,9 +20079,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20248,7 +20089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88cff636-ffc0-568e-aff1-c560ad29d462")
-		(property "Reference" "SW2"
+		(property "Reference" "LED2"
 			(at 59.69 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20258,7 +20099,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -20269,7 +20110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -20302,23 +20143,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "e712b885-fbf0-551a-a320-230148942c51")
-		)
-		(pin "3"
-			(uuid "e90802eb-ce6d-5fad-bd61-db074647c0a5")
+		(property "LCSC" "C3646935"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "08a8f280-dda1-49dc-8d5b-034f86b1a32a")
+			(uuid "e712b885-fbf0-551a-a320-230148942c51")
 		)
 		(pin "2"
-			(uuid "58db99fb-a96b-4bd5-8c7a-7ede354d340b")
+			(uuid "e90802eb-ce6d-5fad-bd61-db074647c0a5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW2")
-					(unit 2)
+					(reference "LED2")
+					(unit 1)
 				)
 			)
 		)
@@ -20401,9 +20245,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20411,7 +20255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a057a9c-ec6f-5a22-baad-d25c2d5670cf")
-		(property "Reference" "SW24"
+		(property "Reference" "LED24"
 			(at 364.49 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20421,7 +20265,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -20432,7 +20276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -20465,23 +20309,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "b47a8605-317a-5b3c-bf9b-7fd97644dbb3")
-		)
-		(pin "3"
-			(uuid "0c75a8db-e900-5aca-852c-e42f083ce981")
+		(property "LCSC" "C3646935"
+			(at 358.14 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "d070c711-38e2-4eea-b56e-4ea1d7aa9c49")
+			(uuid "b47a8605-317a-5b3c-bf9b-7fd97644dbb3")
 		)
 		(pin "2"
-			(uuid "ea117f57-e92e-4b76-8a92-175eb79bdaef")
+			(uuid "0c75a8db-e900-5aca-852c-e42f083ce981")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW24")
-					(unit 2)
+					(reference "LED24")
+					(unit 1)
 				)
 			)
 		)
@@ -20568,9 +20415,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20578,7 +20425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6fea6-76da-5ba1-89cb-2f307af52ae1")
-		(property "Reference" "SW65"
+		(property "Reference" "LED65"
 			(at 151.13 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20588,7 +20435,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -20599,7 +20446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -20632,23 +20479,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "dd761ae9-4a08-5e75-8a91-75f782b448f7")
-		)
-		(pin "3"
-			(uuid "7a5c1cf0-e9ca-5d86-b092-6b5b621c2bad")
+		(property "LCSC" "C3646935"
+			(at 144.78 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "29cd8ee6-447b-4444-a1c2-002b75f8c3fc")
+			(uuid "dd761ae9-4a08-5e75-8a91-75f782b448f7")
 		)
 		(pin "2"
-			(uuid "ecbd4de5-5554-4bc5-be74-22bf4b66b3c1")
+			(uuid "7a5c1cf0-e9ca-5d86-b092-6b5b621c2bad")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW65")
-					(unit 2)
+					(reference "LED65")
+					(unit 1)
 				)
 			)
 		)
@@ -20812,9 +20662,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20822,7 +20672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ce54e94-7f67-585d-b516-329911ccea01")
-		(property "Reference" "SW41"
+		(property "Reference" "LED41"
 			(at 151.13 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20832,7 +20682,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -20843,7 +20693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -20876,23 +20726,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1d855d2a-a6bf-520a-bf7c-e8c1b844701c")
-		)
-		(pin "3"
-			(uuid "9dad2130-496a-5d70-b25b-ad3ad2b82eb0")
+		(property "LCSC" "C3646935"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "a4e75479-2199-4483-bede-aabd7bdb0cbb")
+			(uuid "1d855d2a-a6bf-520a-bf7c-e8c1b844701c")
 		)
 		(pin "2"
-			(uuid "bdb21e93-af5b-433f-9800-37ebd25c9d4b")
+			(uuid "9dad2130-496a-5d70-b25b-ad3ad2b82eb0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW41")
-					(unit 2)
+					(reference "LED41")
+					(unit 1)
 				)
 			)
 		)
@@ -21998,9 +21851,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22008,7 +21861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9881420e-30ad-5f61-be79-860dc3c57f00")
-		(property "Reference" "SW3"
+		(property "Reference" "LED3"
 			(at 90.17 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22018,7 +21871,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -22029,7 +21882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -22062,23 +21915,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "74adff83-2a21-52dd-8d61-496b0e064b12")
-		)
-		(pin "3"
-			(uuid "fa8d9d73-cbbf-50f7-a76d-a2b40e7d38fd")
+		(property "LCSC" "C3646935"
+			(at 83.82 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f192af95-be07-4073-8599-ec7db829b4ed")
+			(uuid "74adff83-2a21-52dd-8d61-496b0e064b12")
 		)
 		(pin "2"
-			(uuid "e6b9104f-41ea-4566-9720-9ce8661bbbde")
+			(uuid "fa8d9d73-cbbf-50f7-a76d-a2b40e7d38fd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW3")
-					(unit 2)
+					(reference "LED3")
+					(unit 1)
 				)
 			)
 		)
@@ -22161,9 +22017,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22171,7 +22027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98f9b21d-53fc-531a-9039-68f2dc073973")
-		(property "Reference" "SW16"
+		(property "Reference" "LED16"
 			(at 120.65 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22181,7 +22037,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -22192,7 +22048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -22225,23 +22081,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "4d38cdd4-e424-58fc-817e-8aadba31d522")
-		)
-		(pin "3"
-			(uuid "d5b481d3-f1e1-5030-82c5-a3f4a5874af0")
+		(property "LCSC" "C3646935"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "31fa38fc-50be-4e9f-9219-067b99e0525f")
+			(uuid "4d38cdd4-e424-58fc-817e-8aadba31d522")
 		)
 		(pin "2"
-			(uuid "9650144b-52c9-4131-b0ce-560c20196a31")
+			(uuid "d5b481d3-f1e1-5030-82c5-a3f4a5874af0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW16")
-					(unit 2)
+					(reference "LED16")
+					(unit 1)
 				)
 			)
 		)
@@ -22409,9 +22268,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22419,7 +22278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e47edd2-c8c2-5850-b232-99e3c40d8707")
-		(property "Reference" "SW43"
+		(property "Reference" "LED43"
 			(at 212.09 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22429,7 +22288,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -22440,7 +22299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -22473,23 +22332,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f299cdf1-b70c-5b5e-9d5a-47c0c82cf458")
-		)
-		(pin "3"
-			(uuid "f3598908-6e6c-526e-a0c7-47e0a6e64a54")
+		(property "LCSC" "C3646935"
+			(at 205.74 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3ca5db72-e7c9-4027-822e-b34b9f65c6e5")
+			(uuid "f299cdf1-b70c-5b5e-9d5a-47c0c82cf458")
 		)
 		(pin "2"
-			(uuid "741c74e2-4170-432d-9215-c7b3f3675441")
+			(uuid "f3598908-6e6c-526e-a0c7-47e0a6e64a54")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW43")
-					(unit 2)
+					(reference "LED43")
+					(unit 1)
 				)
 			)
 		)
@@ -22653,9 +22515,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22663,7 +22525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0ba4811-0576-5200-8137-783950fc0f2f")
-		(property "Reference" "SW51"
+		(property "Reference" "LED51"
 			(at 90.17 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22673,7 +22535,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -22684,7 +22546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -22717,23 +22579,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "89c3c8cc-1ac6-5d0e-94d3-cfe3f855dc8f")
-		)
-		(pin "3"
-			(uuid "e465ab14-40cf-53f7-8cff-75de17c89a60")
+		(property "LCSC" "C3646935"
+			(at 83.82 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "9956dd15-4784-4a93-b48c-1bab2a7248ed")
+			(uuid "89c3c8cc-1ac6-5d0e-94d3-cfe3f855dc8f")
 		)
 		(pin "2"
-			(uuid "f528727a-cf41-4da9-a13a-3d80a708c053")
+			(uuid "e465ab14-40cf-53f7-8cff-75de17c89a60")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW51")
-					(unit 2)
+					(reference "LED51")
+					(unit 1)
 				)
 			)
 		)
@@ -22901,9 +22766,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22911,7 +22776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2359e3e-5e3a-500c-94df-c08e10c9c70d")
-		(property "Reference" "SW34"
+		(property "Reference" "LED34"
 			(at 303.53 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22921,7 +22786,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -22932,7 +22797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -22965,31 +22830,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "78c245e9-8166-5c8c-b5f0-bca9e6613f28")
-		)
-		(pin "3"
-			(uuid "b0df7053-e431-593b-b00a-ead7e65efa11")
+		(property "LCSC" "C3646935"
+			(at 297.18 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "5ac20359-6ac3-47ca-a1bc-ec4dde53814c")
+			(uuid "78c245e9-8166-5c8c-b5f0-bca9e6613f28")
 		)
 		(pin "2"
-			(uuid "625da6f0-a2af-45bc-8bd3-05ea617010b4")
+			(uuid "b0df7053-e431-593b-b00a-ead7e65efa11")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW34")
-					(unit 2)
+					(reference "LED34")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22997,7 +22865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3001d6b-f1e5-5f9a-8b60-797f85400c31")
-		(property "Reference" "SW68"
+		(property "Reference" "LED68"
 			(at 242.57 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23007,7 +22875,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -23018,7 +22886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -23051,23 +22919,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "08e20fca-3df7-5aaa-a893-3899ec7222d2")
-		)
-		(pin "3"
-			(uuid "7a66b1c0-0b97-5b55-a6f1-06440dda16f3")
+		(property "LCSC" "C3646935"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c9faeb0a-d089-4db9-a340-853dd7fa4587")
+			(uuid "08e20fca-3df7-5aaa-a893-3899ec7222d2")
 		)
 		(pin "2"
-			(uuid "4a17383a-72d3-4606-87db-b3a22e98fa6b")
+			(uuid "7a66b1c0-0b97-5b55-a6f1-06440dda16f3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW68")
-					(unit 2)
+					(reference "LED68")
+					(unit 1)
 				)
 			)
 		)
@@ -23154,9 +23025,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23164,7 +23035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3ebd4d3-233f-5a54-ae8e-e5f9bf154cb7")
-		(property "Reference" "SW62"
+		(property "Reference" "LED62"
 			(at 59.69 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23174,7 +23045,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -23185,7 +23056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -23218,31 +23089,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "7e96a9ea-5894-56a8-bf51-d664111b06c1")
-		)
-		(pin "3"
-			(uuid "9ebff386-d127-5228-8d2a-a2e25aabd4de")
+		(property "LCSC" "C3646935"
+			(at 53.34 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "16f079c8-0429-45cd-b378-7afe604964ef")
+			(uuid "7e96a9ea-5894-56a8-bf51-d664111b06c1")
 		)
 		(pin "2"
-			(uuid "11fb2cd0-fe45-44dc-9dd9-c82f7d66323c")
+			(uuid "9ebff386-d127-5228-8d2a-a2e25aabd4de")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW62")
-					(unit 2)
+					(reference "LED62")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23250,7 +23124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3f3f438-c0af-5cdd-9871-f816887d7d15")
-		(property "Reference" "SW45"
+		(property "Reference" "LED45"
 			(at 273.05 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23260,7 +23134,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -23271,7 +23145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -23304,31 +23178,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1676b7c4-9e41-5dd0-be30-d29fe63f5a68")
-		)
-		(pin "3"
-			(uuid "4024184c-bbf0-5a9c-a7ed-0697dd852895")
+		(property "LCSC" "C3646935"
+			(at 266.7 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "62ca3bc0-21d9-4ca2-bd57-ab660fbbc0ef")
+			(uuid "1676b7c4-9e41-5dd0-be30-d29fe63f5a68")
 		)
 		(pin "2"
-			(uuid "7601fbe3-b37b-466b-8f56-2347337c7932")
+			(uuid "4024184c-bbf0-5a9c-a7ed-0697dd852895")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW45")
-					(unit 2)
+					(reference "LED45")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23336,7 +23213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a559fae8-216a-529b-a2be-46c2ef22a685")
-		(property "Reference" "SW99"
+		(property "Reference" "LED99"
 			(at 90.17 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23346,7 +23223,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -23357,7 +23234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -23390,23 +23267,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "dc72e760-2608-536e-b4c8-47de9f6847db")
-		)
-		(pin "3"
-			(uuid "b394d66d-5069-5be1-8d25-040e0a6f018c")
+		(property "LCSC" "C3646935"
+			(at 83.82 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6cf85b2f-9beb-48ad-869e-fa3db19ff1cb")
+			(uuid "dc72e760-2608-536e-b4c8-47de9f6847db")
 		)
 		(pin "2"
-			(uuid "4a201687-ae87-489b-b97e-f6e27d93e7be")
+			(uuid "b394d66d-5069-5be1-8d25-040e0a6f018c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW99")
-					(unit 2)
+					(reference "LED99")
+					(unit 1)
 				)
 			)
 		)
@@ -23493,9 +23373,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23503,7 +23383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a64bf3ae-2c5a-5bd9-b810-e82f9ef7f05a")
-		(property "Reference" "SW19"
+		(property "Reference" "LED19"
 			(at 212.09 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23513,7 +23393,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -23524,7 +23404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -23557,23 +23437,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "4a379555-9520-5153-b81e-cdb023d91dd5")
-		)
-		(pin "3"
-			(uuid "9a58db7e-e1cc-5a1b-96de-9b125dd1164c")
+		(property "LCSC" "C3646935"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "aeda4078-2d7c-4de0-acfb-3e6f9da8e2a1")
+			(uuid "4a379555-9520-5153-b81e-cdb023d91dd5")
 		)
 		(pin "2"
-			(uuid "7c402e08-9514-488e-9178-2961bf46c1e2")
+			(uuid "9a58db7e-e1cc-5a1b-96de-9b125dd1164c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW19")
-					(unit 2)
+					(reference "LED19")
+					(unit 1)
 				)
 			)
 		)
@@ -23658,9 +23541,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23668,7 +23551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8c075bc-d190-5a88-9b47-ef769f3e0ee6")
-		(property "Reference" "SW20"
+		(property "Reference" "LED20"
 			(at 242.57 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23678,7 +23561,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -23689,7 +23572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -23722,23 +23605,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "e5d00607-1d20-5132-94cd-1360f1812573")
-		)
-		(pin "3"
-			(uuid "9b95d3a7-2c08-558e-b1ba-257f90b800af")
+		(property "LCSC" "C3646935"
+			(at 236.22 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7b1e2b71-370e-492a-9321-6a1f0772c5d2")
+			(uuid "e5d00607-1d20-5132-94cd-1360f1812573")
 		)
 		(pin "2"
-			(uuid "c005aec8-ecdb-4769-a9d1-c6d4c1fb82ab")
+			(uuid "9b95d3a7-2c08-558e-b1ba-257f90b800af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW20")
-					(unit 2)
+					(reference "LED20")
+					(unit 1)
 				)
 			)
 		)
@@ -24060,9 +23946,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24070,7 +23956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adc4306a-88f6-5d6f-8269-fad055b947e9")
-		(property "Reference" "SW108"
+		(property "Reference" "LED108"
 			(at 334.01 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24080,7 +23966,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -24091,7 +23977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -24124,31 +24010,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "7cb08392-eaac-55ca-bdf2-f48d99b3f41a")
-		)
-		(pin "3"
-			(uuid "9dc142d9-a56b-5c89-882e-4cdae80ae9cf")
+		(property "LCSC" "C3646935"
+			(at 327.66 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "af678668-99a5-4938-9ba7-1739b59f0a8f")
+			(uuid "7cb08392-eaac-55ca-bdf2-f48d99b3f41a")
 		)
 		(pin "2"
-			(uuid "7f5ea433-72a2-4cee-a205-87753e28407c")
+			(uuid "9dc142d9-a56b-5c89-882e-4cdae80ae9cf")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW108")
-					(unit 2)
+					(reference "LED108")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24156,7 +24045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae763623-005f-5599-bbb1-f2c93762c805")
-		(property "Reference" "SW95"
+		(property "Reference" "LED95"
 			(at 334.01 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24166,7 +24055,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -24177,7 +24066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -24210,23 +24099,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "0ec5fab0-3902-5332-9959-585f43338e81")
-		)
-		(pin "3"
-			(uuid "0c870355-5e31-5e34-bca8-2e806050727f")
+		(property "LCSC" "C3646935"
+			(at 327.66 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b0fe60b0-23e4-4e18-b451-6c9436d9e1c2")
+			(uuid "0ec5fab0-3902-5332-9959-585f43338e81")
 		)
 		(pin "2"
-			(uuid "c4b8a9c2-779c-44e2-b93e-144cbefea365")
+			(uuid "0c870355-5e31-5e34-bca8-2e806050727f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW95")
-					(unit 2)
+					(reference "LED95")
+					(unit 1)
 				)
 			)
 		)
@@ -24706,9 +24598,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24716,7 +24608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b20ef15f-84ed-5c92-8652-2dca57d15763")
-		(property "Reference" "SW88"
+		(property "Reference" "LED88"
 			(at 120.65 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24726,7 +24618,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -24737,7 +24629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -24770,31 +24662,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "7aba732c-50e2-5717-ad71-4ff0b75042bf")
-		)
-		(pin "3"
-			(uuid "d7443e35-3c21-56a5-a18b-614b1e2820fd")
+		(property "LCSC" "C3646935"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "ac38bb80-eeb2-4efe-9c8a-5383ff66415e")
+			(uuid "7aba732c-50e2-5717-ad71-4ff0b75042bf")
 		)
 		(pin "2"
-			(uuid "d85ac08d-964b-42b6-9987-42643d603f2b")
+			(uuid "d7443e35-3c21-56a5-a18b-614b1e2820fd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW88")
-					(unit 2)
+					(reference "LED88")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24802,7 +24697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2c85c23-1349-5596-808f-e8b05a142bfd")
-		(property "Reference" "SW71"
+		(property "Reference" "LED71"
 			(at 334.01 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24812,7 +24707,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -24823,7 +24718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:MXOnly-ISO-FLIPPED"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -24856,31 +24751,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "53070787-4afa-547a-a9a3-44dbfa3edcb4")
-		)
-		(pin "3"
-			(uuid "bd9f4a10-75c7-5d6b-adf3-32288b1fec04")
+		(property "LCSC" "C3646935"
+			(at 327.66 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "41c4f412-eb53-4f97-b25a-069adabc36c7")
+			(uuid "53070787-4afa-547a-a9a3-44dbfa3edcb4")
 		)
 		(pin "2"
-			(uuid "0a72e4e6-6fad-4d1f-b8b3-6fe581493673")
+			(uuid "bd9f4a10-75c7-5d6b-adf3-32288b1fec04")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW71")
-					(unit 2)
+					(reference "LED71")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24888,7 +24786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2e6f05c-2a98-5a5c-ba58-7af6ff7d7854")
-		(property "Reference" "SW53"
+		(property "Reference" "LED53"
 			(at 151.13 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24898,7 +24796,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -24909,7 +24807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -24942,31 +24840,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "186d92d5-8cec-5697-a3df-10e02821217d")
-		)
-		(pin "3"
-			(uuid "0d87f10b-f68e-5efb-8b12-b3b869be32af")
+		(property "LCSC" "C3646935"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c30fc333-33f8-482c-b339-95fda5c0ea66")
+			(uuid "186d92d5-8cec-5697-a3df-10e02821217d")
 		)
 		(pin "2"
-			(uuid "0a71f26b-fe69-4706-afc8-8c9aeee9da4e")
+			(uuid "0d87f10b-f68e-5efb-8b12-b3b869be32af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW53")
-					(unit 2)
+					(reference "LED53")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24974,7 +24875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b37511f8-eb9a-5d6a-972f-3961fc86075f")
-		(property "Reference" "SW22"
+		(property "Reference" "LED22"
 			(at 303.53 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24984,7 +24885,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -24995,7 +24896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -25028,23 +24929,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "a05cbf24-d5d3-5ef6-ac4e-1f3e79213748")
-		)
-		(pin "3"
-			(uuid "b7358ec2-6441-5106-9555-69f0c8f5ef87")
+		(property "LCSC" "C3646935"
+			(at 297.18 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b96a19f8-3414-4e60-a721-552d1c7ab08b")
+			(uuid "a05cbf24-d5d3-5ef6-ac4e-1f3e79213748")
 		)
 		(pin "2"
-			(uuid "cd5f27d9-d3fa-44dd-91f8-8822e3c7a36e")
+			(uuid "b7358ec2-6441-5106-9555-69f0c8f5ef87")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW22")
-					(unit 2)
+					(reference "LED22")
+					(unit 1)
 				)
 			)
 		)
@@ -25127,9 +25031,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25137,7 +25041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5625f7d-c03e-5830-b725-c16ce8b4e779")
-		(property "Reference" "SW5"
+		(property "Reference" "LED5"
 			(at 151.13 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25147,7 +25051,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -25158,7 +25062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -25191,23 +25095,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "3bb587fb-cea6-5a4b-8426-397d3f46e4c0")
-		)
-		(pin "3"
-			(uuid "7fd70261-7a08-54f5-a99e-2061168426c8")
+		(property "LCSC" "C3646935"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "eb96153f-b4ee-4b6c-8606-e7b5dd34a697")
+			(uuid "3bb587fb-cea6-5a4b-8426-397d3f46e4c0")
 		)
 		(pin "2"
-			(uuid "2dfcd650-58b8-4588-818d-3dff4b57eb94")
+			(uuid "7fd70261-7a08-54f5-a99e-2061168426c8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW5")
-					(unit 2)
+					(reference "LED5")
+					(unit 1)
 				)
 			)
 		)
@@ -25533,9 +25440,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25543,7 +25450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8a26c0a-6e6b-5a45-a0b7-8c9e46dbdf22")
-		(property "Reference" "SW98"
+		(property "Reference" "LED98"
 			(at 59.69 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25553,7 +25460,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -25564,7 +25471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -25597,31 +25504,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1614c894-4761-58a5-be19-045006c1ce12")
-		)
-		(pin "3"
-			(uuid "bb882383-d385-575c-a473-a286ecb6b868")
+		(property "LCSC" "C3646935"
+			(at 53.34 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "00fa5850-01c8-4288-90f8-a62ac2f7e013")
+			(uuid "1614c894-4761-58a5-be19-045006c1ce12")
 		)
 		(pin "2"
-			(uuid "6f4ef8de-65d0-4227-800d-836eb275fbae")
+			(uuid "bb882383-d385-575c-a473-a286ecb6b868")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW98")
-					(unit 2)
+					(reference "LED98")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25629,7 +25539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8ca4d93-28e5-5332-96ac-1dbd837e0be0")
-		(property "Reference" "SW7"
+		(property "Reference" "LED7"
 			(at 212.09 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25639,7 +25549,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -25650,7 +25560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -25683,23 +25593,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "235f36ed-85ea-56aa-b7ba-20fc0300e0c8")
-		)
-		(pin "3"
-			(uuid "d888c782-4a07-5885-ad0d-89e9f971cd50")
+		(property "LCSC" "C3646935"
+			(at 205.74 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "afe7b2fd-7ee9-49ce-bbdb-e6acc21fbdae")
+			(uuid "235f36ed-85ea-56aa-b7ba-20fc0300e0c8")
 		)
 		(pin "2"
-			(uuid "afa15b4c-d8b6-4b47-95fb-097aa628ed66")
+			(uuid "d888c782-4a07-5885-ad0d-89e9f971cd50")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW7")
-					(unit 2)
+					(reference "LED7")
+					(unit 1)
 				)
 			)
 		)
@@ -26098,9 +26011,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26108,7 +26021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdab4a9a-ef0d-5e5a-b2b1-7a1f7df3c269")
-		(property "Reference" "SW81"
+		(property "Reference" "LED81"
 			(at 273.05 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26118,7 +26031,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -26129,7 +26042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -26162,23 +26075,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "8714fb37-7fcd-5529-98d8-519eab350635")
-		)
-		(pin "3"
-			(uuid "2d01e594-3035-55e7-a9aa-364370b95e26")
+		(property "LCSC" "C3646935"
+			(at 266.7 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "363d869f-c7ed-4a0e-b6e4-15004f32548c")
+			(uuid "8714fb37-7fcd-5529-98d8-519eab350635")
 		)
 		(pin "2"
-			(uuid "a58022e1-b774-4319-8989-407c4196e102")
+			(uuid "2d01e594-3035-55e7-a9aa-364370b95e26")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW81")
-					(unit 2)
+					(reference "LED81")
+					(unit 1)
 				)
 			)
 		)
@@ -26419,9 +26335,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26429,7 +26345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be58627e-8761-5014-bae5-bf3b8c9242ba")
-		(property "Reference" "SW87"
+		(property "Reference" "LED87"
 			(at 90.17 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26439,7 +26355,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -26450,7 +26366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.75U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -26483,23 +26399,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "213e91d1-7ee2-545c-bfce-7e12cefe543a")
-		)
-		(pin "3"
-			(uuid "6c3e2c93-821b-5101-b330-f8b976ba050f")
+		(property "LCSC" "C3646935"
+			(at 83.82 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7b3185da-094c-4ec8-ac5f-f6c64a258531")
+			(uuid "213e91d1-7ee2-545c-bfce-7e12cefe543a")
 		)
 		(pin "2"
-			(uuid "ae85754e-a651-41ce-9b50-310a26688286")
+			(uuid "6c3e2c93-821b-5101-b330-f8b976ba050f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW87")
-					(unit 2)
+					(reference "LED87")
+					(unit 1)
 				)
 			)
 		)
@@ -26821,9 +26740,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26831,7 +26750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56e3678-c185-5019-9259-14ff97b4ac0d")
-		(property "Reference" "SW78"
+		(property "Reference" "LED78"
 			(at 181.61 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26841,7 +26760,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -26852,7 +26771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -26885,23 +26804,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "ea77b2b1-99a0-59e0-abeb-3316513c195f")
-		)
-		(pin "3"
-			(uuid "11b292d1-c91f-526e-a6d4-fda9b576dc53")
+		(property "LCSC" "C3646935"
+			(at 175.26 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e65bbda6-8fd4-4f87-99d8-eccfc0c3479a")
+			(uuid "ea77b2b1-99a0-59e0-abeb-3316513c195f")
 		)
 		(pin "2"
-			(uuid "2e72dfdb-c65b-4e0f-a748-4caaeb59fd66")
+			(uuid "11b292d1-c91f-526e-a6d4-fda9b576dc53")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW78")
-					(unit 2)
+					(reference "LED78")
+					(unit 1)
 				)
 			)
 		)
@@ -27061,9 +26983,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27071,7 +26993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c937b4c5-2e3e-5def-9c3c-9470c3b362e0")
-		(property "Reference" "SW97"
+		(property "Reference" "LED97"
 			(at 29.21 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27081,7 +27003,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -27092,7 +27014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -27125,31 +27047,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "15f23010-7e09-5244-9d11-426fba8aa5a4")
-		)
-		(pin "3"
-			(uuid "f9f6999f-9c63-57c6-8a22-91f226549b40")
+		(property "LCSC" "C3646935"
+			(at 22.86 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b72d05d2-7cdf-495b-a5d5-9d2302ce0024")
+			(uuid "15f23010-7e09-5244-9d11-426fba8aa5a4")
 		)
 		(pin "2"
-			(uuid "26284a20-6253-4bf0-8c5e-42c0230b4c3d")
+			(uuid "f9f6999f-9c63-57c6-8a22-91f226549b40")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW97")
-					(unit 2)
+					(reference "LED97")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27157,7 +27082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c943ab18-2f84-55eb-8c17-d2aa0b36dc17")
-		(property "Reference" "SW90"
+		(property "Reference" "LED90"
 			(at 181.61 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27167,7 +27092,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -27178,7 +27103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -27211,31 +27136,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "14012e0d-c80f-51a0-8656-eb8bb3b32085")
-		)
-		(pin "3"
-			(uuid "3894ef99-0719-59ff-b25b-61312f2fbc79")
+		(property "LCSC" "C3646935"
+			(at 175.26 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3178d238-4cbd-4923-b8bf-557248024372")
+			(uuid "14012e0d-c80f-51a0-8656-eb8bb3b32085")
 		)
 		(pin "2"
-			(uuid "577f929a-b2e8-4571-a365-047ee48396ab")
+			(uuid "3894ef99-0719-59ff-b25b-61312f2fbc79")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW90")
-					(unit 2)
+					(reference "LED90")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27243,7 +27171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c985aeea-ada1-5980-b5b4-93c096b0eceb")
-		(property "Reference" "SW9"
+		(property "Reference" "LED9"
 			(at 273.05 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27253,7 +27181,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -27264,7 +27192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -27297,23 +27225,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "6a7e8f7a-4a0f-570a-8516-43b6267061cf")
-		)
-		(pin "3"
-			(uuid "7614cef8-8370-559b-9a61-394b64d8e262")
+		(property "LCSC" "C3646935"
+			(at 266.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e1c7bf6a-ec1e-45bb-ac08-13a5b14c9dd6")
+			(uuid "6a7e8f7a-4a0f-570a-8516-43b6267061cf")
 		)
 		(pin "2"
-			(uuid "d7e33be4-a8e2-419f-a802-4159d7c59565")
+			(uuid "7614cef8-8370-559b-9a61-394b64d8e262")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW9")
-					(unit 2)
+					(reference "LED9")
+					(unit 1)
 				)
 			)
 		)
@@ -27396,9 +27327,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 358.14 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27406,7 +27337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca89205d-c8d3-5464-9d3c-1c094e12b27a")
-		(property "Reference" "SW48"
+		(property "Reference" "LED48"
 			(at 364.49 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27416,7 +27347,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 361.95 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -27427,7 +27358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 358.14 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -27460,31 +27391,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "61a1c1b0-fa33-5855-91fd-9213a53d38ef")
-		)
-		(pin "3"
-			(uuid "b4af78ec-0fd9-5f38-bb84-b4fc27297fcc")
+		(property "LCSC" "C3646935"
+			(at 358.14 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "fa4b2d21-440a-48c7-8771-3582c9377043")
+			(uuid "61a1c1b0-fa33-5855-91fd-9213a53d38ef")
 		)
 		(pin "2"
-			(uuid "77dd3785-9d9a-41b8-8766-4171aad6fa4e")
+			(uuid "b4af78ec-0fd9-5f38-bb84-b4fc27297fcc")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW48")
-					(unit 2)
+					(reference "LED48")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 53.34 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27492,7 +27426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cadf82cc-bdb0-5439-aa11-3127bc84e157")
-		(property "Reference" "SW74"
+		(property "Reference" "LED74"
 			(at 59.69 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27502,7 +27436,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 57.15 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -27513,7 +27447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 53.34 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -27546,23 +27480,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1d0b3f6e-ca0e-516a-9ee7-faf09b75db9c")
-		)
-		(pin "3"
-			(uuid "6f537e86-dcec-58a1-87c9-8b45562b7427")
+		(property "LCSC" "C3646935"
+			(at 53.34 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "75f1656a-0ef8-4d03-a541-67b8f31989ea")
+			(uuid "1d0b3f6e-ca0e-516a-9ee7-faf09b75db9c")
 		)
 		(pin "2"
-			(uuid "01003f93-6d50-45c1-add0-95335ab07e8b")
+			(uuid "6f537e86-dcec-58a1-87c9-8b45562b7427")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW74")
-					(unit 2)
+					(reference "LED74")
+					(unit 1)
 				)
 			)
 		)
@@ -27645,9 +27582,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27655,7 +27592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfafdc4a-753f-539f-b122-62139adcb148")
-		(property "Reference" "SW103"
+		(property "Reference" "LED103"
 			(at 212.09 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27665,7 +27602,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -27676,7 +27613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -27709,23 +27646,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "b9d59382-cc59-565e-88c2-b6564ac6faf4")
-		)
-		(pin "3"
-			(uuid "2ee8547d-7a63-57d0-986a-b49fc921894e")
+		(property "LCSC" "C3646935"
+			(at 205.74 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e7157662-ad1a-4d50-afec-db1dcb228b1d")
+			(uuid "b9d59382-cc59-565e-88c2-b6564ac6faf4")
 		)
 		(pin "2"
-			(uuid "91f6d255-957c-48df-bac0-730c90db6ff4")
+			(uuid "2ee8547d-7a63-57d0-986a-b49fc921894e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW103")
-					(unit 2)
+					(reference "LED103")
+					(unit 1)
 				)
 			)
 		)
@@ -27812,9 +27752,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27822,7 +27762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a9f676-cfc1-5e72-9ddf-4c5b27b2dcc9")
-		(property "Reference" "SW17"
+		(property "Reference" "LED17"
 			(at 151.13 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27832,7 +27772,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -27843,7 +27783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -27876,23 +27816,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "a40688de-20ad-5d7c-bbf8-678de1406d34")
-		)
-		(pin "3"
-			(uuid "6670f6b3-5be9-5f01-82cd-fb7ccd42319f")
+		(property "LCSC" "C3646935"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "8ade33a6-18a7-45db-b8f6-80194327579e")
+			(uuid "a40688de-20ad-5d7c-bbf8-678de1406d34")
 		)
 		(pin "2"
-			(uuid "efddf6fd-c654-49a8-8e92-9c00ec1e42c6")
+			(uuid "6670f6b3-5be9-5f01-82cd-fb7ccd42319f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW17")
-					(unit 2)
+					(reference "LED17")
+					(unit 1)
 				)
 			)
 		)
@@ -27975,9 +27918,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27985,7 +27928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1fef1e8-4bd3-5e02-913b-6aedcd405df5")
-		(property "Reference" "SW67"
+		(property "Reference" "LED67"
 			(at 212.09 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27995,7 +27938,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -28006,7 +27949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -28039,23 +27982,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "32b5ed5c-1c29-5f59-a1dc-2fe55f8bac18")
-		)
-		(pin "3"
-			(uuid "247de76d-567d-5fb4-9fe0-f3a0ba201767")
+		(property "LCSC" "C3646935"
+			(at 205.74 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "18443bab-e9ea-4556-96ab-757dfc983126")
+			(uuid "32b5ed5c-1c29-5f59-a1dc-2fe55f8bac18")
 		)
 		(pin "2"
-			(uuid "ac522dc2-511d-4d5b-b64a-2fdd00d098e4")
+			(uuid "247de76d-567d-5fb4-9fe0-f3a0ba201767")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW67")
-					(unit 2)
+					(reference "LED67")
+					(unit 1)
 				)
 			)
 		)
@@ -28301,9 +28247,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 83.82 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28311,7 +28257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c1d731-3130-5b4c-9708-eb27dbad3a51")
-		(property "Reference" "SW39"
+		(property "Reference" "LED39"
 			(at 90.17 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28321,7 +28267,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 87.63 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -28332,7 +28278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 83.82 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -28365,23 +28311,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "d10319f3-47de-5e6f-abb4-3d919f53bd4f")
-		)
-		(pin "3"
-			(uuid "6b83d7bb-19dd-5815-bc0c-bb068009a292")
+		(property "LCSC" "C3646935"
+			(at 83.82 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "92c5bcc5-84f6-40c9-a348-903ee1046f33")
+			(uuid "d10319f3-47de-5e6f-abb4-3d919f53bd4f")
 		)
 		(pin "2"
-			(uuid "b8e14838-b31f-4ec6-8a23-b631358c92c3")
+			(uuid "6b83d7bb-19dd-5815-bc0c-bb068009a292")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW39")
-					(unit 2)
+					(reference "LED39")
+					(unit 1)
 				)
 			)
 		)
@@ -28464,9 +28413,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28474,7 +28423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7ea6b27-d34a-5d43-bd3f-0a42d632f9cb")
-		(property "Reference" "SW58"
+		(property "Reference" "LED58"
 			(at 303.53 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28484,7 +28433,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -28495,7 +28444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.75U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -28528,31 +28477,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "da4d24b6-1846-5205-8171-da647c1497f8")
-		)
-		(pin "3"
-			(uuid "3fb62eae-5b67-5b32-8aec-27625806e774")
+		(property "LCSC" "C3646935"
+			(at 297.18 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7a397db9-53b8-4daf-bdf6-c6fff0f48c0f")
+			(uuid "da4d24b6-1846-5205-8171-da647c1497f8")
 		)
 		(pin "2"
-			(uuid "5258e43a-80ad-46e1-bad6-731d8234b4c2")
+			(uuid "3fb62eae-5b67-5b32-8aec-27625806e774")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW58")
-					(unit 2)
+					(reference "LED58")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28560,7 +28512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d854f0f9-04ef-58d2-a6c8-2926a985e592")
-		(property "Reference" "SW82"
+		(property "Reference" "LED82"
 			(at 303.53 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28570,7 +28522,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -28581,7 +28533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -28614,23 +28566,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "9d11c3f9-2d81-5657-b873-d9fc014d9b63")
-		)
-		(pin "3"
-			(uuid "bf596c5b-608f-5712-9314-bfcf50cc410c")
+		(property "LCSC" "C3646935"
+			(at 297.18 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f8a7df0d-1c73-4618-8dee-fecc4406df31")
+			(uuid "9d11c3f9-2d81-5657-b873-d9fc014d9b63")
 		)
 		(pin "2"
-			(uuid "b339f1f6-59ca-4a79-a489-9c325c6307b7")
+			(uuid "bf596c5b-608f-5712-9314-bfcf50cc410c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW82")
-					(unit 2)
+					(reference "LED82")
+					(unit 1)
 				)
 			)
 		)
@@ -28871,9 +28826,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28881,7 +28836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daae12c7-0a45-56f3-8437-bd574a2ea244")
-		(property "Reference" "SW59"
+		(property "Reference" "LED59"
 			(at 334.01 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28891,7 +28846,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -28902,7 +28857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -28935,31 +28890,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "6ac91c96-8a02-5ef7-9968-1ce3eb73fcfa")
-		)
-		(pin "3"
-			(uuid "ce4f85b8-d100-5f5b-ab7c-e99373d414f5")
+		(property "LCSC" "C3646935"
+			(at 327.66 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "59ccee18-4920-49f8-81fa-94bfa9778766")
+			(uuid "6ac91c96-8a02-5ef7-9968-1ce3eb73fcfa")
 		)
 		(pin "2"
-			(uuid "1888108d-e6c5-4081-b028-0d23bea3c59c")
+			(uuid "ce4f85b8-d100-5f5b-ab7c-e99373d414f5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW59")
-					(unit 2)
+					(reference "LED59")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28967,7 +28925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dada0834-8ebe-5048-9247-0f7724f99a9a")
-		(property "Reference" "SW77"
+		(property "Reference" "LED77"
 			(at 151.13 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28977,7 +28935,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -28988,7 +28946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -29021,23 +28979,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f2732d41-81aa-580f-90f2-3db87243e662")
-		)
-		(pin "3"
-			(uuid "96f48713-b833-5b0f-b99f-7965cf0459c6")
+		(property "LCSC" "C3646935"
+			(at 144.78 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6c6a9f61-21d3-4927-99c0-647a43cad129")
+			(uuid "f2732d41-81aa-580f-90f2-3db87243e662")
 		)
 		(pin "2"
-			(uuid "da3c1c92-4695-4636-aa01-f2a7a229c88d")
+			(uuid "96f48713-b833-5b0f-b99f-7965cf0459c6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW77")
-					(unit 2)
+					(reference "LED77")
+					(unit 1)
 				)
 			)
 		)
@@ -29205,9 +29166,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29215,7 +29176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc417ea8-61a7-5c88-aeed-5e7b0e778c5d")
-		(property "Reference" "SW8"
+		(property "Reference" "LED8"
 			(at 242.57 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29225,7 +29186,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -29236,7 +29197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -29269,23 +29230,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "da0bd0b4-a0f4-5d7c-ae39-da9c7a026a50")
-		)
-		(pin "3"
-			(uuid "382429e6-764e-5c15-9ec8-f9c69e85c8d0")
+		(property "LCSC" "C3646935"
+			(at 236.22 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "4edb8440-09fc-423f-b5f2-7166ccaa8f93")
+			(uuid "da0bd0b4-a0f4-5d7c-ae39-da9c7a026a50")
 		)
 		(pin "2"
-			(uuid "dc05438f-4910-453a-ac1b-91b317b8ae49")
+			(uuid "382429e6-764e-5c15-9ec8-f9c69e85c8d0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW8")
-					(unit 2)
+					(reference "LED8")
+					(unit 1)
 				)
 			)
 		)
@@ -29607,9 +29571,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 50.8 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29617,7 +29581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0de79c9-db9b-50b2-a7a3-f488364dcf1c")
-		(property "Reference" "SW10"
+		(property "Reference" "LED10"
 			(at 303.53 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29627,7 +29591,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -29638,7 +29602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -29671,31 +29635,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "c2193681-458d-5d98-8935-7af080b80c0a")
-		)
-		(pin "3"
-			(uuid "541c4491-1431-5554-bf62-b79547c89bf2")
+		(property "LCSC" "C3646935"
+			(at 297.18 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7d74bfd3-6262-41f3-87af-01aa84e5f673")
+			(uuid "c2193681-458d-5d98-8935-7af080b80c0a")
 		)
 		(pin "2"
-			(uuid "865f3f74-210c-4bf2-b8c1-7916cdf6059c")
+			(uuid "541c4491-1431-5554-bf62-b79547c89bf2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW10")
-					(unit 2)
+					(reference "LED10")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29703,7 +29670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e18d4ad0-ec7d-5c62-93c4-8e1319d0c364")
-		(property "Reference" "SW21"
+		(property "Reference" "LED21"
 			(at 273.05 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29713,7 +29680,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -29724,7 +29691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -29757,31 +29724,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "25f11eea-78b7-518f-8076-3207a921e9ad")
-		)
-		(pin "3"
-			(uuid "ad686a05-15a3-5672-8e23-a2af132ca0cf")
+		(property "LCSC" "C3646935"
+			(at 266.7 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "229e036c-b180-4462-8978-ef4b251ba9e2")
+			(uuid "25f11eea-78b7-518f-8076-3207a921e9ad")
 		)
 		(pin "2"
-			(uuid "4c996bd8-b457-4e7a-b609-618f20480e7e")
+			(uuid "ad686a05-15a3-5672-8e23-a2af132ca0cf")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW21")
-					(unit 2)
+					(reference "LED21")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29789,7 +29759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1ce281b-90d3-534e-bea5-ed505ea5a469")
-		(property "Reference" "SW30"
+		(property "Reference" "LED30"
 			(at 181.61 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29799,7 +29769,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -29810,7 +29780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -29843,23 +29813,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "4239f6d4-06aa-563d-aa90-f364110329c0")
-		)
-		(pin "3"
-			(uuid "d03c38f4-291c-5162-a087-66693f652ac4")
+		(property "LCSC" "C3646935"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "c3e1209b-4dc3-40c1-8d55-27d43b2dd887")
+			(uuid "4239f6d4-06aa-563d-aa90-f364110329c0")
 		)
 		(pin "2"
-			(uuid "95382924-735e-4ca7-b03a-b5b2da0c3366")
+			(uuid "d03c38f4-291c-5162-a087-66693f652ac4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW30")
-					(unit 2)
+					(reference "LED30")
+					(unit 1)
 				)
 			)
 		)
@@ -30019,9 +29992,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30029,7 +30002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e402593e-db8c-5c0f-b685-7ab03bc2c445")
-		(property "Reference" "SW52"
+		(property "Reference" "LED52"
 			(at 120.65 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30039,7 +30012,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -30050,7 +30023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -30083,31 +30056,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "33c6a4ae-8bd7-5486-b6b5-56a546291050")
-		)
-		(pin "3"
-			(uuid "efd3ed61-b491-505a-9b96-2d046f9269c7")
+		(property "LCSC" "C3646935"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "5d126d52-0306-4b83-9f62-c95518eb7ced")
+			(uuid "33c6a4ae-8bd7-5486-b6b5-56a546291050")
 		)
 		(pin "2"
-			(uuid "be14d58f-0361-4a6b-be2d-d64fbfb85240")
+			(uuid "efd3ed61-b491-505a-9b96-2d046f9269c7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW52")
-					(unit 2)
+					(reference "LED52")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 144.78 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30115,7 +30091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e41ceaf8-6f5c-5a23-87ee-c23f130dd63b")
-		(property "Reference" "SW29"
+		(property "Reference" "LED29"
 			(at 151.13 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30125,7 +30101,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 148.59 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -30136,7 +30112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 144.78 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -30169,31 +30145,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "cfef3ede-969a-510e-a287-a56ec9dc6737")
-		)
-		(pin "3"
-			(uuid "7f72a806-301d-5acf-8859-520ae9616418")
+		(property "LCSC" "C3646935"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1d246ebd-f38d-461f-8a16-bd4227c178cb")
+			(uuid "cfef3ede-969a-510e-a287-a56ec9dc6737")
 		)
 		(pin "2"
-			(uuid "7a22cafa-faa6-4916-a59e-68b7b6801cea")
+			(uuid "7f72a806-301d-5acf-8859-520ae9616418")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW29")
-					(unit 2)
+					(reference "LED29")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 175.26 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30201,7 +30180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e499beca-c305-51b4-9522-2311c1c96061")
-		(property "Reference" "SW18"
+		(property "Reference" "LED18"
 			(at 181.61 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +30190,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 179.07 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -30222,7 +30201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 175.26 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -30255,23 +30234,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "20542676-c676-58c6-a97f-791b9200cd5c")
-		)
-		(pin "3"
-			(uuid "d2dfca3a-c0cd-56d6-81f6-ac1e950046b0")
+		(property "LCSC" "C3646935"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b70103f0-65bf-4936-abe2-d7908f4cb275")
+			(uuid "20542676-c676-58c6-a97f-791b9200cd5c")
 		)
 		(pin "2"
-			(uuid "6e03cbba-967c-4611-b292-9dcc23699fa2")
+			(uuid "d2dfca3a-c0cd-56d6-81f6-ac1e950046b0")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW18")
-					(unit 2)
+					(reference "LED18")
+					(unit 1)
 				)
 			)
 		)
@@ -30358,9 +30340,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 297.18 165.1 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30368,7 +30350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e734ecf9-06f4-5ab2-98ce-72f76023af00")
-		(property "Reference" "SW70"
+		(property "Reference" "LED70"
 			(at 303.53 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30378,7 +30360,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 300.99 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -30389,7 +30371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 297.18 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -30422,23 +30404,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "4adbf776-947a-5acc-a61b-7863198a2b4f")
-		)
-		(pin "3"
-			(uuid "8ca45c0c-61cf-5523-9098-2f1588ad6d91")
+		(property "LCSC" "C3646935"
+			(at 297.18 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "cfab15c4-7eeb-4878-b18d-52a82426ca81")
+			(uuid "4adbf776-947a-5acc-a61b-7863198a2b4f")
 		)
 		(pin "2"
-			(uuid "ea61ee2d-b26d-4dd1-8b4b-22b5f7530b08")
+			(uuid "8ca45c0c-61cf-5523-9098-2f1588ad6d91")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW70")
-					(unit 2)
+					(reference "LED70")
+					(unit 1)
 				)
 			)
 		)
@@ -30598,9 +30583,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30608,7 +30593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e98edf5c-dfe9-5557-a652-f2110fe15b70")
-		(property "Reference" "SW93"
+		(property "Reference" "LED93"
 			(at 273.05 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30618,7 +30603,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -30629,7 +30614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -30662,23 +30647,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "932cce64-7223-5612-b704-f103990b81ef")
-		)
-		(pin "3"
-			(uuid "299a351d-c52a-51de-8e16-a23008f488f3")
+		(property "LCSC" "C3646935"
+			(at 266.7 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6ebcedbd-01ce-419b-a175-740fe134edeb")
+			(uuid "932cce64-7223-5612-b704-f103990b81ef")
 		)
 		(pin "2"
-			(uuid "6a2b81fa-fc5a-4969-8c9a-0363b2865206")
+			(uuid "299a351d-c52a-51de-8e16-a23008f488f3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW93")
-					(unit 2)
+					(reference "LED93")
+					(unit 1)
 				)
 			)
 		)
@@ -30915,9 +30903,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 266.7 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30925,7 +30913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2e6980-0d4d-5c69-913f-2be54f0656fa")
-		(property "Reference" "SW33"
+		(property "Reference" "LED33"
 			(at 273.05 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30935,7 +30923,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 270.51 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -30946,7 +30934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 266.7 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -30979,23 +30967,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "8d2a7f56-8846-50e6-81bf-4b42a33706b2")
-		)
-		(pin "3"
-			(uuid "302be8fb-b641-59e7-8675-3f8c236ba6dc")
+		(property "LCSC" "C3646935"
+			(at 266.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3c8d83ad-caa2-4340-9d19-ac6ccec650ea")
+			(uuid "8d2a7f56-8846-50e6-81bf-4b42a33706b2")
 		)
 		(pin "2"
-			(uuid "e041c34e-e4e4-430b-8ac2-5344ff043367")
+			(uuid "302be8fb-b641-59e7-8675-3f8c236ba6dc")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW33")
-					(unit 2)
+					(reference "LED33")
+					(unit 1)
 				)
 			)
 		)
@@ -31240,9 +31231,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31250,7 +31241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef438eaf-d291-51ec-a7c6-691283f530f0")
-		(property "Reference" "SW100"
+		(property "Reference" "LED100"
 			(at 120.65 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31260,7 +31251,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31271,7 +31262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31304,23 +31295,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "8d8f000d-505f-5d3a-a5eb-ca16cb723feb")
-		)
-		(pin "3"
-			(uuid "19fd0ee8-c683-50a3-b2c3-25651c5a6dfe")
+		(property "LCSC" "C3646935"
+			(at 114.3 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "2a465dbb-3554-4ad1-a5ad-d358bcc0d516")
+			(uuid "8d8f000d-505f-5d3a-a5eb-ca16cb723feb")
 		)
 		(pin "2"
-			(uuid "fd72d8c9-9c36-470e-84fa-91c44998e7d2")
+			(uuid "19fd0ee8-c683-50a3-b2c3-25651c5a6dfe")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW100")
-					(unit 2)
+					(reference "LED100")
+					(unit 1)
 				)
 			)
 		)
@@ -31557,9 +31551,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 96.52 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31567,7 +31561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0992fed-5440-5ceb-9137-66ac8826794c")
-		(property "Reference" "SW28"
+		(property "Reference" "LED28"
 			(at 120.65 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31577,7 +31571,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -31588,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -31621,31 +31615,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "fc3eb160-310a-5ef8-95d2-04f06208b06d")
-		)
-		(pin "3"
-			(uuid "a41c8b57-188e-5ae2-8b67-e8a9738b1a09")
+		(property "LCSC" "C3646935"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "2d6996e7-15a8-4b6c-8c13-02343c728ea1")
+			(uuid "fc3eb160-310a-5ef8-95d2-04f06208b06d")
 		)
 		(pin "2"
-			(uuid "5c9d7427-1a6d-41d8-844f-62fbc06746f4")
+			(uuid "a41c8b57-188e-5ae2-8b67-e8a9738b1a09")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW28")
-					(unit 2)
+					(reference "LED28")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 236.22 233.68 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31653,7 +31650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1659231-136c-51d7-862e-0540d3a9147f")
-		(property "Reference" "SW104"
+		(property "Reference" "LED104"
 			(at 242.57 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31663,7 +31660,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 240.03 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31674,7 +31671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 236.22 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -31707,23 +31704,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "1efe7d30-d904-5e05-8ea9-c8954a2ee689")
-		)
-		(pin "3"
-			(uuid "3029fef4-ff8d-5638-a873-b0342065b937")
+		(property "LCSC" "C3646935"
+			(at 236.22 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3f871e4d-8475-4da4-b6e4-7dc437d6d36b")
+			(uuid "1efe7d30-d904-5e05-8ea9-c8954a2ee689")
 		)
 		(pin "2"
-			(uuid "96f44e26-4e32-4a71-b6d5-13814260d3d6")
+			(uuid "3029fef4-ff8d-5638-a873-b0342065b937")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW104")
-					(unit 2)
+					(reference "LED104")
+					(unit 1)
 				)
 			)
 		)
@@ -32126,9 +32126,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 327.66 73.66 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32136,7 +32136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5f2be82-f32b-5e10-8b80-955d3f45a3c3")
-		(property "Reference" "SW23"
+		(property "Reference" "LED23"
 			(at 334.01 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32146,7 +32146,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 331.47 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -32157,7 +32157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 327.66 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -32190,31 +32190,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "ef37e648-5f4c-5f84-aca0-6f0719f14fe8")
-		)
-		(pin "3"
-			(uuid "edbc84f4-62fa-5e5a-9585-e45625e9aace")
+		(property "LCSC" "C3646935"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "a6d311d5-1790-419d-adf6-99bc995cef5d")
+			(uuid "ef37e648-5f4c-5f84-aca0-6f0719f14fe8")
 		)
 		(pin "2"
-			(uuid "01627312-b3f5-4ca1-bb22-bcef3eb17465")
+			(uuid "edbc84f4-62fa-5e5a-9585-e45625e9aace")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW23")
-					(unit 2)
+					(reference "LED23")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 205.74 210.82 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32222,7 +32225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7bf026f-6a95-561e-8a56-cf333fee2379")
-		(property "Reference" "SW91"
+		(property "Reference" "LED91"
 			(at 212.09 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32232,7 +32235,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 209.55 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -32243,7 +32246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 205.74 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -32276,23 +32279,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "a09c0cd7-68d5-55c1-9545-5881fad66b01")
-		)
-		(pin "3"
-			(uuid "8771f8e5-f61d-5670-b319-b21ded20e951")
+		(property "LCSC" "C3646935"
+			(at 205.74 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "def8806c-93a7-45b7-9453-a91e88452ffa")
+			(uuid "a09c0cd7-68d5-55c1-9545-5881fad66b01")
 		)
 		(pin "2"
-			(uuid "efc51a74-3c4f-443d-b207-07fb04e2d8fd")
+			(uuid "8771f8e5-f61d-5670-b319-b21ded20e951")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW91")
-					(unit 2)
+					(reference "LED91")
+					(unit 1)
 				)
 			)
 		)
@@ -32858,9 +32864,9 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 119.38 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32868,7 +32874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb43cab7-093a-532d-85a8-e191b3468eb9")
-		(property "Reference" "SW40"
+		(property "Reference" "LED40"
 			(at 120.65 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32878,7 +32884,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -32889,7 +32895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -32922,31 +32928,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f5d2f364-4968-51a7-aa4e-e5c41bebe22a")
-		)
-		(pin "3"
-			(uuid "a80f60b8-ed00-5cc8-a996-416076dc66e6")
+		(property "LCSC" "C3646935"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "dac5b7f3-414f-46fb-b499-3621de46fa17")
+			(uuid "f5d2f364-4968-51a7-aa4e-e5c41bebe22a")
 		)
 		(pin "2"
-			(uuid "7ada8ca3-6664-41de-903e-54da14c1c1e2")
+			(uuid "a80f60b8-ed00-5cc8-a996-416076dc66e6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW40")
-					(unit 2)
+					(reference "LED40")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 22.86 142.24 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32954,7 +32963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb5e5dcd-3aa9-55a1-9129-86fe11713893")
-		(property "Reference" "SW49"
+		(property "Reference" "LED49"
 			(at 29.21 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32964,7 +32973,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 26.67 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -32975,7 +32984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 22.86 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -33008,31 +33017,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "6ba6ef93-5c75-52f7-abdc-8bfcb1c1d42f")
-		)
-		(pin "3"
-			(uuid "3a720ec7-9940-530a-abf2-6ae4ee818af2")
+		(property "LCSC" "C3646935"
+			(at 22.86 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "1f540f46-1f13-41a8-8aae-079e70bec39f")
+			(uuid "6ba6ef93-5c75-52f7-abdc-8bfcb1c1d42f")
 		)
 		(pin "2"
-			(uuid "70fe0cfe-3997-4338-aeb6-29795167aa4e")
+			(uuid "3a720ec7-9940-530a-abf2-6ae4ee818af2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW49")
-					(unit 2)
+					(reference "LED49")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Device:LED_Small")
 		(at 114.3 187.96 90)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33040,7 +33052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd05658e-f0be-551a-bcee-fc6d58dd53bf")
-		(property "Reference" "SW76"
+		(property "Reference" "LED76"
 			(at 120.65 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33050,7 +33062,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "XL-3216UWC-FB"
 			(at 118.11 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -33061,7 +33073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-FLIPPED"
+		(property "Footprint" "keyboard:LED_1206_ReverseMount_XL-3216"
 			(at 114.3 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -33094,23 +33106,26 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "5540dc6e-0263-5b2b-86c4-fb27d5228749")
-		)
-		(pin "3"
-			(uuid "b12eae5f-e48c-52d3-8bce-695c861f2b3e")
+		(property "LCSC" "C3646935"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "00a8f9cc-6c14-4bdd-9b46-c7092c171811")
+			(uuid "5540dc6e-0263-5b2b-86c4-fb27d5228749")
 		)
 		(pin "2"
-			(uuid "f6865ed4-6093-4daa-891d-34ff9e1573fd")
+			(uuid "b12eae5f-e48c-52d3-8bce-695c861f2b3e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/2d35f0cd-4c43-5d93-9888-631758f327d7"
-					(reference "SW76")
-					(unit 2)
+					(reference "LED76")
+					(unit 1)
 				)
 			)
 		)

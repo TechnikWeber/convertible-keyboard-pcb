@@ -59,8 +59,10 @@ diesem Kern auf, statt ihn zu verbiegen.
 - USB-C (USB 2.0) auf der Platine mit ESD-Schutz, 500-mA-Polyfuse und 3,3-V-LDO –
   oder stattdessen ein Unified Daughterboard: Anschlüsse für Molex Pico-EZmate
   (uDB S1, C4, C5-EZM) und JST-SH (uDB C3, C5-JSH) sind vorgesehen, nicht bestückt
-- Einfarbige Hintergrundbeleuchtung: Widerstände und MOSFET sind auf der Platine,
-  die LEDs selbst sind optional — über QMK schaltbar, dimmbar und mit „Breathing“
+- Einfarbige Hintergrundbeleuchtung mit Reverse-Mount-1206-LEDs auf der Rückseite
+  (weiß, XINGLIGHT XL-3216UWC-FB), maschinell bestückt; über QMK schaltbar,
+  dimmbar und mit „Breathing“. Eine THT-LED-Variante nutzt denselben Entwurf mit
+  anderen LED-Footprints
 - Anzeige für Caps Lock und Num Lock (0805) über dem Ziffernblock; für die TKL ist
   eine Caps-Lock-Anzeige über Bild auf vorgesehen, aber nicht bestückt
 - Alle 30 GPIOs des RP2040 belegt: 27 Matrixleitungen, Beleuchtungs-PWM,
@@ -74,8 +76,8 @@ diesem Kern auf, statt ihn zu verbiegen.
 | `convertible-keyboard-pcb.kicad_sch` | Hauptblatt: Tastenmatrix und ANSI-Alternativen |
 | `backlight.kicad_sch` | Tasten-LEDs, Vorwiderstände und MOSFET-Treiber |
 | `mcu.kicad_sch` | RP2040, Flash, Quarz, USB-C und Stromversorgung |
-| `lib/keyboard.kicad_sym`, `lib/keyboard.pretty` | Projektsymbol (Schalter mit LED) und Footprint |
-| `sym-lib-table`, `fp-lib-table` | Bibliothekstabellen des Projekts |
+| `lib/keyboard.pretty` | Projekt-Footprints: Reverse-Mount-LED, THT-LED für die Variante |
+| `fp-lib-table`, `convertible-keyboard-pcb.kicad_dru` | Footprint-Bibliothekstabelle, Designregel für die LED-Aussparungen |
 | `lib/MX_Alps_Hybrid` | Schalter-Footprints von ai03 (Git-Submodul) |
 | `tools/` | Skripte, die die Blätter erzeugt und die Platine aktualisiert haben – siehe [tools/README.de.md](tools/README.de.md) |
 
@@ -101,4 +103,4 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 
 CC BY-NC-SA 4.0 — siehe [LICENSE](LICENSE). Die Schalter-Footprints in
 `lib/MX_Alps_Hybrid` stammen von ai03 und stehen unter der MIT-Lizenz;
-`lib/keyboard.pretty/MXOnly-ISO-FLIPPED` ist davon abgeleitet.
+die THT-LED-Footprints in `lib/keyboard.pretty` übernehmen deren Pad-Geometrie.

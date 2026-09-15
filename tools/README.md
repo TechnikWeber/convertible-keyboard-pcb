@@ -24,6 +24,7 @@ be traced and built upon.
 | `sync_pcb.py` | Updates the PCB from the netlist like "Update PCB from Schematic": swaps and adds footprints, places diodes and LED resistors next to their switch, links footprints to symbols, assigns nets, runs DRC with schematic parity |
 | `place_override.json` | Diode/resistor positions that differ from the default next to the switch (ISO/ANSI collisions) |
 | `kicadlib.py` | Minimal S-expression parser/serializer and symbol-library helpers |
+| `led_variant.py smd\|tht` | Switches the key LEDs between reverse-mount SMD (standard) and THT on the current KiCad files – only the LED footprints change; runs ERC and DRC |
 | `analysis/` | Collision checks between ISO and ANSI footprints that led to the rotated, unlit ANSI backslash and the flipped LED pads |
 
 ## Usage

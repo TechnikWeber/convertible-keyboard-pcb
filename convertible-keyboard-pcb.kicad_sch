@@ -993,292 +993,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keyboard:SW_MX_LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MX_LED"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MX key switch with in-switch LED. Unit A: switch, unit B: LED (pin 3 anode, pin 4 cathode - matches the ai03 MX_Only LED footprints)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch mx key led backlight"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MX_LED_1_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MX_LED_2_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "ANSI alternatives - populate instead of the matching ISO keys\nSW106  Backslash 1.5u: no LED, switch rotated 270° on the PCB (clears the ISO Enter stabilizer)\nSW107  Enter 2.25u: same matrix position as ISO Enter SW71 (ROW3 / COL13)\nSW108  Left Shift 2.25u: same matrix position as ISO Left Shift SW75 (ROW4 / COL0)\nSW71 is drawn rotated 180°: pin 2 = COL13, pin 1 = diode (keeps its pads clear of SW106)"
 		(exclude_from_sim no)
@@ -6692,7 +6406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 245.11 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -6712,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6723,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 245.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6760,12 +6474,6 @@
 		)
 		(pin "2"
 			(uuid "202df006-d2f6-4d28-a865-5038b9127c0c")
-		)
-		(pin "3"
-			(uuid "972d2509-8869-5495-9ff4-839f293b706f")
-		)
-		(pin "4"
-			(uuid "d25b62c4-9ad0-5caa-b662-bf4bc38b143d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -7086,7 +6794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -7106,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -7117,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 181.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7154,12 +6862,6 @@
 		)
 		(pin "2"
 			(uuid "b96e081a-714c-4b4e-b9bb-7828feb0d27d")
-		)
-		(pin "3"
-			(uuid "bdd091b7-af71-53e6-98d4-c84b19223275")
-		)
-		(pin "4"
-			(uuid "85bbe1ab-5aa6-5040-8b26-b93879ecaa8f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -7583,7 +7285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 257.81 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -7603,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 257.81 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7614,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 257.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7651,12 +7353,6 @@
 		)
 		(pin "2"
 			(uuid "abc1dca2-6bb2-457c-8c22-02c6269e4471")
-		)
-		(pin "3"
-			(uuid "e7fae769-b4c6-5e57-9d82-06a627a283e3")
-		)
-		(pin "4"
-			(uuid "b2598712-b80a-55bb-b9eb-427becd58023")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -8183,7 +7879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 118.11 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -8203,7 +7899,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 118.11 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8214,7 +7910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 118.11 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8251,12 +7947,6 @@
 		)
 		(pin "2"
 			(uuid "002d708b-d65c-4895-b286-59fb1382a512")
-		)
-		(pin "3"
-			(uuid "334c9032-2e97-5f06-b426-0430990555a2")
-		)
-		(pin "4"
-			(uuid "2df77df6-b0a1-54e7-b1bf-3671fb3f7ff8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -8474,7 +8164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 54.61 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -8494,7 +8184,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 54.61 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 54.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8543,12 +8233,6 @@
 		(pin "2"
 			(uuid "4daebaa2-d3dc-451f-a8b4-5b3474a3d80b")
 		)
-		(pin "3"
-			(uuid "c0e235b1-6804-50cc-88cc-879581067053")
-		)
-		(pin "4"
-			(uuid "eebb71ab-b6e7-5d22-b9e6-d9a5fe78d17e")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -8559,7 +8243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 257.81 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -8579,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 257.81 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8590,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 257.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8628,12 +8312,6 @@
 		(pin "2"
 			(uuid "2f8fbea9-291d-419b-b70d-6608391e6e39")
 		)
-		(pin "3"
-			(uuid "09f22773-6913-5fc3-a100-4474b7186994")
-		)
-		(pin "4"
-			(uuid "cf3fdc47-df7b-5f03-8274-eedd007434ad")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -8644,7 +8322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 54.61 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -8664,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 54.61 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -8675,7 +8353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 54.61 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8712,12 +8390,6 @@
 		)
 		(pin "2"
 			(uuid "b5824108-41c2-4481-8c71-037ec3d627f2")
-		)
-		(pin "3"
-			(uuid "26d0a0c1-2940-5311-800b-c923df893652")
-		)
-		(pin "4"
-			(uuid "3c76d3b3-7d53-5a98-bcb3-e3818a367e8d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -8935,7 +8607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 342.9 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -8955,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 342.9 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8966,7 +8638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.25U-FLIPPED"
+		(property "Footprint" "MX_Only:MXOnly-2.25U-NoLED"
 			(at 342.9 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9004,12 +8676,6 @@
 		)
 		(pin "2"
 			(uuid "34a7f0b7-2fd4-5eec-b037-9c08e2a59ac3")
-		)
-		(pin "3"
-			(uuid "ac407b41-4655-57b0-895e-02c55c671f44")
-		)
-		(pin "4"
-			(uuid "7c3fa4dc-7d94-519e-a14c-ec0f9f35fd79")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -9227,7 +8893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 270.51 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -9247,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 270.51 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9258,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9296,12 +8962,6 @@
 		(pin "2"
 			(uuid "d0c5d836-bb33-4d8b-93f1-87fd618becb0")
 		)
-		(pin "3"
-			(uuid "18305a81-3743-5a6a-b22d-04f87cf3392e")
-		)
-		(pin "4"
-			(uuid "0a75a0df-e972-521b-92df-21c911a8e72c")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -9312,7 +8972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -9332,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -9343,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 67.31 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9381,12 +9041,6 @@
 		(pin "2"
 			(uuid "0d9df0f2-8e3d-4e1d-98af-719f2d069866")
 		)
-		(pin "3"
-			(uuid "3e48b65b-15ac-58fd-8053-25d75564cd89")
-		)
-		(pin "4"
-			(uuid "05e2422c-02e0-5450-9c92-2db0156d38f3")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -9397,7 +9051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 363.22 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -9417,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 363.22 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9428,7 +9082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.25U"
+		(property "Footprint" "MX_Only:MXOnly-2.25U-NoLED"
 			(at 363.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9466,12 +9120,6 @@
 		)
 		(pin "2"
 			(uuid "80b9fb8f-d3ba-5d05-9965-aeb98f905184")
-		)
-		(pin "3"
-			(uuid "c6e651dd-3dc6-5e8c-8811-d8b54242c29b")
-		)
-		(pin "4"
-			(uuid "ba1b5e8e-7fca-546b-9ada-3f7902d14bf2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -9689,7 +9337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 270.51 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -9709,7 +9357,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 270.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9720,7 +9368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9758,12 +9406,6 @@
 		(pin "2"
 			(uuid "732a37a2-a433-4acf-88da-6c9f4b86e520")
 		)
-		(pin "3"
-			(uuid "28cf61d6-02f0-511b-9361-21f21fe5efdb")
-		)
-		(pin "4"
-			(uuid "1c205971-118e-5a42-9547-a74377b14efd")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -9774,7 +9416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9794,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9805,7 +9447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 168.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9842,12 +9484,6 @@
 		)
 		(pin "2"
 			(uuid "71c4dfe5-e8c0-4803-a40e-6ba4326c09d0")
-		)
-		(pin "3"
-			(uuid "50da189a-6069-591d-b7df-998159c90b59")
-		)
-		(pin "4"
-			(uuid "f46598f7-1219-5651-be59-3b5a6e440fd6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -9962,7 +9598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 219.71 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -9982,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9993,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 219.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10030,12 +9666,6 @@
 		)
 		(pin "2"
 			(uuid "ad9a5e04-fc25-48bc-b720-fa244b506180")
-		)
-		(pin "3"
-			(uuid "a12b0466-a7a1-5dc6-b21c-d42b602340b5")
-		)
-		(pin "4"
-			(uuid "03c8e785-6ed2-575b-9674-656c1e55884c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10356,7 +9986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -10376,7 +10006,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10387,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10425,12 +10055,6 @@
 		(pin "2"
 			(uuid "ca916943-7745-4e64-a781-8b3db753aeb2")
 		)
-		(pin "3"
-			(uuid "64a32ca1-9982-5661-b712-bcdfc33a6260")
-		)
-		(pin "4"
-			(uuid "cf694232-7414-52eb-9689-4c8e6427400f")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -10441,7 +10065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -10461,7 +10085,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10472,7 +10096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 156.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10510,12 +10134,6 @@
 		(pin "2"
 			(uuid "ace6945d-e82c-4b8a-a45a-2d6586504aca")
 		)
-		(pin "3"
-			(uuid "2cc2fb5a-a811-5908-9976-772c0f81cfef")
-		)
-		(pin "4"
-			(uuid "0f0bff0d-b088-55bf-8f21-9d275711af3c")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -10526,7 +10144,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 54.61 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -10546,7 +10164,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 54.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10594,12 +10212,6 @@
 		)
 		(pin "2"
 			(uuid "94ef2886-2a81-4272-be89-a60b014096d0")
-		)
-		(pin "3"
-			(uuid "283a3881-a7a5-5a6b-a9aa-918d22a8b51b")
-		)
-		(pin "4"
-			(uuid "1dbc0a4d-1942-5c74-b99d-ef77899030af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10817,7 +10429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -10837,7 +10449,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10848,7 +10460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 41.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10885,12 +10497,6 @@
 		)
 		(pin "2"
 			(uuid "43131acb-41ed-49d9-bd66-e583b3017d76")
-		)
-		(pin "3"
-			(uuid "255964d7-68c6-50e5-8b21-d58fdf4e98ac")
-		)
-		(pin "4"
-			(uuid "e3771b35-9ba5-59e1-a0a6-5325c695353c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11005,7 +10611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 118.11 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -11025,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11036,7 +10642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 118.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11073,12 +10679,6 @@
 		)
 		(pin "2"
 			(uuid "da5c16dd-67d0-469a-9f3f-24af6033d75d")
-		)
-		(pin "3"
-			(uuid "2de8b380-6b10-5f14-a659-5566e6c48d3c")
-		)
-		(pin "4"
-			(uuid "23d12acf-fea9-5249-b665-7114e1ae6f09")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11296,7 +10896,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 143.51 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -11316,7 +10916,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 143.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11327,7 +10927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11365,12 +10965,6 @@
 		(pin "2"
 			(uuid "152dd0aa-699a-44c0-ae37-b6f26ec70088")
 		)
-		(pin "3"
-			(uuid "ddf93533-ae8c-558a-a07b-93cb1bd4788d")
-		)
-		(pin "4"
-			(uuid "5f974c81-3152-530e-8d25-db4abbb5dc5e")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -11381,7 +10975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 270.51 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -11401,7 +10995,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 270.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11412,7 +11006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 270.51 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11450,12 +11044,6 @@
 		(pin "2"
 			(uuid "8d236584-49b4-44c0-b100-962d57ec47e1")
 		)
-		(pin "3"
-			(uuid "51198025-fed2-5f79-a911-178e079ec451")
-		)
-		(pin "4"
-			(uuid "db7d39fc-5aa8-52a9-9882-dd566866f687")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -11466,7 +11054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11486,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11497,7 +11085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 29.21 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11535,12 +11123,6 @@
 		(pin "2"
 			(uuid "c2da1149-156f-4f84-b7e1-6656a58de6a5")
 		)
-		(pin "3"
-			(uuid "23d07b22-7ae5-5eda-ba16-bdeae0bd91c6")
-		)
-		(pin "4"
-			(uuid "66fef52e-b188-521b-9884-68f089b6f41d")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -11551,7 +11133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -11571,7 +11153,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -11582,7 +11164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 168.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11620,12 +11202,6 @@
 		(pin "2"
 			(uuid "b3afca57-88a6-4185-bf22-937e82c95c69")
 		)
-		(pin "3"
-			(uuid "4ec56bbd-715f-5f97-ae9b-abcbd272476a")
-		)
-		(pin "4"
-			(uuid "e0bff61c-d159-505e-957a-662a8b12c6c3")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -11636,7 +11212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 118.11 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -11656,7 +11232,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 118.11 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11667,7 +11243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11704,12 +11280,6 @@
 		)
 		(pin "2"
 			(uuid "bfb7187c-afa2-4bc2-ad68-7a3faba5147e")
-		)
-		(pin "3"
-			(uuid "113ceb2f-8e6c-57d2-b24f-30177ee3b718")
-		)
-		(pin "4"
-			(uuid "5c943ae7-1057-5190-a52b-e6daa1fd56c5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11824,7 +11394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11844,7 +11414,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11855,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-6.25U"
+		(property "Footprint" "MX_Only:MXOnly-6.25U-NoLED"
 			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11893,12 +11463,6 @@
 		(pin "2"
 			(uuid "ccd13dd8-7609-4f3f-95e0-9ec255c7f142")
 		)
-		(pin "3"
-			(uuid "2b835397-2903-59c2-ae49-d80f00e9efab")
-		)
-		(pin "4"
-			(uuid "f0f331db-af67-591f-b195-77f73b30c8ca")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -11909,7 +11473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -11929,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11940,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11977,12 +11541,6 @@
 		)
 		(pin "2"
 			(uuid "73ff796b-46ce-45b8-bf7b-87a01b74aa7a")
-		)
-		(pin "3"
-			(uuid "ebce2222-43c7-5615-8f72-7ec69493a6f2")
-		)
-		(pin "4"
-			(uuid "afbe44a1-1525-5646-90cd-80385439b00f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12509,7 +12067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -12529,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12540,7 +12098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.75U"
+		(property "Footprint" "MX_Only:MXOnly-1.75U-NoLED"
 			(at 29.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12578,12 +12136,6 @@
 		(pin "2"
 			(uuid "edd77d13-da6b-4e74-b6b8-c27a2a704f45")
 		)
-		(pin "3"
-			(uuid "f312e765-67ab-5425-baee-a58e198fd229")
-		)
-		(pin "4"
-			(uuid "e51f790e-f091-5d29-a9b8-ca61d4ce5379")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -12594,7 +12146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -12614,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 207.01 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -12625,7 +12177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 207.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12663,12 +12215,6 @@
 		(pin "2"
 			(uuid "95fe038b-a8d6-4013-be10-73e10aee26f5")
 		)
-		(pin "3"
-			(uuid "3b554846-4dbe-5b4a-8f8e-cfe134101c73")
-		)
-		(pin "4"
-			(uuid "22c87866-cb25-5ec5-905e-1c8298e5c948")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -12679,7 +12225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 143.51 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -12699,7 +12245,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12710,7 +12256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 143.51 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12748,12 +12294,6 @@
 		(pin "2"
 			(uuid "ba057cc9-afed-48d9-9bd9-fa26c049cf1f")
 		)
-		(pin "3"
-			(uuid "c4647f2c-497b-5c39-88e0-f4893b48db64")
-		)
-		(pin "4"
-			(uuid "4b23e299-248f-518a-9d5b-ee81726d899c")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -12764,7 +12304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 92.71 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -12784,7 +12324,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 92.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12795,7 +12335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12833,12 +12373,6 @@
 		(pin "2"
 			(uuid "0c74c2ac-71e9-44ad-90f7-423b0acf0e2b")
 		)
-		(pin "3"
-			(uuid "72f3d791-4b59-5443-b5c2-fb674e8347ae")
-		)
-		(pin "4"
-			(uuid "a6c2ef35-6fe1-52f4-82d4-1e37c114d2e7")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -12849,7 +12383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 245.11 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -12869,7 +12403,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 245.11 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12880,7 +12414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 245.11 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12918,12 +12452,6 @@
 		(pin "2"
 			(uuid "b1b90ee0-22bc-49d4-ad68-7c10c1102500")
 		)
-		(pin "3"
-			(uuid "ef2c74ed-329d-516f-b14c-393b8eddb4fd")
-		)
-		(pin "4"
-			(uuid "f526b407-f8c4-537a-b765-a3e1481f4d7e")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -12934,7 +12462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 92.71 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -12954,7 +12482,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12965,7 +12493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13003,12 +12531,6 @@
 		(pin "2"
 			(uuid "f5784cce-b512-412e-8ce3-69895ab6c450")
 		)
-		(pin "3"
-			(uuid "71034027-41ad-59aa-9cd4-0f08cc6931a2")
-		)
-		(pin "4"
-			(uuid "e8dc333a-0667-5a22-84e8-c3964a8943ef")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -13019,7 +12541,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 143.51 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -13039,7 +12561,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13050,7 +12572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 143.51 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13088,12 +12610,6 @@
 		(pin "2"
 			(uuid "2196ab27-c87f-461b-9feb-a681e9773a38")
 		)
-		(pin "3"
-			(uuid "28ed20e4-50a4-5d85-b9c5-77d111081265")
-		)
-		(pin "4"
-			(uuid "a15bffcb-83ed-5884-a84e-eedd31f690ef")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -13104,7 +12620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -13124,7 +12640,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 207.01 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13135,7 +12651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13172,12 +12688,6 @@
 		)
 		(pin "2"
 			(uuid "c20ce18b-1673-4d57-930d-1a1f1d052b71")
-		)
-		(pin "3"
-			(uuid "1ffccfda-800d-5868-8c9c-70aa011397d6")
-		)
-		(pin "4"
-			(uuid "f2d12c4d-20e5-56fb-9bf2-3c8ac9231575")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13292,7 +12802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -13312,7 +12822,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13323,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13361,12 +12871,6 @@
 		(pin "2"
 			(uuid "91ebd4b3-9f80-4e00-9ee1-93e5dc7af4a9")
 		)
-		(pin "3"
-			(uuid "21973500-02ba-57f1-aa0f-385e3214ed74")
-		)
-		(pin "4"
-			(uuid "b1dec07c-3c13-5c81-93dd-d785453595f9")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -13377,7 +12881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 219.71 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -13397,7 +12901,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 219.71 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -13408,7 +12912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 219.71 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -13445,12 +12949,6 @@
 		)
 		(pin "2"
 			(uuid "41609613-727d-4425-9a35-b68866c96cec")
-		)
-		(pin "3"
-			(uuid "2ca71f94-9610-513e-a9ba-ed81e93585af")
-		)
-		(pin "4"
-			(uuid "1ba6f3fe-98f1-58c8-92d7-7f7f9631aeba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13565,7 +13063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 283.21 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -13585,7 +13083,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 283.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13596,7 +13094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 283.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13633,12 +13131,6 @@
 		)
 		(pin "2"
 			(uuid "e938ffcf-7b5c-4aea-9a71-725aa0cfbcf7")
-		)
-		(pin "3"
-			(uuid "cdf1f146-4809-50bf-8e23-481c296a4044")
-		)
-		(pin "4"
-			(uuid "72ad6ed4-b813-5e2c-82f2-9baeebd981a4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14165,7 +13657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 130.81 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -14185,7 +13677,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 130.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14196,7 +13688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14233,12 +13725,6 @@
 		)
 		(pin "2"
 			(uuid "106ca4d1-562c-4b55-8537-feb8acefbd93")
-		)
-		(pin "3"
-			(uuid "f1ea992b-6c78-533e-bb24-740ef4d6740b")
-		)
-		(pin "4"
-			(uuid "a609a0b6-0470-5f83-bc15-5be1e6294e7b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14353,7 +13839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 270.51 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -14373,7 +13859,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 270.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +13870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 270.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14421,12 +13907,6 @@
 		)
 		(pin "2"
 			(uuid "638c72bc-7a64-41d2-a743-d8b9d818010c")
-		)
-		(pin "3"
-			(uuid "5ab9766f-bfc4-5b75-a2e5-7e3119034460")
-		)
-		(pin "4"
-			(uuid "aaedbc48-42f5-5970-8c70-8487e7044d18")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14850,7 +14330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 283.21 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -14870,7 +14350,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 283.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14881,7 +14361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers"
+		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers-NoLED"
 			(at 283.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14918,12 +14398,6 @@
 		)
 		(pin "2"
 			(uuid "c91a632c-5621-49ff-a5bb-4cf74060ec5f")
-		)
-		(pin "3"
-			(uuid "e0127e4a-4956-5fc5-84ad-71914df3f4c6")
-		)
-		(pin "4"
-			(uuid "53810546-39fa-55f6-82d8-47f00381c551")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15038,7 +14512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 232.41 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -15058,7 +14532,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15069,7 +14543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 232.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15107,12 +14581,6 @@
 		(pin "2"
 			(uuid "1efe87b9-96b5-47f7-afde-8e26f745b957")
 		)
-		(pin "3"
-			(uuid "eb28a927-8481-5a2e-8a6f-f12321f26fd2")
-		)
-		(pin "4"
-			(uuid "9fce75bf-7faf-5d0d-ac86-86d3a0520dfc")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -15123,7 +14591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 143.51 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -15143,7 +14611,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 143.51 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -15154,7 +14622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 143.51 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -15191,12 +14659,6 @@
 		)
 		(pin "2"
 			(uuid "94619336-498a-4732-b343-eea74f756642")
-		)
-		(pin "3"
-			(uuid "660bebd9-a369-5f06-92d6-eb25582f8e23")
-		)
-		(pin "4"
-			(uuid "bbf1bd83-c06c-5867-bb25-c8477b296ca7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15700,7 +15162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 80.01 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -15720,7 +15182,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 80.01 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15731,7 +15193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15768,12 +15230,6 @@
 		)
 		(pin "2"
 			(uuid "bdd3f1b0-217c-49a3-863f-f5c66b1cf0d9")
-		)
-		(pin "3"
-			(uuid "16469a97-73eb-5bad-aa39-fe0e31585811")
-		)
-		(pin "4"
-			(uuid "a59d7208-b45d-524a-8f0c-43f516d5799f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15991,7 +15447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 194.31 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -16011,7 +15467,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -16022,7 +15478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 194.31 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16059,12 +15515,6 @@
 		)
 		(pin "2"
 			(uuid "2959f382-8d6e-4924-81a7-418110adc4b5")
-		)
-		(pin "3"
-			(uuid "24eae122-d058-594e-86c8-c049940e6b80")
-		)
-		(pin "4"
-			(uuid "2c2f7836-95b4-5fca-ae12-473a17feb03c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16179,7 +15629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 54.61 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -16199,7 +15649,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 54.61 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16210,7 +15660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 54.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16248,12 +15698,6 @@
 		(pin "2"
 			(uuid "c3c5bd20-ce76-401e-942c-356919fcf2d8")
 		)
-		(pin "3"
-			(uuid "8885f749-9987-5bd7-8fe0-25c99e942a5b")
-		)
-		(pin "4"
-			(uuid "d202ac99-ff59-5bb2-a75a-27b63773c45e")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16264,7 +15708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 194.31 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -16284,7 +15728,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 194.31 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16295,7 +15739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U"
+		(property "Footprint" "MX_Only:MXOnly-2U-NoLED"
 			(at 194.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16333,12 +15777,6 @@
 		(pin "2"
 			(uuid "f6163e95-71a4-444d-9acb-df188849f73e")
 		)
-		(pin "3"
-			(uuid "b2c50017-3cb1-52bd-8904-227f8198186f")
-		)
-		(pin "4"
-			(uuid "0725897f-42fe-51b1-8de0-c8fd26503947")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16349,7 +15787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 80.01 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -16369,7 +15807,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 80.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16380,7 +15818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 80.01 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16417,12 +15855,6 @@
 		)
 		(pin "2"
 			(uuid "aa5c0c71-5772-449c-bc1d-4c9914e55556")
-		)
-		(pin "3"
-			(uuid "7b2c9d8c-63ed-503f-9d23-f18d2575bbbf")
-		)
-		(pin "4"
-			(uuid "c6f23ca1-f6bc-5c55-bf55-29d80cc3a050")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16640,7 +16072,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -16660,7 +16092,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16671,7 +16103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16709,12 +16141,6 @@
 		(pin "2"
 			(uuid "063840b9-5ef7-4c9d-b06b-3dba5fd91eb9")
 		)
-		(pin "3"
-			(uuid "a09bdc08-49a6-55b2-84ba-72be6afe05d2")
-		)
-		(pin "4"
-			(uuid "82b82d44-0eba-5e67-b399-4919ff152046")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16725,7 +16151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -16745,7 +16171,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -16756,7 +16182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 41.91 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -16794,12 +16220,6 @@
 		(pin "2"
 			(uuid "597ea7d0-ad43-43b8-a8a4-8840d0dca954")
 		)
-		(pin "3"
-			(uuid "243b871a-f753-5b22-87fc-b5e9c4570934")
-		)
-		(pin "4"
-			(uuid "2d1067b9-6b02-50b4-8812-c3686d89b5f8")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16810,7 +16230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 92.71 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -16830,7 +16250,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16841,7 +16261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 92.71 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16879,12 +16299,6 @@
 		(pin "2"
 			(uuid "863e9cb3-10c8-42e5-817a-6ff245b7db40")
 		)
-		(pin "3"
-			(uuid "031b0216-ba40-5b66-bb43-ce5fca0622af")
-		)
-		(pin "4"
-			(uuid "d4318f32-eb18-5565-8cfa-ec7347d67ccf")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16895,7 +16309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -16915,7 +16329,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16926,7 +16340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 181.61 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16964,12 +16378,6 @@
 		(pin "2"
 			(uuid "5365d710-171f-4a85-8427-1cdf5247c776")
 		)
-		(pin "3"
-			(uuid "9a4ba6ba-d8fb-54c7-af1a-4cebfd10c833")
-		)
-		(pin "4"
-			(uuid "f57e6199-ea3a-50b7-84c8-337dacaa7f0b")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -16980,7 +16388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -17000,7 +16408,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17011,7 +16419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17049,12 +16457,6 @@
 		(pin "2"
 			(uuid "3e1f647c-619b-49c5-b902-31beca528ddb")
 		)
-		(pin "3"
-			(uuid "9e307191-fc02-5e2a-9c2e-fda07eca1b49")
-		)
-		(pin "4"
-			(uuid "ac8e3eb6-c94d-5b72-96a8-20db0c0566fa")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -17065,7 +16467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -17085,7 +16487,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17096,7 +16498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 156.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17133,12 +16535,6 @@
 		)
 		(pin "2"
 			(uuid "359552a0-3795-4100-b3f8-1caf97def9f7")
-		)
-		(pin "3"
-			(uuid "af27fc2f-3313-5475-a9b9-3203acfcbd41")
-		)
-		(pin "4"
-			(uuid "01d8ad53-7854-5722-a3e2-079bef11d4b2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17459,7 +16855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 245.11 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -17479,7 +16875,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 245.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17490,7 +16886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 245.11 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17528,12 +16924,6 @@
 		(pin "2"
 			(uuid "2efcb1cb-10b1-4cbf-b77f-d78b13ec6dc7")
 		)
-		(pin "3"
-			(uuid "7c4fa4cb-92bb-57f3-9adb-aa88cb8e2c26")
-		)
-		(pin "4"
-			(uuid "f864b563-9fff-544e-90aa-2853ff3854ec")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -17544,7 +16934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -17564,7 +16954,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17575,7 +16965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 168.91 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17612,12 +17002,6 @@
 		)
 		(pin "2"
 			(uuid "ae722be0-9521-4cfc-8631-476269bde4d7")
-		)
-		(pin "3"
-			(uuid "dd4fead5-e5dd-5f39-872a-495f755dab2d")
-		)
-		(pin "4"
-			(uuid "71ebc662-4b0b-5c52-a492-59039f1420ae")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17938,7 +17322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -17958,7 +17342,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17969,7 +17353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.75U"
+		(property "Footprint" "MX_Only:MXOnly-2.75U-NoLED"
 			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18007,12 +17391,6 @@
 		(pin "2"
 			(uuid "656af919-afd7-461a-a864-2b34c6dbc0cf")
 		)
-		(pin "3"
-			(uuid "355e2031-9285-5477-a2d8-7ee9bfbb8385")
-		)
-		(pin "4"
-			(uuid "c83c9cf3-617e-5e58-8177-449d00f46993")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -18023,7 +17401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 194.31 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -18043,7 +17421,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18054,7 +17432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "keyboard:MXOnly-ISO-FLIPPED"
+		(property "Footprint" "MX_Only:MXOnly-ISO-NoLED"
 			(at 194.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18091,12 +17469,6 @@
 		)
 		(pin "2"
 			(uuid "d28e1dde-7992-4c2c-95a9-6cf8f13231bd")
-		)
-		(pin "3"
-			(uuid "5592eaec-ab5b-5d6a-8d7e-1cf240c49ff5")
-		)
-		(pin "4"
-			(uuid "862290b0-ae53-5a2f-900c-2c3f610c2879")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18520,7 +17892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 118.11 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -18540,7 +17912,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 118.11 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -18551,7 +17923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 118.11 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18588,12 +17960,6 @@
 		)
 		(pin "2"
 			(uuid "d5b59c7a-f097-428c-97f2-f93b59febf05")
-		)
-		(pin "3"
-			(uuid "b4ee6ea6-5f06-583d-8d7b-51f1f990972e")
-		)
-		(pin "4"
-			(uuid "185be7fe-ecd6-548e-8923-dbe148a0aeb2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18708,7 +18074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 92.71 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -18728,7 +18094,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -18739,7 +18105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 92.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18777,12 +18143,6 @@
 		(pin "2"
 			(uuid "296abcd2-a017-4359-95b5-e89a5d6162fa")
 		)
-		(pin "3"
-			(uuid "217724cc-6c0f-502c-a267-dac7c7b93813")
-		)
-		(pin "4"
-			(uuid "a221549f-5ce2-5928-ba89-9c1b81cc1728")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -18793,7 +18153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 232.41 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -18813,7 +18173,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 232.41 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -18824,7 +18184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 232.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18862,12 +18222,6 @@
 		(pin "2"
 			(uuid "71eb4023-21ff-44f7-80b6-8e26fa1bbdda")
 		)
-		(pin "3"
-			(uuid "b25a9ca0-0659-599f-bd08-8b2062844412")
-		)
-		(pin "4"
-			(uuid "ca509fec-bd77-5964-bf55-960503b9b479")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -18878,7 +18232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 54.61 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -18898,7 +18252,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 54.61 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18909,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 54.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18946,12 +18300,6 @@
 		)
 		(pin "2"
 			(uuid "956b302c-9cb1-43bb-97a9-9ac1eea062e3")
-		)
-		(pin "3"
-			(uuid "7bde5492-f1a9-5696-91b8-06d6fa97014b")
-		)
-		(pin "4"
-			(uuid "a404ec0f-3693-5e41-9e34-2467301e35ba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19066,7 +18414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 257.81 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -19086,7 +18434,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19097,7 +18445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 257.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19134,12 +18482,6 @@
 		)
 		(pin "2"
 			(uuid "3b56acf4-e1a8-4bbe-b6b3-235221796a80")
-		)
-		(pin "3"
-			(uuid "edad2e0b-7a20-51d8-aebf-e5649e60efce")
-		)
-		(pin "4"
-			(uuid "ff904a69-366c-5b91-96bb-0180cedbf70f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19439,7 +18781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -19459,7 +18801,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19470,7 +18812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 181.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19508,12 +18850,6 @@
 		(pin "2"
 			(uuid "479a2289-a548-47bb-a3cf-bd0484ec9e6c")
 		)
-		(pin "3"
-			(uuid "3db9015a-45f2-5058-a613-5936904bdb57")
-		)
-		(pin "4"
-			(uuid "dfdb7660-385e-5227-b344-931a1af0b8c4")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -19524,7 +18860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -19544,7 +18880,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -19555,7 +18891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -19593,12 +18929,6 @@
 		(pin "2"
 			(uuid "a5f2cba1-aec4-44bb-af5e-5f570b6d962e")
 		)
-		(pin "3"
-			(uuid "f25fb6f2-9e2b-5e3a-a2e2-8026b5a5080a")
-		)
-		(pin "4"
-			(uuid "5f4f826e-b325-5401-9ebf-ab26963d1909")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -19609,7 +18939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 232.41 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -19629,7 +18959,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 232.41 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -19640,7 +18970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 232.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -19677,12 +19007,6 @@
 		)
 		(pin "2"
 			(uuid "2696d039-1082-465b-974b-8f34e58cefd7")
-		)
-		(pin "3"
-			(uuid "29d4415b-c20e-500d-b029-8d84908df976")
-		)
-		(pin "4"
-			(uuid "d1c4bc05-c70d-54e4-88c8-c064ce129e76")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19797,7 +19121,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -19817,7 +19141,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19828,7 +19152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 29.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -19865,12 +19189,6 @@
 		)
 		(pin "2"
 			(uuid "c808d1ba-9a1b-4a21-a4c7-d96547607225")
-		)
-		(pin "3"
-			(uuid "7c101989-713b-5090-812f-56e7d4d43918")
-		)
-		(pin "4"
-			(uuid "4915267a-d53d-59cb-b5ee-cc9be0fb476b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19964,7 +19282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 245.11 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -19984,7 +19302,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 245.11 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19995,7 +19313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20033,12 +19351,6 @@
 		(pin "2"
 			(uuid "aa5aeb48-e19e-4dfa-a49a-66d5c42d90b4")
 		)
-		(pin "3"
-			(uuid "09b3ae13-95eb-5cc3-acc2-0c5ddf29526b")
-		)
-		(pin "4"
-			(uuid "b1b0f0d4-02f8-5327-bb23-c8408bfab7c1")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -20049,7 +19361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -20069,7 +19381,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20080,7 +19392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 181.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -20118,12 +19430,6 @@
 		(pin "2"
 			(uuid "cf741480-b0da-4ba0-b48b-bc8cf2ae0769")
 		)
-		(pin "3"
-			(uuid "846bf270-4836-53e6-9431-84af993bd0d9")
-		)
-		(pin "4"
-			(uuid "35b05e2d-79f8-578c-a8f4-8cdbd74e7e8b")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -20134,7 +19440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 283.21 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -20154,7 +19460,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 283.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20165,7 +19471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers"
+		(property "Footprint" "MX_Only:MXOnly-2U-VerticalStabilizers-NoLED"
 			(at 283.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -20203,12 +19509,6 @@
 		(pin "2"
 			(uuid "863dfb2d-3166-4aba-a635-331a50a2d362")
 		)
-		(pin "3"
-			(uuid "b7f1cc14-2e8a-58bc-b058-7703b6d105c6")
-		)
-		(pin "4"
-			(uuid "127bb856-1de1-5d89-a847-8f528e3ebda5")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -20219,7 +19519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -20239,7 +19539,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -20250,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-FLIPPED"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 41.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20288,12 +19588,6 @@
 		(pin "2"
 			(uuid "d9502cd0-7331-4bb9-93da-b619d52e6db5")
 		)
-		(pin "3"
-			(uuid "b128cc5f-eed5-568b-a825-db061b361e21")
-		)
-		(pin "4"
-			(uuid "8f5de92f-9100-51e0-be34-e62ef4842328")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -20304,7 +19598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 118.11 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -20324,7 +19618,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20335,7 +19629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 118.11 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -20372,12 +19666,6 @@
 		)
 		(pin "2"
 			(uuid "afdf0c60-a63e-4310-9603-7da14ed92121")
-		)
-		(pin "3"
-			(uuid "6835833b-9705-590c-ab35-b4261c3065e6")
-		)
-		(pin "4"
-			(uuid "30ed6217-074c-5902-9ce5-7cb26d7e3520")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20595,7 +19883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 80.01 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -20615,7 +19903,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -20626,7 +19914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 80.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -20663,12 +19951,6 @@
 		)
 		(pin "2"
 			(uuid "71d45961-b684-4897-98c1-17ff99ac2b5b")
-		)
-		(pin "3"
-			(uuid "5aba572b-f1f7-587c-a008-9a0d53e5694e")
-		)
-		(pin "4"
-			(uuid "a36148b7-776c-57c7-baaa-40a6553bbb33")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20783,7 +20065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -20803,7 +20085,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20814,7 +20096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.5U"
+		(property "Footprint" "MX_Only:MXOnly-1.5U-NoLED"
 			(at 29.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -20851,12 +20133,6 @@
 		)
 		(pin "2"
 			(uuid "c83d78d9-5bb7-4bda-886d-64f5461051d4")
-		)
-		(pin "3"
-			(uuid "e6674162-b22b-53b5-9fbd-f0a6277304e5")
-		)
-		(pin "4"
-			(uuid "a530a323-01ab-51ce-a738-ca70d0e450a8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20971,7 +20247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 130.81 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -20991,7 +20267,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 130.81 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21002,7 +20278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21040,12 +20316,6 @@
 		(pin "2"
 			(uuid "37bd0902-2c5d-404b-b4e1-37ca595ab4b0")
 		)
-		(pin "3"
-			(uuid "fd9733ff-a2d1-5633-9966-6cc6942912e8")
-		)
-		(pin "4"
-			(uuid "d416d811-dd71-59b0-9807-4bceaf915ce7")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -21056,7 +20326,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -21076,7 +20346,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -21087,7 +20357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21124,12 +20394,6 @@
 		)
 		(pin "2"
 			(uuid "f870dceb-20f1-42b2-ae43-b93150e15b99")
-		)
-		(pin "3"
-			(uuid "75e17047-ebb6-55d8-9810-2f4ba0d5b6d6")
-		)
-		(pin "4"
-			(uuid "e986d478-81fd-52f5-8c1f-f4fc4818ab44")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21244,7 +20508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 80.01 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -21264,7 +20528,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 80.01 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -21275,7 +20539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 80.01 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -21312,12 +20576,6 @@
 		)
 		(pin "2"
 			(uuid "2d681da7-8ff4-4f2b-998f-6c648f426cc3")
-		)
-		(pin "3"
-			(uuid "eea42c96-9737-57fb-a4a3-7cf1d1077ce7")
-		)
-		(pin "4"
-			(uuid "974cab29-e87a-56e8-8adb-cb25282afa74")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21432,7 +20690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -21452,7 +20710,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 207.01 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21463,7 +20721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 207.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21501,12 +20759,6 @@
 		(pin "2"
 			(uuid "3a77fa55-6623-4894-8df7-242b2babd307")
 		)
-		(pin "3"
-			(uuid "40173fe9-c00f-5c0b-aa9a-213f538f9df5")
-		)
-		(pin "4"
-			(uuid "719da467-74df-5e32-a456-becf243adaac")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -21517,7 +20769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -21537,7 +20789,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -21548,7 +20800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 105.41 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -21586,12 +20838,6 @@
 		(pin "2"
 			(uuid "f2ffb7ad-4e94-4940-8f05-f411329e9f23")
 		)
-		(pin "3"
-			(uuid "ae1eb6c9-c4e6-5e91-b191-bc4c20594830")
-		)
-		(pin "4"
-			(uuid "53d5a253-5fd7-5256-9287-50079b955f8c")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -21602,7 +20848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -21622,7 +20868,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -21633,7 +20879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 156.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -21670,12 +20916,6 @@
 		)
 		(pin "2"
 			(uuid "71f76ebb-2a12-4550-ab85-f4207ed95245")
-		)
-		(pin "3"
-			(uuid "7e399808-83a6-5031-b1eb-fa9ab2aa11f8")
-		)
-		(pin "4"
-			(uuid "1959611f-ac1e-516b-93d3-04bd03f8a3af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21790,7 +21030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 181.61 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -21810,7 +21050,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 181.61 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21821,7 +21061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21859,12 +21099,6 @@
 		(pin "2"
 			(uuid "883ab896-cd33-4326-9520-b26444659f6a")
 		)
-		(pin "3"
-			(uuid "fb1d56af-a9ad-5a3f-95d6-ba370e9f73b4")
-		)
-		(pin "4"
-			(uuid "c3448e23-bd9f-5895-8d38-a267bc912fda")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -21875,7 +21109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -21895,7 +21129,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21906,7 +21140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 105.41 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21943,12 +21177,6 @@
 		)
 		(pin "2"
 			(uuid "fcfa1a64-1959-4e5c-a625-5039556cafd1")
-		)
-		(pin "3"
-			(uuid "6136d8ac-b1b3-5f95-b0f0-af2ebcceeb54")
-		)
-		(pin "4"
-			(uuid "2f79f218-5f6b-5c5c-bd2c-0ff700f6b308")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22042,7 +21270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -22062,7 +21290,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22073,7 +21301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 67.31 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22110,12 +21338,6 @@
 		)
 		(pin "2"
 			(uuid "8a8be963-3c35-40ce-8ce9-ec5a50691c76")
-		)
-		(pin "3"
-			(uuid "5b436379-7311-579e-bbc8-e0882f26fd58")
-		)
-		(pin "4"
-			(uuid "c4357d54-5769-5518-a60b-cd0292c20ffd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22230,7 +21452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -22250,7 +21472,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -22261,7 +21483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 156.21 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -22298,12 +21520,6 @@
 		)
 		(pin "2"
 			(uuid "5fad8033-54c1-49b6-8068-5a812fb4ce3e")
-		)
-		(pin "3"
-			(uuid "2dc28e26-b041-5a0d-861c-7eabe143bfcb")
-		)
-		(pin "4"
-			(uuid "96ea44b7-b337-58e6-a257-17f5c86f0765")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22418,7 +21634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -22438,7 +21654,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -22449,7 +21665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 67.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22487,12 +21703,6 @@
 		(pin "2"
 			(uuid "3c75a8de-ed1a-44cf-90d6-0a66ebe0fa02")
 		)
-		(pin "3"
-			(uuid "95e12140-467d-58da-a67c-a48858bee1c1")
-		)
-		(pin "4"
-			(uuid "54b2d8d2-290f-5f43-8655-d0c56bb581c9")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -22503,7 +21713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -22523,7 +21733,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22534,7 +21744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 168.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22572,12 +21782,6 @@
 		(pin "2"
 			(uuid "a5b529db-c63f-4f5c-9aa1-3deee3196904")
 		)
-		(pin "3"
-			(uuid "1d3aee36-7836-5421-b3a4-63735dbff970")
-		)
-		(pin "4"
-			(uuid "f373263a-fd9a-50ce-afe3-0276a1671ba9")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -22588,7 +21792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 130.81 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -22608,7 +21812,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 130.81 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -22619,7 +21823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -22657,12 +21861,6 @@
 		(pin "2"
 			(uuid "2e90232d-3b7a-47b5-8c59-ebc1510db913")
 		)
-		(pin "3"
-			(uuid "7671c1bc-fd4a-53dd-be58-ba8f325ea47f")
-		)
-		(pin "4"
-			(uuid "4060b2f4-b9d9-5ce6-a1d1-971130e1e4c2")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -22673,7 +21871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 257.81 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -22693,7 +21891,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 257.81 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -22704,7 +21902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 257.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -22741,12 +21939,6 @@
 		)
 		(pin "2"
 			(uuid "7c320be7-72ed-4474-a413-be65dc3b028a")
-		)
-		(pin "3"
-			(uuid "3075327f-ae47-5dde-ba61-23cb3bee9f6d")
-		)
-		(pin "4"
-			(uuid "6ef3c9d6-cd16-5657-9770-ea4bc443b5bb")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22861,7 +22053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -22881,7 +22073,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22892,7 +22084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 29.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -22929,12 +22121,6 @@
 		)
 		(pin "2"
 			(uuid "c7749a71-11c0-40bb-91b3-ecafe8682996")
-		)
-		(pin "3"
-			(uuid "75d478b8-eaf5-5ae0-b059-fe53eeedca6a")
-		)
-		(pin "4"
-			(uuid "65ed6410-9b99-518d-83e6-fbe983a9243d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23152,7 +22338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -23172,7 +22358,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -23183,7 +22369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 207.01 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -23221,12 +22407,6 @@
 		(pin "2"
 			(uuid "b6d3bef5-24f3-4661-a48f-fc8877f45fb8")
 		)
-		(pin "3"
-			(uuid "52538d75-a144-5e01-b26b-2183cc8890f8")
-		)
-		(pin "4"
-			(uuid "3a481414-dbf9-5cb6-b9c2-17b45e550e09")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -23237,7 +22417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 130.81 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -23257,7 +22437,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 130.81 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23268,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23305,12 +22485,6 @@
 		)
 		(pin "2"
 			(uuid "8efa72d9-0c63-4d41-87bd-2aa5a9679108")
-		)
-		(pin "3"
-			(uuid "ed9e383d-6ae8-52cf-9ef2-8c81635f95fa")
-		)
-		(pin "4"
-			(uuid "a8d67db5-665d-53eb-a799-3de0a22ce3c2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23528,7 +22702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 41.91 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -23548,7 +22722,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 41.91 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23559,7 +22733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23597,12 +22771,6 @@
 		(pin "2"
 			(uuid "39f29a16-396f-4c84-9cf4-b07a4c93908c")
 		)
-		(pin "3"
-			(uuid "a7058d74-9713-584c-a65a-bbdd11beedec")
-		)
-		(pin "4"
-			(uuid "3e55d35d-8843-5a21-a751-f9a6f1fb18b7")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -23613,7 +22781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 219.71 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -23633,7 +22801,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 219.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -23644,7 +22812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 219.71 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -23681,12 +22849,6 @@
 		)
 		(pin "2"
 			(uuid "b3f4e237-6d70-4f73-9af4-cf236ac1660b")
-		)
-		(pin "3"
-			(uuid "36435e19-eb0b-5429-a925-5ae215d77f09")
-		)
-		(pin "4"
-			(uuid "b8c12900-bc80-5a06-a4ac-029e566cc853")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24728,7 +23890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 80.01 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -24748,7 +23910,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 80.01 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -24759,7 +23921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -24797,12 +23959,6 @@
 		(pin "2"
 			(uuid "24232f3d-90ca-4655-b920-ac7533e2eae8")
 		)
-		(pin "3"
-			(uuid "8eaa4aa0-d70a-5046-b7e8-2968c47886cd")
-		)
-		(pin "4"
-			(uuid "569966cb-c4a6-59a7-91df-13a2a16d9e9b")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -24813,7 +23969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 92.71 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -24833,7 +23989,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 92.71 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -24844,7 +24000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 92.71 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -24881,12 +24037,6 @@
 		)
 		(pin "2"
 			(uuid "6fae58ec-e707-4aaa-9552-1a95759e2e23")
-		)
-		(pin "3"
-			(uuid "5ac3f9cb-207c-5f1d-9ce1-1f742f05d259")
-		)
-		(pin "4"
-			(uuid "f3106164-b548-5f2a-bfc3-6280b7a7d110")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -25104,7 +24254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 105.41 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -25124,7 +24274,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25135,7 +24285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25173,12 +24323,6 @@
 		(pin "2"
 			(uuid "64e96e7c-6750-49f3-93d3-28f89208417c")
 		)
-		(pin "3"
-			(uuid "b4771057-3cdb-5f81-9cf1-e5636ce00bb0")
-		)
-		(pin "4"
-			(uuid "4059c081-8675-5502-8c50-88cd01c0c0b2")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -25189,7 +24333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -25209,7 +24353,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -25220,7 +24364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25258,12 +24402,6 @@
 		(pin "2"
 			(uuid "21142377-cff0-448c-ab67-5bafc691842a")
 		)
-		(pin "3"
-			(uuid "2a24db21-96ed-5048-8aff-caadb4e52eda")
-		)
-		(pin "4"
-			(uuid "669b1c54-9602-5766-a816-8e5f45ce0371")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -25274,7 +24412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -25294,7 +24432,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -25305,7 +24443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U"
+		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
 			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -25342,12 +24480,6 @@
 		)
 		(pin "2"
 			(uuid "db5e6d0f-e6e0-47a6-af39-ca9b730595c9")
-		)
-		(pin "3"
-			(uuid "b201173d-3ced-5e0d-85e7-e3d2a013de2e")
-		)
-		(pin "4"
-			(uuid "96a507f7-a448-55d6-a88a-b9466d79bfba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -25668,7 +24800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 29.21 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -25688,7 +24820,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 29.21 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -25699,7 +24831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -25737,12 +24869,6 @@
 		(pin "2"
 			(uuid "c7919198-eaea-4c3c-b5b0-d202f437043f")
 		)
-		(pin "3"
-			(uuid "84b5692b-7491-53ab-b04a-f53dd2187418")
-		)
-		(pin "4"
-			(uuid "6bf54940-63f6-5cb4-8884-f3a7da60355a")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -25753,7 +24879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 219.71 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -25773,7 +24899,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -25784,7 +24910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 219.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -25822,12 +24948,6 @@
 		(pin "2"
 			(uuid "ea4b0161-df17-4635-9e04-88276a9b4fe4")
 		)
-		(pin "3"
-			(uuid "38225cd4-33c7-5396-afdf-0ac2f91be45e")
-		)
-		(pin "4"
-			(uuid "d4329931-9114-5e32-a434-8502c55299a9")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -25838,7 +24958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 130.81 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -25858,7 +24978,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -25869,7 +24989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 130.81 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -25906,12 +25026,6 @@
 		)
 		(pin "2"
 			(uuid "6ab51fcb-04ca-475a-9328-3e54dbd089a0")
-		)
-		(pin "3"
-			(uuid "1456fbfb-a650-5194-bfdc-2d3e02eec30c")
-		)
-		(pin "4"
-			(uuid "9e915188-a209-55dc-aab2-b711fd8a60c4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -26026,7 +25140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 219.71 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -26046,7 +25160,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 219.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -26057,7 +25171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 219.71 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -26095,12 +25209,6 @@
 		(pin "2"
 			(uuid "1cd194e5-6290-4c68-86e7-b99c6c58668e")
 		)
-		(pin "3"
-			(uuid "7bda9fb1-4c60-5980-a9a1-60ee0dcb954b")
-		)
-		(pin "4"
-			(uuid "b86f6ce3-7052-5f52-8884-fe1a44170485")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -26111,7 +25219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 232.41 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -26131,7 +25239,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 232.41 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -26142,7 +25250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 232.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -26180,12 +25288,6 @@
 		(pin "2"
 			(uuid "fdb5c7bc-e60e-426b-8fab-d234ee9a6741")
 		)
-		(pin "3"
-			(uuid "3e0f917a-dc70-550b-8371-6073488cd7a0")
-		)
-		(pin "4"
-			(uuid "0df12a79-0670-5528-b799-8a23c3081836")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -26196,7 +25298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 168.91 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -26216,7 +25318,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 168.91 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -26227,7 +25329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 168.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26265,12 +25367,6 @@
 		(pin "2"
 			(uuid "e50dbcd7-259b-453b-9f62-eb9e9330804c")
 		)
-		(pin "3"
-			(uuid "7f18d5e3-b49a-50b5-9ffe-b0886a2501ef")
-		)
-		(pin "4"
-			(uuid "f9fe58cf-ee9a-537f-8c84-f212d4c4265e")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -26281,7 +25377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 270.51 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -26301,7 +25397,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 270.51 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -26312,7 +25408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 270.51 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26350,12 +25446,6 @@
 		(pin "2"
 			(uuid "15f65e73-174a-4b3c-a4a8-e23b32e80b62")
 		)
-		(pin "3"
-			(uuid "23d22bc8-79fb-58b1-87fb-99d9b7b96461")
-		)
-		(pin "4"
-			(uuid "6d3689c9-586e-5183-8db2-5d979d5f9a07")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -26366,7 +25456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -26386,7 +25476,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 67.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -26397,7 +25487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -26435,12 +25525,6 @@
 		(pin "2"
 			(uuid "f6e4304a-3259-4273-8b1b-cd85e2dc0758")
 		)
-		(pin "3"
-			(uuid "58dba3c4-3eba-5261-a0a9-5083854a7874")
-		)
-		(pin "4"
-			(uuid "18361e45-030a-5c25-bd4f-50b2517c2269")
-		)
 		(instances
 			(project "convertible-keyboard-pcb"
 				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5"
@@ -26451,7 +25535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 143.51 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -26471,7 +25555,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -26482,7 +25566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U"
+		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
 			(at 143.51 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26519,12 +25603,6 @@
 		)
 		(pin "2"
 			(uuid "fbdd26df-917a-4abf-8ae8-73c79daf2702")
-		)
-		(pin "3"
-			(uuid "69838ae0-c646-5923-a890-da5c9ee87a81")
-		)
-		(pin "4"
-			(uuid "44b0be1c-6f6b-5725-b9c4-4847912c37d5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -26845,7 +25923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard:SW_MX_LED")
+		(lib_id "Switch:SW_Push_45deg")
 		(at 245.11 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -26865,7 +25943,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MX_LED"
+		(property "Value" "SW_Push"
 			(at 245.11 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -26876,7 +25954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U"
+		(property "Footprint" "MX_Only:MXOnly-2U-NoLED"
 			(at 245.11 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26913,12 +25991,6 @@
 		)
 		(pin "2"
 			(uuid "72811c2f-46ad-42fe-bfd4-fb26fe9c3807")
-		)
-		(pin "3"
-			(uuid "608b8002-f045-55ee-bc2c-7c04f9f7d3d1")
-		)
-		(pin "4"
-			(uuid "3502f9c2-4b5c-5189-8316-4bd6f2898cb4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"

@@ -54,8 +54,10 @@ bending it into something else.
 - USB-C (USB 2.0) on the board with ESD protection, 500 mA polyfuse and a 3.3 V
   LDO – or a Unified Daughterboard instead: connectors for Molex Pico-EZmate
   (uDB S1, C4, C5-EZM) and JST-SH (uDB C3, C5-JSH) are provided, not populated
-- Single-colour backlight: resistors and MOSFET on the board, the LEDs themselves
-  are optional — switched, dimmed and "breathing" via QMK
+- Single-colour backlight with reverse-mount 1206 LEDs on the back of the PCB
+  (white, XINGLIGHT XL-3216UWC-FB), machine-assembled; switched, dimmed and
+  "breathing" via QMK. A THT-LED variant uses the same design with different LED
+  footprints
 - Caps Lock and Num Lock indicators (0805) above the numpad; for the TKL a Caps
   Lock indicator above Page Up is prepared but not populated
 - All 30 RP2040 GPIOs in use: 27 matrix lines, backlight PWM, Caps Lock and
@@ -69,8 +71,8 @@ bending it into something else.
 | `convertible-keyboard-pcb.kicad_sch` | Root sheet: key matrix and ANSI alternatives |
 | `backlight.kicad_sch` | Key LEDs, series resistors and MOSFET drivers |
 | `mcu.kicad_sch` | RP2040, flash, crystal, USB-C and power |
-| `lib/keyboard.kicad_sym`, `lib/keyboard.pretty` | Project symbol (switch with LED) and footprint |
-| `sym-lib-table`, `fp-lib-table` | Project library tables |
+| `lib/keyboard.pretty` | Project footprints: reverse-mount LED, THT LED for the variant |
+| `fp-lib-table`, `convertible-keyboard-pcb.kicad_dru` | Footprint library table, design rule for the LED cutouts |
 | `lib/MX_Alps_Hybrid` | Switch footprints by ai03 (git submodule) |
 | `tools/` | Scripts that generated the sheets and updated the PCB – see [tools/README.md](tools/README.md) |
 
@@ -96,4 +98,4 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 
 CC BY-NC-SA 4.0 — see [LICENSE](LICENSE). The switch footprints in
 `lib/MX_Alps_Hybrid` are by ai03 under the MIT License;
-`lib/keyboard.pretty/MXOnly-ISO-FLIPPED` is derived from them.
+the THT LED footprints in `lib/keyboard.pretty` use their pad geometry.

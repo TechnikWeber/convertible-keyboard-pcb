@@ -10,141 +10,137 @@ Ganz oben in beiden READMEs: Suche nach einem Gehäuse-Designer – beim Aktuali
 Anspruch des Projekts (so auch in README): kein Einmal-DIY-Keyboard, sondern standardisiertes Kernprojekt,
 auf dem man aufbauen kann – günstig, einfach, aber sehr sauber und modern. NICHT „stetig wachsen“:
 Varianten (Gehäuse, Licht, Layouts) setzen auf dem Kern auf, der Kern bleibt schlank.
-Controller fest: RP2040 (kein RP2350).
+Controller fest: RP2040 (kein RP2350). Bestückung: JLCPCB (LCSC-Teilenummern als Feld `LCSC`).
 README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 
 ## Wandel-Konzept Full-Size ↔ TKL
 
-- Alles Aktive (MCU, USB-C, Treiber für Beleuchtung und Lock-LEDs) auf dem TKL-Teil. Über die Bruchkante nur
+- Alles Aktive (MCU, USB, Treiber für Beleuchtung und Lock-LEDs) auf dem TKL-Teil. Über die Bruchkante nur
   Matrixleitungen des Ziffernblocks (COL17–COL20, ROW1–ROW5) sowie +5V, BL_K, CAPS_K und NUM_K
-  (Ziffernblock-LEDs und klassische Lock-Anzeigen).
-- Lock-Anzeigen nur als 0805 (Nutzerentscheidung, 3-mm-Variante gestrichen); genaue Lage entscheidet am Ende
-  der Gehäuse-Designer:
+  (Ziffernblock-LEDs und Lock-Anzeigen über dem Numpad).
+- Nach dem Abbrechen: Ziffernblocktasten existieren nicht mehr, Firmware unverändert (QMK mit beiden Layouts).
+- Bruchkante: Navigationsblock-Tastenrand x = 376.2375, Ziffernblock-Tastenrand x = 381.0 (mm).
+  Kupferfreie Zone ca. x 374.3 … 382.9; Mouse Bites etwa bei x ≈ 378.6.
+- Lock-Anzeigen (0805, oben bestückt, Nutzerentscheidung; genaue Lage entscheidet am Ende der Gehäuse-Designer):
   - Standard über dem Numpad, rechtsbündig auf Höhe der F-Reihe (y = 38,1): D128 Num über * (x = 428,625),
     D126 Caps über - (x = 447,675), bestückt. Geht beim Abbrechen mit.
   - TKL: nur Caps Lock (Num Lock ohne Numpad sinnlos), D122 mittig über BildAuf in der Lücke
     F-Reihe/Zahlenreihe (366,7125 / 52,3875), DNP.
   - Je Anzeige eigener 1k auf B.Cu, bestückt (R127 TKL-Caps, R129 Caps, R130 Num).
-- Nach dem Abbrechen: Ziffernblocktasten existieren nicht mehr, Firmware unverändert (QMK mit beiden Layouts).
-  Abgebrochener Ziffernblock hat keinen eigenen Controller.
-- Bruchkante: Navigationsblock-Tastenrand x = 376.2375, Ziffernblock-Tastenrand x = 381.0 (mm).
-  Kupferfreie Zone ca. x 374.3 … 382.9 (Schalterbohrungen ±5,08 + Pad); Mouse Bites etwa bei x ≈ 378.6.
 
-## Schaltplan (KiCad 10, drei Blätter)
+## USB
 
-- Root `convertible-keyboard-pcb.kicad_sch`: Matrix (kbplacer) + ANSI-Alternativen SW106–108/D106–108 + Blattsymbole.
-- `backlight.kicad_sch`: je beleuchteter Taste Einheit B von `keyboard:SW_MX_LED` + Rn (1k, 0603, gleiche Nummer
-  wie die Taste) an +5V, Kathoden an BL_K (auch Caps und Num). Q1 AO3400A (Gate BL_PWM), Q2/Q3 2N7002 für
-  CAPS_K und NUM_K; Gate 100 Ω, Pulldown 100k (R121–R126). Lock-Anzeigen (0805): D126/R129 Caps und D128/R130 Num über
-  dem Numpad, D122/R127 Caps über BildAuf (DNP) – siehe Wandel-Konzept.
-- `mcu.kicad_sch`: U1 RP2040, U2 W25Q16JVSS, Y1 12 MHz (2× 15p, 1k an XOUT), U3 AP2112K-3.3, U4 USBLC6-2SC6,
-  J1 USB-C HRO TYPE-C-31-M-12 (CC 5k1, Schirm 1M‖4n7), F1 Polyfuse 500 mA, R204/R205 27 Ω,
-  SW201 RESET (RUN, 10k Pull-up), SW202 BOOTSEL (1k an QSPI_SS), TP1–TP4 SWCLK/SWDIO/RUN/GND.
+- J1 USB-C HRO TYPE-C-31-M-12, standardmäßig bestückt.
 - Unified Daughterboard (Nutzerwunsch, beide Footprints): J2 Molex Pico-EZmate 78171-0004 (uDB S1/C4/C5-EZM),
   J3 JST-SH SM04B-SRSS-TB (uDB C3/C5-JSH), beide DNP und parallel zu J1: Pin 1 VBUS, 2 D− (USB_CONN_DM),
   3 D+ (USB_CONN_DP), 4 + MP GND. Belegung aus den KiCad-Quellen von UDB-S und UDB-C-JSH gelesen;
-  1:1-Kabel, also nie spiegeln. J1 USB-C ist standardmäßig bestückt – für ein Daughterboard J1 weglassen
-  und J2 oder J3 bestücken. Die uDBs haben eigenen ESD-/Überstromschutz.
-- Referenzen: SW/D/R 1–108 = Tasten, R121–R126 + Q1–Q3 = Treiber, x2xx/U1–U4/J1/F1/Y1/TP = MCU-Blatt.
-- Symbol `keyboard:SW_MX_LED` (lib/keyboard.kicad_sym): Einheit A = Schalter (Pins exakt wie SW_Push_45deg),
-  Einheit B = LED, Pin 3 = Anode, Pin 4 = Kathode (Belegung der ai03-Footprints; KiCads SW_Push_LED ist umgekehrt!).
-- SW71 (ISO-Enter) im Schaltplan um 180° gedreht → Pin 2 = COL13, Pin 1 = Diode (sonst Pad-Kollision mit SW106).
-- UUIDs im Generator zählen pro Blatt; Blatt-/Datei-UUIDs hängen am Namen.
-- Die Blätter werden mit `tools/` erzeugt: `tools/build.sh --overwrite` startet beim Basis-Commit 95ce8fa und
-  überschreibt Schaltplan + PCB! Änderungen am generierten Teil (Symbole, Netze, Standard-Platzierung) im Generator
-  machen und neu bauen, solange noch nicht von Hand gelayoutet wurde. Danach sind die KiCad-Dateien die Quelle.
-- Nach jedem Neubau: Schaltplandateien müssen identisch sein (`git diff`), PCB unterscheidet sich nur in UUIDs.
-- **Generator-Stand = Commit 2eb5d4f.** Danach direkt in KiCad geändert (Blattgrößen/Titel durch den Nutzer,
-  Lock-Anzeigen auf 0805 reduziert). `tools/build.sh` nicht mehr ausführen, sonst gehen diese Änderungen verloren.
-- ERC: 0 Meldungen. Netzliste gegen Soll geprüft.
+  1:1-Kabel, also nie spiegeln. Für ein Daughterboard J1 weglassen und J2 oder J3 bestücken.
+
+## Schaltplan (KiCad 10, drei Blätter)
+
+- Root `convertible-keyboard-pcb.kicad_sch`: Matrix (kbplacer, `Switch:SW_Push_45deg`) + ANSI-Alternativen
+  SW106–108/D106–108 + Blattsymbole. SW71 (ISO-Enter) um 180° gedreht → Pin 2 = COL13, Pin 1 = Diode.
+- `backlight.kicad_sch`: je beleuchteter Taste `LEDn` (Device:LED_Small, gleiche Nummer wie die Taste) + `Rn` (1k)
+  an +5V, Kathoden an BL_K. Q1 AO3400A (Gate BL_PWM), Q2/Q3 2N7002 für CAPS_K/NUM_K, Gate 100 Ω,
+  Pulldown 100k (R121–R126). Lock-Anzeigen D122/D126/D128 mit R127/R129/R130.
+- `mcu.kicad_sch`: U1 RP2040, U2 W25Q16JVSS, Y1 12 MHz (2× 15p, 1k an XOUT), U3 AP2112K-3.3, U4 USBLC6-2SC6,
+  J1 USB-C (CC 5k1, Schirm 1M‖4n7), J2/J3 Daughterboard, F1 Polyfuse 500 mA, R204/R205 27 Ω,
+  SW201 RESET (RUN, 10k Pull-up), SW202 BOOTSEL (1k an QSPI_SS), TP1–TP4 SWCLK/SWDIO/RUN/GND.
+- Referenzen: SW/D/R/LED 1–108 = Tasten, R121–R130 + Q1–Q3 = Treiber/Anzeigen, x2xx/U/J/F/Y/TP = MCU-Blatt.
+- ERC: 0 Meldungen.
+
+## Tasten-LEDs (Standard: Reverse-Mount-SMD, Nutzerentscheidung)
+
+- Teil: XINGLIGHT XL-3216UWC-FB, weiß, 1206 Reverse Mount, LCSC C3646935 (Extended), Vf 3,4 V.
+  Mit 1k ≈ 1,6 mA je LED, 107 LEDs ≈ 170 mA – mehr Strom sprengt das USB-Budget (Polyfuse 500 mA).
+- Footprint `keyboard:LED_1206_ReverseMount_XL-3216` auf B.Cu bei Schaltermitte (0, +5,08), Orientierung 0.
+  Nach JLC/EasyEDA-Footprint `LED-SMD_L3.2-W1.6-RD-EH` (Pads 1,0 × 1,524 bei ±1,651, Aussparung 2,2 × 1,9):
+  Pad-Innenkante auf 1,3 mm verschoben (0,2 mm Kupfer zur Aussparung), Aussparung als Edge.Cuts mit r = 0,5.
+  Datenblatt des XL-3216UWC-FB selbst nicht abrufbar (JLC-Link gesperrt); Maße aus Schwester-LED XL-3216UYC-FB
+  (Gehäuse 3,2 × 1,6, Linse ca. 1,8 × 1,3) und den EasyEDA-Rohdaten. Vor der ersten Bestellung Pad 1 = Kathode
+  am echten Teil prüfen.
+- `convertible-keyboard-pcb.kicad_dru`: Kantenabstand 0,2 mm nur für LED*-Footprints, sonst 0,5 mm
+  (dafür steht der Board-Mindestwert auf 0,2 – Regeln können nicht unter den Board-Mindestwert).
+- Schalter-Footprints: ai03 `MX_Only:*-NoLED` (keine LED-Löcher mehr, FLIPPED-Sonderfälle entfallen).
+- **THT-Variante in der Hinterhand:** `tools/led_variant.py tht|smd` tauscht nur die LED-Footprints
+  (`keyboard:MX_LED_THT`, bei LED71/76/107 `MX_LED_THT_FLIPPED`), ERC/DRC/Parität geprüft (Hin- und Rückweg getestet).
+  THT-Variante zeigt nur Courtyard-Warnungen an den ISO/ANSI-Stellen.
 
 ## GPIO-Belegung RP2040 (alle 30 belegt)
 
 GPIO0–20 → COL0–20, GPIO21–26 → ROW0–5, GPIO27 → BL_PWM, GPIO28 → CAPS_LED, GPIO29 → NUM_LED.
-Kein Scroll-Lock-Indikator (vom Nutzer bestätigt). Debug über SWD-Testpads (eigene Pins).
-Beim Routen dürfen Pins getauscht werden – dann Schaltplan und spätere QMK-Konfiguration anpassen.
+Kein Scroll-Lock-Indikator. Debug über SWD-Testpads. Beim Routen dürfen Pins getauscht werden (Schaltplan + QMK).
 
 ## Werkzeuge
 
-- KiCad 10.0.6 (Fedora), `kicad-cli` und Python-Modul `pcbnew` sind verfügbar → Platine lässt sich per Skript prüfen/ändern.
-  `pcbnew` gibt beim Laden harmlose `PROPERTY_ENUM`-Asserts aus, `2>/dev/null` verwenden.
-- **SWIG-Falle:** Nach `board.Remove(...)` (Footprints UND Leiterbahnen) liefern pcbnew-Aufrufe nur noch rohe
-  `SwigPyObject`s. Erst alles laden und ändern, `Remove` ganz am Ende direkt vor dem Speichern.
+- KiCad 10.0.6 (Fedora), `kicad-cli` und Python-Modul `pcbnew`. `pcbnew` gibt harmlose `PROPERTY_ENUM`-Asserts aus.
+- **SWIG-Falle:** Nach `board.Remove(...)` liefern pcbnew-Aufrufe nur noch rohe `SwigPyObject`s → erst alles laden und
+  ändern, `Remove` direkt vor dem Speichern. Beim Beenden kann pcbnew segfaulten → am Ende `os._exit(0)`.
+- **KiCad-Speichern** ergänzt in Symbolinstanzen die Pins aller Einheiten – Skripte müssen damit rechnen.
 - Prüfen: `kicad-cli sch erc`, `kicad-cli sch export netlist`,
-  `kicad-cli pcb drc --schematic-parity --format json -o drc.json convertible-keyboard-pcb.kicad_pcb`
-- `kicad-cli sch upgrade --force` normalisiert Schaltplandateien ins aktuelle Format.
+  `kicad-cli pcb drc --schematic-parity --format json -o drc.json convertible-keyboard-pcb.kicad_pcb`.
+  `kicad-cli sch upgrade --force` normalisiert die Schaltplandateien.
+- `tools/` = Generator (Stand Commit 2eb5d4f, NICHT mehr ausführen – überschreibt spätere Änderungen) und
+  `led_variant.py` (arbeitet auf den aktuellen Dateien).
 - Footprints: Submodul `lib/MX_Alps_Hybrid` (ai03, MIT) als `MX_Only`, eigene in `lib/keyboard.pretty` als `keyboard`.
-  Ursprung aller Schalter-Footprints = Schaltermitte. LED-Varianten: Pad 3 rund (Anode), Pad 4 eckig (Kathode)
-  bei (∓1.27, +5.08); `-FLIPPED` tauscht die Seiten.
-- Dioden: `Diode_SMD:D_SOD-123` (KiCad-Standardbibliothek).
+  Ursprung aller Schalter-Footprints = Schaltermitte.
+- Datenblätter von JLC (aliyuncs) sind per curl gesperrt; EasyEDA-API geht über WebFetch
+  (`https://easyeda.com/api/products/<LCSC>/components?version=6.4.19.5`, 1 Einheit = 0,254 mm).
 
-**Wichtig:** Dateien nie per Skript ändern, während KiCad sie geöffnet hat (Lockdatei `~*.lck`, `pgrep kicad`) – KiCad überschreibt beim Speichern.
-Footprint-Änderungen immer in Schaltplan (`Footprint`-Property der Symbolinstanz) UND PCB machen.
+**Wichtig:** Nie Dateien ändern, während KiCad sie geöffnet hat (`pgrep kicad`, Lockdatei `~*.lck`).
+Ungesicherte Nutzeränderungen aus KiCad getrennt committen (ohne Co-Author).
 
 ## Matrix und Tasten-Footprints
 
 - Netze `ROW0`–`ROW5`, `COL0`–`COL20`. Diode: Pad 1 (Kathode) an ROW, Schalter an COL → Richtung COL→ROW.
-- `SWn` gehört immer zu `Dn` (und bei Beleuchtung zu `Rn`). Keine doppelten (ROW, COL)-Paare außer den
-  gewollten ISO/ANSI-Paaren.
-- Raster 19,05 mm, Esc-Mitte bei (38.1, 38.1) mm. Tastenfeld 428,625 × 123,825 mm (22,5 × 6,5 u), TKL 347,66 mm breit.
-- Alle Tasten mit LED-Footprint (`MX_Only:MXOnly-1U` usw.) außer SW106.
+- Raster 19,05 mm, Esc-Mitte bei (38.1, 38.1) mm. Tastenfeld 428,625 × 123,825 mm, TKL 347,66 mm breit.
 
-| Ref | Taste | Größe | ROW/COL | Footprint |
+| Ref | Taste | Größe | ROW/COL | Footprint (MX_Only) |
 |---|---|---|---|---|
-| SW30 | Backspace | 2u | 1/13 | MXOnly-2U |
-| SW38 | Tab | 1.5u | 2/0 | MXOnly-1.5U |
-| SW57 | Num + | 2u vertikal | 2/20 | MXOnly-2U-VerticalStabilizers |
-| SW58 | Caps | 1.75u | 3/0 | MXOnly-1.75U |
-| SW70 | `#` (ISO) | 1u | 3/12 | MXOnly-1U |
-| SW71 | ISO-Enter | ISO | 3/13 | keyboard:MXOnly-ISO-FLIPPED |
-| SW75 | Shift links (ISO) | 1.25u | 4/0 | MXOnly-1.25U |
-| SW76 | `<>` (ISO) | 1u | 4/1 | MXOnly-1U-FLIPPED |
-| SW87 | Shift rechts | 2.75u | 4/12 | MXOnly-2.75U |
-| SW92 | Num Enter | 2u vertikal | 4/20 | MXOnly-2U-VerticalStabilizers |
-| SW93–95 | Strg, Win, Alt | 1.25u | 5/0,1,3 | MXOnly-1.25U |
-| SW96 | Leertaste | 6.25u | 5/6 | MXOnly-6.25U |
-| SW97–100 | AltGr, Win, Menü, Strg | 1.25u | 5/10–13 | MXOnly-1.25U |
-| SW104 | Num 0 | 2u | 5/17 | MXOnly-2U |
-| SW106 | ANSI Backslash | 1.5u | 2/13 | MXOnly-1.5U-NoLED, auf PCB 270° gedreht |
-| SW107 | ANSI Enter | 2.25u | 3/13 | MXOnly-2.25U-FLIPPED |
-| SW108 | ANSI Shift links | 2.25u | 4/0 | MXOnly-2.25U |
+| SW30 | Backspace | 2u | 1/13 | MXOnly-2U-NoLED |
+| SW38 | Tab | 1.5u | 2/0 | MXOnly-1.5U-NoLED |
+| SW57 | Num + | 2u vertikal | 2/20 | MXOnly-2U-VerticalStabilizers-NoLED |
+| SW58 | Caps | 1.75u | 3/0 | MXOnly-1.75U-NoLED |
+| SW70 | `#` (ISO) | 1u | 3/12 | MXOnly-1U-NoLED |
+| SW71 | ISO-Enter | ISO | 3/13 | MXOnly-ISO-NoLED |
+| SW75 | Shift links (ISO) | 1.25u | 4/0 | MXOnly-1.25U-NoLED |
+| SW76 | `<>` (ISO) | 1u | 4/1 | MXOnly-1U-NoLED |
+| SW87 | Shift rechts | 2.75u | 4/12 | MXOnly-2.75U-NoLED |
+| SW92 | Num Enter | 2u vertikal | 4/20 | MXOnly-2U-VerticalStabilizers-NoLED |
+| SW93–95, SW97–100 | Strg, Win, Alt, AltGr, Win, Menü, Strg | 1.25u | 5/… | MXOnly-1.25U-NoLED |
+| SW96 | Leertaste | 6.25u | 5/6 | MXOnly-6.25U-NoLED |
+| SW104 | Num 0 | 2u | 5/17 | MXOnly-2U-NoLED |
+| SW106 | ANSI Backslash | 1.5u | 2/13 | MXOnly-1.5U-NoLED, auf PCB 270° gedreht, ohne LED |
+| SW107 | ANSI Enter | 2.25u | 3/13 | MXOnly-2.25U-NoLED |
+| SW108 | ANSI Shift links | 2.25u | 4/0 | MXOnly-2.25U-NoLED |
 
-FLIPPED bei SW71/SW76/SW107: eckiges LED-Pad sonst < 0,25 mm an einem Stabi-Loch der Alternativtaste.
-SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO-Enter-Stabilisator (per Suche geprüft).
+SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO-Enter-Stabilisator.
 
 ## PCB-Stand
 
-- Keine Leiterbahnen (kbplacer-Bahnen entfernt – ROW-Bahnen liefen bei y+5,65 durch die LED-Pads).
-- Footprints mit Schaltplan verknüpft (Pfade), Parität sauber.
-- Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°. Ausnahmen wegen ISO/ANSI:
-  D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°; R108 (−3.0, +9.7) und
-  D108 (+3.5, +9.7) 0°.
-- Lock-Anzeigen D122/D126/D128 mit R127/R129/R130 stehen bereits an ihren Positionen.
-- MCU-, USB- und Treiberbauteile liegen unplatziert in einem Raster unterhalb der Tasten (y ≥ 175 mm).
+- Keine Leiterbahnen. Footprints mit Schaltplan verknüpft, Parität sauber.
+- Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°, LEDs bei (0, 5.08).
+  Ausnahmen ISO/ANSI: D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°;
+  R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
+- Lock-Anzeigen stehen an ihren Positionen. MCU-, USB-, Daughterboard- und Treiberbauteile liegen noch
+  unplatziert unterhalb der Tasten (y ≥ 175 mm).
 
-## Bekannter DRC-Stand (2026-09-15)
+## Bekannter DRC-Stand
 
-- `invalid_outline`: Edge.Cuts fehlt noch.
 - 5× `hole_to_hole`: gewollte NPTH-Überlappungen ISO/ANSI (SW70/107, SW71/107 ×2, SW75/108, SW76/108).
-- 2× `silk_over_copper`: Referenztexte von R107 und D75 → beim Layout verschieben.
-- ~500 unverbundene Stellen (noch kein Routing).
+- Wenige Silkscreen-Warnungen an ISO/ANSI-Stellen → beim Layout aufräumen.
+- Platinenumriss fehlt noch (die LED-Aussparungen sind Edge.Cuts, daher meldet KiCad kein `invalid_outline` mehr).
 
 ## Stand
 
-- [x] Projekt angelegt, Submodul eingebunden
-- [x] Matrix aus kbplacer: 105 SW + 105 D
-- [x] 17 Nicht-1u-Footprints, Projekt-Bibliothekstabellen
+- [x] Matrix, 17 Nicht-1u-Footprints, ANSI-Alternativen
 - [x] Öffentliches GitHub-Repo mit README (EN/DE), LICENSE; Umbenennung in convertible-keyboard-pcb
-- [x] ANSI-Alternativen (Schaltplan + PCB)
-- [x] Einfarbige Beleuchtung: LED-Footprints, Vorwiderstände, MOSFET-Treiber
+- [x] Beleuchtung: Reverse-Mount-SMD-LEDs (Standard), THT-Variante per tools/led_variant.py
 - [x] Lock-Anzeigen (0805): Num + Caps über dem Numpad (bestückt), Caps über BildAuf für die TKL (DNP)
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
 - [x] Unified-Daughterboard-Anschlüsse J2 (Pico-EZmate) + J3 (JST-SH), DNP; USB-C J1 bestückt
-- [ ] Entscheidung Tasten-LEDs: THT (aktuell) oder Reverse-Mount-SMD 1206
-      (`LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm`, eigene Schalter-Footprints nötig,
-      ISO/ANSI-Kollisionsprüfung neu) – Nutzer überlegt noch
-- [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (USB-C-Lage mit Gehäuse-Designer abstimmen)
+- [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (Plan: B.Cu im Streifen unter der F-Reihe, USB-C in der Esc/F1-Lücke)
 - [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock
 - [ ] Platinenumriss, Befestigungslöcher
-- [ ] Routing, DRC, Fertigungsdaten (Bestückungsteilenummern ergänzen)
+- [ ] Routing, DRC, Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

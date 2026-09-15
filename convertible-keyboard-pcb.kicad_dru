@@ -1,0 +1,13 @@
+(version 1)
+
+# Board setup allows 0.2 mm copper-to-edge only so that the rule below can apply;
+# everything except the reverse-mount key LEDs keeps 0.5 mm.
+(rule "Copper to board edge"
+	(condition "!A.memberOfFootprint('LED*') && !B.memberOfFootprint('LED*')")
+	(constraint edge_clearance (min 0.5)))
+
+# Reverse-mount key LEDs (lib/keyboard.pretty LED_1206_ReverseMount_XL-3216): the pads sit 0.2 mm from
+# their own light cutout. The JLCPCB/EasyEDA footprint for this part keeps only 0.05 mm.
+(rule "Reverse-mount LED pads next to their light cutout"
+	(condition "A.memberOfFootprint('LED*') || B.memberOfFootprint('LED*')")
+	(constraint edge_clearance (min 0.2)))
