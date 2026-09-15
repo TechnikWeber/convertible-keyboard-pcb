@@ -10,8 +10,14 @@
 > Platinenumriss, Befestigungslöcher und die Lage der USB-C-Buchse stehen noch
 > nicht fest und können sich nach deinem Gehäuse richten.
 
-Eine mechanische Full-Size-Tastatur mit deutschem ISO-Layout, von Grund auf in
-KiCad entworfen.
+Eine mechanische Full-Size-Tastatur für ISO-DE und ANSI, von Grund auf in KiCad
+entworfen.
+
+Das soll kein weiteres DIY-Keyboard werden, das einmal gebaut wird und dann
+einschläft. Ziel ist eine Full-Size-Tastatur, die aktuell bleibt — mit aktuellem
+KiCad, QMK und Bauteilen, die man wirklich kaufen kann — und stetig wächst. Jeder
+Schritt landet in diesem Repository, und der Fahrplan unten wird mit dem Projekt
+weitergeschrieben.
 
 > **Status: am Anfang.** Die Tastenmatrix ist erzeugt und jeder Schalter hat
 > seinen endgültigen Footprint. Controller, Platinenumriss und Routing fehlen
@@ -22,7 +28,8 @@ KiCad entworfen.
 - 105 Tasten, Full-Size ISO-DE: Funktionsreihe, Navigationsblock, Ziffernblock
 - Cherry-MX-kompatible Schalter, gelötet, mit Stabilisator-Bohrungen für alle
   Tasten ab 2u
-- ANSI-Alternativen für Enter, linkes Shift und Backslash geplant
+- ISO-DE und ANSI auf einer Platine: Alternativpositionen für Enter, linkes
+  Shift und Backslash (in Arbeit)
 - 6 × 21 Diodenmatrix (SOD-123)
 - Geplant: RP2040 als Controller, USB-C
 - Tastenfeld: 428,6 × 123,8 mm (22,5 × 6,5 u)
@@ -47,6 +54,7 @@ git clone --recurse-submodules https://github.com/TechnikWeber/keyboard-fullsize
 - [x] Footprints für alle Tastengrößen
 - [ ] ANSI-Alternativpositionen
 - [ ] Controller-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD-Schutz
+- [ ] Beleuchtung: Hintergrundbeleuchtung oder per-Key-RGB (noch offen)
 - [ ] Platinenumriss und Befestigungslöcher (gemeinsam mit dem Gehäuse)
 - [ ] Routing, DRC, Fertigungsdaten
 - [ ] Firmware (QMK)

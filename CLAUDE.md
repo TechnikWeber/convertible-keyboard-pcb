@@ -4,6 +4,8 @@ Eigene Full-Size-Tastatur (ISO-DE, 105 Tasten) als KiCad-Projekt. Kommunikation 
 Öffentlich auf GitHub: `TechnikWeber/keyboard-fullsize`, Lizenz CC BY-NC-SA 4.0 (ohne Military-Zusatz).
 README zweisprachig: `README.md` (Englisch, Standard) + `README.de.md`, Umschalter in Zeile 1.
 Ganz oben in beiden READMEs: Suche nach einem Gehäuse-Designer – beim Aktualisieren drin lassen.
+Anspruch des Projekts (so auch in README): kein Einmal-DIY-Keyboard, sondern aktuell halten und stetig erweitern.
+README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 
 ## Werkzeuge
 
@@ -67,6 +69,8 @@ Geplante ANSI-Alternativen (je eigener Schalter + Diode, im Schaltplan UND PCB):
 - [x] Öffentliches GitHub-Repo mit README (EN/DE), LICENSE
 - [ ] ANSI-Alternativen in Schaltplan + PCB
 - [ ] MCU-Blatt: RP2040, QSPI-Flash, 12-MHz-Quarz, 3,3-V-LDO, USB-C (5,1k CC), ESD-Schutz; 27 Matrixnetze auf GPIOs, 2–3 Pins frei halten (Backlight-MOSFET, Debug-UART GPIO0/1)
+- [ ] Beleuchtung: einfarbig (MOSFET/PWM) oder per-Key-RGB – offen. MX_Only hat LED-Varianten
+      (`MXOnly-*U.kicad_mod` ohne `-NoLED`, auch Hotswap-LED); Entscheidung beeinflusst Footprints und Pinbedarf
 - [ ] Platinenumriss, Befestigungslöcher (mit Gehäuse-Designer abstimmen)
 - [ ] Routing, DRC, Fertigungsdaten
 - [ ] Firmware (QMK)
