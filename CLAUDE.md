@@ -18,13 +18,13 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 - Alles Aktive (MCU, USB-C, Treiber für Beleuchtung und Lock-LEDs) auf dem TKL-Teil. Über die Bruchkante nur
   Matrixleitungen des Ziffernblocks (COL17–COL20, ROW1–ROW5) sowie +5V, BL_K, CAPS_K und NUM_K
   (Ziffernblock-LEDs und klassische Lock-Anzeigen).
-- Lock-Anzeigen an zwei Stellen (Nutzerwunsch; welche bestückt wird, entscheidet am Ende der Gehäuse-Designer):
-  - Standard, klassisch über dem Numpad: Num x = 409,575, Caps x = 428,625; THT y = 36, 0805 y = 41,5.
-    0805 bestückt (D126 Caps, D128 Num), 3 mm DNP (D125, D127). Geht beim Abbrechen mit.
-  - Optional für TKL, über dem Navigationsblock im Spalt F-Reihe/Zahlenreihe: Num x = 338,14, Caps x = 357,19;
-    THT y = 51, 0805 y = 56,5. Alle LEDs DNP (D121–D124).
-  - Je Position eigener 1k auf B.Cu, immer bestückt (R127/R128 nav, R129/R130 Numpad) – beide Paare
-    gleichzeitig bestückbar. Positionen fest in tools/place_override.json ("absolute").
+- Lock-Anzeigen nur als 0805 (Nutzerentscheidung, 3-mm-Variante gestrichen); genaue Lage entscheidet am Ende
+  der Gehäuse-Designer:
+  - Standard über dem Numpad, mittig auf Höhe der F-Reihe (y = 38,1): D128 Num x = 409,575, D126 Caps
+    x = 428,625, bestückt. Geht beim Abbrechen mit. Waagerecht evtl. noch rechtsbündig über * und - (offen).
+  - TKL: nur Caps Lock (Num Lock ohne Numpad sinnlos), D122 mittig über BildAuf in der Lücke
+    F-Reihe/Zahlenreihe (366,7125 / 52,3875), DNP.
+  - Je Anzeige eigener 1k auf B.Cu, bestückt (R127 TKL-Caps, R129 Caps, R130 Num).
 - Nach dem Abbrechen: Ziffernblocktasten existieren nicht mehr, Firmware unverändert (QMK mit beiden Layouts).
   Abgebrochener Ziffernblock hat keinen eigenen Controller.
 - Bruchkante: Navigationsblock-Tastenrand x = 376.2375, Ziffernblock-Tastenrand x = 381.0 (mm).
@@ -35,8 +35,8 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 - Root `convertible-keyboard-pcb.kicad_sch`: Matrix (kbplacer) + ANSI-Alternativen SW106–108/D106–108 + Blattsymbole.
 - `backlight.kicad_sch`: je beleuchteter Taste Einheit B von `keyboard:SW_MX_LED` + Rn (1k, 0603, gleiche Nummer
   wie die Taste) an +5V, Kathoden an BL_K (auch Caps und Num). Q1 AO3400A (Gate BL_PWM), Q2/Q3 2N7002 für
-  CAPS_K und NUM_K; Gate 100 Ω, Pulldown 100k (R121–R126). Lock-Anzeigen: vier Positionen (Numpad/nav × Caps/Num),
-  je 1k und zwei LEDs parallel (3 mm THT oder 0805), DNP-Stand siehe Wandel-Konzept.
+  CAPS_K und NUM_K; Gate 100 Ω, Pulldown 100k (R121–R126). Lock-Anzeigen (0805): D126/R129 Caps und D128/R130 Num über
+  dem Numpad, D122/R127 Caps über BildAuf (DNP) – siehe Wandel-Konzept.
 - `mcu.kicad_sch`: U1 RP2040, U2 W25Q16JVSS, Y1 12 MHz (2× 15p, 1k an XOUT), U3 AP2112K-3.3, U4 USBLC6-2SC6,
   J1 USB-C HRO TYPE-C-31-M-12 (CC 5k1, Schirm 1M‖4n7), F1 Polyfuse 500 mA, R204/R205 27 Ω,
   SW201 RESET (RUN, 10k Pull-up), SW202 BOOTSEL (1k an QSPI_SS), TP1–TP4 SWCLK/SWDIO/RUN/GND.
@@ -49,6 +49,8 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
   überschreibt Schaltplan + PCB! Änderungen am generierten Teil (Symbole, Netze, Standard-Platzierung) im Generator
   machen und neu bauen, solange noch nicht von Hand gelayoutet wurde. Danach sind die KiCad-Dateien die Quelle.
 - Nach jedem Neubau: Schaltplandateien müssen identisch sein (`git diff`), PCB unterscheidet sich nur in UUIDs.
+- **Generator-Stand = Commit 2eb5d4f.** Danach direkt in KiCad geändert (Blattgrößen/Titel durch den Nutzer,
+  Lock-Anzeigen auf 0805 reduziert). `tools/build.sh` nicht mehr ausführen, sonst gehen diese Änderungen verloren.
 - ERC: 0 Meldungen. Netzliste gegen Soll geprüft.
 
 ## GPIO-Belegung RP2040 (alle 30 belegt)
@@ -112,7 +114,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°. Ausnahmen wegen ISO/ANSI:
   D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°; R108 (−3.0, +9.7) und
   D108 (+3.5, +9.7) 0°.
-- Lock-Anzeigen D121–D128 mit R127–R130 stehen bereits an ihren Positionen (Navigationsblock, über dem Numpad).
+- Lock-Anzeigen D122/D126/D128 mit R127/R129/R130 stehen bereits an ihren Positionen.
 - MCU-, USB- und Treiberbauteile liegen unplatziert in einem Raster unterhalb der Tasten (y ≥ 175 mm).
 
 ## Bekannter DRC-Stand (2026-09-15)
@@ -130,7 +132,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] Öffentliches GitHub-Repo mit README (EN/DE), LICENSE; Umbenennung in convertible-keyboard-pcb
 - [x] ANSI-Alternativen (Schaltplan + PCB)
 - [x] Einfarbige Beleuchtung: LED-Footprints, Vorwiderstände, MOSFET-Treiber
-- [x] Caps-/Num-Lock-Anzeigen: Standard über dem Numpad (0805 bestückt), optional über dem Navigationsblock (DNP)
+- [x] Lock-Anzeigen (0805): Num + Caps über dem Numpad (bestückt), Caps über BildAuf für die TKL (DNP)
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
 - [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (USB-C-Lage mit Gehäuse-Designer abstimmen)
 - [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock

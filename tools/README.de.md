@@ -11,6 +11,9 @@ Repository, damit der Entwurf nachvollziehbar ist und man darauf aufbauen kann.
 > seitdem in KiCad von Hand geändert wurde, geht verloren. Also auf einem Branch
 > verwenden, oder um den erzeugten Stand vor Beginn des Layouts nachzubauen und
 > zu erweitern.
+>
+> Der erzeugte Stand endet mit Commit `2eb5d4f`. Spätere Änderungen – Titelblöcke
+> und Blattgrößen, die reduzierten Lock-Anzeigen – wurden direkt in KiCad gemacht.
 
 ## Ablauf
 

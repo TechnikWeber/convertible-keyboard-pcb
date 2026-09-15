@@ -10,6 +10,9 @@ be traced and built upon.
 > kbplacer base commit and overwrites schematic and PCB – any manual work done in
 > KiCad since then is lost. Use it on a branch, or to reproduce and extend the
 > generated state before the layout begins.
+>
+> The generated state ends at commit `2eb5d4f`. Later changes – title blocks and
+> sheet sizes, the reduced lock indicators – were made directly in KiCad.
 
 ## Pipeline
 
