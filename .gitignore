@@ -5,3 +5,5 @@ fp-info-cache
 *~
 ~*.lck
 .history/
+tools/build/
+__pycache__/

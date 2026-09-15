@@ -8590,10 +8590,10 @@
 			(uuid "202df006-d2f6-4d28-a865-5038b9127c0c")
 		)
 		(pin "3"
-			(uuid "17b8fe50-9f2d-41c1-b81d-3b8fecb98122")
+			(uuid "972d2509-8869-5495-9ff4-839f293b706f")
 		)
 		(pin "4"
-			(uuid "9bef0601-aa41-4f2a-add8-86a7fbc2a10c")
+			(uuid "d25b62c4-9ad0-5caa-b662-bf4bc38b143d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -8984,10 +8984,10 @@
 			(uuid "b96e081a-714c-4b4e-b9bb-7828feb0d27d")
 		)
 		(pin "3"
-			(uuid "a4b05cd1-d379-46fc-a8a2-7934c0bd04f9")
+			(uuid "bdd091b7-af71-53e6-98d4-c84b19223275")
 		)
 		(pin "4"
-			(uuid "cdb696aa-9277-44d7-9366-e4adadcf3d53")
+			(uuid "85bbe1ab-5aa6-5040-8b26-b93879ecaa8f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -9481,10 +9481,10 @@
 			(uuid "abc1dca2-6bb2-457c-8c22-02c6269e4471")
 		)
 		(pin "3"
-			(uuid "2e15fe64-0899-4ede-9b8c-5b48cb2e921e")
+			(uuid "e7fae769-b4c6-5e57-9d82-06a627a283e3")
 		)
 		(pin "4"
-			(uuid "67d6f447-3022-45ac-b212-8f8b0c381790")
+			(uuid "b2598712-b80a-55bb-b9eb-427becd58023")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10081,10 +10081,10 @@
 			(uuid "002d708b-d65c-4895-b286-59fb1382a512")
 		)
 		(pin "3"
-			(uuid "36e4afd9-8aca-4de1-bf84-6cb204733fd9")
+			(uuid "334c9032-2e97-5f06-b426-0430990555a2")
 		)
 		(pin "4"
-			(uuid "a78330a9-7924-4044-8cac-3cc2a6a93f6f")
+			(uuid "2df77df6-b0a1-54e7-b1bf-3671fb3f7ff8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10372,10 +10372,10 @@
 			(uuid "4daebaa2-d3dc-451f-a8b4-5b3474a3d80b")
 		)
 		(pin "3"
-			(uuid "d3a66a42-8062-4474-b99d-cf9a54bcf6e7")
+			(uuid "c0e235b1-6804-50cc-88cc-879581067053")
 		)
 		(pin "4"
-			(uuid "43580f49-b37a-4a98-8fb2-ec974d94c935")
+			(uuid "eebb71ab-b6e7-5d22-b9e6-d9a5fe78d17e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10457,10 +10457,10 @@
 			(uuid "2f8fbea9-291d-419b-b70d-6608391e6e39")
 		)
 		(pin "3"
-			(uuid "56a6cefb-1659-4b45-a6ab-38213b828b58")
+			(uuid "09f22773-6913-5fc3-a100-4474b7186994")
 		)
 		(pin "4"
-			(uuid "441fef7c-3509-45e9-b168-6ca7881f4962")
+			(uuid "cf3fdc47-df7b-5f03-8274-eedd007434ad")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -10542,10 +10542,10 @@
 			(uuid "b5824108-41c2-4481-8c71-037ec3d627f2")
 		)
 		(pin "3"
-			(uuid "cbe6d78f-f4a1-4e8a-8b18-305e38ac75a2")
+			(uuid "26d0a0c1-2940-5311-800b-c923df893652")
 		)
 		(pin "4"
-			(uuid "2c946f6a-dc3d-4c51-859e-3fbb7449c434")
+			(uuid "3c76d3b3-7d53-5a98-bcb3-e3818a367e8d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11039,10 +11039,10 @@
 			(uuid "d0c5d836-bb33-4d8b-93f1-87fd618becb0")
 		)
 		(pin "3"
-			(uuid "386e2400-4a01-4e1c-a65b-072eca704d14")
+			(uuid "18305a81-3743-5a6a-b22d-04f87cf3392e")
 		)
 		(pin "4"
-			(uuid "bd86a091-789c-4978-ad91-b5ac5b160053")
+			(uuid "0a75a0df-e972-521b-92df-21c911a8e72c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11124,10 +11124,10 @@
 			(uuid "0d9df0f2-8e3d-4e1d-98af-719f2d069866")
 		)
 		(pin "3"
-			(uuid "2c89dac5-42e9-44ae-a32d-4b882ead9006")
+			(uuid "3e48b65b-15ac-58fd-8053-25d75564cd89")
 		)
 		(pin "4"
-			(uuid "28e5fffd-4624-4b27-a942-75845ff9a537")
+			(uuid "05e2422c-02e0-5450-9c92-2db0156d38f3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11415,10 +11415,10 @@
 			(uuid "732a37a2-a433-4acf-88da-6c9f4b86e520")
 		)
 		(pin "3"
-			(uuid "40b64f8b-f6c6-4f8b-a7d5-5f9a3cfcd60d")
+			(uuid "28cf61d6-02f0-511b-9361-21f21fe5efdb")
 		)
 		(pin "4"
-			(uuid "c0c30c0d-7573-4861-bbc9-6c3ed7232eb9")
+			(uuid "1c205971-118e-5a42-9547-a74377b14efd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11500,10 +11500,10 @@
 			(uuid "71c4dfe5-e8c0-4803-a40e-6ba4326c09d0")
 		)
 		(pin "3"
-			(uuid "574c4a6a-af97-45c6-a21b-9854b563e7bd")
+			(uuid "50da189a-6069-591d-b7df-998159c90b59")
 		)
 		(pin "4"
-			(uuid "37dd0aa3-23c7-45b4-8cc7-f35424b7fbd1")
+			(uuid "f46598f7-1219-5651-be59-3b5a6e440fd6")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -11688,10 +11688,10 @@
 			(uuid "ad9a5e04-fc25-48bc-b720-fa244b506180")
 		)
 		(pin "3"
-			(uuid "f0e02312-ffb0-4c68-89c9-b91ab438fa3e")
+			(uuid "a12b0466-a7a1-5dc6-b21c-d42b602340b5")
 		)
 		(pin "4"
-			(uuid "3049ae9b-a26b-4a63-8f7d-8aee02baccf3")
+			(uuid "03c8e785-6ed2-575b-9674-656c1e55884c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12082,10 +12082,10 @@
 			(uuid "ca916943-7745-4e64-a781-8b3db753aeb2")
 		)
 		(pin "3"
-			(uuid "3b0d2bec-0264-4ffe-9b79-980ba82d3958")
+			(uuid "64a32ca1-9982-5661-b712-bcdfc33a6260")
 		)
 		(pin "4"
-			(uuid "ba1b4ebd-e1ca-4530-8bf1-13d216d0566b")
+			(uuid "cf694232-7414-52eb-9689-4c8e6427400f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12167,10 +12167,10 @@
 			(uuid "ace6945d-e82c-4b8a-a45a-2d6586504aca")
 		)
 		(pin "3"
-			(uuid "f791c545-767e-4ed2-b2ab-518c2175c767")
+			(uuid "2cc2fb5a-a811-5908-9976-772c0f81cfef")
 		)
 		(pin "4"
-			(uuid "5f93728e-051e-4707-85a7-d4cd9e28207d")
+			(uuid "0f0bff0d-b088-55bf-8f21-9d275711af3c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12252,10 +12252,10 @@
 			(uuid "94ef2886-2a81-4272-be89-a60b014096d0")
 		)
 		(pin "3"
-			(uuid "7fcbc26c-c8b6-4d4c-a467-79e755cb7b69")
+			(uuid "283a3881-a7a5-5a6b-a9aa-918d22a8b51b")
 		)
 		(pin "4"
-			(uuid "b50b8e7d-47c9-4fd2-ac92-935edf613e49")
+			(uuid "1dbc0a4d-1942-5c74-b99d-ef77899030af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12543,10 +12543,10 @@
 			(uuid "43131acb-41ed-49d9-bd66-e583b3017d76")
 		)
 		(pin "3"
-			(uuid "1ba6af56-23aa-4a58-a11d-b1470cac66de")
+			(uuid "255964d7-68c6-50e5-8b21-d58fdf4e98ac")
 		)
 		(pin "4"
-			(uuid "5501267a-1da1-4ead-a32d-40b583e82263")
+			(uuid "e3771b35-9ba5-59e1-a0a6-5325c695353c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -12731,10 +12731,10 @@
 			(uuid "da5c16dd-67d0-469a-9f3f-24af6033d75d")
 		)
 		(pin "3"
-			(uuid "45463746-aeae-44e0-a475-0bb4828c4ce7")
+			(uuid "2de8b380-6b10-5f14-a659-5566e6c48d3c")
 		)
 		(pin "4"
-			(uuid "37d82e84-eee6-4d19-a3a7-47ca5e42a70e")
+			(uuid "23d12acf-fea9-5249-b665-7114e1ae6f09")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13102,10 +13102,10 @@
 			(uuid "152dd0aa-699a-44c0-ae37-b6f26ec70088")
 		)
 		(pin "3"
-			(uuid "27c6e9ee-0b4a-423a-8d72-0dcc8fa92d8f")
+			(uuid "ddf93533-ae8c-558a-a07b-93cb1bd4788d")
 		)
 		(pin "4"
-			(uuid "1f3b3cbc-d717-4cdd-9f8e-cfa1cf06a56a")
+			(uuid "5f974c81-3152-530e-8d25-db4abbb5dc5e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13187,10 +13187,10 @@
 			(uuid "8d236584-49b4-44c0-b100-962d57ec47e1")
 		)
 		(pin "3"
-			(uuid "cdad5e09-2bd3-47f0-bf4e-b8d7f511ddac")
+			(uuid "51198025-fed2-5f79-a911-178e079ec451")
 		)
 		(pin "4"
-			(uuid "9846bb22-af1b-4111-90cc-201a22448d58")
+			(uuid "db7d39fc-5aa8-52a9-9882-dd566866f687")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13272,10 +13272,10 @@
 			(uuid "c2da1149-156f-4f84-b7e1-6656a58de6a5")
 		)
 		(pin "3"
-			(uuid "8ffb22de-2b02-48be-ad25-9a659f9ea78c")
+			(uuid "23d07b22-7ae5-5eda-ba16-bdeae0bd91c6")
 		)
 		(pin "4"
-			(uuid "69d91351-e89f-4a55-9c30-78c8f6d9fea3")
+			(uuid "66fef52e-b188-521b-9884-68f089b6f41d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13357,10 +13357,10 @@
 			(uuid "b3afca57-88a6-4185-bf22-937e82c95c69")
 		)
 		(pin "3"
-			(uuid "ab57d0de-184d-4bee-bcb2-8c7263ddc175")
+			(uuid "4ec56bbd-715f-5f97-ae9b-abcbd272476a")
 		)
 		(pin "4"
-			(uuid "3f5f0af0-3834-49bf-bb39-f3bddfdbe58c")
+			(uuid "e0bff61c-d159-505e-957a-662a8b12c6c3")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13442,10 +13442,10 @@
 			(uuid "bfb7187c-afa2-4bc2-ad68-7a3faba5147e")
 		)
 		(pin "3"
-			(uuid "111e8812-5ceb-40dc-a1d7-13e1a4d85500")
+			(uuid "113ceb2f-8e6c-57d2-b24f-30177ee3b718")
 		)
 		(pin "4"
-			(uuid "0638dcdb-6c30-4a69-8498-1b1d8fb979c0")
+			(uuid "5c943ae7-1057-5190-a52b-e6daa1fd56c5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13630,10 +13630,10 @@
 			(uuid "ccd13dd8-7609-4f3f-95e0-9ec255c7f142")
 		)
 		(pin "3"
-			(uuid "575074b8-b572-49f3-9250-123e55b2dd57")
+			(uuid "2b835397-2903-59c2-ae49-d80f00e9efab")
 		)
 		(pin "4"
-			(uuid "7e5eadba-fe75-4bea-ad25-f0cd99291411")
+			(uuid "f0f331db-af67-591f-b195-77f73b30c8ca")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -13715,10 +13715,10 @@
 			(uuid "73ff796b-46ce-45b8-bf7b-87a01b74aa7a")
 		)
 		(pin "3"
-			(uuid "e7fc7991-47c6-482c-b4b3-a0af5c7a462d")
+			(uuid "ebce2222-43c7-5615-8f72-7ec69493a6f2")
 		)
 		(pin "4"
-			(uuid "11b1ca48-e010-4c76-b934-4c0cdfaf0d50")
+			(uuid "afbe44a1-1525-5646-90cd-80385439b00f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14315,10 +14315,10 @@
 			(uuid "edd77d13-da6b-4e74-b6b8-c27a2a704f45")
 		)
 		(pin "3"
-			(uuid "bbc8e40f-26b2-4f63-b0e2-4ff6f2af51cf")
+			(uuid "f312e765-67ab-5425-baee-a58e198fd229")
 		)
 		(pin "4"
-			(uuid "e355c32c-4467-4981-8281-df1aac3a8705")
+			(uuid "e51f790e-f091-5d29-a9b8-ca61d4ce5379")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14400,10 +14400,10 @@
 			(uuid "95fe038b-a8d6-4013-be10-73e10aee26f5")
 		)
 		(pin "3"
-			(uuid "cb26df32-29d7-4faa-8172-c450d0a22cf8")
+			(uuid "3b554846-4dbe-5b4a-8f8e-cfe134101c73")
 		)
 		(pin "4"
-			(uuid "4f066f0c-317a-4dce-986e-c6d25a4860fd")
+			(uuid "22c87866-cb25-5ec5-905e-1c8298e5c948")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14485,10 +14485,10 @@
 			(uuid "ba057cc9-afed-48d9-9bd9-fa26c049cf1f")
 		)
 		(pin "3"
-			(uuid "a8711ecd-2589-4c3a-b6ad-85e7c9f14a91")
+			(uuid "c4647f2c-497b-5c39-88e0-f4893b48db64")
 		)
 		(pin "4"
-			(uuid "1ac716f8-701b-45c9-9254-3a7bbfa94364")
+			(uuid "4b23e299-248f-518a-9d5b-ee81726d899c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14570,10 +14570,10 @@
 			(uuid "0c74c2ac-71e9-44ad-90f7-423b0acf0e2b")
 		)
 		(pin "3"
-			(uuid "3228bb6f-e375-4574-8be8-e97a1b8d1615")
+			(uuid "72f3d791-4b59-5443-b5c2-fb674e8347ae")
 		)
 		(pin "4"
-			(uuid "80fad9a3-f1a6-42d6-a20c-478c9152f205")
+			(uuid "a6c2ef35-6fe1-52f4-82d4-1e37c114d2e7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14655,10 +14655,10 @@
 			(uuid "b1b90ee0-22bc-49d4-ad68-7c10c1102500")
 		)
 		(pin "3"
-			(uuid "be1a2b38-78ca-4356-b60a-88729e94d88b")
+			(uuid "ef2c74ed-329d-516f-b14c-393b8eddb4fd")
 		)
 		(pin "4"
-			(uuid "f556d4fb-e0cb-4ba8-82b5-a247523867f1")
+			(uuid "f526b407-f8c4-537a-b765-a3e1481f4d7e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14740,10 +14740,10 @@
 			(uuid "f5784cce-b512-412e-8ce3-69895ab6c450")
 		)
 		(pin "3"
-			(uuid "c0759b12-17ab-425a-b2eb-f2cda6050dd2")
+			(uuid "71034027-41ad-59aa-9cd4-0f08cc6931a2")
 		)
 		(pin "4"
-			(uuid "5e4fa50a-d748-4284-a82d-5b776bdd9db8")
+			(uuid "e8dc333a-0667-5a22-84e8-c3964a8943ef")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14825,10 +14825,10 @@
 			(uuid "2196ab27-c87f-461b-9feb-a681e9773a38")
 		)
 		(pin "3"
-			(uuid "1e4a4920-8a3a-4a0c-b4b6-2a6742f9b029")
+			(uuid "28ed20e4-50a4-5d85-b9c5-77d111081265")
 		)
 		(pin "4"
-			(uuid "bf685173-12f0-4154-b570-f0f88766fa69")
+			(uuid "a15bffcb-83ed-5884-a84e-eedd31f690ef")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -14910,10 +14910,10 @@
 			(uuid "c20ce18b-1673-4d57-930d-1a1f1d052b71")
 		)
 		(pin "3"
-			(uuid "8118944e-21f9-478c-928b-c3a626fcd221")
+			(uuid "1ffccfda-800d-5868-8c9c-70aa011397d6")
 		)
 		(pin "4"
-			(uuid "f56326a4-ffaa-47a9-8ab9-0863d436805f")
+			(uuid "f2d12c4d-20e5-56fb-9bf2-3c8ac9231575")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15098,10 +15098,10 @@
 			(uuid "91ebd4b3-9f80-4e00-9ee1-93e5dc7af4a9")
 		)
 		(pin "3"
-			(uuid "171e6044-4915-4b76-8d54-71dae50b8748")
+			(uuid "21973500-02ba-57f1-aa0f-385e3214ed74")
 		)
 		(pin "4"
-			(uuid "18decbb6-cb94-4d17-8b50-75beeb7bc38c")
+			(uuid "b1dec07c-3c13-5c81-93dd-d785453595f9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15183,10 +15183,10 @@
 			(uuid "41609613-727d-4425-9a35-b68866c96cec")
 		)
 		(pin "3"
-			(uuid "46b3fe1f-5df7-4223-9c98-b7f69d068129")
+			(uuid "2ca71f94-9610-513e-a9ba-ed81e93585af")
 		)
 		(pin "4"
-			(uuid "48b933a5-7c23-4dad-9552-f1aed36575bd")
+			(uuid "1ba6f3fe-98f1-58c8-92d7-7f7f9631aeba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15371,10 +15371,10 @@
 			(uuid "e938ffcf-7b5c-4aea-9a71-725aa0cfbcf7")
 		)
 		(pin "3"
-			(uuid "ed041b3a-dfb9-4674-a824-5a72f149602e")
+			(uuid "cdf1f146-4809-50bf-8e23-481c296a4044")
 		)
 		(pin "4"
-			(uuid "423b0789-a3f8-4cf9-b05f-d75c117f1c74")
+			(uuid "72ad6ed4-b813-5e2c-82f2-9baeebd981a4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -15971,10 +15971,10 @@
 			(uuid "106ca4d1-562c-4b55-8537-feb8acefbd93")
 		)
 		(pin "3"
-			(uuid "5a86480a-5ba0-4bc0-a24d-5e985b784ae4")
+			(uuid "f1ea992b-6c78-533e-bb24-740ef4d6740b")
 		)
 		(pin "4"
-			(uuid "840f9d66-1b93-4049-bdbf-be607415169d")
+			(uuid "a609a0b6-0470-5f83-bc15-5be1e6294e7b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16159,10 +16159,10 @@
 			(uuid "638c72bc-7a64-41d2-a743-d8b9d818010c")
 		)
 		(pin "3"
-			(uuid "63fb9d62-92bf-4a3d-8012-145393f048bb")
+			(uuid "5ab9766f-bfc4-5b75-a2e5-7e3119034460")
 		)
 		(pin "4"
-			(uuid "9c31b9d4-c0b1-4037-aa7a-2564842486de")
+			(uuid "aaedbc48-42f5-5970-8c70-8487e7044d18")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16656,10 +16656,10 @@
 			(uuid "c91a632c-5621-49ff-a5bb-4cf74060ec5f")
 		)
 		(pin "3"
-			(uuid "a217f8cc-db90-4820-b175-1a507633ccc3")
+			(uuid "e0127e4a-4956-5fc5-84ad-71914df3f4c6")
 		)
 		(pin "4"
-			(uuid "09bdbea6-0290-406a-9c4a-958d5073e010")
+			(uuid "53810546-39fa-55f6-82d8-47f00381c551")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16844,10 +16844,10 @@
 			(uuid "1efe87b9-96b5-47f7-afde-8e26f745b957")
 		)
 		(pin "3"
-			(uuid "e7548ca8-59ad-4afc-a96f-05e3750e722b")
+			(uuid "eb28a927-8481-5a2e-8a6f-f12321f26fd2")
 		)
 		(pin "4"
-			(uuid "e239e204-121c-4d4e-8174-40416260b7cc")
+			(uuid "9fce75bf-7faf-5d0d-ac86-86d3a0520dfc")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -16929,10 +16929,10 @@
 			(uuid "94619336-498a-4732-b343-eea74f756642")
 		)
 		(pin "3"
-			(uuid "1b274f07-9cc1-4eba-b69b-48da4e34e89d")
+			(uuid "660bebd9-a369-5f06-92d6-eb25582f8e23")
 		)
 		(pin "4"
-			(uuid "53441bc8-d80b-48b0-8fa6-5f9726f44384")
+			(uuid "bbf1bd83-c06c-5867-bb25-c8477b296ca7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17426,10 +17426,10 @@
 			(uuid "bdd3f1b0-217c-49a3-863f-f5c66b1cf0d9")
 		)
 		(pin "3"
-			(uuid "c78843e4-bf5e-4160-a0ed-380784526da5")
+			(uuid "16469a97-73eb-5bad-aa39-fe0e31585811")
 		)
 		(pin "4"
-			(uuid "1b31faa7-ad1a-4fc9-89b8-cb05b6542fe2")
+			(uuid "a59d7208-b45d-524a-8f0c-43f516d5799f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17717,10 +17717,10 @@
 			(uuid "2959f382-8d6e-4924-81a7-418110adc4b5")
 		)
 		(pin "3"
-			(uuid "87f6d074-ee0e-4d9e-84b8-93ab39a2fd48")
+			(uuid "24eae122-d058-594e-86c8-c049940e6b80")
 		)
 		(pin "4"
-			(uuid "d00c1aaa-2899-4090-b00a-83ebc2cb76d9")
+			(uuid "2c2f7836-95b4-5fca-ae12-473a17feb03c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17905,10 +17905,10 @@
 			(uuid "c3c5bd20-ce76-401e-942c-356919fcf2d8")
 		)
 		(pin "3"
-			(uuid "73ac93c9-e233-46e5-b26b-aaae53ca13e8")
+			(uuid "8885f749-9987-5bd7-8fe0-25c99e942a5b")
 		)
 		(pin "4"
-			(uuid "1cc6bef7-a84b-40c4-b09e-45cd13421623")
+			(uuid "d202ac99-ff59-5bb2-a75a-27b63773c45e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -17990,10 +17990,10 @@
 			(uuid "f6163e95-71a4-444d-9acb-df188849f73e")
 		)
 		(pin "3"
-			(uuid "beaedf7c-f93b-46bb-8a1c-5ece838330af")
+			(uuid "b2c50017-3cb1-52bd-8904-227f8198186f")
 		)
 		(pin "4"
-			(uuid "a40b32b3-f8f0-48f5-846b-b85f7ac11749")
+			(uuid "0725897f-42fe-51b1-8de0-c8fd26503947")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18075,10 +18075,10 @@
 			(uuid "aa5c0c71-5772-449c-bc1d-4c9914e55556")
 		)
 		(pin "3"
-			(uuid "01d602d2-1729-4764-b21b-febc4097ecd8")
+			(uuid "7b2c9d8c-63ed-503f-9d23-f18d2575bbbf")
 		)
 		(pin "4"
-			(uuid "ab8c56a3-2e15-4411-bbe3-4279f5040af6")
+			(uuid "c6f23ca1-f6bc-5c55-bf55-29d80cc3a050")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18366,10 +18366,10 @@
 			(uuid "063840b9-5ef7-4c9d-b06b-3dba5fd91eb9")
 		)
 		(pin "3"
-			(uuid "935fed13-f6ab-4d2f-9ab3-1cc2f8cbad9e")
+			(uuid "a09bdc08-49a6-55b2-84ba-72be6afe05d2")
 		)
 		(pin "4"
-			(uuid "c83978f8-9572-4103-8e9b-e69b7bc71939")
+			(uuid "82b82d44-0eba-5e67-b399-4919ff152046")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18451,10 +18451,10 @@
 			(uuid "597ea7d0-ad43-43b8-a8a4-8840d0dca954")
 		)
 		(pin "3"
-			(uuid "ce7741b2-35bd-4983-9cf8-630db9f83fe6")
+			(uuid "243b871a-f753-5b22-87fc-b5e9c4570934")
 		)
 		(pin "4"
-			(uuid "051844ee-4270-4e37-9721-af5b7d496fb9")
+			(uuid "2d1067b9-6b02-50b4-8812-c3686d89b5f8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18536,10 +18536,10 @@
 			(uuid "863e9cb3-10c8-42e5-817a-6ff245b7db40")
 		)
 		(pin "3"
-			(uuid "de237783-8796-4e47-bdfb-c5e1909325e3")
+			(uuid "031b0216-ba40-5b66-bb43-ce5fca0622af")
 		)
 		(pin "4"
-			(uuid "d2fac2ad-10ea-4f74-8927-8fdf544c9200")
+			(uuid "d4318f32-eb18-5565-8cfa-ec7347d67ccf")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18621,10 +18621,10 @@
 			(uuid "5365d710-171f-4a85-8427-1cdf5247c776")
 		)
 		(pin "3"
-			(uuid "133c67dc-587e-4f53-b0f4-28aba4930424")
+			(uuid "9a4ba6ba-d8fb-54c7-af1a-4cebfd10c833")
 		)
 		(pin "4"
-			(uuid "f90c7dc2-ca5c-4b50-8271-215b36a77d0d")
+			(uuid "f57e6199-ea3a-50b7-84c8-337dacaa7f0b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18706,10 +18706,10 @@
 			(uuid "3e1f647c-619b-49c5-b902-31beca528ddb")
 		)
 		(pin "3"
-			(uuid "572be2ac-8332-474d-967e-4db1d3470233")
+			(uuid "9e307191-fc02-5e2a-9c2e-fda07eca1b49")
 		)
 		(pin "4"
-			(uuid "62aaa578-bc28-49b5-b527-a871dbda686a")
+			(uuid "ac8e3eb6-c94d-5b72-96a8-20db0c0566fa")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -18791,10 +18791,10 @@
 			(uuid "359552a0-3795-4100-b3f8-1caf97def9f7")
 		)
 		(pin "3"
-			(uuid "a5732e5a-f057-4e5d-a36f-776a7a0b37d3")
+			(uuid "af27fc2f-3313-5475-a9b9-3203acfcbd41")
 		)
 		(pin "4"
-			(uuid "d6bd775e-45dc-44cb-8f02-a32c4d52641e")
+			(uuid "01d8ad53-7854-5722-a3e2-079bef11d4b2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19185,10 +19185,10 @@
 			(uuid "2efcb1cb-10b1-4cbf-b77f-d78b13ec6dc7")
 		)
 		(pin "3"
-			(uuid "64dc86f0-a71d-4997-94f8-243a5cd99472")
+			(uuid "7c4fa4cb-92bb-57f3-9adb-aa88cb8e2c26")
 		)
 		(pin "4"
-			(uuid "ba7dd414-376f-4a0a-a603-c729db4bc5b2")
+			(uuid "f864b563-9fff-544e-90aa-2853ff3854ec")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19270,10 +19270,10 @@
 			(uuid "ae722be0-9521-4cfc-8631-476269bde4d7")
 		)
 		(pin "3"
-			(uuid "06b33b09-f9d5-41e8-89fb-b6d97028d983")
+			(uuid "dd4fead5-e5dd-5f39-872a-495f755dab2d")
 		)
 		(pin "4"
-			(uuid "b3f0208d-352e-4847-be85-2f9445359901")
+			(uuid "71ebc662-4b0b-5c52-a492-59039f1420ae")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19665,10 +19665,10 @@
 			(uuid "a93a348f-677a-560a-9c06-f1def5efcc3b")
 		)
 		(pin "3"
-			(uuid "8f83db9e-95f6-4b48-b220-dadd84435c4e")
+			(uuid "ac407b41-4655-57b0-895e-02c55c671f44")
 		)
 		(pin "4"
-			(uuid "8d735b3e-7b59-4939-a9f0-90e7cda18534")
+			(uuid "7c3fa4dc-7d94-519e-a14c-ec0f9f35fd79")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19750,10 +19750,10 @@
 			(uuid "656af919-afd7-461a-a864-2b34c6dbc0cf")
 		)
 		(pin "3"
-			(uuid "dbf8e9bf-7731-4084-b2f7-2731e4f72154")
+			(uuid "355e2031-9285-5477-a2d8-7ee9bfbb8385")
 		)
 		(pin "4"
-			(uuid "e8343cde-6736-4f93-96f8-14f8b803dc87")
+			(uuid "c83c9cf3-617e-5e58-8177-449d00f46993")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -19835,10 +19835,10 @@
 			(uuid "d28e1dde-7992-4c2c-95a9-6cf8f13231bd")
 		)
 		(pin "3"
-			(uuid "597bb8f9-9172-409d-9153-2eb7aa05695d")
+			(uuid "5592eaec-ab5b-5d6a-8d7e-1cf240c49ff5")
 		)
 		(pin "4"
-			(uuid "133a4464-d9b0-4315-98ec-25c90d601594")
+			(uuid "862290b0-ae53-5a2f-900c-2c3f610c2879")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20332,10 +20332,10 @@
 			(uuid "d5b59c7a-f097-428c-97f2-f93b59febf05")
 		)
 		(pin "3"
-			(uuid "cd769c81-6b32-466f-a102-0a6b6acc2d8e")
+			(uuid "b4ee6ea6-5f06-583d-8d7b-51f1f990972e")
 		)
 		(pin "4"
-			(uuid "6ec7594c-140f-48f3-b7ae-2adbcabfcee8")
+			(uuid "185be7fe-ecd6-548e-8923-dbe148a0aeb2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20520,10 +20520,10 @@
 			(uuid "296abcd2-a017-4359-95b5-e89a5d6162fa")
 		)
 		(pin "3"
-			(uuid "202b20d5-ba3c-47bd-9954-64c58cc9779c")
+			(uuid "217724cc-6c0f-502c-a267-dac7c7b93813")
 		)
 		(pin "4"
-			(uuid "c595b949-7d80-4799-a92a-95805db73eab")
+			(uuid "a221549f-5ce2-5928-ba89-9c1b81cc1728")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20605,10 +20605,10 @@
 			(uuid "71eb4023-21ff-44f7-80b6-8e26fa1bbdda")
 		)
 		(pin "3"
-			(uuid "24af3895-36fe-4688-af03-540e3c778c38")
+			(uuid "b25a9ca0-0659-599f-bd08-8b2062844412")
 		)
 		(pin "4"
-			(uuid "3b3b8f43-3790-442e-b5dd-465b844ad68e")
+			(uuid "ca509fec-bd77-5964-bf55-960503b9b479")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20690,10 +20690,10 @@
 			(uuid "956b302c-9cb1-43bb-97a9-9ac1eea062e3")
 		)
 		(pin "3"
-			(uuid "1c511bbb-603f-4fac-8216-7866d7c45bb1")
+			(uuid "7bde5492-f1a9-5696-91b8-06d6fa97014b")
 		)
 		(pin "4"
-			(uuid "fb07d24b-1f7d-4613-bbc7-7f0883cd4de5")
+			(uuid "a404ec0f-3693-5e41-9e34-2467301e35ba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -20878,10 +20878,10 @@
 			(uuid "3b56acf4-e1a8-4bbe-b6b3-235221796a80")
 		)
 		(pin "3"
-			(uuid "350cd0ab-adfa-49b0-a746-f4fe53b0fb37")
+			(uuid "edad2e0b-7a20-51d8-aebf-e5649e60efce")
 		)
 		(pin "4"
-			(uuid "6985f940-1d45-4140-b1a8-6b3c484a552d")
+			(uuid "ff904a69-366c-5b91-96bb-0180cedbf70f")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21169,10 +21169,10 @@
 			(uuid "479a2289-a548-47bb-a3cf-bd0484ec9e6c")
 		)
 		(pin "3"
-			(uuid "2efda3f9-494e-44b0-8820-df0a91ba833f")
+			(uuid "3db9015a-45f2-5058-a613-5936904bdb57")
 		)
 		(pin "4"
-			(uuid "73c0d738-312b-4f1a-8cb3-9ee275b6283f")
+			(uuid "dfdb7660-385e-5227-b344-931a1af0b8c4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21254,10 +21254,10 @@
 			(uuid "a5f2cba1-aec4-44bb-af5e-5f570b6d962e")
 		)
 		(pin "3"
-			(uuid "37d4f363-ca1b-4166-b26f-05cac9d5bbcd")
+			(uuid "f25fb6f2-9e2b-5e3a-a2e2-8026b5a5080a")
 		)
 		(pin "4"
-			(uuid "f90b948d-9967-4875-bbf9-cd9681168e9f")
+			(uuid "5f4f826e-b325-5401-9ebf-ab26963d1909")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21339,10 +21339,10 @@
 			(uuid "2696d039-1082-465b-974b-8f34e58cefd7")
 		)
 		(pin "3"
-			(uuid "ac9e3739-1f99-4f69-960c-ccf5348c3ed9")
+			(uuid "29d4415b-c20e-500d-b029-8d84908df976")
 		)
 		(pin "4"
-			(uuid "5914ed9e-f197-443e-a034-adcfd8ddb6c3")
+			(uuid "d1c4bc05-c70d-54e4-88c8-c064ce129e76")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21527,10 +21527,10 @@
 			(uuid "c808d1ba-9a1b-4a21-a4c7-d96547607225")
 		)
 		(pin "3"
-			(uuid "ab8e825c-6202-4689-bb04-821e6193e26c")
+			(uuid "7c101989-713b-5090-812f-56e7d4d43918")
 		)
 		(pin "4"
-			(uuid "bac87d2d-0dca-4b5b-8297-a10c316e0bc4")
+			(uuid "4915267a-d53d-59cb-b5ee-cc9be0fb476b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21612,10 +21612,10 @@
 			(uuid "aa5aeb48-e19e-4dfa-a49a-66d5c42d90b4")
 		)
 		(pin "3"
-			(uuid "c209f8fa-6880-44c0-9a31-3c31c815d77f")
+			(uuid "09b3ae13-95eb-5cc3-acc2-0c5ddf29526b")
 		)
 		(pin "4"
-			(uuid "a1242fd1-150c-4d0e-8744-9caaa0e5a828")
+			(uuid "b1b0f0d4-02f8-5327-bb23-c8408bfab7c1")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21697,10 +21697,10 @@
 			(uuid "cf741480-b0da-4ba0-b48b-bc8cf2ae0769")
 		)
 		(pin "3"
-			(uuid "9eea568a-5663-4407-8cff-240efb4b56f1")
+			(uuid "846bf270-4836-53e6-9431-84af993bd0d9")
 		)
 		(pin "4"
-			(uuid "3a427e09-caa0-42bd-aa07-858df946f62d")
+			(uuid "35b05e2d-79f8-578c-a8f4-8cdbd74e7e8b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21782,10 +21782,10 @@
 			(uuid "863dfb2d-3166-4aba-a635-331a50a2d362")
 		)
 		(pin "3"
-			(uuid "9783b745-ebdf-4cfe-aac7-6663ab38719a")
+			(uuid "b7f1cc14-2e8a-58bc-b058-7703b6d105c6")
 		)
 		(pin "4"
-			(uuid "773f7b2e-213e-492f-8b21-85f72f398dfd")
+			(uuid "127bb856-1de1-5d89-a847-8f528e3ebda5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21867,10 +21867,10 @@
 			(uuid "d9502cd0-7331-4bb9-93da-b619d52e6db5")
 		)
 		(pin "3"
-			(uuid "a8a112db-9c9f-40f4-b8b8-6c975469c8be")
+			(uuid "b128cc5f-eed5-568b-a825-db061b361e21")
 		)
 		(pin "4"
-			(uuid "15c5cdea-a722-4fcd-9972-e599ac9c7d9a")
+			(uuid "8f5de92f-9100-51e0-be34-e62ef4842328")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -21952,10 +21952,10 @@
 			(uuid "afdf0c60-a63e-4310-9603-7da14ed92121")
 		)
 		(pin "3"
-			(uuid "c1271cdd-41ce-4457-be95-bd58b2298c43")
+			(uuid "6835833b-9705-590c-ab35-b4261c3065e6")
 		)
 		(pin "4"
-			(uuid "f3288dae-39ea-41b4-96ed-dccbd5840c0c")
+			(uuid "30ed6217-074c-5902-9ce5-7cb26d7e3520")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22325,10 +22325,10 @@
 			(uuid "71d45961-b684-4897-98c1-17ff99ac2b5b")
 		)
 		(pin "3"
-			(uuid "86e60eaf-67fe-464e-8d78-29101da790db")
+			(uuid "5aba572b-f1f7-587c-a008-9a0d53e5694e")
 		)
 		(pin "4"
-			(uuid "a478e6a3-1ec1-4da5-b5a8-e0ea96e2cc8a")
+			(uuid "a36148b7-776c-57c7-baaa-40a6553bbb33")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22513,10 +22513,10 @@
 			(uuid "c83d78d9-5bb7-4bda-886d-64f5461051d4")
 		)
 		(pin "3"
-			(uuid "9e6a00dd-52c6-4f85-915c-b75c9fe2dfd8")
+			(uuid "e6674162-b22b-53b5-9fbd-f0a6277304e5")
 		)
 		(pin "4"
-			(uuid "9ac0fc03-6586-4e9f-a8b6-dfa8aee7aa1e")
+			(uuid "a530a323-01ab-51ce-a738-ca70d0e450a8")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22783,10 +22783,10 @@
 			(uuid "37bd0902-2c5d-404b-b4e1-37ca595ab4b0")
 		)
 		(pin "3"
-			(uuid "0079bcc5-603d-4b55-a23a-6c6415af2ed5")
+			(uuid "fd9733ff-a2d1-5633-9966-6cc6942912e8")
 		)
 		(pin "4"
-			(uuid "9a1b4631-e6cc-496f-8094-73adc34c3b37")
+			(uuid "d416d811-dd71-59b0-9807-4bceaf915ce7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -22868,10 +22868,10 @@
 			(uuid "f870dceb-20f1-42b2-ae43-b93150e15b99")
 		)
 		(pin "3"
-			(uuid "f559f4ad-8e82-42b6-a930-2b77af70e69f")
+			(uuid "75e17047-ebb6-55d8-9810-2f4ba0d5b6d6")
 		)
 		(pin "4"
-			(uuid "a2e586a3-6be4-4d43-ada5-0b39274c669b")
+			(uuid "e986d478-81fd-52f5-8c1f-f4fc4818ab44")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23056,10 +23056,10 @@
 			(uuid "2d681da7-8ff4-4f2b-998f-6c648f426cc3")
 		)
 		(pin "3"
-			(uuid "0a461226-210a-4cae-96b3-b75c5bf02975")
+			(uuid "eea42c96-9737-57fb-a4a3-7cf1d1077ce7")
 		)
 		(pin "4"
-			(uuid "446e0fff-5b06-4cf4-b822-4f14769acce8")
+			(uuid "974cab29-e87a-56e8-8adb-cb25282afa74")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23244,10 +23244,10 @@
 			(uuid "3a77fa55-6623-4894-8df7-242b2babd307")
 		)
 		(pin "3"
-			(uuid "54760a38-df02-44cc-ba4c-83b32b72de8c")
+			(uuid "40173fe9-c00f-5c0b-aa9a-213f538f9df5")
 		)
 		(pin "4"
-			(uuid "3877127a-ea71-49b4-b63f-7c003583fbe6")
+			(uuid "719da467-74df-5e32-a456-becf243adaac")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23329,10 +23329,10 @@
 			(uuid "f2ffb7ad-4e94-4940-8f05-f411329e9f23")
 		)
 		(pin "3"
-			(uuid "991a8966-1409-456d-abf7-927b4a918f23")
+			(uuid "ae1eb6c9-c4e6-5e91-b191-bc4c20594830")
 		)
 		(pin "4"
-			(uuid "f741de72-9971-44e0-af15-705e33d55fe1")
+			(uuid "53d5a253-5fd7-5256-9287-50079b955f8c")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23414,10 +23414,10 @@
 			(uuid "71f76ebb-2a12-4550-ab85-f4207ed95245")
 		)
 		(pin "3"
-			(uuid "cd0d7708-f5a8-45e7-b317-1d78961a0702")
+			(uuid "7e399808-83a6-5031-b1eb-fa9ab2aa11f8")
 		)
 		(pin "4"
-			(uuid "e9991fe9-32ef-4b0d-915a-f8bec868eede")
+			(uuid "1959611f-ac1e-516b-93d3-04bd03f8a3af")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23602,10 +23602,10 @@
 			(uuid "883ab896-cd33-4326-9520-b26444659f6a")
 		)
 		(pin "3"
-			(uuid "ca8f53fe-a7f6-49b4-85c9-60043ec732fd")
+			(uuid "fb1d56af-a9ad-5a3f-95d6-ba370e9f73b4")
 		)
 		(pin "4"
-			(uuid "a702fe1f-39d4-4879-a17b-767da34b8034")
+			(uuid "c3448e23-bd9f-5895-8d38-a267bc912fda")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23687,10 +23687,10 @@
 			(uuid "fcfa1a64-1959-4e5c-a625-5039556cafd1")
 		)
 		(pin "3"
-			(uuid "2760433e-0d30-4cda-9e86-b9e460d146fb")
+			(uuid "6136d8ac-b1b3-5f95-b0f0-af2ebcceeb54")
 		)
 		(pin "4"
-			(uuid "da875053-abc9-4e54-bc10-d89ea569de40")
+			(uuid "2f79f218-5f6b-5c5c-bd2c-0ff700f6b308")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -23772,10 +23772,10 @@
 			(uuid "8a8be963-3c35-40ce-8ce9-ec5a50691c76")
 		)
 		(pin "3"
-			(uuid "7a403928-74b5-450e-a631-0da1b7bb02b1")
+			(uuid "5b436379-7311-579e-bbc8-e0882f26fd58")
 		)
 		(pin "4"
-			(uuid "e0b1960c-bccf-4f82-910f-e848121bddc8")
+			(uuid "c4357d54-5769-5518-a60b-cd0292c20ffd")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24042,10 +24042,10 @@
 			(uuid "5fad8033-54c1-49b6-8068-5a812fb4ce3e")
 		)
 		(pin "3"
-			(uuid "f9dc2376-2e9e-4e58-bd43-57d80910be62")
+			(uuid "2dc28e26-b041-5a0d-861c-7eabe143bfcb")
 		)
 		(pin "4"
-			(uuid "2bb556ff-9068-46ee-b43d-ffe1330069fe")
+			(uuid "96ea44b7-b337-58e6-a257-17f5c86f0765")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24230,10 +24230,10 @@
 			(uuid "3c75a8de-ed1a-44cf-90d6-0a66ebe0fa02")
 		)
 		(pin "3"
-			(uuid "9427d8c4-7b62-4bc4-92c7-b633ac6cb17a")
+			(uuid "95e12140-467d-58da-a67c-a48858bee1c1")
 		)
 		(pin "4"
-			(uuid "d573744c-13dd-4051-a32b-6b173b0f291e")
+			(uuid "54b2d8d2-290f-5f43-8655-d0c56bb581c9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24315,10 +24315,10 @@
 			(uuid "a5b529db-c63f-4f5c-9aa1-3deee3196904")
 		)
 		(pin "3"
-			(uuid "a44305fa-ae9f-452e-ac0a-1fb065de7085")
+			(uuid "1d3aee36-7836-5421-b3a4-63735dbff970")
 		)
 		(pin "4"
-			(uuid "94a219bb-f045-4cec-9b05-65129b20e229")
+			(uuid "f373263a-fd9a-50ce-afe3-0276a1671ba9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24400,10 +24400,10 @@
 			(uuid "2e90232d-3b7a-47b5-8c59-ebc1510db913")
 		)
 		(pin "3"
-			(uuid "bd476576-bb15-421e-acc9-bc87fc06bd9b")
+			(uuid "7671c1bc-fd4a-53dd-be58-ba8f325ea47f")
 		)
 		(pin "4"
-			(uuid "f12c005b-524b-44f9-8ec8-699aebb27ed9")
+			(uuid "4060b2f4-b9d9-5ce6-a1d1-971130e1e4c2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24485,10 +24485,10 @@
 			(uuid "7c320be7-72ed-4474-a413-be65dc3b028a")
 		)
 		(pin "3"
-			(uuid "1f6a853e-84f5-44ff-a653-b9b60c681640")
+			(uuid "3075327f-ae47-5dde-ba61-23cb3bee9f6d")
 		)
 		(pin "4"
-			(uuid "e0ccaf6e-b7a1-4b1f-a640-1fe39fdd4ed9")
+			(uuid "6ef3c9d6-cd16-5657-9770-ea4bc443b5bb")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24673,10 +24673,10 @@
 			(uuid "c7749a71-11c0-40bb-91b3-ecafe8682996")
 		)
 		(pin "3"
-			(uuid "ce42a20d-5bf0-4c6a-9cf2-0e320b84be58")
+			(uuid "75d478b8-eaf5-5ae0-b059-fe53eeedca6a")
 		)
 		(pin "4"
-			(uuid "72168f06-6088-41a6-8e4f-7814f09973ae")
+			(uuid "65ed6410-9b99-518d-83e6-fbe983a9243d")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -24964,10 +24964,10 @@
 			(uuid "b6d3bef5-24f3-4661-a48f-fc8877f45fb8")
 		)
 		(pin "3"
-			(uuid "4f19a209-db3e-4334-8971-53c11cf40a94")
+			(uuid "52538d75-a144-5e01-b26b-2183cc8890f8")
 		)
 		(pin "4"
-			(uuid "c5f62fb5-328e-4d7e-ba12-c1df792362c8")
+			(uuid "3a481414-dbf9-5cb6-b9c2-17b45e550e09")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -25049,10 +25049,10 @@
 			(uuid "8efa72d9-0c63-4d41-87bd-2aa5a9679108")
 		)
 		(pin "3"
-			(uuid "1e2de55e-2d74-48c3-97e6-e5b7981ff3b1")
+			(uuid "ed9e383d-6ae8-52cf-9ef2-8c81635f95fa")
 		)
 		(pin "4"
-			(uuid "4e9f582c-f574-4073-a8dd-126c31df5c2c")
+			(uuid "a8d67db5-665d-53eb-a799-3de0a22ce3c2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -25340,10 +25340,10 @@
 			(uuid "39f29a16-396f-4c84-9cf4-b07a4c93908c")
 		)
 		(pin "3"
-			(uuid "c918f199-04df-4f81-a176-2e950ff9732a")
+			(uuid "a7058d74-9713-584c-a65a-bbdd11beedec")
 		)
 		(pin "4"
-			(uuid "eecb6564-0638-47cb-8a2f-4ef2b73e9104")
+			(uuid "3e55d35d-8843-5a21-a751-f9a6f1fb18b7")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -25425,10 +25425,10 @@
 			(uuid "b3f4e237-6d70-4f73-9af4-cf236ac1660b")
 		)
 		(pin "3"
-			(uuid "597fe547-d7d2-442f-ba67-cee7f279b6f8")
+			(uuid "36435e19-eb0b-5429-a925-5ae215d77f09")
 		)
 		(pin "4"
-			(uuid "708821b4-84c3-432c-865e-94ba31c2c726")
+			(uuid "b8c12900-bc80-5a06-a4ac-029e566cc853")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -26232,10 +26232,10 @@
 			(uuid "8da86a31-1b61-57c1-b3e5-693e320c7e46")
 		)
 		(pin "3"
-			(uuid "9eb85d25-8f45-4c9d-b236-325d9619a78e")
+			(uuid "c6e651dd-3dc6-5e8c-8811-d8b54242c29b")
 		)
 		(pin "4"
-			(uuid "66a847e3-19d3-4260-a73d-6e3b4e8e66b4")
+			(uuid "ba1b5e8e-7fca-546b-9ada-3f7902d14bf2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -26626,10 +26626,10 @@
 			(uuid "24232f3d-90ca-4655-b920-ac7533e2eae8")
 		)
 		(pin "3"
-			(uuid "9496f3c4-ae14-469f-beff-444632e9a792")
+			(uuid "8eaa4aa0-d70a-5046-b7e8-2968c47886cd")
 		)
 		(pin "4"
-			(uuid "6c823879-17eb-4cec-b6d5-cc04eb06a142")
+			(uuid "569966cb-c4a6-59a7-91df-13a2a16d9e9b")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -26711,10 +26711,10 @@
 			(uuid "6fae58ec-e707-4aaa-9552-1a95759e2e23")
 		)
 		(pin "3"
-			(uuid "a99643c9-3bc0-4cb2-aa7d-cf4a5f150f4d")
+			(uuid "5ac3f9cb-207c-5f1d-9ce1-1f742f05d259")
 		)
 		(pin "4"
-			(uuid "8b054b81-e52c-4a57-a6fc-c5d5ad4c58c5")
+			(uuid "f3106164-b548-5f2a-bfc3-6280b7a7d110")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27002,10 +27002,10 @@
 			(uuid "64e96e7c-6750-49f3-93d3-28f89208417c")
 		)
 		(pin "3"
-			(uuid "f6dd3213-30ac-494e-a254-f3e940b4802f")
+			(uuid "b4771057-3cdb-5f81-9cf1-e5636ce00bb0")
 		)
 		(pin "4"
-			(uuid "0d7f10b5-e529-4b4f-83e4-e71812ee74a4")
+			(uuid "4059c081-8675-5502-8c50-88cd01c0c0b2")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27087,10 +27087,10 @@
 			(uuid "21142377-cff0-448c-ab67-5bafc691842a")
 		)
 		(pin "3"
-			(uuid "911abab9-3556-48c5-9a2c-2da0f931cbc0")
+			(uuid "2a24db21-96ed-5048-8aff-caadb4e52eda")
 		)
 		(pin "4"
-			(uuid "d2157f93-dccf-4558-bd5f-754500cddf33")
+			(uuid "669b1c54-9602-5766-a816-8e5f45ce0371")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27172,10 +27172,10 @@
 			(uuid "db5e6d0f-e6e0-47a6-af39-ca9b730595c9")
 		)
 		(pin "3"
-			(uuid "f380de45-2eb8-4d44-bb4a-8990d088df34")
+			(uuid "b201173d-3ced-5e0d-85e7-e3d2a013de2e")
 		)
 		(pin "4"
-			(uuid "8b542568-a07b-4fe3-893a-626a5c6d8738")
+			(uuid "96a507f7-a448-55d6-a88a-b9466d79bfba")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27566,10 +27566,10 @@
 			(uuid "c7919198-eaea-4c3c-b5b0-d202f437043f")
 		)
 		(pin "3"
-			(uuid "26c92828-89f6-4997-bcec-042737e39351")
+			(uuid "84b5692b-7491-53ab-b04a-f53dd2187418")
 		)
 		(pin "4"
-			(uuid "586dc819-80e4-4d27-a614-d403452bf8d4")
+			(uuid "6bf54940-63f6-5cb4-8884-f3a7da60355a")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27651,10 +27651,10 @@
 			(uuid "ea4b0161-df17-4635-9e04-88276a9b4fe4")
 		)
 		(pin "3"
-			(uuid "d49e2086-2f2c-432a-8ddf-b3bdf547b10c")
+			(uuid "38225cd4-33c7-5396-afdf-0ac2f91be45e")
 		)
 		(pin "4"
-			(uuid "c34c3384-3d0d-424b-bac7-ca39c2b7da28")
+			(uuid "d4329931-9114-5e32-a434-8502c55299a9")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27736,10 +27736,10 @@
 			(uuid "6ab51fcb-04ca-475a-9328-3e54dbd089a0")
 		)
 		(pin "3"
-			(uuid "b0c49d38-6467-4d5a-8d13-79cbec4c3256")
+			(uuid "1456fbfb-a650-5194-bfdc-2d3e02eec30c")
 		)
 		(pin "4"
-			(uuid "f8fffcdf-5f60-44f4-a67f-a7980200f028")
+			(uuid "9e915188-a209-55dc-aab2-b711fd8a60c4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -27924,10 +27924,10 @@
 			(uuid "1cd194e5-6290-4c68-86e7-b99c6c58668e")
 		)
 		(pin "3"
-			(uuid "f2b1d4f5-e4e9-448b-8372-1b10b12f91db")
+			(uuid "7bda9fb1-4c60-5980-a9a1-60ee0dcb954b")
 		)
 		(pin "4"
-			(uuid "21f45677-56a8-430f-a361-52e17a1b50d0")
+			(uuid "b86f6ce3-7052-5f52-8884-fe1a44170485")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28009,10 +28009,10 @@
 			(uuid "fdb5c7bc-e60e-426b-8fab-d234ee9a6741")
 		)
 		(pin "3"
-			(uuid "7863bcb4-52ac-4ce6-8efa-98cbd1e4c1f9")
+			(uuid "3e0f917a-dc70-550b-8371-6073488cd7a0")
 		)
 		(pin "4"
-			(uuid "fb82b93e-58fe-4ee7-b3e6-5a012b389a87")
+			(uuid "0df12a79-0670-5528-b799-8a23c3081836")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28094,10 +28094,10 @@
 			(uuid "e50dbcd7-259b-453b-9f62-eb9e9330804c")
 		)
 		(pin "3"
-			(uuid "2d924a7e-875a-4d5f-b571-59b2e5ab4fd4")
+			(uuid "7f18d5e3-b49a-50b5-9ffe-b0886a2501ef")
 		)
 		(pin "4"
-			(uuid "483f920e-4d6c-418f-a883-96a48ed05018")
+			(uuid "f9fe58cf-ee9a-537f-8c84-f212d4c4265e")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28179,10 +28179,10 @@
 			(uuid "15f65e73-174a-4b3c-a4a8-e23b32e80b62")
 		)
 		(pin "3"
-			(uuid "476bc9ce-1d17-4fa1-94b7-5bef4793e84c")
+			(uuid "23d22bc8-79fb-58b1-87fb-99d9b7b96461")
 		)
 		(pin "4"
-			(uuid "727e8d08-bc2c-4036-86d9-da319a38f34f")
+			(uuid "6d3689c9-586e-5183-8db2-5d979d5f9a07")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28264,10 +28264,10 @@
 			(uuid "f6e4304a-3259-4273-8b1b-cd85e2dc0758")
 		)
 		(pin "3"
-			(uuid "6e43466f-eb89-4169-b845-96f3f6591303")
+			(uuid "58dba3c4-3eba-5261-a0a9-5083854a7874")
 		)
 		(pin "4"
-			(uuid "5ded705e-4ea6-4f56-bcbe-f3aa71925ded")
+			(uuid "18361e45-030a-5c25-bd4f-50b2517c2269")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28349,10 +28349,10 @@
 			(uuid "fbdd26df-917a-4abf-8ae8-73c79daf2702")
 		)
 		(pin "3"
-			(uuid "4d65b7b7-9d68-48f1-a9cd-b542df49682b")
+			(uuid "69838ae0-c646-5923-a890-da5c9ee87a81")
 		)
 		(pin "4"
-			(uuid "5ee6840d-b835-47ae-af00-3a88af2a99b0")
+			(uuid "44b0be1c-6f6b-5725-b9c4-4847912c37d5")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"
@@ -28743,10 +28743,10 @@
 			(uuid "72811c2f-46ad-42fe-bfd4-fb26fe9c3807")
 		)
 		(pin "3"
-			(uuid "1a823aca-432f-408d-8d7f-4f6f1791ef87")
+			(uuid "608b8002-f045-55ee-bc2c-7c04f9f7d3d1")
 		)
 		(pin "4"
-			(uuid "29eb0724-11c8-4a2b-a86d-2e13b34573e6")
+			(uuid "3502f9c2-4b5c-5189-8316-4bd6f2898cb4")
 		)
 		(instances
 			(project "convertible-keyboard-pcb"

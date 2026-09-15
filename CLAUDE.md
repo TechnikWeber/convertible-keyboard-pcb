@@ -35,7 +35,10 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 - Symbol `keyboard:SW_MX_LED` (lib/keyboard.kicad_sym): Einheit A = Schalter (Pins exakt wie SW_Push_45deg),
   Einheit B = LED, Pin 3 = Anode, Pin 4 = Kathode (Belegung der ai03-Footprints; KiCads SW_Push_LED ist umgekehrt!).
 - SW71 (ISO-Enter) im Schaltplan um 180° gedreht → Pin 2 = COL13, Pin 1 = Diode (sonst Pad-Kollision mit SW106).
-- Die Blätter wurden per Skript erzeugt (lag nur im Session-Scratchpad). Ab jetzt sind die KiCad-Dateien die Quelle.
+- Die Blätter werden mit `tools/` erzeugt: `tools/build.sh --overwrite` startet beim Basis-Commit 95ce8fa und
+  überschreibt Schaltplan + PCB! Änderungen am generierten Teil (Symbole, Netze, Standard-Platzierung) im Generator
+  machen und neu bauen, solange noch nicht von Hand gelayoutet wurde. Danach sind die KiCad-Dateien die Quelle.
+- Nach jedem Neubau: Schaltplandateien müssen identisch sein (`git diff`), PCB unterscheidet sich nur in UUIDs.
 - ERC: 0 Meldungen. Netzliste gegen Soll geprüft.
 
 ## GPIO-Belegung RP2040 (alle 30 belegt)

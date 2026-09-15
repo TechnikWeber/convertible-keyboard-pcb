@@ -65,6 +65,7 @@ bending it into something else.
 | `lib/keyboard.kicad_sym`, `lib/keyboard.pretty` | Project symbol (switch with LED) and footprint |
 | `sym-lib-table`, `fp-lib-table` | Project library tables |
 | `lib/MX_Alps_Hybrid` | Switch footprints by ai03 (git submodule) |
+| `tools/` | Scripts that generated the sheets and updated the PCB – see [tools/README.md](tools/README.md) |
 
 The footprints come from a submodule, so clone with:
 

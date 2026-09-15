@@ -69,6 +69,7 @@ diesem Kern auf, statt ihn zu verbiegen.
 | `lib/keyboard.kicad_sym`, `lib/keyboard.pretty` | Projektsymbol (Schalter mit LED) und Footprint |
 | `sym-lib-table`, `fp-lib-table` | Bibliothekstabellen des Projekts |
 | `lib/MX_Alps_Hybrid` | Schalter-Footprints von ai03 (Git-Submodul) |
+| `tools/` | Skripte, die die Blätter erzeugt und die Platine aktualisiert haben – siehe [tools/README.de.md](tools/README.de.md) |
 
 Die Footprints liegen in einem Submodul, deshalb so klonen:
 
