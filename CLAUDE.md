@@ -20,8 +20,8 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
   (Ziffernblock-LEDs und klassische Lock-Anzeigen).
 - Lock-Anzeigen nur als 0805 (Nutzerentscheidung, 3-mm-Variante gestrichen); genaue Lage entscheidet am Ende
   der Gehäuse-Designer:
-  - Standard über dem Numpad, mittig auf Höhe der F-Reihe (y = 38,1): D128 Num x = 409,575, D126 Caps
-    x = 428,625, bestückt. Geht beim Abbrechen mit. Waagerecht evtl. noch rechtsbündig über * und - (offen).
+  - Standard über dem Numpad, rechtsbündig auf Höhe der F-Reihe (y = 38,1): D128 Num über * (x = 428,625),
+    D126 Caps über - (x = 447,675), bestückt. Geht beim Abbrechen mit.
   - TKL: nur Caps Lock (Num Lock ohne Numpad sinnlos), D122 mittig über BildAuf in der Lücke
     F-Reihe/Zahlenreihe (366,7125 / 52,3875), DNP.
   - Je Anzeige eigener 1k auf B.Cu, bestückt (R127 TKL-Caps, R129 Caps, R130 Num).
