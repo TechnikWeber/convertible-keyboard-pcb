@@ -5332,6 +5332,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50de8f32-ebb8-5175-8161-7240db64e1ce")
 		)
@@ -5656,6 +5683,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 236.22 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c9c0136-a26c-50eb-8079-d1c1864fbeb1")
 		)
@@ -5814,6 +5868,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 73.66 0)
 			(hide yes)
 			(effects
@@ -5992,6 +6073,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3fe217b-a717-5835-87ea-765548d2a0b1")
 		)
@@ -6073,6 +6181,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 22.86 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 22.86 165.1 0)
 			(hide yes)
 			(effects
@@ -6328,6 +6463,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81d11c54-780b-52c3-aafb-6b7e53c7bb47")
 		)
@@ -6490,6 +6652,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 22.86 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 22.86 73.66 0)
 			(hide yes)
 			(effects
@@ -7150,6 +7339,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04944cc1-8fe6-5d0d-8d63-6d18550e2c1a")
 		)
@@ -7705,6 +7921,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 210.82 0)
 			(hide yes)
 			(effects
@@ -8600,6 +8843,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 22.86 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "052d3fba-ab04-524a-a5be-e76140dee6ef")
 		)
@@ -8681,6 +8951,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 53.34 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 53.34 142.24 0)
 			(hide yes)
 			(effects
@@ -9098,6 +9395,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "484ce1cc-c890-5398-a8d9-ccbca170685b")
 		)
@@ -9337,6 +9661,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 165.1 0)
 			(hide yes)
 			(effects
@@ -9920,6 +10271,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2bf66fa8-d32d-5bca-ab38-ff6cef2d838e")
 		)
@@ -10082,6 +10460,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 233.68 0)
 			(hide yes)
 			(effects
@@ -10329,6 +10734,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 165.1 0)
 			(hide yes)
 			(effects
@@ -10832,6 +11264,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 205.74 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "213beb0b-cdf7-546e-bd71-c1b4d6e14330")
 		)
@@ -11302,6 +11761,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 22.86 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 22.86 187.96 0)
 			(hide yes)
 			(effects
@@ -11869,6 +12355,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "217128e6-2bb4-564a-934b-21d310d9e7e1")
 		)
@@ -12116,6 +12629,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f57423c6-2f05-507a-be25-a3fa342e5d16")
 		)
@@ -12274,6 +12814,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 96.52 0)
 			(hide yes)
 			(effects
@@ -12521,6 +13088,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 210.82 0)
 			(hide yes)
 			(effects
@@ -12845,6 +13439,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 175.26 119.38 0)
 			(hide yes)
 			(effects
@@ -13181,6 +13802,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ab7e0aa-b55d-50b1-b6d5-525a4d6faf82")
 		)
@@ -13505,6 +14153,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e938954-9be3-5ae9-9b44-aa7d5cd1a1ed")
 		)
@@ -13586,6 +14261,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 22.86 50.8 0)
 			(hide yes)
 			(effects
@@ -13910,6 +14612,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 119.38 0)
 			(hide yes)
 			(effects
@@ -14246,6 +14975,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c543d805-5f48-5763-9546-0dbd2efcc030")
 		)
@@ -14574,6 +15330,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28bee587-b7d2-5aa6-bc8b-bdff26a99fac")
 		)
@@ -14655,6 +15438,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 142.24 0)
 			(hide yes)
 			(effects
@@ -14829,6 +15639,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 205.74 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdb3299a-ca33-5058-bc0e-fcb2b16f6d20")
 		)
@@ -14918,6 +15755,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 175.26 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "474ae947-2e5a-5bb5-b91d-a7c0e832a5d1")
 		)
@@ -14999,6 +15863,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 22.86 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 22.86 96.52 0)
 			(hide yes)
 			(effects
@@ -15408,6 +16299,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "680c2f84-e811-5cff-a1e6-5f27ba56ee77")
 		)
@@ -15570,6 +16488,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 205.74 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 205.74 187.96 0)
 			(hide yes)
 			(effects
@@ -15817,6 +16762,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 187.96 0)
 			(hide yes)
 			(effects
@@ -16076,6 +17048,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f7fe308-e33d-55e0-bbfe-aa4026178e7c")
 		)
@@ -16157,6 +17156,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 142.24 0)
 			(hide yes)
 			(effects
@@ -16724,6 +17750,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91ddf5ec-a5e9-53d8-86aa-e19f1d62c1dd")
 		)
@@ -17050,6 +18103,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1e07ec9-2a1e-5b57-81ea-8e58c292658f")
 		)
@@ -17293,6 +18373,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 175.26 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 175.26 233.68 0)
 			(hide yes)
 			(effects
@@ -17783,6 +18890,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6af9d91-1da7-5dca-8022-e38f8bf07411")
 		)
@@ -17864,6 +18998,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 358.14 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 358.14 210.82 0)
 			(hide yes)
 			(effects
@@ -18119,6 +19280,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ca70f0a-52e0-5eee-accd-19921755fe88")
 		)
@@ -18362,6 +19550,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 175.26 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 175.26 165.1 0)
 			(hide yes)
 			(effects
@@ -18848,6 +20063,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 187.96 0)
 			(hide yes)
 			(effects
@@ -19492,6 +20734,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5dde1342-6de2-5380-b000-f9433456c7e9")
 		)
@@ -19820,6 +21089,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34d108df-37e2-5308-a4bc-f98b1db0a834")
 		)
@@ -19978,6 +21274,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 233.68 0)
 			(hide yes)
 			(effects
@@ -20152,6 +21475,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e712b885-fbf0-551a-a320-230148942c51")
 		)
@@ -20310,6 +21660,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 358.14 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 358.14 73.66 0)
 			(hide yes)
 			(effects
@@ -20480,6 +21857,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 165.1 0)
 			(hide yes)
 			(effects
@@ -20727,6 +22131,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 119.38 0)
 			(hide yes)
 			(effects
@@ -21924,6 +23355,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 83.82 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74adff83-2a21-52dd-8d61-496b0e064b12")
 		)
@@ -22082,6 +23540,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 114.3 73.66 0)
 			(hide yes)
 			(effects
@@ -22341,6 +23826,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 205.74 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f299cdf1-b70c-5b5e-9d5a-47c0c82cf458")
 		)
@@ -22580,6 +24092,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 142.24 0)
 			(hide yes)
 			(effects
@@ -22839,6 +24378,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78c245e9-8166-5c8c-b5f0-bca9e6613f28")
 		)
@@ -22920,6 +24486,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 165.1 0)
 			(hide yes)
 			(effects
@@ -23098,6 +24691,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e96a9ea-5894-56a8-bf51-d664111b06c1")
 		)
@@ -23187,6 +24807,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 266.7 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1676b7c4-9e41-5dd0-be30-d29fe63f5a68")
 		)
@@ -23268,6 +24915,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 233.68 0)
 			(hide yes)
 			(effects
@@ -23446,6 +25120,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a379555-9520-5153-b81e-cdb023d91dd5")
 		)
@@ -23606,6 +25307,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 73.66 0)
 			(hide yes)
 			(effects
@@ -24019,6 +25747,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cb08392-eaac-55ca-bdf2-f48d99b3f41a")
 		)
@@ -24100,6 +25855,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 327.66 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 327.66 210.82 0)
 			(hide yes)
 			(effects
@@ -24671,6 +26453,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7aba732c-50e2-5717-ad71-4ff0b75042bf")
 		)
@@ -24752,6 +26561,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 327.66 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 327.66 165.1 0)
 			(hide yes)
 			(effects
@@ -24849,6 +26685,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "186d92d5-8cec-5697-a3df-10e02821217d")
 		)
@@ -24930,6 +26793,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 297.18 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 297.18 73.66 0)
 			(hide yes)
 			(effects
@@ -25096,6 +26986,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 50.8 0)
 			(hide yes)
 			(effects
@@ -25513,6 +27430,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 53.34 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1614c894-4761-58a5-be19-045006c1ce12")
 		)
@@ -25594,6 +27538,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 205.74 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 205.74 50.8 0)
 			(hide yes)
 			(effects
@@ -26084,6 +28055,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 266.7 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8714fb37-7fcd-5529-98d8-519eab350635")
 		)
@@ -26400,6 +28398,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 83.82 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 83.82 210.82 0)
 			(hide yes)
 			(effects
@@ -26813,6 +28838,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 175.26 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea77b2b1-99a0-59e0-abeb-3316513c195f")
 		)
@@ -27056,6 +29108,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 22.86 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15f23010-7e09-5244-9d11-426fba8aa5a4")
 		)
@@ -27145,6 +29224,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 175.26 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14012e0d-c80f-51a0-8656-eb8bb3b32085")
 		)
@@ -27226,6 +29332,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 50.8 0)
 			(hide yes)
 			(effects
@@ -27400,6 +29533,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 358.14 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 358.14 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 358.14 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61a1c1b0-fa33-5855-91fd-9213a53d38ef")
 		)
@@ -27481,6 +29641,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 53.34 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 53.34 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 53.34 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 53.34 187.96 0)
 			(hide yes)
 			(effects
@@ -27647,6 +29834,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 205.74 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 205.74 233.68 0)
 			(hide yes)
 			(effects
@@ -27825,6 +30039,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a40688de-20ad-5d7c-bbf8-678de1406d34")
 		)
@@ -27983,6 +30224,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 205.74 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 205.74 165.1 0)
 			(hide yes)
 			(effects
@@ -28320,6 +30588,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 83.82 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 83.82 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 83.82 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d10319f3-47de-5e6f-abb4-3d919f53bd4f")
 		)
@@ -28486,6 +30781,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da4d24b6-1846-5205-8171-da647c1497f8")
 		)
@@ -28567,6 +30889,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 297.18 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 297.18 187.96 0)
 			(hide yes)
 			(effects
@@ -28899,6 +31248,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ac91c96-8a02-5ef7-9968-1ce3eb73fcfa")
 		)
@@ -28980,6 +31356,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 144.78 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 144.78 187.96 0)
 			(hide yes)
 			(effects
@@ -29231,6 +31634,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 50.8 0)
 			(hide yes)
 			(effects
@@ -29644,6 +32074,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 297.18 50.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2193681-458d-5d98-8935-7af080b80c0a")
 		)
@@ -29733,6 +32190,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 266.7 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25f11eea-78b7-518f-8076-3207a921e9ad")
 		)
@@ -29814,6 +32298,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 175.26 96.52 0)
 			(hide yes)
 			(effects
@@ -30065,6 +32576,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "33c6a4ae-8bd7-5486-b6b5-56a546291050")
 		)
@@ -30154,6 +32692,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfef3ede-969a-510e-a287-a56ec9dc6737")
 		)
@@ -30235,6 +32800,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 175.26 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 175.26 73.66 0)
 			(hide yes)
 			(effects
@@ -30405,6 +32997,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 297.18 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 297.18 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 297.18 165.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 297.18 165.1 0)
 			(hide yes)
 			(effects
@@ -30648,6 +33267,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 210.82 0)
 			(hide yes)
 			(effects
@@ -30968,6 +33614,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 266.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 266.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 266.7 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(effects
@@ -31304,6 +33977,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d8f000d-505f-5d3a-a5eb-ca16cb723feb")
 		)
@@ -31624,6 +34324,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc3eb160-310a-5ef8-95d2-04f06208b06d")
 		)
@@ -31705,6 +34432,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 236.22 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 236.22 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 236.22 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 236.22 233.68 0)
 			(hide yes)
 			(effects
@@ -32199,6 +34953,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 327.66 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef37e648-5f4c-5f84-aca0-6f0719f14fe8")
 		)
@@ -32280,6 +35061,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 205.74 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 205.74 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 205.74 210.82 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 205.74 210.82 0)
 			(hide yes)
 			(effects
@@ -32937,6 +35745,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5d2f364-4968-51a7-aa4e-e5c41bebe22a")
 		)
@@ -33026,6 +35861,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 22.86 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 22.86 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 22.86 142.24 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ba6ef93-5c75-52f7-abdc-8bfcb1c1d42f")
 		)
@@ -33107,6 +35969,33 @@
 			)
 		)
 		(property "LCSC" "C3646935"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
 			(at 114.3 187.96 0)
 			(hide yes)
 			(effects

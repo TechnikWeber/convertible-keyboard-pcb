@@ -17,8 +17,12 @@ from kicadlib import parse, dumps, find, findall
 NAME = "convertible-keyboard-pcb"
 BUILD = os.path.join(HERE, "build")
 VARIANTS = {
-    "smd": dict(fp="keyboard:LED_1206_ReverseMount_XL-3216", value="XL-3216UWC-FB", lcsc="C3646935", side="B"),
-    "tht": dict(fp="keyboard:MX_LED_THT", value="LED THT", lcsc="", side="F"),
+    "smd": dict(fp="keyboard:LED_1206_ReverseMount_XL-3216", value="XL-3216UWC-FB", side="B",
+                fields={"LCSC": "C3646935", "Manufacturer": "XINGLIGHT", "MPN": "XL-3216UWC-FB",
+                        # checked against the footprint: body, lens and terminals fit
+                        "LCSC Alternatives": "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"}),
+    "tht": dict(fp="keyboard:MX_LED_THT", value="LED THT", side="F",
+                fields={"LCSC": "", "Manufacturer": "", "MPN": "", "LCSC Alternatives": ""}),
 }
 # THT only: the square cathode pad would come too close to a stabilizer hole of an ISO/ANSI alternative key
 THT_FLIPPED = {"LED71", "LED76", "LED107"}
@@ -52,8 +56,9 @@ def schematic(variant):
             continue
         props["Footprint"][2] = footprint_for(variant, ref)
         props["Value"][2] = v["value"]
-        if "LCSC" in props:
-            props["LCSC"][2] = v["lcsc"]
+        for key, val in v["fields"].items():
+            if key in props:
+                props[key][2] = val
         changed += 1
     open(path, "w").write(dumps(t) + "\n")
     root = os.path.join(PRJ, f"{NAME}.kicad_sch")

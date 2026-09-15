@@ -7,8 +7,9 @@
 > Wenn du Tastaturgehäuse entwirfst — 3D-gedruckt, CNC-gefräst oder
 > lasergeschnitten — und Lust auf dieses Projekt hast, eröffne gern ein
 > [Issue](https://github.com/TechnikWeber/convertible-keyboard-pcb/issues).
-> Platinenumriss, Befestigungslöcher und die Lage der USB-C-Buchse stehen noch
-> nicht fest und können sich nach deinem Gehäuse richten — für die
+> Ein erster Platinenumriss steht (Tastenfeld + 1,3 mm), aber Umriss,
+> Befestigungslöcher und die Lage der USB-C-Buchse können sich noch nach deinem
+> Gehäuse richten — für die
 > Full-Size-Variante, die TKL oder beide. Dasselbe gilt für die genaue Position
 > der Lock-Anzeigen. Die USB-Buchse kann auf der Platine sitzen oder auf einem
 > Unified Daughterboard (Pico-EZmate oder JST-SH).
@@ -27,13 +28,14 @@ diesem Kern auf, statt ihn zu verbiegen.
 > **Status: am Anfang.** Der Schaltplan ist vollständig — Tastenmatrix,
 > ANSI-Alternativen, Beleuchtung und Controller — und jedes Bauteil hat seinen
 > Footprint auf der Platine; Controller, USB und Treiber sind auf der Rückseite
-> platziert. Sollbruchstelle, Platinenumriss und Routing fehlen noch. Gefertigt
-> wurde bisher nichts.
+> platziert, Platinenumriss und Sollbruchstelle sind gezeichnet.
+> Befestigungslöcher und Routing fehlen noch. Gefertigt wurde bisher nichts.
 
 ## Full-Size oder TKL
 
-- Der Ziffernblock sitzt rechts und hängt über eine Reihe Mouse Bites
-  (perforierte Bruchstege) am Rest der Platine.
+- Der Ziffernblock sitzt rechts hinter einem 2 mm breiten Schlitz und hängt an
+  vier Mouse-Bite-Stegen (perforierte Bruchstege). Jeder Steg hat in der Mitte
+  einen lochfreien Kanal für die Leitungen, die hinüberlaufen.
 - Controller, USB-C sowie die Treiber für Beleuchtung und Lock-Anzeigen liegen
   alle auf dem TKL-Teil. Nur die Matrix-, Beleuchtungs- und
   Anzeigeleitungen des Ziffernblocks laufen über die Bruchkante.
@@ -64,6 +66,8 @@ diesem Kern auf, statt ihn zu verbiegen.
   (weiß, XINGLIGHT XL-3216UWC-FB), maschinell bestückt; über QMK schaltbar,
   dimmbar und mit „Breathing“. Eine THT-LED-Variante nutzt denselben Entwurf mit
   anderen LED-Footprints
+- Geprüfte Alternativ-LEDs für denselben Footprint: MEIHUA MHT151WDT
+  (LCSC C401114) und TUOZHAN P2-1206WYCS2-0.9T-F (LCSC C2827252)
 - Anzeige für Caps Lock und Num Lock (0805) über dem Ziffernblock; für die TKL ist
   eine Caps-Lock-Anzeige über Bild auf vorgesehen, aber nicht bestückt
 - Alle 30 GPIOs des RP2040 belegt: 27 Matrixleitungen, Beleuchtungs-PWM,
@@ -95,8 +99,9 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] ANSI-Alternativpositionen
 - [x] Einfarbige Hintergrundbeleuchtung
 - [x] Controller-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD-Schutz
-- [ ] Sollbruchstelle für den Ziffernblock
-- [ ] Platinenumriss und Befestigungslöcher (gemeinsam mit dem Gehäuse)
+- [x] Sollbruchstelle für den Ziffernblock
+- [x] Platinenumriss (erster Entwurf)
+- [ ] Befestigungslöcher (gemeinsam mit dem Gehäuse)
 - [x] Platzierung von Controller, USB und Treibern (vorläufig)
 - [ ] Routing, DRC, Fertigungsdaten
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

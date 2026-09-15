@@ -20,7 +20,12 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
   (Ziffernblock-LEDs und Lock-Anzeigen über dem Numpad).
 - Nach dem Abbrechen: Ziffernblocktasten existieren nicht mehr, Firmware unverändert (QMK mit beiden Layouts).
 - Bruchkante: Navigationsblock-Tastenrand x = 376.2375, Ziffernblock-Tastenrand x = 381.0 (mm).
-  Kupferfreie Zone ca. x 374.3 … 382.9; Mouse Bites etwa bei x ≈ 378.6.
+  Umgesetzt als 2-mm-Schlitz x 377,6–379,6 (Edge.Cuts, Enden r = 1) mit 4 Stegen, Footprint
+  `keyboard:Breakaway_Tab_MouseBite` (board_only, BRK1–BRK4): je 2 Reihen × 6 NPTH Ø 0,5 bei x ±0,75,
+  lochfreier Kanal |y| < 1 mm für max. 3 Bahnen (0,2 mm) pro Lage. Stege und geplante Netze:
+  BRK1 y 52,39 → COL17–COL20, CAPS_K, NUM_K · BRK2 y 76,2 → ROW1, ROW2, +5V ·
+  BRK3 y 114,3 → ROW3, ROW4, BL_K · BRK4 y 142,875 → ROW5.
+  Beim Routen: Bahnen über den Schlitz NUR durch diese Kanäle, sonst nirgends.
 - Lock-Anzeigen (0805, oben bestückt, Nutzerentscheidung; genaue Lage entscheidet am Ende der Gehäuse-Designer):
   - Standard über dem Numpad, rechtsbündig auf Höhe der F-Reihe (y = 38,1): D128 Num über * (x = 428,625),
     D126 Caps über - (x = 447,675), bestückt. Geht beim Abbrechen mit.
@@ -52,13 +57,16 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 ## Tasten-LEDs (Standard: Reverse-Mount-SMD, Nutzerentscheidung)
 
 - Teil: XINGLIGHT XL-3216UWC-FB, weiß, 1206 Reverse Mount, LCSC C3646935 (Extended), Vf 3,4 V.
-  Mit 1k ≈ 1,6 mA je LED, 107 LEDs ≈ 170 mA – mehr Strom sprengt das USB-Budget (Polyfuse 500 mA).
+  BOM-Felder an LEDn: LCSC, Manufacturer, MPN, LCSC Alternatives. Geprüfte Alternativen (Standard bleibt XL):
+  C401114 MEIHUA MHT151WDT (3,2 × 1,3, JLC-Loch Ø 1,05, Vf 3,65 → ~1,35 mA),
+  C2827252 TUOZHAN P2-1206WYCS2-0.9T-F (3,2 × 1,6, Anschlüsse 0,9–1,6 wie XL; Polarität im Datenblatt prüfen).
+  Nicht passend: runde Kuppel-Typen (Ø 2,0–2,3-Loch), Aussparung quer nur 1,9 mm (breiter kollidiert bei
+  LED70/LED76 mit ANSI-Stabi-Löchern).  Mit 1k ≈ 1,6 mA je LED, 107 LEDs ≈ 170 mA – mehr Strom sprengt das USB-Budget (Polyfuse 500 mA).
 - Footprint `keyboard:LED_1206_ReverseMount_XL-3216` auf B.Cu bei Schaltermitte (0, +5,08), Orientierung 0.
   Nach JLC/EasyEDA-Footprint `LED-SMD_L3.2-W1.6-RD-EH` (Pads 1,0 × 1,524 bei ±1,651, Aussparung 2,2 × 1,9):
   Pad-Innenkante auf 1,3 mm verschoben (0,2 mm Kupfer zur Aussparung), Aussparung als Edge.Cuts mit r = 0,5.
-  Datenblatt des XL-3216UWC-FB selbst nicht abrufbar (JLC-Link gesperrt); Maße aus Schwester-LED XL-3216UYC-FB
-  (Gehäuse 3,2 × 1,6, Linse ca. 1,8 × 1,3) und den EasyEDA-Rohdaten. Vor der ersten Bestellung Pad 1 = Kathode
-  am echten Teil prüfen.
+  Datenblatt (mm.digikey.com, XL-3216UWC-FB.pdf, S. 8): Gehäuse 3,2 × 1,6, Linse 1,85 × 1,4 × 0,8,
+  Anschlüsse 0,68 breit, Pad 1 = Kathode (bestätigt), Toleranz ±0,25. Unsere Pads überdecken 0,3 mm Anschluss.
 - `convertible-keyboard-pcb.kicad_dru`: Kantenabstand 0,2 mm nur für LED*-Footprints, sonst 0,5 mm
   (dafür steht der Board-Mindestwert auf 0,2 – Regeln können nicht unter den Board-Mindestwert).
 - Schalter-Footprints: ai03 `MX_Only:*-NoLED` (keine LED-Löcher mehr, FLIPPED-Sonderfälle entfallen).
@@ -124,8 +132,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
   R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
 - Lock-Anzeigen stehen an ihren Positionen.
 - Vorläufige Platzierung (alles B.Cu, Feinschliff beim Routing):
-  - Esc/F1-Lücke (x 45–70): J1 USB-C (57,15 / 32,9, Öffnung zur Oberkante – Board-Oberkante muss dort an der
-    Buchse liegen), U4 ESD, R201/R202 CC, R203/C201 Schirm, R204/R205 27 Ω, F1 + C202, U3 LDO + C203,
+  - Esc/F1-Lücke (x 45–70): J1 USB-C (57,15 / 30,975, Front bündig mit der Oberkante), U4 ESD, R201/R202 CC, R203/C201 Schirm, R204/R205 27 Ω, F1 + C202, U3 LDO + C203,
     J2 Pico-EZmate (51,5 / 56,5), J3 JST-SH (63,5 / 56,5).
   - Streifen unter der F-Reihe (frei y 44,5–60,5): U2 Flash (79 / 52,5), U1 RP2040 (90 / 52,5, 270°: USB/QSPI
     links, XIN rechts), Entkopplung C210–C221 in Reihen bei y 46,3 und 58,6 (Referenzen ausgeblendet),
@@ -136,7 +143,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 
 - 5× `hole_to_hole`: gewollte NPTH-Überlappungen ISO/ANSI (SW70/107, SW71/107 ×2, SW75/108, SW76/108).
 - Wenige Silkscreen-Warnungen an ISO/ANSI-Stellen → beim Layout aufräumen.
-- Platinenumriss fehlt noch (die LED-Aussparungen sind Edge.Cuts, daher meldet KiCad kein `invalid_outline` mehr).
+- 2× `silk_edge_clearance`: Silkscreen von J1 an der Oberkante (Buchse bündig) – unkritisch.
 
 ## Stand
 
@@ -147,7 +154,10 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
 - [x] Unified-Daughterboard-Anschlüsse J2 (Pico-EZmate) + J3 (JST-SH), DNP; USB-C J1 bestückt
 - [x] Vorläufige Platzierung MCU/USB/Treiber auf B.Cu (Esc/F1-Lücke, Streifen unter der F-Reihe, F4/F5-Lücke)
-- [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock
-- [ ] Platinenumriss, Befestigungslöcher
-- [ ] Routing, DRC, Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
+- [x] Platinenumriss: Tastenfeld + 1,3 mm (x 27,275–458,5, y 27,275–153,7), Ecken r = 1; 1,3 mm nötig wegen
+      Stabi-Löchern Leertaste/Num 0 (bis y 153,12) und Num+ (bis x 457,92)
+- [x] Sollbruchstelle: Schlitz + 4 Mouse-Bite-Stege mit Leitungskanälen (siehe Wandel-Konzept)
+- [ ] Befestigungslöcher (mit Gehäuse-Designer)
+- [ ] Routing (Nutzer wartet noch; Optionen: Skript für Matrix/LED-Raster, Freerouting – Java 25 vorhanden –,
+      KI-Router wie DeepPCB/Quilter), DRC, Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

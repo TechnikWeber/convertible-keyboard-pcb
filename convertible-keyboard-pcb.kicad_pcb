@@ -4808,6 +4808,177 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Breakaway_Tab_MouseBite"
+		(layer "F.Cu")
+		(uuid "3e84b5b3-1510-4355-ba12-8b141c97f660")
+		(at 378.6 76.2)
+		(descr "Mouse-bite breakaway tab for a 2 mm slot running along y through the origin. Two rows of 0.5 mm NPTH holes (0.8 mm pitch) on the slot edges; a 2 mm hole-free channel in the middle (|y| < 1 mm) carries up to three 0.2 mm traces per copper layer across the break.")
+		(tags "breakaway mouse bite tab")
+		(property "Reference" "BRK2"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9ec4f67-d16b-4610-9b84-4e80f0e50903")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "Breakaway_Tab"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeaa94bf-0292-4e56-8460-038247517602")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ef46d8-3e00-425d-9ae4-b726f9b24243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5b1c33-100f-48fa-99d2-c7c8ec3318d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "95d0e8af-0347-4824-a9f5-cf6a7fe8803f")
+		)
+		(fp_line
+			(start -1 1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "5cd3dba5-15c2-4971-8aca-cb252350e5f9")
+		)
+		(fp_text user "route here"
+			(at 0 0 90)
+			(layer "Dwgs.User")
+			(uuid "14879dd8-f1c9-4545-b079-46b1859f303b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5cb31f8e-2fc4-4d79-b60d-d7d1d5c2b467")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "910c0164-ed89-494b-a1dd-30e5c7bb63af")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c98ccb31-f060-41eb-a6ba-ac7cb3a8fecb")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e0f00211-4e78-4e69-ba29-027aba3856ad")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "29fe25cd-b4fc-42d3-b67c-afb3e0702b15")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8f52d38d-55a3-4039-97ad-8ccdfd87819d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "540c8d8b-e1a0-48ff-adbc-16c24a0e6242")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "481e7e42-3cca-4257-9920-e2b67c9814e2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bfb6e31a-02a7-4170-b49b-e469ee205c79")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "104ec92a-46ec-41b8-8657-e5f8622c3ce8")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5034c192-8046-4909-891d-abe07778bd78")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cf8fd57b-39d0-4e61-89c1-c13615502860")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "410f1b0b-56d8-47be-89f8-320d4108b982")
@@ -11974,6 +12145,177 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Breakaway_Tab_MouseBite"
+		(layer "F.Cu")
+		(uuid "8373d547-4e3c-4352-96f0-d2c94151e721")
+		(at 378.6 114.3)
+		(descr "Mouse-bite breakaway tab for a 2 mm slot running along y through the origin. Two rows of 0.5 mm NPTH holes (0.8 mm pitch) on the slot edges; a 2 mm hole-free channel in the middle (|y| < 1 mm) carries up to three 0.2 mm traces per copper layer across the break.")
+		(tags "breakaway mouse bite tab")
+		(property "Reference" "BRK3"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14e1bee7-1576-4369-82b4-7181ee00e790")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "Breakaway_Tab"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60becd04-11a8-466e-a2d0-2ad25bc364eb")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20e5291f-98ff-4443-8572-010956126477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7a0831-4a86-47c5-86e6-9524ee20a260")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "6b3c270f-5928-4a29-a6fd-7890a1caadc6")
+		)
+		(fp_line
+			(start -1 1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "be77e4c0-ede7-444e-a326-97346ab676d8")
+		)
+		(fp_text user "route here"
+			(at 0 0 90)
+			(layer "Dwgs.User")
+			(uuid "57c6ea1a-f5f1-4cee-b51b-be179ab77a96")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f4767f79-0f62-4919-9767-341d01aa0121")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f47f8b61-12d1-4db6-a76e-8cbaea803c12")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "80317d7e-3504-4c96-a230-0fbde6cea522")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1b1348e4-2676-4d08-8f0e-599434f793ee")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e854f89d-4c62-4b45-bc6b-59507260ff9d")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c211dc5e-b551-4776-a3fe-e7a4483b3c3f")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a9803218-9862-48df-9fc7-5e4595612a23")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5322d271-d646-4931-a8ca-2ce1ca0ce2de")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cda2d4a9-7556-4528-8393-822a8d538603")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "433aa70c-45f8-4262-adc6-4652c929db90")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a43166cb-335c-43c8-92b3-3945a0a112c1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a4c31d44-7148-44ae-8f6e-d510ee878956")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "855bb07d-011b-47ee-9838-3a4a725908bf")
@@ -12399,6 +12741,177 @@
 			(remove_unused_layers no)
 			(net "Net-(D19-A)")
 			(uuid "b74113b1-49a1-433c-bcb7-09350253af92")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Breakaway_Tab_MouseBite"
+		(layer "F.Cu")
+		(uuid "8db02307-5165-4a97-bfe9-dea8c1daff14")
+		(at 378.6 142.875)
+		(descr "Mouse-bite breakaway tab for a 2 mm slot running along y through the origin. Two rows of 0.5 mm NPTH holes (0.8 mm pitch) on the slot edges; a 2 mm hole-free channel in the middle (|y| < 1 mm) carries up to three 0.2 mm traces per copper layer across the break.")
+		(tags "breakaway mouse bite tab")
+		(property "Reference" "BRK4"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52e412ef-0ae0-4a4a-a08b-5bb613a768ac")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "Breakaway_Tab"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7450da5-3319-4735-8f6d-af7b3044646b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f17051d-1043-4ed5-ba95-a0bee2ec9ce0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fe05cac-af5e-4415-a352-be402426fa68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "c0df58e8-c3c0-4af3-b645-7a9f54edaae8")
+		)
+		(fp_line
+			(start -1 1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "3cb90ab5-aba4-4ca0-9372-2307cf6e878e")
+		)
+		(fp_text user "route here"
+			(at 0 0 90)
+			(layer "Dwgs.User")
+			(uuid "adbe22f6-42c7-4a75-9e94-f35a6320594f")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "29b9b55f-e02f-402f-b89b-3591edd3b0e6")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2c590a1c-6a5f-4d16-83ce-94a508b4afe0")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "94220fd1-634f-4f6e-aef6-04c8fa8bebe4")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eb29100b-ed34-40e4-b473-1f2411ef6455")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4ff2976c-f015-4f06-b0c4-47e856d8007d")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0e272aa5-2d29-4a92-b6de-0dd705a0e20b")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b6ff2b9b-74a9-4460-b9cb-a06195204b4c")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5e1abbb9-a089-45eb-9cae-77784a687229")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "66a5c3ea-bd61-4a5d-8dd0-1d30de01a4a9")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "199a49f0-b271-4d5f-9181-0d20baa15f10")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "492cc471-34d3-4841-b88c-4563c11aa47d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9879097f-6bf6-4eff-9f34-02bfccfcabda")
 		)
 		(embedded_fonts no)
 	)
@@ -20230,6 +20743,177 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Breakaway_Tab_MouseBite"
+		(layer "F.Cu")
+		(uuid "dc1af8a3-c50d-45e3-924f-751fd937427a")
+		(at 378.6 52.3875)
+		(descr "Mouse-bite breakaway tab for a 2 mm slot running along y through the origin. Two rows of 0.5 mm NPTH holes (0.8 mm pitch) on the slot edges; a 2 mm hole-free channel in the middle (|y| < 1 mm) carries up to three 0.2 mm traces per copper layer across the break.")
+		(tags "breakaway mouse bite tab")
+		(property "Reference" "BRK1"
+			(at 0 -4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c21f689e-afc3-424e-9d06-1cf03e3b0bd5")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "Breakaway_Tab"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c482313-db07-4bd6-8342-8e69b641b01e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fdce4a2-ba7a-423d-848f-9ed43a67cdc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb4cd7b1-e2c2-4be0-8f0a-4a86c0641abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "bdc1cfb3-421a-49d6-bd59-a2d1bfb81604")
+		)
+		(fp_line
+			(start -1 1)
+			(end 1 1)
+			(stroke
+				(width 0.05)
+				(type dash)
+			)
+			(layer "Dwgs.User")
+			(uuid "4d05debd-ce0e-468c-8dc0-66ec7031c202")
+		)
+		(fp_text user "route here"
+			(at 0 0 90)
+			(layer "Dwgs.User")
+			(uuid "73223bfc-f96a-483c-bd1b-fc2cf91fd8c7")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8f8fa6f0-875b-41b7-a698-0bed8984733a")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c3cf1afd-5f7b-4371-8a7f-8f972ec4609d")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0fd00447-0cfc-4e92-b846-d960c0cd9889")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "647c0ff7-e7c9-4779-8c93-dd002ed92d4d")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "13b92381-d5da-4bf2-a7f6-3892c77f7c96")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4e07b418-2d5f-4090-b96e-ec9479b0afa4")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a15c65d6-e277-4d50-90a8-2fd053d737e1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f487f440-4d52-4d93-bc14-4e5227cb214d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 -1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "55c4bd4b-5c6e-4fca-8c95-a15daea16469")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 1.25)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "67746d63-bbfe-408f-83db-0aec988724cd")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.05)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7d6792ed-809a-44d9-88df-bc9471e76b34")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.75 2.85)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "943c16db-d6a3-46ad-9f69-ee473e26cad9")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "de6bf5e5-0c31-46a3-aeaa-c221eb3998fc")
@@ -24162,6 +24846,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "84054c56-f0b2-4e60-95d4-e724cbb41110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c1f0f06d-afd8-463d-b821-66435e34f285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "30cfdad6-5b30-47f9-a0c6-32aa903356da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/7f2d8853-3cfc-5c92-bd4b-56ccc10d3ef2")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -24364,6 +25081,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c584781d-ffde-4bed-acb4-51e6d4378aaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ad1dd656-2725-4448-97cf-b6c99ab770ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1fbecf60-f779-48c2-8175-1945ce5b7420")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25189,6 +25939,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8dc0a5b0-4fda-463f-80b3-fb748adfb2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ce0f3b25-4f49-45a2-9d4b-86197e03cccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "51e8e88f-d6c0-4793-a91d-c6b475ba4f5b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28006,6 +28789,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "43a8ec66-83a6-42c5-adc5-f843b94af0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6cfce24d-2fad-4a5f-a4a3-f46d03add789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1ef05b90-7b9b-4b93-9a1e-61c834f17814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/e499beca-c305-51b4-9522-2311c1c96061")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -28933,6 +29749,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "03a5e956-0103-49cc-ad7a-44598c72c4f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b4e1be1e-f9e9-4807-a1e2-d019fb199b78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9b576249-ea07-40cc-8f21-b3c9d41722c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/ae763623-005f-5599-bbb1-f2c93762c805")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -29445,6 +30294,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b1c57fea-da66-42b5-8f68-c21347a79151")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a50e4a21-7a1b-4981-9ad4-e2d168549f05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c303abff-2bea-457e-823a-0b24e3e2d45c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30118,6 +31000,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "98e9b8bd-9e93-41c4-a5a8-d1a77600b3e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3799858f-2db7-4299-8c85-4828707a667e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b0242d6a-2524-41db-b72f-64a2f30004df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/85620619-3598-5857-b5af-3e4d7386619e")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -30633,6 +31548,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6d7641ec-6b9e-407e-9dd9-c257ddd435b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d4c30f50-9839-4808-991b-00debc5ee862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "20dda794-7d4a-4f0a-814e-90a4244c5d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/be58627e-8761-5014-bae5-bf3b8c9242ba")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -30835,6 +31783,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "26357c19-b287-4c07-98e3-da91fc6b72cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d56eb705-9fb1-45d5-b2c6-5c5c76b2c876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "98aa12a2-db11-4da1-ad94-f0094d5da7aa")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33015,6 +33996,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0b3bfefb-31c0-4a9e-9939-38d66029415d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "93a5f943-2370-47cc-836e-03b6faadca27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f21d1950-ea44-4dd6-8fcb-72203a01a4e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/35fdb91f-c74a-5a1c-9014-369d92783875")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -33840,6 +34854,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5b0c3a79-5a35-4c0d-ae38-04245c6819e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bd7d3ef7-5826-4ecb-878a-82ce40943f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "625e2d84-e239-47a2-bd5c-fd2eff5c8768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/f5f2be82-f32b-5e10-8b80-955d3f45a3c3")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -34197,6 +35244,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "62268d19-63cb-448b-bf7c-82d858fe7d2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "48d6d8e5-c54b-457c-a098-6c704ca9d54a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2b53713d-9d9e-48b2-b1e1-0309247542ff")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35335,6 +36415,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "be9a30a4-7eaa-4534-8b02-b9d2a463c510")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e625ec5d-942a-4d25-bb28-40c6e00f5185")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "255e2653-24be-4ed6-88b7-04ec9355b745")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/74fec839-5cad-5790-88df-986697386f22")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -35537,6 +36650,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2d60c6b7-ea24-4e7a-a2b9-48b8ab9fb615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c22c4cae-2292-4f41-b791-15c61dc163b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a1c230bb-59c1-43bd-951a-632a5c70f558")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36627,6 +37773,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9eed1d60-340c-4188-9ac8-7b82c331a9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "38b88198-3214-439a-9d6f-91f284a9a491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "23e55b6c-bbc6-4710-8197-7ee4c0f723ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/a0ba4811-0576-5200-8137-783950fc0f2f")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -36829,6 +38008,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d7d7b1e8-2efd-44fa-a513-3ea4f1f0fcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a644ed3e-a270-42e2-938b-2e0a6e0baaa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a6041ba9-eb04-4507-8691-b96e32f6a93a")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37190,6 +38402,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "619a2bb0-ae17-4ae3-b429-789c87665edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f3b95e93-7efe-41ee-9ddf-247ba7572573")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3988aef9-a993-4a9d-a982-aea777470b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37860,6 +39105,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fc52692f-83a8-4d1a-94cc-d4e392efc833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f138e114-391d-4ff6-a118-22668324ca52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "253c020c-ab45-4278-ac99-9b1c58ee563c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -38995,6 +40273,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4286459f-4b5e-47f4-baba-27f72017c2b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d2fcf3c9-c578-43a3-8abc-39add9688dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e6d1d6a4-4721-498d-a94c-fc5b2e3c33f0")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -40882,6 +42193,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ab3ad287-a4eb-462d-81d3-7325b7cd9dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0e8c58e0-6104-4d91-aeb5-c081d8be5b77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "423044bc-2203-43e5-b537-d578a52d2878")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/dada0834-8ebe-5048-9247-0f7724f99a9a")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -41084,6 +42428,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "935a1d66-9219-458b-9c52-b17c2fd97b39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d6f5b002-34d7-4198-8fd0-894864dc8bbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e25f305d-b088-4ff1-a139-739eab2cbb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -41912,6 +43289,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "54b3f314-f313-4ead-8642-5c79640e7902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "13578782-6ef8-4b0d-a080-4938c7494b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d56dc376-9db2-46ec-8513-992c1241d4da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/17df5fd6-9df8-50b3-885f-ea1cc3835e4e")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -42424,6 +43834,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b4889f0c-659d-4186-8d77-1026936222b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b7b6e91b-8156-448e-b339-ed94993f12ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d8d8c614-8a44-4324-bb2d-fd9314cd7150")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -44182,6 +45625,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "531c71c8-97f1-4823-a9d4-6e8754f8d67b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "84aec25e-4eb5-4b52-ade4-61e7d4bc6f3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "40261619-b64f-4c89-b75c-d074ce2e334e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/6abc1d28-911d-5d06-a5fe-3d2fadc753bb")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -44558,6 +46034,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "05d11950-43bd-4a5c-9bd5-249800784cd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3e0e09ad-d339-4031-bf09-645e3fadd80c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8d7d6340-f101-49f6-959d-d9143919c919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/05cf8f2f-bc2f-580c-bdb5-d1e9b2e7614d")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -44760,6 +46269,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "77f877aa-cbb0-4e78-87b7-61bd40135d11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a8c14899-e102-49fd-8d66-82e4d15e2592")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "aaeb05af-4f6c-40ba-8e03-1d417a39514a")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -44968,6 +46510,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "89806bb1-ab20-47ee-badd-3a9b5aed716a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0916b3b7-0c88-4936-a637-eeac41cc874c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7b88a144-fae8-403d-801f-805160a9d385")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/d7ea6b27-d34a-5d43-bd3f-0a42d632f9cb")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -45170,6 +46745,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "29c1818e-811b-488b-aac2-fc9e6e17c61b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "91baa45e-7066-45e6-8b0e-2e3031bdc4e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ed8e5489-78f2-457d-bfe7-16d1518f5e90")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -45998,6 +47606,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "97134f09-7474-4678-9ec4-46fad554e557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "687d255d-ef09-4477-9858-a47ddad037f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2f9bccfd-804a-4860-b65c-b894cd24646c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/40bf71b3-ada1-54eb-8d64-eff78d517a2b")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -46200,6 +47841,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9d91a3ec-c85f-4c64-b2e5-0f41d327f70c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e7204220-7418-4f1c-bd10-2b1cd4bebb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3d61d59e-6994-4b84-893e-046e9638bd7e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -47288,6 +48962,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2c149401-c1fd-4bd0-93b4-0f525fc5c7ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e7bd44ce-d46f-4ae8-ade5-4fe6681d80b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cc008ca5-5d66-4d57-a80b-8b1aee0e850b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -48581,6 +50288,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d3fab1a5-b00f-47ab-94d4-78567be342ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "93c2dbab-bc0f-4b21-b77f-29132b9f22aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "57a651cd-25d1-4145-aed1-b02d3fd7f67d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/f1659231-136c-51d7-862e-0540d3a9147f")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -48783,6 +50523,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ae0857f2-6ebb-4139-b39c-7f2acdd1f153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eeb59cd2-710f-4e10-8dd3-6c3a6ac2a7bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "086a88e0-6e65-4fb6-b990-ba6a31738d14")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -49453,6 +51226,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3fdf6267-0c1b-48ad-9567-f25093a21f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "683e8e38-c306-4b37-89b7-ed9d69a8194d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "be09cac0-aa10-451e-ba82-f43dac682377")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -50436,6 +52242,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4c87c597-2464-4618-ba65-0e1dc5a86f1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "743a922f-b7df-46b4-8c67-aa992e600c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ba8d1eed-54de-4c07-a93f-529cb00f909e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/4a91f05f-5263-5197-a119-3a04f73a6d23")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -51103,6 +52942,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6a968a09-7cbb-4ff5-9c7c-c53a67319435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a1566c2d-3373-450e-a384-80f7516bc14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6fd4a8fc-b5cf-4aeb-a977-d1b2ba38de74")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -52038,6 +53910,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "396c07ff-ebf4-4b05-adbb-ef7e2b36a706")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5f770f0e-e62d-459d-aa99-5b68c7a8a312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "83eebcaa-4f4a-4dd2-8ec2-de50f73d8e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/47f2708e-a7e6-59d0-9859-e2ba2dcc9f62")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -52240,6 +54145,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9c8dc2f5-322f-46d3-9562-9d8aa1cfeff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4a240b84-7d4d-487d-b869-3ea576191f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1ad6aa7d-bae5-4975-9040-4916e7d19be5")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -53223,6 +55161,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f1bd7cd1-5ce1-4844-8d3f-30dd7f3f3257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7b81fff8-0fd5-4bef-836b-b685e3479f93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1f4eccbf-7e5a-4b5c-a15b-a815262c3b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/28f54def-5d8b-5238-8384-de3a31f6d967")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -53428,6 +55399,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f15f2038-e0ae-4050-9bfd-86315d3f3125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3664501d-7f4d-405d-ab4b-6885fa398d56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "86b1e5b6-18cc-4068-b70d-e0ff5831a244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/56799ddc-8c9a-540b-8202-cbc37f70f674")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -53630,6 +55634,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eea661ea-644e-403c-9ad7-8ae2bb11ae24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cfccfa61-f6b4-4247-9dc0-691dc5a79791")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c63a88c0-5867-4eea-8119-e580ff6fe694")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -54145,6 +56182,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cd5cf231-dd9e-424b-91c1-5fcaac1a3135")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bb8673bc-4bb1-44c1-af05-23e0a9cfaf54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2cf036ee-ca22-4889-83d9-d1d9346e115f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -54973,6 +57043,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "869f1526-5ffd-4403-abf3-d1fdd24bf53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2f390286-d4ca-476e-8081-71cf87e0c649")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a4820488-3c8c-40fb-86f2-efbd6e9cedcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/e734ecf9-06f4-5ab2-98ce-72f76023af00")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -55488,6 +57591,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2290b65d-e2e0-4849-b6c3-bc81ef0f7d9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c9f36ebe-957e-4ff6-8052-27b3b2b706e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bb8540b9-b06d-4bc7-a653-290b90ade4df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/c943ab18-2f84-55eb-8c17-d2aa0b36dc17")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -55783,7 +57919,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "B.Cu")
 		(uuid "5356049c-39cb-4216-9665-029b7f1c1b22")
-		(at 57.15 32.9)
+		(at 57.15 30.974999)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
@@ -57024,6 +59160,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c9db09b0-b709-4f4f-b676-ce4eff474257")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3435ad32-f2c9-4044-a5ab-1406730ef90a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7278137d-da9d-4432-8fd1-df3e9918f8ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/ef438eaf-d291-51ec-a7c6-691283f530f0")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -57536,6 +59705,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b1db0ede-a968-4b1d-b16e-d772a492c5bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "147c8a4f-bb33-483a-a353-63c6469b1196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6817cdd9-5f93-4f9d-b502-2126cf940a13")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -58829,6 +61031,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fb732b27-e519-415b-8e19-17dbd00de963")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3a903527-ba46-4279-a58d-c1871b06dac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b94c6306-6599-4a51-8e8a-d07811b22113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/c985aeea-ada1-5980-b5b4-93c096b0eceb")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -59186,6 +61421,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c80de87a-77bf-4a85-bd99-09fe4e5813f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8b8f9aeb-3bdb-458f-b97c-82f1d588224b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8cc58d46-732d-4e83-a0b9-27976aecb023")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -60011,6 +62279,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ae9c5084-46b5-4243-a116-f08d18d4ca74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a6d6c1cc-e081-406f-8553-f5c20514cec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7515ab7f-5129-4dff-b9da-468ebef094e4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -61301,6 +63602,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c93276ea-adb3-4200-aad8-ed34d16abeb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "05963439-42f2-4ee8-a1ad-65b92c8c2b61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4601434c-35b0-482c-a65a-8f9e2a6ac72c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -62904,6 +65238,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ffa0ab30-c25c-4cd1-8693-88a066f09f90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "92f38bca-df16-4ad4-9326-80a00ced2433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "352c1d33-5607-463a-aef0-68ead2c46ca0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/259eb63f-b512-5f08-aba6-d539735c3e18")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -63574,6 +65941,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6937d856-8431-4c0e-b64a-933e26f3fe2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "28488951-3fe3-464d-a233-135547e768e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3d378dd5-f538-448c-814e-d561e8ec111f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/8bc6fea6-76da-5ba1-89cb-2f307af52ae1")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -64086,6 +66486,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eba0df35-f331-4501-a64c-561e4d2561b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "08ea77bc-f1c3-4ecd-980c-bf813a82f3c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "da4e2e18-8ada-4e22-801c-992b5172a202")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -64604,6 +67037,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bccc3740-85ec-4052-b01e-72dc43247f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "99742615-9676-4796-99f1-f8f2738647ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "014a7d70-3794-47bc-a682-4909ae4cd31f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/c56e3678-c185-5019-9259-14ff97b4ac0d")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -64961,6 +67427,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "474cca71-258e-4f9a-bce6-9377060fd693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e0452185-84e7-4416-aa7e-b6b891d4064b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "263c616e-327d-4e28-9a35-35eb1f6d6d68")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -65944,6 +68443,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b703c9f1-60a6-4f71-99b2-4338847749c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ffa4acdc-f9dd-475b-bd1d-a7ae0efdbe19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fd17019f-13a6-4b0f-9f84-5d2cf08b25e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/b8ca4d93-28e5-5332-96ac-1dbd837e0be0")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -66924,6 +69456,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4a7e1500-849f-4745-a8fd-32d785ad27a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5a1afb66-83e3-4c45-a2fe-f7dac7497c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bd29efbf-cdb4-48c2-8c68-a8cc551cb08f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/1e919a27-7dcf-5ec6-880c-7d203ba6a7d9")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -67129,6 +69694,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "08bfa63c-9511-4e88-ae65-15adbe4320dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f0166596-fed1-40d9-894b-0edb18c4834e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "15176f71-e0af-4de3-8434-1c06c2fe2692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/32ed2947-06e8-504f-984e-95ab5c5a4789")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -67331,6 +69929,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fb44783f-a471-4a90-b971-316b3a89cd0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ab86cfc0-b440-4ba1-829a-99254b0da58a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ada24af7-705a-4308-b276-6c047591d10e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -68379,6 +71010,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "036728f9-7278-4735-b430-1557104228a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "27c3d07d-16eb-4778-a152-2d98fed37915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1fdc8e60-ef6e-44f4-922e-91ec1b26584d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/8ce54e94-7f67-585d-b516-329911ccea01")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -68894,6 +71558,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e721e63b-0d28-44d1-b626-1a57b8570e97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bf9905cc-feea-4bcf-ba34-4f7689909a7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "850bea8e-3893-4d4d-965b-74d5ecf55770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/5da714c2-fae9-5f19-857f-5a7494d48040")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -69096,6 +71793,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5f01c64a-d0f9-421b-a3e5-53c868bfc710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1ee55f10-1db0-475a-bc7a-1c3f904e3f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4a7bda35-7807-45e9-a4f0-61db0659299d")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -69769,6 +72499,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2416853a-79b8-4f2b-94e3-a59c62d625da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ef870e68-ff44-453d-82ed-ff3f0a7e5448")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1b58fe81-c04f-4083-baee-d5df92904009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/a64bf3ae-2c5a-5bd9-b810-e82f9ef7f05a")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -70126,6 +72889,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "161fc660-3a7a-403c-89d1-15200f083e2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9b6626a0-2aff-4eec-96bf-9dc8181473d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cafcb975-b255-4a9a-8cc3-6196171ed548")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -70644,6 +73440,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4ad1a873-3cd0-4ac1-9793-0534c0b3c655")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "071439f5-a626-4101-95c8-11679033f53b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "937bdd7f-1d4b-41d9-91cb-ab47e8c2f8f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/daae12c7-0a45-56f3-8437-bd574a2ea244")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -70846,6 +73675,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1bd8df8c-7a02-476b-b175-e1735eec0709")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2b6eb26b-a5b6-408f-b1f2-f88b2331d0cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e06204d6-0201-48b2-bf12-5bbcc284f2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -71364,6 +74226,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c2ec9bf2-fc5d-4778-8914-fae9728d6b99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b1a146e3-7a62-4989-bb60-64c2d8d29007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7318f731-dbc1-473c-88a2-8cbe7cf9c9ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/5a83948a-21de-54d5-852c-183c834d2f4e")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -71566,6 +74461,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "85baa8d8-2f13-4d0c-9266-da611ae22f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c49cbe9d-a96e-44b6-925b-9ab84aab943a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9928f5b1-9c0c-4021-a61c-c637293d040f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -72084,6 +75012,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b61303ef-c22e-4c04-b912-bd29568f3042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ed7376a7-e299-42bf-878b-7dd921417873")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fe3f7f58-6465-42b7-9c08-5086d5494c00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/b2c85c23-1349-5596-808f-e8b05a142bfd")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -72596,6 +75557,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6768af2a-06dc-4a94-8d1c-d4d32206d926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3daae5e4-aba3-4602-aac4-dd46016087d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "51b6da1f-ced5-4856-96db-e6dab571a948")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -74199,6 +77193,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7a394de8-da28-435e-b76f-3ea99d50245d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fe529a9f-0fb4-4e63-9081-67a3397f3857")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fc4baeb4-607d-4c0e-8f4b-c8a1a70c7630")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/72adc513-a6a1-5693-9182-68698c4537ed")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -74711,6 +77738,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0565ced2-e169-47be-bb2c-3cdb2a75e8ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "535a10c9-bae7-4d06-80d8-20b6c0e7c504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ea6a49c5-7807-4ec1-9b13-d7c5b2392406")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -78174,6 +81234,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "db0dc576-17e0-4c4f-bfbe-6e632d5f0223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ac14218d-ba23-4d5b-9dd8-d4b2e86d86d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1e60bd52-5f02-4700-9da3-95196b628c90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/fd05658e-f0be-551a-bcee-fc6d58dd53bf")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -79478,6 +82571,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5e6f85bb-f239-4c77-875c-0366fe431995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1c65b7fa-635b-4395-bd8e-bb77ae9289d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b4a73980-ec5b-4c14-a4c1-e946f045d7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -81859,6 +84985,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fca7b31e-3dad-4179-9ea9-3163a85b6984")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "925b4ecd-06a6-4b39-893c-bdf5b53cf0e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "418e03d2-2283-47b1-b434-27a75b3ee9ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/e18d4ad0-ec7d-5c62-93c4-8e1319d0c364")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -82529,6 +85688,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c49e2c67-2dc5-416d-a504-c3b5f13e3db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eeb60ee6-116c-401e-93da-b27055f26240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "58c7e5b2-65f1-4f7c-ac09-f4b53ce0551c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/9881420e-30ad-5f61-be79-860dc3c57f00")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -82886,6 +86078,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d84e8960-bc55-4b98-8180-df8e2ed4e4a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0eaf947a-24bc-40ca-a77f-4a287cc2e1ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0f2a3e5b-de2f-45ed-a6c6-07d872968b32")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -83595,6 +86820,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0af76452-0b8f-46b5-8f79-36712ea62f7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5fb6e132-86fe-43ef-8a79-36a8ccb23f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "895fc3d9-dfaa-4a50-ba97-15f3f6a25be4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -84383,6 +87641,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d6a0f273-68d5-4815-afe9-5925e7c73d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "075b5701-1b6c-4d4d-9e88-1ff1bf66a86b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6faf97fa-5e56-43fb-80f2-1e1875f3beb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/8a057a9c-ec6f-5a22-baad-d25c2d5670cf")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -84895,6 +88186,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "197c1230-e8c4-4e17-98da-97c05278e674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8a2f9200-dfcf-4f0b-b759-47075aa8c1bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8d10f00c-9648-430f-beff-934af8e3d027")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -88051,6 +91375,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2439f458-baa2-4b66-a8ae-bba76874c720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "388dfca0-3d21-4aac-a66b-ec5738dc8ee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6112c58a-746c-445d-81cd-bb31273fc4ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/024bf6df-288f-5e25-8f27-119f49f25ff9")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -90738,6 +94095,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ec5f0a3e-ea98-497f-b55d-a75a259ac839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9d6da634-85db-482b-959b-5f148ddcb49e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "89cd1837-5ca9-4fc8-b291-95a62aec8310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/79099e5e-32d5-5271-a011-0d6597d8f16e")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -91098,6 +94488,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "efe7f3ab-491e-460c-909f-9c7bf102635b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d57479cb-7f50-45fa-8eae-1c8ad8618b20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eb4bffe3-260b-4e2d-b689-4c88365825c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/e98edf5c-dfe9-5557-a652-f2110fe15b70")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -91300,6 +94723,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "801ac960-6da7-49a4-ab30-1a3f8817e89b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "06da343e-ad05-4a12-b70b-2c92e6e50daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "06b4c470-f492-4916-8b9b-f14f3956206f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -91660,6 +95116,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7a777db6-8e92-4764-b171-db44fe955312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "adf7ecfb-ea3a-4e92-acbc-69e3b25b18b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f56a1b9c-5c5e-490c-8f1e-e031c5776c21")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -92334,6 +95823,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2a7902ed-a375-4328-b285-e63e9d454685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "124ba4da-ca5a-412f-b045-6f8b6c8cb6c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "74ca6aea-e576-4266-8c09-c1a18e9cd865")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/cadf82cc-bdb0-5439-aa11-3127bc84e157")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -92539,6 +96061,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "31d51124-827a-49e5-816e-ff723d015c4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0216df33-223f-46cc-bd00-b6582756f753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e037b450-191e-403b-9cd6-dcb1eb5866ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/cfafdc4a-753f-539f-b122-62139adcb148")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -92741,6 +96296,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "80ff6aea-7797-4e7c-9b4f-276c88f131b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2306c9a7-a84f-40af-8590-2aa743080095")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e9b96489-c737-404d-8ed4-1d6e3c421781")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -93698,6 +97286,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9745463c-ae2b-4147-a539-e560d5ced81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c329420d-bab2-42fb-9e9d-25931eecbdda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4ca287d0-da94-45ba-83a3-7e11d0463d93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/d1fef1e8-4bd3-5e02-913b-6aedcd405df5")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -94058,6 +97679,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "569fd1b1-a82b-439d-9e13-38f0399b17f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a3aa4a1e-d1a9-4db6-8720-8672f0b95acb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d1684418-5f5b-4b7e-9c3d-be73c780bca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/391c4df7-1985-5680-ae84-45e654158247")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -94263,6 +97917,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fddb5da5-9b12-4eb0-808a-0021c4f7c445")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b7ce6d4b-d919-4f15-953a-9bb2ed288eea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cc1b0a2c-5bf4-46b1-af6c-a412ae75e145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/c937b4c5-2e3e-5def-9c3c-9470c3b362e0")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -94465,6 +98152,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "238b1e76-0fa0-4989-aa3d-19034f8c4e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "160c72e6-47e4-4ee7-92c5-def22c4a2f20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1c74e261-3092-4c3d-a646-59327096d211")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -94980,6 +98700,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6bb21ffe-4baf-4713-8e5b-f855f0f14164")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "614f6799-e914-4657-86ef-4dd49ba44e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "be1741dd-871c-4531-9bbf-d0559b4a696e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -95610,6 +99363,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3ccf3f5c-84d8-4011-9e6b-56dcffcbb4f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "398638bd-aa31-488a-93ca-6d065f5d1d7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c8becff7-2055-4f1c-88dd-4742f78bc1c9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -99073,6 +102859,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "91fddcc2-65ee-4cd1-aa6c-29006d6c7bcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "93d2c283-b42d-475e-a7ab-443788b8ee29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fd96c643-684d-4bbc-8819-acb1dba63c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/a3f3f438-c0af-5cdd-9871-f816887d7d15")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -99898,6 +103717,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "21cd21ce-3daf-4de6-ba86-f35dd5e15dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7488f9ee-e51c-444c-9acf-9c338228dc65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "df70082a-7139-42e2-9a35-dc3e787238eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/adc4306a-88f6-5d6f-8269-fad055b947e9")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -100100,6 +103952,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "1ddf51e0-f4e4-47df-a18d-4fd1329d4fae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "016fb7ab-be21-467d-bf07-680b05909f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c36872d8-309c-4b87-8022-eb40df0d9478")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -101629,6 +105514,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ece31102-df84-4465-b653-d05776117d01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "acf84491-fcd2-4579-889e-f2370c5e2dee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b56bbb11-5d06-416b-9242-1d83c5ef013a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/139ac2e6-bcb6-5d3e-a980-08979f3ec399")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -103139,6 +107057,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "33fb9e36-6b0f-4e08-8450-cd88284ed097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b9e210fd-a6aa-48c7-b3ee-bd2c9f1cdc52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b58fdfef-4ca5-4ff9-b13b-447bbdb65367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/5cf839a5-c76d-5f80-9059-769de730c9ba")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -103651,6 +107602,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2cf199a1-c74b-4a0b-b9de-9641bf401f4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b3f02fed-b560-41e8-bd8c-a00013067581")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a223dde9-7f1b-42b3-aca0-c2cc42ade368")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -104476,6 +108460,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bc9434b7-00f0-4d87-9581-5fe7ddfd8b28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d3499523-7e62-41c5-b0f8-2ef0268cbd66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a8254070-6270-4326-8e23-00fb2acd4f44")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -105459,6 +109476,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3f387ff3-ae3c-468e-8cc3-4e77f3d75662")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d9d45bfc-7b1d-4af2-b68d-ffde15228c63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "213ce414-4586-4f5d-90b3-8a3a32008c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/e1ce281b-90d3-534e-bea5-ed505ea5a469")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -106284,6 +110334,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "43aae854-6ee3-4236-bf23-90746272c52d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c6bc89a0-cbcb-4de9-a6ca-8697afc1a140")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "67e3a9a4-f330-4d97-9600-0cacbb82e326")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/b37511f8-eb9a-5d6a-972f-3961fc86075f")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -106486,6 +110569,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "76439f95-bfbe-46a1-8ab4-3234c19fedf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e5b18b4d-4f1d-494f-b4af-1c1dfad6983e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "06f32f1f-244c-40f4-933d-48aed41ce5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -106847,6 +110963,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6b5d2b2b-de2f-44a7-b0c1-59d1bde23263")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c22c4694-cbcf-4f0d-a5b1-b9079a305494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0b2e0930-dc71-4b9c-89b8-356366c40bbc")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -107365,6 +111514,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "482acad3-3b27-4d22-b1dd-56c9c99a7766")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f40f9e4f-a5d0-4e32-841c-19fe1b6c40d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "15616bf2-aac7-4ad5-8ba1-51cbc0f402d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/b2e6f05c-2a98-5a5c-ba58-7af6ff7d7854")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -107570,6 +111752,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "be85b881-a41d-4f95-b0b3-349ff744ee90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XL-3216UWC-FB"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "230337ec-eebf-48bc-a640-376b25612913")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Alternatives" "C401114 MEIHUA MHT151WDT; C2827252 TUOZHAN P2-1206WYCS2-0.9T-F"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9391b4de-3402-48bd-9955-af62468d8925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2d35f0cd-4c43-5d93-9888-631758f327d7/f7bf026f-6a95-561e-8a56-cf333fee2379")
 		(sheetname "/Backlight/")
 		(sheetfile "backlight.kicad_sch")
@@ -107706,6 +111921,298 @@
 			(uuid "f3d993ea-a997-4a06-a355-5310767a5ee8")
 		)
 		(embedded_fonts no)
+	)
+	(gr_arc
+		(start 27.275 28.275)
+		(mid 27.567893 27.567893)
+		(end 28.275 27.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73f18fbd-4767-48e0-8737-1878214b6bd7")
+	)
+	(gr_line
+		(start 27.275 152.7)
+		(end 27.275 28.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "01d21119-b7b4-43f6-bff3-c53be711a691")
+	)
+	(gr_line
+		(start 28.275 27.275)
+		(end 377.6 27.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c5bbc43a-9bba-420c-bf3c-c3655038f082")
+	)
+	(gr_arc
+		(start 28.275 153.7)
+		(mid 27.567893 153.407106)
+		(end 27.275 152.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d8292da-b915-45fd-b25e-553912e8985c")
+	)
+	(gr_line
+		(start 377.6 27.275)
+		(end 377.6 48.1875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8f5a8a7c-9e72-4ea8-98c9-9deeb6e48bc6")
+	)
+	(gr_line
+		(start 377.6 56.5875)
+		(end 377.6 72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "617857d2-f713-4530-b0cf-d31bc4ae8cfc")
+	)
+	(gr_arc
+		(start 377.6 56.5875)
+		(mid 378.6 55.5875)
+		(end 379.6 56.5875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6af05838-19f6-4e88-85d8-2bdb3bb3637e")
+	)
+	(gr_line
+		(start 377.6 80.4)
+		(end 377.6 110.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ee1ff90b-7713-4bea-a9f2-d8c6cf54bb00")
+	)
+	(gr_arc
+		(start 377.6 80.4)
+		(mid 378.6 79.4)
+		(end 379.6 80.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "559d3aec-b3fd-4256-acdb-00c7953f2a4a")
+	)
+	(gr_line
+		(start 377.6 118.5)
+		(end 377.6 138.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "916a3b88-f49b-4048-975b-3152488ed968")
+	)
+	(gr_arc
+		(start 377.6 118.5)
+		(mid 378.6 117.5)
+		(end 379.6 118.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "320b0326-ceea-413c-b8c1-6029a139a939")
+	)
+	(gr_line
+		(start 377.6 147.075)
+		(end 377.6 153.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a50b9ca-eedf-4089-a0ac-568b6a704d47")
+	)
+	(gr_arc
+		(start 377.6 147.075)
+		(mid 378.6 146.075)
+		(end 379.6 147.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "815726ca-72c8-48d2-900d-07430db2967e")
+	)
+	(gr_line
+		(start 377.6 153.7)
+		(end 28.275 153.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "670f7a2b-3227-46f1-9503-5cf8b4e53489")
+	)
+	(gr_line
+		(start 379.6 27.275)
+		(end 457.5 27.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50c013c7-1850-4768-ac35-a4e1f50c44ed")
+	)
+	(gr_arc
+		(start 379.6 48.1875)
+		(mid 378.6 49.1875)
+		(end 377.6 48.1875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9a904780-20d6-463f-aa51-e5243a4befa8")
+	)
+	(gr_line
+		(start 379.6 48.1875)
+		(end 379.6 27.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c94c5e22-d7ae-4be4-bc02-1dcedf2d464a")
+	)
+	(gr_line
+		(start 379.6 56.5875)
+		(end 379.6 72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ebfb0a09-25c3-4630-9b83-d12ae2df9b8d")
+	)
+	(gr_arc
+		(start 379.6 72)
+		(mid 378.6 73)
+		(end 377.6 72)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e44607bf-a4bc-4973-9a58-a6980061fa7d")
+	)
+	(gr_line
+		(start 379.6 80.4)
+		(end 379.6 110.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "105d4030-0354-4771-af02-3855e5748dfb")
+	)
+	(gr_arc
+		(start 379.6 110.1)
+		(mid 378.6 111.1)
+		(end 377.6 110.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f249ec44-b03b-4cbd-9375-8af16c64350b")
+	)
+	(gr_line
+		(start 379.6 118.5)
+		(end 379.6 138.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f87d75fa-5416-40ec-9752-41e297ef4731")
+	)
+	(gr_arc
+		(start 379.6 138.675)
+		(mid 378.6 139.675)
+		(end 377.6 138.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44fbe0d6-7cdf-41eb-bb46-33fbbc18c2e9")
+	)
+	(gr_line
+		(start 379.6 153.7)
+		(end 379.6 147.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5757d425-e8f6-4447-a48f-d7e3898c698d")
+	)
+	(gr_arc
+		(start 457.5 27.275)
+		(mid 458.207106 27.567893)
+		(end 458.5 28.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b9580606-036f-47b3-a055-d4e82b0d6f51")
+	)
+	(gr_line
+		(start 457.5 153.7)
+		(end 379.6 153.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "da10e9b2-c7e8-407d-9e80-d76305228486")
+	)
+	(gr_line
+		(start 458.5 28.275)
+		(end 458.5 152.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9505822-bc50-4525-befc-0d0da68d2bd4")
+	)
+	(gr_arc
+		(start 458.5 152.7)
+		(mid 458.207106 153.407106)
+		(end 457.5 153.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "deb194b4-ffda-4b70-963f-c595a9d5fcfc")
 	)
 	(embedded_fonts no)
 )

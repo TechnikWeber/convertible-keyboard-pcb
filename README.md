@@ -6,8 +6,8 @@
 > This keyboard has a PCB in progress but no case yet. If you design keyboard
 > cases — 3D-printed, CNC-milled or laser-cut — and would like to take this on,
 > please [open an issue](https://github.com/TechnikWeber/convertible-keyboard-pcb/issues).
-> Board outline, mounting holes and the USB-C position are not fixed yet, so they
-> can be shaped around your case design — for the full-size board, the TKL, or
+> A first board outline exists (key field + 1.3 mm), but outline, mounting holes
+> and the USB-C position can still be shaped around your case design — for the full-size board, the TKL, or
 > both. The same goes for where exactly the lock indicators sit. The USB port
 > can sit on the PCB or on a Unified Daughterboard (Pico-EZmate or JST-SH).
 
@@ -23,14 +23,15 @@ bending it into something else.
 
 > **Status: early.** The schematic is complete — key matrix, ANSI alternatives,
 > backlight and controller — and every part has its footprint on the PCB.
-> Controller, USB and drivers are placed on the back; the breakaway line, board
-> outline and routing are still to do.
+> Controller, USB and drivers are placed on the back, board outline and breakaway
+> line are drawn; mounting holes and routing are still to do.
 > Nothing has been manufactured yet.
 
 ## Full-size or TKL
 
-- The numpad sits on the right-hand side, joined to the rest of the board by a
-  row of mouse bites (perforated breakaway tabs).
+- The numpad sits on the right-hand side behind a 2 mm slot, held by four
+  mouse-bite tabs (perforated breakaway bridges). Each tab keeps a hole-free
+  channel in the middle for the traces that cross over.
 - Controller, USB-C and the drivers for backlight and lock indicators all sit
   on the TKL part. Only the numpad's matrix, backlight and indicator lines cross the breakaway
   line.
@@ -59,6 +60,8 @@ bending it into something else.
   (white, XINGLIGHT XL-3216UWC-FB), machine-assembled; switched, dimmed and
   "breathing" via QMK. A THT-LED variant uses the same design with different LED
   footprints
+- Checked alternative backlight LEDs for the same footprint: MEIHUA MHT151WDT
+  (LCSC C401114) and TUOZHAN P2-1206WYCS2-0.9T-F (LCSC C2827252)
 - Caps Lock and Num Lock indicators (0805) above the numpad; for the TKL a Caps
   Lock indicator above Page Up is prepared but not populated
 - All 30 RP2040 GPIOs in use: 27 matrix lines, backlight PWM, Caps Lock and
@@ -90,8 +93,9 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] ANSI alternative positions
 - [x] Single-colour backlight
 - [x] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
-- [ ] Breakaway line for the numpad
-- [ ] Board outline and mounting holes (together with the case)
+- [x] Breakaway line for the numpad
+- [x] Board outline (first draft)
+- [ ] Mounting holes (together with the case)
 - [x] Placement of controller, USB and drivers (preliminary)
 - [ ] Routing, DRC, manufacturing files
 - [ ] Firmware (QMK) with full-size and TKL layouts
