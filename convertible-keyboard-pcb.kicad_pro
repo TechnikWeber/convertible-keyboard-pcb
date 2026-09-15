@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "keyboard-fullsize.kicad_pro",
+    "filename": "convertible-keyboard-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -644,8 +644,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "keyboard-fullsize.kicad_sch",
-        "name": "keyboard-fullsize",
+        "filename": "convertible-keyboard-pcb.kicad_sch",
+        "name": "convertible-keyboard-pcb",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],

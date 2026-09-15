@@ -260,7 +260,7 @@
 
 (property "Datasheet" "~" (at 29.21 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f8b64780-5d02-4599-9557-23bdad366744")) (pin "2" (uuid "c7919198-eaea-4c3c-b5b0-d202f437043f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW1") (unit 1))))) 
+(property "Description" "" (at 29.21 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f8b64780-5d02-4599-9557-23bdad366744")) (pin "2" (uuid "c7919198-eaea-4c3c-b5b0-d202f437043f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW1") (unit 1))))) 
 
 (wire (pts 
 
@@ -292,7 +292,7 @@
 
 (property "Sim.Device" "D" (at 31.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73800da2-d5dc-41dd-b904-ed40c5a55bc0")) (pin "2" (uuid "d8052c62-1ff3-474a-bd85-1fdd90d21644")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D1") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73800da2-d5dc-41dd-b904-ed40c5a55bc0")) (pin "2" (uuid "d8052c62-1ff3-474a-bd85-1fdd90d21644")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D1") (unit 1))))) 
 
 (wire (pts 
 
@@ -326,7 +326,7 @@
 
 (property "Datasheet" "~" (at 41.91 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "944b8016-56e3-46f7-a720-a08e04a14d0c")) (pin "2" (uuid "597ea7d0-ad43-43b8-a8a4-8840d0dca954")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW2") (unit 1))))) 
+(property "Description" "" (at 41.91 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "944b8016-56e3-46f7-a720-a08e04a14d0c")) (pin "2" (uuid "597ea7d0-ad43-43b8-a8a4-8840d0dca954")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW2") (unit 1))))) 
 
 (wire (pts 
 
@@ -358,7 +358,7 @@
 
 (property "Sim.Device" "D" (at 44.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6d840a3a-46cd-48c3-bd1b-f754c6cd1c96")) (pin "2" (uuid "dc7f290e-d710-4213-b275-6db5e44caae6")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D2") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6d840a3a-46cd-48c3-bd1b-f754c6cd1c96")) (pin "2" (uuid "dc7f290e-d710-4213-b275-6db5e44caae6")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D2") (unit 1))))) 
 
 (wire (pts 
 
@@ -390,7 +390,7 @@
 
 (property "Datasheet" "~" (at 54.61 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 54.61 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2b4f2522-74e2-4953-93cb-7d2c4b5b6432")) (pin "2" (uuid "b5824108-41c2-4481-8c71-037ec3d627f2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW3") (unit 1))))) 
+(property "Description" "" (at 54.61 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2b4f2522-74e2-4953-93cb-7d2c4b5b6432")) (pin "2" (uuid "b5824108-41c2-4481-8c71-037ec3d627f2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW3") (unit 1))))) 
 
 (wire (pts 
 
@@ -422,7 +422,7 @@
 
 (property "Sim.Device" "D" (at 57.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 57.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b658c416-e833-4527-a65b-ae2a581a78ee")) (pin "2" (uuid "5002be7a-156b-45cc-ad53-0ffbcfa9f299")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D3") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 57.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b658c416-e833-4527-a65b-ae2a581a78ee")) (pin "2" (uuid "5002be7a-156b-45cc-ad53-0ffbcfa9f299")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D3") (unit 1))))) 
 
 (wire (pts 
 
@@ -454,7 +454,7 @@
 
 (property "Datasheet" "~" (at 67.31 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "849e9c27-f474-4978-8f89-7a12c5a6d068")) (pin "2" (uuid "0d9df0f2-8e3d-4e1d-98af-719f2d069866")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW4") (unit 1))))) 
+(property "Description" "" (at 67.31 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "849e9c27-f474-4978-8f89-7a12c5a6d068")) (pin "2" (uuid "0d9df0f2-8e3d-4e1d-98af-719f2d069866")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW4") (unit 1))))) 
 
 (wire (pts 
 
@@ -486,7 +486,7 @@
 
 (property "Sim.Device" "D" (at 69.85 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "50c2afa2-03de-4448-8072-a21c582b8995")) (pin "2" (uuid "4855194c-25b4-4a9f-97c4-f7d69c32e8cc")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D4") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "50c2afa2-03de-4448-8072-a21c582b8995")) (pin "2" (uuid "4855194c-25b4-4a9f-97c4-f7d69c32e8cc")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D4") (unit 1))))) 
 
 (wire (pts 
 
@@ -518,7 +518,7 @@
 
 (property "Datasheet" "~" (at 80.01 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 80.01 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "021fd0b1-8825-4109-9f43-88863e8439ba")) (pin "2" (uuid "2d681da7-8ff4-4f2b-998f-6c648f426cc3")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW5") (unit 1))))) 
+(property "Description" "" (at 80.01 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "021fd0b1-8825-4109-9f43-88863e8439ba")) (pin "2" (uuid "2d681da7-8ff4-4f2b-998f-6c648f426cc3")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW5") (unit 1))))) 
 
 (wire (pts 
 
@@ -550,7 +550,7 @@
 
 (property "Sim.Device" "D" (at 82.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 82.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "601e603c-b77c-4b7f-ae79-efc911b26cda")) (pin "2" (uuid "66e75967-b2d4-44bb-b105-cf2687ec3239")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D5") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 82.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "601e603c-b77c-4b7f-ae79-efc911b26cda")) (pin "2" (uuid "66e75967-b2d4-44bb-b105-cf2687ec3239")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D5") (unit 1))))) 
 
 (wire (pts 
 
@@ -582,7 +582,7 @@
 
 (property "Datasheet" "~" (at 92.71 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 92.71 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c5473515-bfa7-4c4f-a0f8-b5d2a7a153f2")) (pin "2" (uuid "6fae58ec-e707-4aaa-9552-1a95759e2e23")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW6") (unit 1))))) 
+(property "Description" "" (at 92.71 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c5473515-bfa7-4c4f-a0f8-b5d2a7a153f2")) (pin "2" (uuid "6fae58ec-e707-4aaa-9552-1a95759e2e23")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW6") (unit 1))))) 
 
 (wire (pts 
 
@@ -614,7 +614,7 @@
 
 (property "Sim.Device" "D" (at 95.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 95.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "40ccc4f8-a044-48a2-8002-cce7df12ab18")) (pin "2" (uuid "62a2e667-c1a4-4e03-a419-5ee71e8f6270")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D6") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 95.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "40ccc4f8-a044-48a2-8002-cce7df12ab18")) (pin "2" (uuid "62a2e667-c1a4-4e03-a419-5ee71e8f6270")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D6") (unit 1))))) 
 
 (wire (pts 
 
@@ -646,7 +646,7 @@
 
 (property "Datasheet" "~" (at 105.41 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "19a59beb-664a-4aab-9bbd-3cd41ee02084")) (pin "2" (uuid "f2ffb7ad-4e94-4940-8f05-f411329e9f23")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW7") (unit 1))))) 
+(property "Description" "" (at 105.41 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "19a59beb-664a-4aab-9bbd-3cd41ee02084")) (pin "2" (uuid "f2ffb7ad-4e94-4940-8f05-f411329e9f23")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW7") (unit 1))))) 
 
 (wire (pts 
 
@@ -678,7 +678,7 @@
 
 (property "Sim.Device" "D" (at 107.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "bca69a8d-3ad3-461e-adfb-3902ed290982")) (pin "2" (uuid "cf8f4f39-86e7-477a-979f-c3bd878d6cbd")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D7") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "bca69a8d-3ad3-461e-adfb-3902ed290982")) (pin "2" (uuid "cf8f4f39-86e7-477a-979f-c3bd878d6cbd")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D7") (unit 1))))) 
 
 (wire (pts 
 
@@ -710,7 +710,7 @@
 
 (property "Datasheet" "~" (at 118.11 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 118.11 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "94efafb6-892b-492a-ab50-34fc0e90e631")) (pin "2" (uuid "d5b59c7a-f097-428c-97f2-f93b59febf05")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW8") (unit 1))))) 
+(property "Description" "" (at 118.11 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "94efafb6-892b-492a-ab50-34fc0e90e631")) (pin "2" (uuid "d5b59c7a-f097-428c-97f2-f93b59febf05")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW8") (unit 1))))) 
 
 (wire (pts 
 
@@ -742,7 +742,7 @@
 
 (property "Sim.Device" "D" (at 120.65 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 120.65 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d8eae37b-5b4c-4628-b981-c553a17adb9d")) (pin "2" (uuid "5aea1d48-4df0-44eb-9af3-c5850e85fc81")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D8") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 120.65 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d8eae37b-5b4c-4628-b981-c553a17adb9d")) (pin "2" (uuid "5aea1d48-4df0-44eb-9af3-c5850e85fc81")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D8") (unit 1))))) 
 
 (wire (pts 
 
@@ -774,7 +774,7 @@
 
 (property "Datasheet" "~" (at 130.81 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 130.81 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d5e6ee71-4bbb-4dea-a7fa-bd49a6d08d5b")) (pin "2" (uuid "6ab51fcb-04ca-475a-9328-3e54dbd089a0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW9") (unit 1))))) 
+(property "Description" "" (at 130.81 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d5e6ee71-4bbb-4dea-a7fa-bd49a6d08d5b")) (pin "2" (uuid "6ab51fcb-04ca-475a-9328-3e54dbd089a0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW9") (unit 1))))) 
 
 (wire (pts 
 
@@ -806,7 +806,7 @@
 
 (property "Sim.Device" "D" (at 133.35 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 133.35 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e5f4a08b-5ca1-4b7f-99ae-d462a50119fc")) (pin "2" (uuid "2f869d80-6fd6-4fad-ba14-f47cb7676813")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D9") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 133.35 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e5f4a08b-5ca1-4b7f-99ae-d462a50119fc")) (pin "2" (uuid "2f869d80-6fd6-4fad-ba14-f47cb7676813")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D9") (unit 1))))) 
 
 (wire (pts 
 
@@ -838,7 +838,7 @@
 
 (property "Datasheet" "~" (at 143.51 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 143.51 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b14eb0a4-05e6-40fb-ab12-1ef43325921b")) (pin "2" (uuid "94619336-498a-4732-b343-eea74f756642")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW10") (unit 1))))) 
+(property "Description" "" (at 143.51 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b14eb0a4-05e6-40fb-ab12-1ef43325921b")) (pin "2" (uuid "94619336-498a-4732-b343-eea74f756642")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW10") (unit 1))))) 
 
 (wire (pts 
 
@@ -870,7 +870,7 @@
 
 (property "Sim.Device" "D" (at 146.05 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 146.05 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5f4618fa-eba8-44ad-beb4-90644bc3328f")) (pin "2" (uuid "b089e915-1b08-46b0-89b0-5be2cf651250")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D10") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 146.05 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5f4618fa-eba8-44ad-beb4-90644bc3328f")) (pin "2" (uuid "b089e915-1b08-46b0-89b0-5be2cf651250")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D10") (unit 1))))) 
 
 (wire (pts 
 
@@ -902,7 +902,7 @@
 
 (property "Datasheet" "~" (at 156.21 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ef9ef556-5d7e-4bed-9b32-b26da0c052c2")) (pin "2" (uuid "71f76ebb-2a12-4550-ab85-f4207ed95245")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW11") (unit 1))))) 
+(property "Description" "" (at 156.21 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ef9ef556-5d7e-4bed-9b32-b26da0c052c2")) (pin "2" (uuid "71f76ebb-2a12-4550-ab85-f4207ed95245")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW11") (unit 1))))) 
 
 (wire (pts 
 
@@ -934,7 +934,7 @@
 
 (property "Sim.Device" "D" (at 158.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "460d1c33-883e-4f6c-b5d9-029848a10e0c")) (pin "2" (uuid "467d40fc-f8c9-4ad5-8eb6-e40258161d6c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D11") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "460d1c33-883e-4f6c-b5d9-029848a10e0c")) (pin "2" (uuid "467d40fc-f8c9-4ad5-8eb6-e40258161d6c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D11") (unit 1))))) 
 
 (wire (pts 
 
@@ -966,7 +966,7 @@
 
 (property "Datasheet" "~" (at 168.91 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f74869b5-620a-41e5-aa2b-a73a827a6e12")) (pin "2" (uuid "b3afca57-88a6-4185-bf22-937e82c95c69")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW12") (unit 1))))) 
+(property "Description" "" (at 168.91 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f74869b5-620a-41e5-aa2b-a73a827a6e12")) (pin "2" (uuid "b3afca57-88a6-4185-bf22-937e82c95c69")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW12") (unit 1))))) 
 
 (wire (pts 
 
@@ -998,7 +998,7 @@
 
 (property "Sim.Device" "D" (at 171.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51ca34e8-d7ca-44f9-b276-8036a3062e12")) (pin "2" (uuid "ade44e56-83de-4862-92b1-f6f73bad7ce1")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D12") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51ca34e8-d7ca-44f9-b276-8036a3062e12")) (pin "2" (uuid "ade44e56-83de-4862-92b1-f6f73bad7ce1")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D12") (unit 1))))) 
 
 (wire (pts 
 
@@ -1030,7 +1030,7 @@
 
 (property "Datasheet" "~" (at 181.61 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b4c6351f-3eea-4e79-a061-3e3effe928d9")) (pin "2" (uuid "b96e081a-714c-4b4e-b9bb-7828feb0d27d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW13") (unit 1))))) 
+(property "Description" "" (at 181.61 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b4c6351f-3eea-4e79-a061-3e3effe928d9")) (pin "2" (uuid "b96e081a-714c-4b4e-b9bb-7828feb0d27d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW13") (unit 1))))) 
 
 (wire (pts 
 
@@ -1062,7 +1062,7 @@
 
 (property "Sim.Device" "D" (at 184.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fa91514e-027f-4ba8-8ba6-60eeb6518c55")) (pin "2" (uuid "518aef35-32e0-4292-8c67-416fd22dff9f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D13") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fa91514e-027f-4ba8-8ba6-60eeb6518c55")) (pin "2" (uuid "518aef35-32e0-4292-8c67-416fd22dff9f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D13") (unit 1))))) 
 
 (wire (pts 
 
@@ -1094,7 +1094,7 @@
 
 (property "Datasheet" "~" (at 207.01 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 207.01 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a355f3d8-527e-4b0b-a426-3fa4c80fd5dd")) (pin "2" (uuid "95fe038b-a8d6-4013-be10-73e10aee26f5")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW14") (unit 1))))) 
+(property "Description" "" (at 207.01 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a355f3d8-527e-4b0b-a426-3fa4c80fd5dd")) (pin "2" (uuid "95fe038b-a8d6-4013-be10-73e10aee26f5")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW14") (unit 1))))) 
 
 (wire (pts 
 
@@ -1126,7 +1126,7 @@
 
 (property "Sim.Device" "D" (at 209.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 209.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "666f0f10-4f8e-48ff-9cdc-6f05177e1187")) (pin "2" (uuid "2e14e093-8ca7-4343-b894-da8fad1cba2d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D14") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 209.55 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "666f0f10-4f8e-48ff-9cdc-6f05177e1187")) (pin "2" (uuid "2e14e093-8ca7-4343-b894-da8fad1cba2d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D14") (unit 1))))) 
 
 (wire (pts 
 
@@ -1158,7 +1158,7 @@
 
 (property "Datasheet" "~" (at 219.71 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 219.71 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8c07eba6-9989-4583-8863-65f994bf4025")) (pin "2" (uuid "41609613-727d-4425-9a35-b68866c96cec")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW15") (unit 1))))) 
+(property "Description" "" (at 219.71 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8c07eba6-9989-4583-8863-65f994bf4025")) (pin "2" (uuid "41609613-727d-4425-9a35-b68866c96cec")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW15") (unit 1))))) 
 
 (wire (pts 
 
@@ -1190,7 +1190,7 @@
 
 (property "Sim.Device" "D" (at 222.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 222.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "42c90866-2bae-4cb0-8e51-cdc8ce582a14")) (pin "2" (uuid "7f746ae2-4c4f-4510-aa1f-9080fd0b756d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D15") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 222.25 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "42c90866-2bae-4cb0-8e51-cdc8ce582a14")) (pin "2" (uuid "7f746ae2-4c4f-4510-aa1f-9080fd0b756d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D15") (unit 1))))) 
 
 (wire (pts 
 
@@ -1222,7 +1222,7 @@
 
 (property "Datasheet" "~" (at 232.41 22.86 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 232.41 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ea19093c-17ff-41ab-99e1-22f7cb47a079")) (pin "2" (uuid "71eb4023-21ff-44f7-80b6-8e26fa1bbdda")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW16") (unit 1))))) 
+(property "Description" "" (at 232.41 22.86 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ea19093c-17ff-41ab-99e1-22f7cb47a079")) (pin "2" (uuid "71eb4023-21ff-44f7-80b6-8e26fa1bbdda")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW16") (unit 1))))) 
 
 (wire (pts 
 
@@ -1254,7 +1254,7 @@
 
 (property "Sim.Device" "D" (at 234.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 234.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6c7550d6-a6b8-496a-a689-507674e369a0")) (pin "2" (uuid "b64e85f4-8222-4100-88aa-338f3157a141")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D16") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 234.95 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6c7550d6-a6b8-496a-a689-507674e369a0")) (pin "2" (uuid "b64e85f4-8222-4100-88aa-338f3157a141")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D16") (unit 1))))) 
 
 (wire (pts 
 
@@ -1286,7 +1286,7 @@
 
 (property "Datasheet" "~" (at 29.21 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d0f55e2a-967b-493f-9454-f00f4f7f30c8")) (pin "2" (uuid "c808d1ba-9a1b-4a21-a4c7-d96547607225")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW17") (unit 1))))) 
+(property "Description" "" (at 29.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d0f55e2a-967b-493f-9454-f00f4f7f30c8")) (pin "2" (uuid "c808d1ba-9a1b-4a21-a4c7-d96547607225")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW17") (unit 1))))) 
 
 (wire (pts 
 
@@ -1316,7 +1316,7 @@
 
 (property "Sim.Device" "D" (at 31.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "16fcbb8c-4cc7-43ae-bc89-a3123b111e1a")) (pin "2" (uuid "4757ceec-5573-4fa7-9589-2685e7649017")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D17") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "16fcbb8c-4cc7-43ae-bc89-a3123b111e1a")) (pin "2" (uuid "4757ceec-5573-4fa7-9589-2685e7649017")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D17") (unit 1))))) 
 
 (wire (pts 
 
@@ -1350,7 +1350,7 @@
 
 (property "Datasheet" "~" (at 41.91 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a650b8a8-a3c0-4f92-8af9-335c75efc384")) (pin "2" (uuid "73ff796b-46ce-45b8-bf7b-87a01b74aa7a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW18") (unit 1))))) 
+(property "Description" "" (at 41.91 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a650b8a8-a3c0-4f92-8af9-335c75efc384")) (pin "2" (uuid "73ff796b-46ce-45b8-bf7b-87a01b74aa7a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW18") (unit 1))))) 
 
 (wire (pts 
 
@@ -1380,7 +1380,7 @@
 
 (property "Sim.Device" "D" (at 44.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e8771985-1a40-47b9-ad5b-51a946163678")) (pin "2" (uuid "ca1fabd9-f645-49c3-bf5a-235b70325596")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D18") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e8771985-1a40-47b9-ad5b-51a946163678")) (pin "2" (uuid "ca1fabd9-f645-49c3-bf5a-235b70325596")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D18") (unit 1))))) 
 
 (wire (pts 
 
@@ -1412,7 +1412,7 @@
 
 (property "Datasheet" "~" (at 54.61 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 54.61 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dd5e4095-ac2f-4139-8988-be74c4c143f5")) (pin "2" (uuid "c3c5bd20-ce76-401e-942c-356919fcf2d8")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW19") (unit 1))))) 
+(property "Description" "" (at 54.61 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dd5e4095-ac2f-4139-8988-be74c4c143f5")) (pin "2" (uuid "c3c5bd20-ce76-401e-942c-356919fcf2d8")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW19") (unit 1))))) 
 
 (wire (pts 
 
@@ -1442,7 +1442,7 @@
 
 (property "Sim.Device" "D" (at 57.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 57.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8e3d4dee-ae34-4052-b1b8-b6c0ee2283ba")) (pin "2" (uuid "a15926b2-444f-49f2-bf2e-71c6a14081a6")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D19") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 57.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8e3d4dee-ae34-4052-b1b8-b6c0ee2283ba")) (pin "2" (uuid "a15926b2-444f-49f2-bf2e-71c6a14081a6")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D19") (unit 1))))) 
 
 (wire (pts 
 
@@ -1474,7 +1474,7 @@
 
 (property "Datasheet" "~" (at 67.31 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "070ff723-c1db-4577-a93c-fb6a0dc1d535")) (pin "2" (uuid "3c75a8de-ed1a-44cf-90d6-0a66ebe0fa02")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW20") (unit 1))))) 
+(property "Description" "" (at 67.31 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "070ff723-c1db-4577-a93c-fb6a0dc1d535")) (pin "2" (uuid "3c75a8de-ed1a-44cf-90d6-0a66ebe0fa02")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW20") (unit 1))))) 
 
 (wire (pts 
 
@@ -1504,7 +1504,7 @@
 
 (property "Sim.Device" "D" (at 69.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2736d3d7-14c0-4f17-9226-ec6ab4750156")) (pin "2" (uuid "fdfcfbe5-6506-494b-b755-ffaf878354fd")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D20") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2736d3d7-14c0-4f17-9226-ec6ab4750156")) (pin "2" (uuid "fdfcfbe5-6506-494b-b755-ffaf878354fd")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D20") (unit 1))))) 
 
 (wire (pts 
 
@@ -1536,7 +1536,7 @@
 
 (property "Datasheet" "~" (at 80.01 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 80.01 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fe6a84fe-694f-4204-aa31-f48bb31f6a5b")) (pin "2" (uuid "bdd3f1b0-217c-49a3-863f-f5c66b1cf0d9")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW21") (unit 1))))) 
+(property "Description" "" (at 80.01 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fe6a84fe-694f-4204-aa31-f48bb31f6a5b")) (pin "2" (uuid "bdd3f1b0-217c-49a3-863f-f5c66b1cf0d9")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW21") (unit 1))))) 
 
 (wire (pts 
 
@@ -1566,7 +1566,7 @@
 
 (property "Sim.Device" "D" (at 82.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 82.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b3bda858-a01c-4073-a880-39168204f1ad")) (pin "2" (uuid "aaae904d-0f63-4ce7-b7a0-87eba602f2c6")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D21") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 82.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b3bda858-a01c-4073-a880-39168204f1ad")) (pin "2" (uuid "aaae904d-0f63-4ce7-b7a0-87eba602f2c6")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D21") (unit 1))))) 
 
 (wire (pts 
 
@@ -1598,7 +1598,7 @@
 
 (property "Datasheet" "~" (at 92.71 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 92.71 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b5dba00f-4fbb-404f-8cbe-baecee93f6a1")) (pin "2" (uuid "863e9cb3-10c8-42e5-817a-6ff245b7db40")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW22") (unit 1))))) 
+(property "Description" "" (at 92.71 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b5dba00f-4fbb-404f-8cbe-baecee93f6a1")) (pin "2" (uuid "863e9cb3-10c8-42e5-817a-6ff245b7db40")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW22") (unit 1))))) 
 
 (wire (pts 
 
@@ -1628,7 +1628,7 @@
 
 (property "Sim.Device" "D" (at 95.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 95.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d5f222aa-4385-413f-a692-51b51f77f6c6")) (pin "2" (uuid "d2e3c92b-d132-43ad-a777-3856322056d4")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D22") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 95.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d5f222aa-4385-413f-a692-51b51f77f6c6")) (pin "2" (uuid "d2e3c92b-d132-43ad-a777-3856322056d4")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D22") (unit 1))))) 
 
 (wire (pts 
 
@@ -1660,7 +1660,7 @@
 
 (property "Datasheet" "~" (at 105.41 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "17f66edf-886e-47c3-bb00-a687ef600bf0")) (pin "2" (uuid "f870dceb-20f1-42b2-ae43-b93150e15b99")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW23") (unit 1))))) 
+(property "Description" "" (at 105.41 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "17f66edf-886e-47c3-bb00-a687ef600bf0")) (pin "2" (uuid "f870dceb-20f1-42b2-ae43-b93150e15b99")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW23") (unit 1))))) 
 
 (wire (pts 
 
@@ -1690,7 +1690,7 @@
 
 (property "Sim.Device" "D" (at 107.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d4661db2-b25a-4b39-85e5-f155b097c3ad")) (pin "2" (uuid "96bf55ea-a704-4249-9105-8994a90aa9f0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D23") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d4661db2-b25a-4b39-85e5-f155b097c3ad")) (pin "2" (uuid "96bf55ea-a704-4249-9105-8994a90aa9f0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D23") (unit 1))))) 
 
 (wire (pts 
 
@@ -1722,7 +1722,7 @@
 
 (property "Datasheet" "~" (at 118.11 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 118.11 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1dbb8e3c-f959-4059-9ad4-ed0669dc282e")) (pin "2" (uuid "bfb7187c-afa2-4bc2-ad68-7a3faba5147e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW24") (unit 1))))) 
+(property "Description" "" (at 118.11 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1dbb8e3c-f959-4059-9ad4-ed0669dc282e")) (pin "2" (uuid "bfb7187c-afa2-4bc2-ad68-7a3faba5147e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW24") (unit 1))))) 
 
 (wire (pts 
 
@@ -1752,7 +1752,7 @@
 
 (property "Sim.Device" "D" (at 120.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 120.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d77d46ae-35ba-43d4-9afd-6ffb866cedf6")) (pin "2" (uuid "ed2be9c6-a8eb-4ec0-a3c3-7ca99ec83cb8")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D24") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 120.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d77d46ae-35ba-43d4-9afd-6ffb866cedf6")) (pin "2" (uuid "ed2be9c6-a8eb-4ec0-a3c3-7ca99ec83cb8")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D24") (unit 1))))) 
 
 (wire (pts 
 
@@ -1784,7 +1784,7 @@
 
 (property "Datasheet" "~" (at 130.81 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 130.81 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b7825e1c-db30-4d38-a2ce-d61d66203577")) (pin "2" (uuid "2e90232d-3b7a-47b5-8c59-ebc1510db913")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW25") (unit 1))))) 
+(property "Description" "" (at 130.81 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b7825e1c-db30-4d38-a2ce-d61d66203577")) (pin "2" (uuid "2e90232d-3b7a-47b5-8c59-ebc1510db913")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW25") (unit 1))))) 
 
 (wire (pts 
 
@@ -1814,7 +1814,7 @@
 
 (property "Sim.Device" "D" (at 133.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 133.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e1530916-a855-47dc-8102-fbbc76447913")) (pin "2" (uuid "ff7c1921-9830-426f-9ca8-f4252f223f53")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D25") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 133.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e1530916-a855-47dc-8102-fbbc76447913")) (pin "2" (uuid "ff7c1921-9830-426f-9ca8-f4252f223f53")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D25") (unit 1))))) 
 
 (wire (pts 
 
@@ -1846,7 +1846,7 @@
 
 (property "Datasheet" "~" (at 143.51 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 143.51 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b65a4818-0fc8-423b-adbd-48e5e474541f")) (pin "2" (uuid "152dd0aa-699a-44c0-ae37-b6f26ec70088")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW26") (unit 1))))) 
+(property "Description" "" (at 143.51 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b65a4818-0fc8-423b-adbd-48e5e474541f")) (pin "2" (uuid "152dd0aa-699a-44c0-ae37-b6f26ec70088")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW26") (unit 1))))) 
 
 (wire (pts 
 
@@ -1876,7 +1876,7 @@
 
 (property "Sim.Device" "D" (at 146.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 146.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8207db1a-657e-406b-9baa-e8be7eb44bb6")) (pin "2" (uuid "d32880f3-aede-45fe-b347-c4bd8d123bc2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D26") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 146.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8207db1a-657e-406b-9baa-e8be7eb44bb6")) (pin "2" (uuid "d32880f3-aede-45fe-b347-c4bd8d123bc2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D26") (unit 1))))) 
 
 (wire (pts 
 
@@ -1908,7 +1908,7 @@
 
 (property "Datasheet" "~" (at 156.21 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9561d13c-9197-4fb3-b07e-560b61db99ec")) (pin "2" (uuid "ace6945d-e82c-4b8a-a45a-2d6586504aca")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW27") (unit 1))))) 
+(property "Description" "" (at 156.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9561d13c-9197-4fb3-b07e-560b61db99ec")) (pin "2" (uuid "ace6945d-e82c-4b8a-a45a-2d6586504aca")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW27") (unit 1))))) 
 
 (wire (pts 
 
@@ -1938,7 +1938,7 @@
 
 (property "Sim.Device" "D" (at 158.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2731a675-5a63-4301-aa49-8c7e77f064ed")) (pin "2" (uuid "bede4a13-5de3-40e6-bec7-c5fb5aa25423")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D27") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2731a675-5a63-4301-aa49-8c7e77f064ed")) (pin "2" (uuid "bede4a13-5de3-40e6-bec7-c5fb5aa25423")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D27") (unit 1))))) 
 
 (wire (pts 
 
@@ -1970,7 +1970,7 @@
 
 (property "Datasheet" "~" (at 168.91 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "80ebbf96-d965-4932-8a87-9376c1ce8ff8")) (pin "2" (uuid "21142377-cff0-448c-ab67-5bafc691842a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW28") (unit 1))))) 
+(property "Description" "" (at 168.91 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "80ebbf96-d965-4932-8a87-9376c1ce8ff8")) (pin "2" (uuid "21142377-cff0-448c-ab67-5bafc691842a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW28") (unit 1))))) 
 
 (wire (pts 
 
@@ -2000,7 +2000,7 @@
 
 (property "Sim.Device" "D" (at 171.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ea876f9-b877-4076-a179-9b0ff4d35d70")) (pin "2" (uuid "d12d83d3-1c99-4453-8ec3-4d2b64489af0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D28") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ea876f9-b877-4076-a179-9b0ff4d35d70")) (pin "2" (uuid "d12d83d3-1c99-4453-8ec3-4d2b64489af0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D28") (unit 1))))) 
 
 (wire (pts 
 
@@ -2032,7 +2032,7 @@
 
 (property "Datasheet" "~" (at 181.61 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5ce31877-4df9-4383-813e-5e2c4f236466")) (pin "2" (uuid "479a2289-a548-47bb-a3cf-bd0484ec9e6c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW29") (unit 1))))) 
+(property "Description" "" (at 181.61 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5ce31877-4df9-4383-813e-5e2c4f236466")) (pin "2" (uuid "479a2289-a548-47bb-a3cf-bd0484ec9e6c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW29") (unit 1))))) 
 
 (wire (pts 
 
@@ -2062,7 +2062,7 @@
 
 (property "Sim.Device" "D" (at 184.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "23ff68d7-0d52-4ea8-961a-291e879b2715")) (pin "2" (uuid "17fe22ba-f0bb-47d6-9fcc-5586c1d2bc61")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D29") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "23ff68d7-0d52-4ea8-961a-291e879b2715")) (pin "2" (uuid "17fe22ba-f0bb-47d6-9fcc-5586c1d2bc61")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D29") (unit 1))))) 
 
 (wire (pts 
 
@@ -2094,7 +2094,7 @@
 
 (property "Datasheet" "~" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "87e624b6-815b-4595-ac1d-9efe8ffb15b3")) (pin "2" (uuid "f6163e95-71a4-444d-9acb-df188849f73e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW30") (unit 1))))) 
+(property "Description" "" (at 194.31 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "87e624b6-815b-4595-ac1d-9efe8ffb15b3")) (pin "2" (uuid "f6163e95-71a4-444d-9acb-df188849f73e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW30") (unit 1))))) 
 
 (wire (pts 
 
@@ -2126,7 +2126,7 @@
 
 (property "Sim.Device" "D" (at 196.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 196.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ea462d9a-78c5-4422-895f-a8d690dc45da")) (pin "2" (uuid "9770a195-231c-4838-85ca-d2505d48dd21")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D30") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 196.85 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ea462d9a-78c5-4422-895f-a8d690dc45da")) (pin "2" (uuid "9770a195-231c-4838-85ca-d2505d48dd21")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D30") (unit 1))))) 
 
 (wire (pts 
 
@@ -2158,7 +2158,7 @@
 
 (property "Datasheet" "~" (at 207.01 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 207.01 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dae2f5fb-e9fb-42b6-83df-011bbb7b3759")) (pin "2" (uuid "c20ce18b-1673-4d57-930d-1a1f1d052b71")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW31") (unit 1))))) 
+(property "Description" "" (at 207.01 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dae2f5fb-e9fb-42b6-83df-011bbb7b3759")) (pin "2" (uuid "c20ce18b-1673-4d57-930d-1a1f1d052b71")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW31") (unit 1))))) 
 
 (wire (pts 
 
@@ -2188,7 +2188,7 @@
 
 (property "Sim.Device" "D" (at 209.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 209.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48dc9b3f-dba2-47e6-8880-25e5caca1ff1")) (pin "2" (uuid "3d88928f-8bd4-4846-8a7c-fdffb9b56535")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D31") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 209.55 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48dc9b3f-dba2-47e6-8880-25e5caca1ff1")) (pin "2" (uuid "3d88928f-8bd4-4846-8a7c-fdffb9b56535")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D31") (unit 1))))) 
 
 (wire (pts 
 
@@ -2220,7 +2220,7 @@
 
 (property "Datasheet" "~" (at 219.71 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 219.71 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "64df0fc1-7e8b-489d-8dc6-9ca58753f0d4")) (pin "2" (uuid "1cd194e5-6290-4c68-86e7-b99c6c58668e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW32") (unit 1))))) 
+(property "Description" "" (at 219.71 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "64df0fc1-7e8b-489d-8dc6-9ca58753f0d4")) (pin "2" (uuid "1cd194e5-6290-4c68-86e7-b99c6c58668e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW32") (unit 1))))) 
 
 (wire (pts 
 
@@ -2250,7 +2250,7 @@
 
 (property "Sim.Device" "D" (at 222.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 222.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "490906b8-3f65-4c40-8d06-fc5465571652")) (pin "2" (uuid "dc372b43-82d7-4894-9c6c-1e932036688e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D32") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 222.25 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "490906b8-3f65-4c40-8d06-fc5465571652")) (pin "2" (uuid "dc372b43-82d7-4894-9c6c-1e932036688e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D32") (unit 1))))) 
 
 (wire (pts 
 
@@ -2282,7 +2282,7 @@
 
 (property "Datasheet" "~" (at 232.41 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 232.41 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3b4b6e51-79e8-4ab7-9d7f-dc291942e4dd")) (pin "2" (uuid "1efe87b9-96b5-47f7-afde-8e26f745b957")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW33") (unit 1))))) 
+(property "Description" "" (at 232.41 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3b4b6e51-79e8-4ab7-9d7f-dc291942e4dd")) (pin "2" (uuid "1efe87b9-96b5-47f7-afde-8e26f745b957")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW33") (unit 1))))) 
 
 (wire (pts 
 
@@ -2312,7 +2312,7 @@
 
 (property "Sim.Device" "D" (at 234.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 234.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2fcc88dc-949a-4673-82ed-a6a2b4bf406c")) (pin "2" (uuid "5f627438-5cb2-46e2-9354-9d1af9709e4f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D33") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 234.95 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2fcc88dc-949a-4673-82ed-a6a2b4bf406c")) (pin "2" (uuid "5f627438-5cb2-46e2-9354-9d1af9709e4f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D33") (unit 1))))) 
 
 (wire (pts 
 
@@ -2344,7 +2344,7 @@
 
 (property "Datasheet" "~" (at 245.11 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 245.11 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "946d4b70-8ca1-4459-9719-0aedcedd0eb0")) (pin "2" (uuid "aa5aeb48-e19e-4dfa-a49a-66d5c42d90b4")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW34") (unit 1))))) 
+(property "Description" "" (at 245.11 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "946d4b70-8ca1-4459-9719-0aedcedd0eb0")) (pin "2" (uuid "aa5aeb48-e19e-4dfa-a49a-66d5c42d90b4")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW34") (unit 1))))) 
 
 (wire (pts 
 
@@ -2376,7 +2376,7 @@
 
 (property "Sim.Device" "D" (at 247.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 247.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e53352c4-447b-4662-bc35-f84ace8f9334")) (pin "2" (uuid "4524ee13-b08b-4b6b-b73d-160ea6d82d05")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D34") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 247.65 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e53352c4-447b-4662-bc35-f84ace8f9334")) (pin "2" (uuid "4524ee13-b08b-4b6b-b73d-160ea6d82d05")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D34") (unit 1))))) 
 
 (wire (pts 
 
@@ -2408,7 +2408,7 @@
 
 (property "Datasheet" "~" (at 257.81 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 257.81 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ea09ad0c-303c-4000-8dbe-594e6954feca")) (pin "2" (uuid "2f8fbea9-291d-419b-b70d-6608391e6e39")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW35") (unit 1))))) 
+(property "Description" "" (at 257.81 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ea09ad0c-303c-4000-8dbe-594e6954feca")) (pin "2" (uuid "2f8fbea9-291d-419b-b70d-6608391e6e39")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW35") (unit 1))))) 
 
 (wire (pts 
 
@@ -2440,7 +2440,7 @@
 
 (property "Sim.Device" "D" (at 260.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 260.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "14de8bb0-eb76-4fd4-969d-754e211579db")) (pin "2" (uuid "a126d751-1a5c-47e8-b5b1-2f17cabec900")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D35") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 260.35 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "14de8bb0-eb76-4fd4-969d-754e211579db")) (pin "2" (uuid "a126d751-1a5c-47e8-b5b1-2f17cabec900")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D35") (unit 1))))) 
 
 (wire (pts 
 
@@ -2472,7 +2472,7 @@
 
 (property "Datasheet" "~" (at 270.51 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 270.51 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "66f1c7a8-2d13-46f5-86d1-48148db01d7e")) (pin "2" (uuid "638c72bc-7a64-41d2-a743-d8b9d818010c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW36") (unit 1))))) 
+(property "Description" "" (at 270.51 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "66f1c7a8-2d13-46f5-86d1-48148db01d7e")) (pin "2" (uuid "638c72bc-7a64-41d2-a743-d8b9d818010c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW36") (unit 1))))) 
 
 (wire (pts 
 
@@ -2504,7 +2504,7 @@
 
 (property "Sim.Device" "D" (at 273.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 273.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5c862d09-7873-4bdd-93d6-b4e7254e9126")) (pin "2" (uuid "02cf21ee-6570-4dd8-a675-f2c77b741f00")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D36") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 273.05 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5c862d09-7873-4bdd-93d6-b4e7254e9126")) (pin "2" (uuid "02cf21ee-6570-4dd8-a675-f2c77b741f00")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D36") (unit 1))))) 
 
 (wire (pts 
 
@@ -2536,7 +2536,7 @@
 
 (property "Datasheet" "~" (at 283.21 43.18 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 283.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6b66cfb4-d2be-41c5-b507-e3dc41d1364e")) (pin "2" (uuid "e938ffcf-7b5c-4aea-9a71-725aa0cfbcf7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW37") (unit 1))))) 
+(property "Description" "" (at 283.21 43.18 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6b66cfb4-d2be-41c5-b507-e3dc41d1364e")) (pin "2" (uuid "e938ffcf-7b5c-4aea-9a71-725aa0cfbcf7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW37") (unit 1))))) 
 
 (wire (pts 
 
@@ -2568,7 +2568,7 @@
 
 (property "Sim.Device" "D" (at 285.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 285.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "568c016a-4dc5-4e64-a65f-c5fa3e4cfbf5")) (pin "2" (uuid "9a9fcc8c-561f-49a8-8c57-2555d0c882bb")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D37") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 285.75 52.07 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "568c016a-4dc5-4e64-a65f-c5fa3e4cfbf5")) (pin "2" (uuid "9a9fcc8c-561f-49a8-8c57-2555d0c882bb")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D37") (unit 1))))) 
 
 (wire (pts 
 
@@ -2600,7 +2600,7 @@
 
 (property "Datasheet" "~" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dd72925d-13ed-40d3-aad8-b66bd5bb20e7")) (pin "2" (uuid "c83d78d9-5bb7-4bda-886d-64f5461051d4")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW38") (unit 1))))) 
+(property "Description" "" (at 29.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dd72925d-13ed-40d3-aad8-b66bd5bb20e7")) (pin "2" (uuid "c83d78d9-5bb7-4bda-886d-64f5461051d4")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW38") (unit 1))))) 
 
 (wire (pts 
 
@@ -2630,7 +2630,7 @@
 
 (property "Sim.Device" "D" (at 31.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d042b973-56f1-4c02-a226-50b2544e8a63")) (pin "2" (uuid "71e35ac4-c0b5-493e-8b16-0a68eb72d06f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D38") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d042b973-56f1-4c02-a226-50b2544e8a63")) (pin "2" (uuid "71e35ac4-c0b5-493e-8b16-0a68eb72d06f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D38") (unit 1))))) 
 
 (wire (pts 
 
@@ -2664,7 +2664,7 @@
 
 (property "Datasheet" "~" (at 41.91 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4cf283e2-da57-4ebd-9bc3-adfa5661dc48")) (pin "2" (uuid "91ebd4b3-9f80-4e00-9ee1-93e5dc7af4a9")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW39") (unit 1))))) 
+(property "Description" "" (at 41.91 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4cf283e2-da57-4ebd-9bc3-adfa5661dc48")) (pin "2" (uuid "91ebd4b3-9f80-4e00-9ee1-93e5dc7af4a9")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW39") (unit 1))))) 
 
 (wire (pts 
 
@@ -2694,7 +2694,7 @@
 
 (property "Sim.Device" "D" (at 44.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "96c3ed05-41f0-4a28-b9d1-e3bc1796b4fb")) (pin "2" (uuid "59a40c26-0289-4677-b353-4615d06b8678")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D39") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "96c3ed05-41f0-4a28-b9d1-e3bc1796b4fb")) (pin "2" (uuid "59a40c26-0289-4677-b353-4615d06b8678")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D39") (unit 1))))) 
 
 (wire (pts 
 
@@ -2726,7 +2726,7 @@
 
 (property "Datasheet" "~" (at 54.61 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 54.61 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5eb1d8b2-3e24-4e11-84e4-aa5a37aa569b")) (pin "2" (uuid "956b302c-9cb1-43bb-97a9-9ac1eea062e3")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW40") (unit 1))))) 
+(property "Description" "" (at 54.61 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5eb1d8b2-3e24-4e11-84e4-aa5a37aa569b")) (pin "2" (uuid "956b302c-9cb1-43bb-97a9-9ac1eea062e3")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW40") (unit 1))))) 
 
 (wire (pts 
 
@@ -2756,7 +2756,7 @@
 
 (property "Sim.Device" "D" (at 57.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 57.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73a6d209-b1f4-4230-8ff1-d8eba333eaf3")) (pin "2" (uuid "7a9ccdf9-588f-4302-8fb7-15bea033a28f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D40") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 57.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73a6d209-b1f4-4230-8ff1-d8eba333eaf3")) (pin "2" (uuid "7a9ccdf9-588f-4302-8fb7-15bea033a28f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D40") (unit 1))))) 
 
 (wire (pts 
 
@@ -2788,7 +2788,7 @@
 
 (property "Datasheet" "~" (at 67.31 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1cf1a924-97f6-4a20-9b06-8efe1527b7d6")) (pin "2" (uuid "f6e4304a-3259-4273-8b1b-cd85e2dc0758")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW41") (unit 1))))) 
+(property "Description" "" (at 67.31 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1cf1a924-97f6-4a20-9b06-8efe1527b7d6")) (pin "2" (uuid "f6e4304a-3259-4273-8b1b-cd85e2dc0758")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW41") (unit 1))))) 
 
 (wire (pts 
 
@@ -2818,7 +2818,7 @@
 
 (property "Sim.Device" "D" (at 69.85 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c895d6cb-fc87-42fb-8449-75860d7986aa")) (pin "2" (uuid "ed0102cc-1702-4a01-bdab-e86c7d6623b0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D41") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c895d6cb-fc87-42fb-8449-75860d7986aa")) (pin "2" (uuid "ed0102cc-1702-4a01-bdab-e86c7d6623b0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D41") (unit 1))))) 
 
 (wire (pts 
 
@@ -2850,7 +2850,7 @@
 
 (property "Datasheet" "~" (at 80.01 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 80.01 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9e4ede89-2f61-4fec-82c3-a7b9e0054208")) (pin "2" (uuid "24232f3d-90ca-4655-b920-ac7533e2eae8")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW42") (unit 1))))) 
+(property "Description" "" (at 80.01 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9e4ede89-2f61-4fec-82c3-a7b9e0054208")) (pin "2" (uuid "24232f3d-90ca-4655-b920-ac7533e2eae8")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW42") (unit 1))))) 
 
 (wire (pts 
 
@@ -2880,7 +2880,7 @@
 
 (property "Sim.Device" "D" (at 82.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 82.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ee0ac29a-eb94-4cbd-85a1-84b29b0fc5b8")) (pin "2" (uuid "4dd67d11-3408-4142-aa22-f720e55f893a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D42") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 82.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ee0ac29a-eb94-4cbd-85a1-84b29b0fc5b8")) (pin "2" (uuid "4dd67d11-3408-4142-aa22-f720e55f893a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D42") (unit 1))))) 
 
 (wire (pts 
 
@@ -2912,7 +2912,7 @@
 
 (property "Datasheet" "~" (at 92.71 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 92.71 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3ab6c390-ba2e-42ae-a755-6668da75e9f1")) (pin "2" (uuid "0c74c2ac-71e9-44ad-90f7-423b0acf0e2b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW43") (unit 1))))) 
+(property "Description" "" (at 92.71 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3ab6c390-ba2e-42ae-a755-6668da75e9f1")) (pin "2" (uuid "0c74c2ac-71e9-44ad-90f7-423b0acf0e2b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW43") (unit 1))))) 
 
 (wire (pts 
 
@@ -2942,7 +2942,7 @@
 
 (property "Sim.Device" "D" (at 95.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 95.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "46cba769-cac5-4159-9d86-c2f576961227")) (pin "2" (uuid "9a064fe9-2219-4dd1-8284-97e961305c2d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D43") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 95.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "46cba769-cac5-4159-9d86-c2f576961227")) (pin "2" (uuid "9a064fe9-2219-4dd1-8284-97e961305c2d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D43") (unit 1))))) 
 
 (wire (pts 
 
@@ -2974,7 +2974,7 @@
 
 (property "Datasheet" "~" (at 105.41 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5c052b0a-aa90-4829-8b4a-d2773a8e0425")) (pin "2" (uuid "64e96e7c-6750-49f3-93d3-28f89208417c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW44") (unit 1))))) 
+(property "Description" "" (at 105.41 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5c052b0a-aa90-4829-8b4a-d2773a8e0425")) (pin "2" (uuid "64e96e7c-6750-49f3-93d3-28f89208417c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW44") (unit 1))))) 
 
 (wire (pts 
 
@@ -3004,7 +3004,7 @@
 
 (property "Sim.Device" "D" (at 107.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c5ac9087-c429-493a-aa67-6520d053efcd")) (pin "2" (uuid "b4e1521f-9ca8-45aa-a454-f112c23af875")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D44") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c5ac9087-c429-493a-aa67-6520d053efcd")) (pin "2" (uuid "b4e1521f-9ca8-45aa-a454-f112c23af875")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D44") (unit 1))))) 
 
 (wire (pts 
 
@@ -3036,7 +3036,7 @@
 
 (property "Datasheet" "~" (at 118.11 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 118.11 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "13136700-3632-42a6-abf0-abe8ca64065b")) (pin "2" (uuid "002d708b-d65c-4895-b286-59fb1382a512")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW45") (unit 1))))) 
+(property "Description" "" (at 118.11 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "13136700-3632-42a6-abf0-abe8ca64065b")) (pin "2" (uuid "002d708b-d65c-4895-b286-59fb1382a512")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW45") (unit 1))))) 
 
 (wire (pts 
 
@@ -3066,7 +3066,7 @@
 
 (property "Sim.Device" "D" (at 120.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 120.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e0bddf97-1e08-4223-9e68-fd68d056c444")) (pin "2" (uuid "1127a179-bc25-441b-bf2d-1e08b87321d0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D45") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 120.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e0bddf97-1e08-4223-9e68-fd68d056c444")) (pin "2" (uuid "1127a179-bc25-441b-bf2d-1e08b87321d0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D45") (unit 1))))) 
 
 (wire (pts 
 
@@ -3098,7 +3098,7 @@
 
 (property "Datasheet" "~" (at 130.81 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 130.81 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "af5f48b5-3549-4318-8919-1db1f2b1fc50")) (pin "2" (uuid "106ca4d1-562c-4b55-8537-feb8acefbd93")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW46") (unit 1))))) 
+(property "Description" "" (at 130.81 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "af5f48b5-3549-4318-8919-1db1f2b1fc50")) (pin "2" (uuid "106ca4d1-562c-4b55-8537-feb8acefbd93")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW46") (unit 1))))) 
 
 (wire (pts 
 
@@ -3128,7 +3128,7 @@
 
 (property "Sim.Device" "D" (at 133.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 133.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e04fc356-c3c1-4184-a388-bc6b67755258")) (pin "2" (uuid "6d00d76c-20c3-430f-98b8-26730bba009c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D46") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 133.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e04fc356-c3c1-4184-a388-bc6b67755258")) (pin "2" (uuid "6d00d76c-20c3-430f-98b8-26730bba009c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D46") (unit 1))))) 
 
 (wire (pts 
 
@@ -3160,7 +3160,7 @@
 
 (property "Datasheet" "~" (at 143.51 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 143.51 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "886151fa-a663-4c1d-ad90-6e5f43cbaaa1")) (pin "2" (uuid "2196ab27-c87f-461b-9feb-a681e9773a38")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW47") (unit 1))))) 
+(property "Description" "" (at 143.51 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "886151fa-a663-4c1d-ad90-6e5f43cbaaa1")) (pin "2" (uuid "2196ab27-c87f-461b-9feb-a681e9773a38")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW47") (unit 1))))) 
 
 (wire (pts 
 
@@ -3190,7 +3190,7 @@
 
 (property "Sim.Device" "D" (at 146.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 146.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ad781abf-90f9-4fa9-b901-b546809baccd")) (pin "2" (uuid "e1cd0afb-346e-4ecc-b292-25a19704e492")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D47") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 146.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ad781abf-90f9-4fa9-b901-b546809baccd")) (pin "2" (uuid "e1cd0afb-346e-4ecc-b292-25a19704e492")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D47") (unit 1))))) 
 
 (wire (pts 
 
@@ -3222,7 +3222,7 @@
 
 (property "Datasheet" "~" (at 156.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e99e1e12-5a00-465f-83f2-c002eebfe2c3")) (pin "2" (uuid "359552a0-3795-4100-b3f8-1caf97def9f7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW48") (unit 1))))) 
+(property "Description" "" (at 156.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e99e1e12-5a00-465f-83f2-c002eebfe2c3")) (pin "2" (uuid "359552a0-3795-4100-b3f8-1caf97def9f7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW48") (unit 1))))) 
 
 (wire (pts 
 
@@ -3252,7 +3252,7 @@
 
 (property "Sim.Device" "D" (at 158.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "320a2b00-9a5b-4afc-937e-de6a6fa086eb")) (pin "2" (uuid "0b02ddbe-2636-4583-a64e-4b13c366ce1c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D48") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "320a2b00-9a5b-4afc-937e-de6a6fa086eb")) (pin "2" (uuid "0b02ddbe-2636-4583-a64e-4b13c366ce1c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D48") (unit 1))))) 
 
 (wire (pts 
 
@@ -3284,7 +3284,7 @@
 
 (property "Datasheet" "~" (at 168.91 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8ef09768-b9cd-4dda-b9f9-4bbb07f25f7d")) (pin "2" (uuid "ae722be0-9521-4cfc-8631-476269bde4d7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW49") (unit 1))))) 
+(property "Description" "" (at 168.91 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8ef09768-b9cd-4dda-b9f9-4bbb07f25f7d")) (pin "2" (uuid "ae722be0-9521-4cfc-8631-476269bde4d7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW49") (unit 1))))) 
 
 (wire (pts 
 
@@ -3314,7 +3314,7 @@
 
 (property "Sim.Device" "D" (at 171.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e9ada6e4-6c99-4f1e-be79-736300fa586e")) (pin "2" (uuid "a3bae505-e5ad-44af-9232-0b2c8340535d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D49") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e9ada6e4-6c99-4f1e-be79-736300fa586e")) (pin "2" (uuid "a3bae505-e5ad-44af-9232-0b2c8340535d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D49") (unit 1))))) 
 
 (wire (pts 
 
@@ -3346,7 +3346,7 @@
 
 (property "Datasheet" "~" (at 181.61 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f0cbcc68-07eb-4eb8-aff4-7fd1543189ca")) (pin "2" (uuid "883ab896-cd33-4326-9520-b26444659f6a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW50") (unit 1))))) 
+(property "Description" "" (at 181.61 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f0cbcc68-07eb-4eb8-aff4-7fd1543189ca")) (pin "2" (uuid "883ab896-cd33-4326-9520-b26444659f6a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW50") (unit 1))))) 
 
 (wire (pts 
 
@@ -3376,7 +3376,7 @@
 
 (property "Sim.Device" "D" (at 184.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f03031f0-5b21-4717-b6d0-2ee9b747ec7d")) (pin "2" (uuid "6194ead5-8a07-469a-b1f9-098306cad073")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D50") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f03031f0-5b21-4717-b6d0-2ee9b747ec7d")) (pin "2" (uuid "6194ead5-8a07-469a-b1f9-098306cad073")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D50") (unit 1))))) 
 
 (wire (pts 
 
@@ -3408,7 +3408,7 @@
 
 (property "Datasheet" "~" (at 207.01 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 207.01 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2134de08-3af6-4842-93f5-f37b4ec84821")) (pin "2" (uuid "3a77fa55-6623-4894-8df7-242b2babd307")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW51") (unit 1))))) 
+(property "Description" "" (at 207.01 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2134de08-3af6-4842-93f5-f37b4ec84821")) (pin "2" (uuid "3a77fa55-6623-4894-8df7-242b2babd307")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW51") (unit 1))))) 
 
 (wire (pts 
 
@@ -3438,7 +3438,7 @@
 
 (property "Sim.Device" "D" (at 209.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 209.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51c1f34c-22de-4c3d-8f2a-d6f956bb5793")) (pin "2" (uuid "d1c22254-72e5-4051-aeb2-7a0392a701a2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D51") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 209.55 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51c1f34c-22de-4c3d-8f2a-d6f956bb5793")) (pin "2" (uuid "d1c22254-72e5-4051-aeb2-7a0392a701a2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D51") (unit 1))))) 
 
 (wire (pts 
 
@@ -3470,7 +3470,7 @@
 
 (property "Datasheet" "~" (at 219.71 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 219.71 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dda93765-0bf9-4f69-88cc-42ebfa90968a")) (pin "2" (uuid "ea4b0161-df17-4635-9e04-88276a9b4fe4")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW52") (unit 1))))) 
+(property "Description" "" (at 219.71 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dda93765-0bf9-4f69-88cc-42ebfa90968a")) (pin "2" (uuid "ea4b0161-df17-4635-9e04-88276a9b4fe4")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW52") (unit 1))))) 
 
 (wire (pts 
 
@@ -3500,7 +3500,7 @@
 
 (property "Sim.Device" "D" (at 222.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 222.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "66938ad0-81f3-44fd-983b-6fe40ca536f9")) (pin "2" (uuid "05a9eb8b-08cb-47bf-825b-d8cd0ef44ad1")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D52") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 222.25 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "66938ad0-81f3-44fd-983b-6fe40ca536f9")) (pin "2" (uuid "05a9eb8b-08cb-47bf-825b-d8cd0ef44ad1")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D52") (unit 1))))) 
 
 (wire (pts 
 
@@ -3532,7 +3532,7 @@
 
 (property "Datasheet" "~" (at 232.41 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 232.41 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5a879547-8ea2-4dda-9226-13be0a776211")) (pin "2" (uuid "fdb5c7bc-e60e-426b-8fab-d234ee9a6741")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW53") (unit 1))))) 
+(property "Description" "" (at 232.41 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5a879547-8ea2-4dda-9226-13be0a776211")) (pin "2" (uuid "fdb5c7bc-e60e-426b-8fab-d234ee9a6741")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW53") (unit 1))))) 
 
 (wire (pts 
 
@@ -3562,7 +3562,7 @@
 
 (property "Sim.Device" "D" (at 234.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 234.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "70d0c21c-4acb-4399-86c0-29beb57442db")) (pin "2" (uuid "8803bfc2-ffce-4aab-8a43-13975f383600")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D53") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 234.95 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "70d0c21c-4acb-4399-86c0-29beb57442db")) (pin "2" (uuid "8803bfc2-ffce-4aab-8a43-13975f383600")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D53") (unit 1))))) 
 
 (wire (pts 
 
@@ -3594,7 +3594,7 @@
 
 (property "Datasheet" "~" (at 245.11 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 245.11 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a16d28c1-83e8-4256-bcba-91ab64684e39")) (pin "2" (uuid "b1b90ee0-22bc-49d4-ad68-7c10c1102500")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW54") (unit 1))))) 
+(property "Description" "" (at 245.11 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a16d28c1-83e8-4256-bcba-91ab64684e39")) (pin "2" (uuid "b1b90ee0-22bc-49d4-ad68-7c10c1102500")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW54") (unit 1))))) 
 
 (wire (pts 
 
@@ -3624,7 +3624,7 @@
 
 (property "Sim.Device" "D" (at 247.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 247.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "cea3c4cd-1f33-49ed-a1d6-b0e51328faf1")) (pin "2" (uuid "08f94954-559d-4289-bc69-6223973bbfe6")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D54") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 247.65 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "cea3c4cd-1f33-49ed-a1d6-b0e51328faf1")) (pin "2" (uuid "08f94954-559d-4289-bc69-6223973bbfe6")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D54") (unit 1))))) 
 
 (wire (pts 
 
@@ -3656,7 +3656,7 @@
 
 (property "Datasheet" "~" (at 257.81 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 257.81 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "26728f01-4eff-4e40-bb67-3bc09f3bc62d")) (pin "2" (uuid "3b56acf4-e1a8-4bbe-b6b3-235221796a80")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW55") (unit 1))))) 
+(property "Description" "" (at 257.81 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "26728f01-4eff-4e40-bb67-3bc09f3bc62d")) (pin "2" (uuid "3b56acf4-e1a8-4bbe-b6b3-235221796a80")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW55") (unit 1))))) 
 
 (wire (pts 
 
@@ -3686,7 +3686,7 @@
 
 (property "Sim.Device" "D" (at 260.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 260.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3545804e-f55c-43c9-8acb-5dfa235effc4")) (pin "2" (uuid "4c2c86e7-419b-471f-bb3b-e21e94cb4462")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D55") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 260.35 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3545804e-f55c-43c9-8acb-5dfa235effc4")) (pin "2" (uuid "4c2c86e7-419b-471f-bb3b-e21e94cb4462")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D55") (unit 1))))) 
 
 (wire (pts 
 
@@ -3718,7 +3718,7 @@
 
 (property "Datasheet" "~" (at 270.51 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 270.51 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a2d88af2-2c8c-41f7-a410-b77bdddb9f14")) (pin "2" (uuid "732a37a2-a433-4acf-88da-6c9f4b86e520")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW56") (unit 1))))) 
+(property "Description" "" (at 270.51 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a2d88af2-2c8c-41f7-a410-b77bdddb9f14")) (pin "2" (uuid "732a37a2-a433-4acf-88da-6c9f4b86e520")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW56") (unit 1))))) 
 
 (wire (pts 
 
@@ -3748,7 +3748,7 @@
 
 (property "Sim.Device" "D" (at 273.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 273.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "027ba611-1a72-43cd-946c-34a3d70f9782")) (pin "2" (uuid "1bb15f0f-7360-409d-8a1b-5f17c0102ff7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D56") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 273.05 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "027ba611-1a72-43cd-946c-34a3d70f9782")) (pin "2" (uuid "1bb15f0f-7360-409d-8a1b-5f17c0102ff7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D56") (unit 1))))) 
 
 (wire (pts 
 
@@ -3780,7 +3780,7 @@
 
 (property "Datasheet" "~" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d3217436-ad12-42e1-8734-2855b0e928c1")) (pin "2" (uuid "863dfb2d-3166-4aba-a635-331a50a2d362")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW57") (unit 1))))) 
+(property "Description" "" (at 283.21 63.5 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d3217436-ad12-42e1-8734-2855b0e928c1")) (pin "2" (uuid "863dfb2d-3166-4aba-a635-331a50a2d362")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW57") (unit 1))))) 
 
 (wire (pts 
 
@@ -3810,7 +3810,7 @@
 
 (property "Sim.Device" "D" (at 285.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 285.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "24163ba8-d34e-42c9-9bbf-e20a4e019fb1")) (pin "2" (uuid "5e11974f-252d-47d8-ac0b-2ac5faf6752f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D57") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 285.75 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "24163ba8-d34e-42c9-9bbf-e20a4e019fb1")) (pin "2" (uuid "5e11974f-252d-47d8-ac0b-2ac5faf6752f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D57") (unit 1))))) 
 
 (wire (pts 
 
@@ -3842,7 +3842,7 @@
 
 (property "Datasheet" "~" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dc4815a9-624b-4000-ad6d-04030fb6474a")) (pin "2" (uuid "edd77d13-da6b-4e74-b6b8-c27a2a704f45")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW58") (unit 1))))) 
+(property "Description" "" (at 29.21 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dc4815a9-624b-4000-ad6d-04030fb6474a")) (pin "2" (uuid "edd77d13-da6b-4e74-b6b8-c27a2a704f45")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW58") (unit 1))))) 
 
 (wire (pts 
 
@@ -3872,7 +3872,7 @@
 
 (property "Sim.Device" "D" (at 31.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5c676e1b-563a-4cda-abd7-210a1b1e8471")) (pin "2" (uuid "ff256db8-b7ea-4414-9a14-f37c1826bfda")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D58") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5c676e1b-563a-4cda-abd7-210a1b1e8471")) (pin "2" (uuid "ff256db8-b7ea-4414-9a14-f37c1826bfda")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D58") (unit 1))))) 
 
 (wire (pts 
 
@@ -3906,7 +3906,7 @@
 
 (property "Datasheet" "~" (at 41.91 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f922f052-05fe-48c5-80a1-e62a59d74dd2")) (pin "2" (uuid "39f29a16-396f-4c84-9cf4-b07a4c93908c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW59") (unit 1))))) 
+(property "Description" "" (at 41.91 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f922f052-05fe-48c5-80a1-e62a59d74dd2")) (pin "2" (uuid "39f29a16-396f-4c84-9cf4-b07a4c93908c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW59") (unit 1))))) 
 
 (wire (pts 
 
@@ -3936,7 +3936,7 @@
 
 (property "Sim.Device" "D" (at 44.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ac11063a-3f72-4638-aeea-0cc770037a10")) (pin "2" (uuid "ba7bfab3-5021-4b3e-9f4e-6581b3a2d08c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D59") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ac11063a-3f72-4638-aeea-0cc770037a10")) (pin "2" (uuid "ba7bfab3-5021-4b3e-9f4e-6581b3a2d08c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D59") (unit 1))))) 
 
 (wire (pts 
 
@@ -3968,7 +3968,7 @@
 
 (property "Datasheet" "~" (at 54.61 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 54.61 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cafc046a-ef90-4f06-bf95-0502ccec955a")) (pin "2" (uuid "94ef2886-2a81-4272-be89-a60b014096d0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW60") (unit 1))))) 
+(property "Description" "" (at 54.61 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cafc046a-ef90-4f06-bf95-0502ccec955a")) (pin "2" (uuid "94ef2886-2a81-4272-be89-a60b014096d0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW60") (unit 1))))) 
 
 (wire (pts 
 
@@ -3998,7 +3998,7 @@
 
 (property "Sim.Device" "D" (at 57.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 57.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d6641b96-1fbe-4074-b3ef-18ec0c284aab")) (pin "2" (uuid "6b99eb2b-5878-46fe-a0ec-b07cc36dd016")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D60") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 57.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d6641b96-1fbe-4074-b3ef-18ec0c284aab")) (pin "2" (uuid "6b99eb2b-5878-46fe-a0ec-b07cc36dd016")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D60") (unit 1))))) 
 
 (wire (pts 
 
@@ -4030,7 +4030,7 @@
 
 (property "Datasheet" "~" (at 67.31 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "33d8074a-7242-488f-82fb-b4c84db9bb70")) (pin "2" (uuid "ca916943-7745-4e64-a781-8b3db753aeb2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW61") (unit 1))))) 
+(property "Description" "" (at 67.31 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "33d8074a-7242-488f-82fb-b4c84db9bb70")) (pin "2" (uuid "ca916943-7745-4e64-a781-8b3db753aeb2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW61") (unit 1))))) 
 
 (wire (pts 
 
@@ -4060,7 +4060,7 @@
 
 (property "Sim.Device" "D" (at 69.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b6b901f6-4575-4b44-badc-43c7eafa540d")) (pin "2" (uuid "779e5029-eab8-4592-b5d6-1fa43928b365")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D61") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b6b901f6-4575-4b44-badc-43c7eafa540d")) (pin "2" (uuid "779e5029-eab8-4592-b5d6-1fa43928b365")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D61") (unit 1))))) 
 
 (wire (pts 
 
@@ -4092,7 +4092,7 @@
 
 (property "Datasheet" "~" (at 80.01 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 80.01 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "64d82d14-d705-436a-9113-4493f003636d")) (pin "2" (uuid "aa5c0c71-5772-449c-bc1d-4c9914e55556")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW62") (unit 1))))) 
+(property "Description" "" (at 80.01 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "64d82d14-d705-436a-9113-4493f003636d")) (pin "2" (uuid "aa5c0c71-5772-449c-bc1d-4c9914e55556")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW62") (unit 1))))) 
 
 (wire (pts 
 
@@ -4122,7 +4122,7 @@
 
 (property "Sim.Device" "D" (at 82.55 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 82.55 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d5568c7f-3ee7-4d2d-9135-bb2d73a1c73b")) (pin "2" (uuid "ac0a98a7-7f50-47d2-98b0-67a58fd0f3d7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D62") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 82.55 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d5568c7f-3ee7-4d2d-9135-bb2d73a1c73b")) (pin "2" (uuid "ac0a98a7-7f50-47d2-98b0-67a58fd0f3d7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D62") (unit 1))))) 
 
 (wire (pts 
 
@@ -4154,7 +4154,7 @@
 
 (property "Datasheet" "~" (at 92.71 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 92.71 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "45d1e754-20b2-45ba-a1b4-ff9bc20409d3")) (pin "2" (uuid "f5784cce-b512-412e-8ce3-69895ab6c450")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW63") (unit 1))))) 
+(property "Description" "" (at 92.71 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "45d1e754-20b2-45ba-a1b4-ff9bc20409d3")) (pin "2" (uuid "f5784cce-b512-412e-8ce3-69895ab6c450")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW63") (unit 1))))) 
 
 (wire (pts 
 
@@ -4184,7 +4184,7 @@
 
 (property "Sim.Device" "D" (at 95.25 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 95.25 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "db64702d-18b8-4c68-80ae-a931ac1d251e")) (pin "2" (uuid "04e7ad54-1ec1-4f0a-8b0b-f6039288b044")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D63") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 95.25 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "db64702d-18b8-4c68-80ae-a931ac1d251e")) (pin "2" (uuid "04e7ad54-1ec1-4f0a-8b0b-f6039288b044")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D63") (unit 1))))) 
 
 (wire (pts 
 
@@ -4216,7 +4216,7 @@
 
 (property "Datasheet" "~" (at 105.41 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e10ce93f-30fe-4d0a-ab8e-d64ad7d80ae3")) (pin "2" (uuid "063840b9-5ef7-4c9d-b06b-3dba5fd91eb9")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW64") (unit 1))))) 
+(property "Description" "" (at 105.41 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e10ce93f-30fe-4d0a-ab8e-d64ad7d80ae3")) (pin "2" (uuid "063840b9-5ef7-4c9d-b06b-3dba5fd91eb9")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW64") (unit 1))))) 
 
 (wire (pts 
 
@@ -4246,7 +4246,7 @@
 
 (property "Sim.Device" "D" (at 107.95 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "488bf0bf-a812-433f-a0b6-0921fd9ab127")) (pin "2" (uuid "1d56674e-6892-416f-9293-c233cca24a5f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D64") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "488bf0bf-a812-433f-a0b6-0921fd9ab127")) (pin "2" (uuid "1d56674e-6892-416f-9293-c233cca24a5f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D64") (unit 1))))) 
 
 (wire (pts 
 
@@ -4278,7 +4278,7 @@
 
 (property "Datasheet" "~" (at 118.11 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 118.11 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9826bb0b-b0c1-4253-8f19-e051dedb973f")) (pin "2" (uuid "afdf0c60-a63e-4310-9603-7da14ed92121")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW65") (unit 1))))) 
+(property "Description" "" (at 118.11 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9826bb0b-b0c1-4253-8f19-e051dedb973f")) (pin "2" (uuid "afdf0c60-a63e-4310-9603-7da14ed92121")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW65") (unit 1))))) 
 
 (wire (pts 
 
@@ -4308,7 +4308,7 @@
 
 (property "Sim.Device" "D" (at 120.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 120.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7a85fe25-7f5c-4ecc-8a6f-55e32c063ad5")) (pin "2" (uuid "d36680df-cc08-42f3-9929-4eca04b562b2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D65") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 120.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7a85fe25-7f5c-4ecc-8a6f-55e32c063ad5")) (pin "2" (uuid "d36680df-cc08-42f3-9929-4eca04b562b2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D65") (unit 1))))) 
 
 (wire (pts 
 
@@ -4340,7 +4340,7 @@
 
 (property "Datasheet" "~" (at 130.81 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 130.81 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9c355ec9-00ab-483a-a37b-3f909063ca9c")) (pin "2" (uuid "8efa72d9-0c63-4d41-87bd-2aa5a9679108")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW66") (unit 1))))) 
+(property "Description" "" (at 130.81 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9c355ec9-00ab-483a-a37b-3f909063ca9c")) (pin "2" (uuid "8efa72d9-0c63-4d41-87bd-2aa5a9679108")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW66") (unit 1))))) 
 
 (wire (pts 
 
@@ -4370,7 +4370,7 @@
 
 (property "Sim.Device" "D" (at 133.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 133.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c3de468b-d9cf-4f14-b552-35e8225c3d73")) (pin "2" (uuid "e40d4d0d-7642-493d-b0f8-00ccc2c877a2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D66") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 133.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c3de468b-d9cf-4f14-b552-35e8225c3d73")) (pin "2" (uuid "e40d4d0d-7642-493d-b0f8-00ccc2c877a2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D66") (unit 1))))) 
 
 (wire (pts 
 
@@ -4402,7 +4402,7 @@
 
 (property "Datasheet" "~" (at 143.51 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 143.51 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "46756702-44e5-463b-9f02-2556b1473ec1")) (pin "2" (uuid "fbdd26df-917a-4abf-8ae8-73c79daf2702")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW67") (unit 1))))) 
+(property "Description" "" (at 143.51 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "46756702-44e5-463b-9f02-2556b1473ec1")) (pin "2" (uuid "fbdd26df-917a-4abf-8ae8-73c79daf2702")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW67") (unit 1))))) 
 
 (wire (pts 
 
@@ -4432,7 +4432,7 @@
 
 (property "Sim.Device" "D" (at 146.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 146.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4aa836f9-8b4a-4e8b-8350-659937b34fc9")) (pin "2" (uuid "1710fb79-cf3b-4632-ad64-47abf6035b12")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D67") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 146.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4aa836f9-8b4a-4e8b-8350-659937b34fc9")) (pin "2" (uuid "1710fb79-cf3b-4632-ad64-47abf6035b12")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D67") (unit 1))))) 
 
 (wire (pts 
 
@@ -4464,7 +4464,7 @@
 
 (property "Datasheet" "~" (at 156.21 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a2d7fbdc-625c-453a-8c42-b857e16aff55")) (pin "2" (uuid "a5f2cba1-aec4-44bb-af5e-5f570b6d962e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW68") (unit 1))))) 
+(property "Description" "" (at 156.21 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a2d7fbdc-625c-453a-8c42-b857e16aff55")) (pin "2" (uuid "a5f2cba1-aec4-44bb-af5e-5f570b6d962e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW68") (unit 1))))) 
 
 (wire (pts 
 
@@ -4494,7 +4494,7 @@
 
 (property "Sim.Device" "D" (at 158.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b46bae03-d307-47bb-8a7e-8afd04aa1630")) (pin "2" (uuid "3d493c5b-2bb9-40ad-b525-0d4426e73142")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D68") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b46bae03-d307-47bb-8a7e-8afd04aa1630")) (pin "2" (uuid "3d493c5b-2bb9-40ad-b525-0d4426e73142")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D68") (unit 1))))) 
 
 (wire (pts 
 
@@ -4526,7 +4526,7 @@
 
 (property "Datasheet" "~" (at 168.91 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b0e4a99c-8f69-40c2-83f9-3fee741dc4c9")) (pin "2" (uuid "e50dbcd7-259b-453b-9f62-eb9e9330804c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW69") (unit 1))))) 
+(property "Description" "" (at 168.91 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b0e4a99c-8f69-40c2-83f9-3fee741dc4c9")) (pin "2" (uuid "e50dbcd7-259b-453b-9f62-eb9e9330804c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW69") (unit 1))))) 
 
 (wire (pts 
 
@@ -4556,7 +4556,7 @@
 
 (property "Sim.Device" "D" (at 171.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fa6b8fc4-f5e5-4ce5-9811-31e552c526c9")) (pin "2" (uuid "4861ced6-14f6-40a5-af80-3591e5bd2094")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D69") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fa6b8fc4-f5e5-4ce5-9811-31e552c526c9")) (pin "2" (uuid "4861ced6-14f6-40a5-af80-3591e5bd2094")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D69") (unit 1))))) 
 
 (wire (pts 
 
@@ -4588,7 +4588,7 @@
 
 (property "Datasheet" "~" (at 181.61 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ac9e3624-7683-47b6-996a-6a318a7dc50c")) (pin "2" (uuid "5365d710-171f-4a85-8427-1cdf5247c776")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW70") (unit 1))))) 
+(property "Description" "" (at 181.61 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ac9e3624-7683-47b6-996a-6a318a7dc50c")) (pin "2" (uuid "5365d710-171f-4a85-8427-1cdf5247c776")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW70") (unit 1))))) 
 
 (wire (pts 
 
@@ -4618,7 +4618,7 @@
 
 (property "Sim.Device" "D" (at 184.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "631bb5b5-c9b2-4acf-8f11-9d156339a295")) (pin "2" (uuid "cb68e26c-be87-4c2d-a44b-fb2a151820a2")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D70") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "631bb5b5-c9b2-4acf-8f11-9d156339a295")) (pin "2" (uuid "cb68e26c-be87-4c2d-a44b-fb2a151820a2")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D70") (unit 1))))) 
 
 (wire (pts 
 
@@ -4650,7 +4650,7 @@
 
 (property "Datasheet" "~" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f43c74d6-b855-4a2d-9cb7-956e4644273b")) (pin "2" (uuid "d28e1dde-7992-4c2c-95a9-6cf8f13231bd")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW71") (unit 1))))) 
+(property "Description" "" (at 194.31 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f43c74d6-b855-4a2d-9cb7-956e4644273b")) (pin "2" (uuid "d28e1dde-7992-4c2c-95a9-6cf8f13231bd")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW71") (unit 1))))) 
 
 (wire (pts 
 
@@ -4680,7 +4680,7 @@
 
 (property "Sim.Device" "D" (at 196.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 196.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c4c003e7-02f2-4d57-82c0-867a12b7fa83")) (pin "2" (uuid "d96016f0-6911-4a5e-9680-cc61b270a668")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D71") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 196.85 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c4c003e7-02f2-4d57-82c0-867a12b7fa83")) (pin "2" (uuid "d96016f0-6911-4a5e-9680-cc61b270a668")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D71") (unit 1))))) 
 
 (wire (pts 
 
@@ -4712,7 +4712,7 @@
 
 (property "Datasheet" "~" (at 245.11 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 245.11 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "25a0b79f-e5b6-40d8-9cd9-b82f0ed7922b")) (pin "2" (uuid "2efcb1cb-10b1-4cbf-b77f-d78b13ec6dc7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW72") (unit 1))))) 
+(property "Description" "" (at 245.11 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "25a0b79f-e5b6-40d8-9cd9-b82f0ed7922b")) (pin "2" (uuid "2efcb1cb-10b1-4cbf-b77f-d78b13ec6dc7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW72") (unit 1))))) 
 
 (wire (pts 
 
@@ -4742,7 +4742,7 @@
 
 (property "Sim.Device" "D" (at 247.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 247.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e11367b8-2823-4516-b541-639f0de9d409")) (pin "2" (uuid "eb7f5b77-303f-44c1-ba34-d7b11bd88120")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D72") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 247.65 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e11367b8-2823-4516-b541-639f0de9d409")) (pin "2" (uuid "eb7f5b77-303f-44c1-ba34-d7b11bd88120")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D72") (unit 1))))) 
 
 (wire (pts 
 
@@ -4774,7 +4774,7 @@
 
 (property "Datasheet" "~" (at 257.81 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 257.81 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6bba4c6f-4f53-44e3-8bae-548c5fcaeb07")) (pin "2" (uuid "7c320be7-72ed-4474-a413-be65dc3b028a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW73") (unit 1))))) 
+(property "Description" "" (at 257.81 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6bba4c6f-4f53-44e3-8bae-548c5fcaeb07")) (pin "2" (uuid "7c320be7-72ed-4474-a413-be65dc3b028a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW73") (unit 1))))) 
 
 (wire (pts 
 
@@ -4804,7 +4804,7 @@
 
 (property "Sim.Device" "D" (at 260.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 260.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "303a821a-8e11-4b53-91c5-8d7a535ac9c3")) (pin "2" (uuid "1a298f30-079b-4a08-9723-5955fc8f295f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D73") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 260.35 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "303a821a-8e11-4b53-91c5-8d7a535ac9c3")) (pin "2" (uuid "1a298f30-079b-4a08-9723-5955fc8f295f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D73") (unit 1))))) 
 
 (wire (pts 
 
@@ -4836,7 +4836,7 @@
 
 (property "Datasheet" "~" (at 270.51 83.82 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 270.51 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "35aefe1a-43e9-4341-a1c0-b25c33db474f")) (pin "2" (uuid "8d236584-49b4-44c0-b100-962d57ec47e1")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW74") (unit 1))))) 
+(property "Description" "" (at 270.51 83.82 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "35aefe1a-43e9-4341-a1c0-b25c33db474f")) (pin "2" (uuid "8d236584-49b4-44c0-b100-962d57ec47e1")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW74") (unit 1))))) 
 
 (wire (pts 
 
@@ -4866,7 +4866,7 @@
 
 (property "Sim.Device" "D" (at 273.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 273.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "854d0725-eade-4326-abb1-0cf4b207e7a6")) (pin "2" (uuid "6a07dd89-1440-4eea-803b-8d97e0739856")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D74") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 273.05 92.71 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "854d0725-eade-4326-abb1-0cf4b207e7a6")) (pin "2" (uuid "6a07dd89-1440-4eea-803b-8d97e0739856")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D74") (unit 1))))) 
 
 (wire (pts 
 
@@ -4898,7 +4898,7 @@
 
 (property "Datasheet" "~" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "81a31c31-8263-4d79-85dc-ddb8c7d71250")) (pin "2" (uuid "c7749a71-11c0-40bb-91b3-ecafe8682996")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW75") (unit 1))))) 
+(property "Description" "" (at 29.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "81a31c31-8263-4d79-85dc-ddb8c7d71250")) (pin "2" (uuid "c7749a71-11c0-40bb-91b3-ecafe8682996")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW75") (unit 1))))) 
 
 (wire (pts 
 
@@ -4928,7 +4928,7 @@
 
 (property "Sim.Device" "D" (at 31.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "120b67bf-1e28-45c1-be78-79d3a9f8e0e2")) (pin "2" (uuid "87b1b71e-0c4b-4c09-a98b-3cb5345e2464")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D75") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "120b67bf-1e28-45c1-be78-79d3a9f8e0e2")) (pin "2" (uuid "87b1b71e-0c4b-4c09-a98b-3cb5345e2464")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D75") (unit 1))))) 
 
 (wire (pts 
 
@@ -4962,7 +4962,7 @@
 
 (property "Datasheet" "~" (at 41.91 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7a5cdac4-e32c-4fcb-8e07-52bedcd11803")) (pin "2" (uuid "d9502cd0-7331-4bb9-93da-b619d52e6db5")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW76") (unit 1))))) 
+(property "Description" "" (at 41.91 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7a5cdac4-e32c-4fcb-8e07-52bedcd11803")) (pin "2" (uuid "d9502cd0-7331-4bb9-93da-b619d52e6db5")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW76") (unit 1))))) 
 
 (wire (pts 
 
@@ -4992,7 +4992,7 @@
 
 (property "Sim.Device" "D" (at 44.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f5d41c24-03aa-47c9-8b97-b53ae9ae8803")) (pin "2" (uuid "a93e6238-1e46-4697-abc6-263066d01d46")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D76") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f5d41c24-03aa-47c9-8b97-b53ae9ae8803")) (pin "2" (uuid "a93e6238-1e46-4697-abc6-263066d01d46")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D76") (unit 1))))) 
 
 (wire (pts 
 
@@ -5024,7 +5024,7 @@
 
 (property "Datasheet" "~" (at 54.61 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 54.61 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "52d124e3-76be-4348-9d3f-78c5ffe7d6b0")) (pin "2" (uuid "4daebaa2-d3dc-451f-a8b4-5b3474a3d80b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW77") (unit 1))))) 
+(property "Description" "" (at 54.61 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "52d124e3-76be-4348-9d3f-78c5ffe7d6b0")) (pin "2" (uuid "4daebaa2-d3dc-451f-a8b4-5b3474a3d80b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW77") (unit 1))))) 
 
 (wire (pts 
 
@@ -5054,7 +5054,7 @@
 
 (property "Sim.Device" "D" (at 57.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 57.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9486db23-4aec-41a0-8387-f26e5bf5d3ec")) (pin "2" (uuid "cdc87961-1f3c-42b4-8ede-f9017f223921")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D77") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 57.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9486db23-4aec-41a0-8387-f26e5bf5d3ec")) (pin "2" (uuid "cdc87961-1f3c-42b4-8ede-f9017f223921")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D77") (unit 1))))) 
 
 (wire (pts 
 
@@ -5086,7 +5086,7 @@
 
 (property "Datasheet" "~" (at 67.31 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "adff908a-9630-4fe8-aeb9-61700db926cd")) (pin "2" (uuid "8a8be963-3c35-40ce-8ce9-ec5a50691c76")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW78") (unit 1))))) 
+(property "Description" "" (at 67.31 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "adff908a-9630-4fe8-aeb9-61700db926cd")) (pin "2" (uuid "8a8be963-3c35-40ce-8ce9-ec5a50691c76")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW78") (unit 1))))) 
 
 (wire (pts 
 
@@ -5116,7 +5116,7 @@
 
 (property "Sim.Device" "D" (at 69.85 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4bf3b85e-fc5e-47cf-b196-6143f5c64ada")) (pin "2" (uuid "19706789-df1b-41d5-a5e2-b66cb831c067")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D78") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4bf3b85e-fc5e-47cf-b196-6143f5c64ada")) (pin "2" (uuid "19706789-df1b-41d5-a5e2-b66cb831c067")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D78") (unit 1))))) 
 
 (wire (pts 
 
@@ -5148,7 +5148,7 @@
 
 (property "Datasheet" "~" (at 80.01 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 80.01 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4fb334a1-71f7-42b2-bbbf-31b2a30a6ad7")) (pin "2" (uuid "71d45961-b684-4897-98c1-17ff99ac2b5b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW79") (unit 1))))) 
+(property "Description" "" (at 80.01 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4fb334a1-71f7-42b2-bbbf-31b2a30a6ad7")) (pin "2" (uuid "71d45961-b684-4897-98c1-17ff99ac2b5b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW79") (unit 1))))) 
 
 (wire (pts 
 
@@ -5178,7 +5178,7 @@
 
 (property "Sim.Device" "D" (at 82.55 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 82.55 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "53aa46ec-4e0f-4cb8-ac70-36ff3dde59be")) (pin "2" (uuid "3d590e66-2978-4aff-9199-ddbc1dbe3bdf")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D79") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 82.55 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "53aa46ec-4e0f-4cb8-ac70-36ff3dde59be")) (pin "2" (uuid "3d590e66-2978-4aff-9199-ddbc1dbe3bdf")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D79") (unit 1))))) 
 
 (wire (pts 
 
@@ -5210,7 +5210,7 @@
 
 (property "Datasheet" "~" (at 92.71 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 92.71 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "28f3e57d-3a53-4cbe-9c78-662b15ec2ee0")) (pin "2" (uuid "296abcd2-a017-4359-95b5-e89a5d6162fa")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW80") (unit 1))))) 
+(property "Description" "" (at 92.71 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "28f3e57d-3a53-4cbe-9c78-662b15ec2ee0")) (pin "2" (uuid "296abcd2-a017-4359-95b5-e89a5d6162fa")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW80") (unit 1))))) 
 
 (wire (pts 
 
@@ -5240,7 +5240,7 @@
 
 (property "Sim.Device" "D" (at 95.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 95.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "24cf9a4b-7d54-4d59-a16d-d44811fd9874")) (pin "2" (uuid "3fd8a891-d995-4d8f-9d04-dad6e3106852")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D80") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 95.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "24cf9a4b-7d54-4d59-a16d-d44811fd9874")) (pin "2" (uuid "3fd8a891-d995-4d8f-9d04-dad6e3106852")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D80") (unit 1))))) 
 
 (wire (pts 
 
@@ -5272,7 +5272,7 @@
 
 (property "Datasheet" "~" (at 105.41 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2346578d-f6f2-4f6c-be3f-81df2d7cb107")) (pin "2" (uuid "fcfa1a64-1959-4e5c-a625-5039556cafd1")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW81") (unit 1))))) 
+(property "Description" "" (at 105.41 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "2346578d-f6f2-4f6c-be3f-81df2d7cb107")) (pin "2" (uuid "fcfa1a64-1959-4e5c-a625-5039556cafd1")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW81") (unit 1))))) 
 
 (wire (pts 
 
@@ -5302,7 +5302,7 @@
 
 (property "Sim.Device" "D" (at 107.95 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4349403a-8832-4e0f-88af-70dd3555452f")) (pin "2" (uuid "bc8ca5ed-f139-40e8-b25d-ef4017de95d3")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D81") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4349403a-8832-4e0f-88af-70dd3555452f")) (pin "2" (uuid "bc8ca5ed-f139-40e8-b25d-ef4017de95d3")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D81") (unit 1))))) 
 
 (wire (pts 
 
@@ -5334,7 +5334,7 @@
 
 (property "Datasheet" "~" (at 118.11 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 118.11 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cc0406f8-9454-4a7b-8338-570e07c455b9")) (pin "2" (uuid "da5c16dd-67d0-469a-9f3f-24af6033d75d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW82") (unit 1))))) 
+(property "Description" "" (at 118.11 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cc0406f8-9454-4a7b-8338-570e07c455b9")) (pin "2" (uuid "da5c16dd-67d0-469a-9f3f-24af6033d75d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW82") (unit 1))))) 
 
 (wire (pts 
 
@@ -5364,7 +5364,7 @@
 
 (property "Sim.Device" "D" (at 120.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 120.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a289ed45-b80d-4087-9a58-f4ab3fd1d8fe")) (pin "2" (uuid "65dd6faf-aa1f-4e0e-aa92-96584ed54874")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D82") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 120.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a289ed45-b80d-4087-9a58-f4ab3fd1d8fe")) (pin "2" (uuid "65dd6faf-aa1f-4e0e-aa92-96584ed54874")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D82") (unit 1))))) 
 
 (wire (pts 
 
@@ -5396,7 +5396,7 @@
 
 (property "Datasheet" "~" (at 130.81 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 130.81 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6e34f0ef-d0e6-4c73-a4cc-e8b1e723e096")) (pin "2" (uuid "37bd0902-2c5d-404b-b4e1-37ca595ab4b0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW83") (unit 1))))) 
+(property "Description" "" (at 130.81 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6e34f0ef-d0e6-4c73-a4cc-e8b1e723e096")) (pin "2" (uuid "37bd0902-2c5d-404b-b4e1-37ca595ab4b0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW83") (unit 1))))) 
 
 (wire (pts 
 
@@ -5426,7 +5426,7 @@
 
 (property "Sim.Device" "D" (at 133.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 133.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48750dff-8832-4937-bd24-1d871aa182f7")) (pin "2" (uuid "bd10e4ce-eb31-4147-84db-792a9938c91b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D83") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 133.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48750dff-8832-4937-bd24-1d871aa182f7")) (pin "2" (uuid "bd10e4ce-eb31-4147-84db-792a9938c91b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D83") (unit 1))))) 
 
 (wire (pts 
 
@@ -5458,7 +5458,7 @@
 
 (property "Datasheet" "~" (at 143.51 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 143.51 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fc6193e4-f6c9-4058-98f2-60502776c79f")) (pin "2" (uuid "ba057cc9-afed-48d9-9bd9-fa26c049cf1f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW84") (unit 1))))) 
+(property "Description" "" (at 143.51 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fc6193e4-f6c9-4058-98f2-60502776c79f")) (pin "2" (uuid "ba057cc9-afed-48d9-9bd9-fa26c049cf1f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW84") (unit 1))))) 
 
 (wire (pts 
 
@@ -5488,7 +5488,7 @@
 
 (property "Sim.Device" "D" (at 146.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 146.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "27daaf2f-7ee2-4b14-972d-e62d772af2a3")) (pin "2" (uuid "2c03aedd-3fbf-4d69-9be5-1130b9726f7d")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D84") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 146.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "27daaf2f-7ee2-4b14-972d-e62d772af2a3")) (pin "2" (uuid "2c03aedd-3fbf-4d69-9be5-1130b9726f7d")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D84") (unit 1))))) 
 
 (wire (pts 
 
@@ -5520,7 +5520,7 @@
 
 (property "Datasheet" "~" (at 156.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a54d3671-92ff-4740-a908-76967ee450f0")) (pin "2" (uuid "3e1f647c-619b-49c5-b902-31beca528ddb")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW85") (unit 1))))) 
+(property "Description" "" (at 156.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a54d3671-92ff-4740-a908-76967ee450f0")) (pin "2" (uuid "3e1f647c-619b-49c5-b902-31beca528ddb")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW85") (unit 1))))) 
 
 (wire (pts 
 
@@ -5550,7 +5550,7 @@
 
 (property "Sim.Device" "D" (at 158.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f4611fec-24a1-4767-b087-aa28d334274a")) (pin "2" (uuid "63f3f0bb-0114-42b0-894b-244dd8fcd22c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D85") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f4611fec-24a1-4767-b087-aa28d334274a")) (pin "2" (uuid "63f3f0bb-0114-42b0-894b-244dd8fcd22c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D85") (unit 1))))) 
 
 (wire (pts 
 
@@ -5582,7 +5582,7 @@
 
 (property "Datasheet" "~" (at 168.91 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4bd3f0e2-21c5-4b13-9164-984acedcdcba")) (pin "2" (uuid "a5b529db-c63f-4f5c-9aa1-3deee3196904")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW86") (unit 1))))) 
+(property "Description" "" (at 168.91 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "4bd3f0e2-21c5-4b13-9164-984acedcdcba")) (pin "2" (uuid "a5b529db-c63f-4f5c-9aa1-3deee3196904")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW86") (unit 1))))) 
 
 (wire (pts 
 
@@ -5612,7 +5612,7 @@
 
 (property "Sim.Device" "D" (at 171.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b545c7f7-88bc-443e-be80-a6be227ade18")) (pin "2" (uuid "be5e851b-7749-4632-a320-462fdce8284a")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D86") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b545c7f7-88bc-443e-be80-a6be227ade18")) (pin "2" (uuid "be5e851b-7749-4632-a320-462fdce8284a")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D86") (unit 1))))) 
 
 (wire (pts 
 
@@ -5644,7 +5644,7 @@
 
 (property "Datasheet" "~" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e470e6ac-5ad3-402c-b79d-55a22396f8fc")) (pin "2" (uuid "656af919-afd7-461a-a864-2b34c6dbc0cf")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW87") (unit 1))))) 
+(property "Description" "" (at 181.61 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e470e6ac-5ad3-402c-b79d-55a22396f8fc")) (pin "2" (uuid "656af919-afd7-461a-a864-2b34c6dbc0cf")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW87") (unit 1))))) 
 
 (wire (pts 
 
@@ -5674,7 +5674,7 @@
 
 (property "Sim.Device" "D" (at 184.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "89b08f2b-ea86-4567-bff2-7ea11e22ae86")) (pin "2" (uuid "8c269e8c-6af9-4262-a563-142aae5e3700")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D87") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "89b08f2b-ea86-4567-bff2-7ea11e22ae86")) (pin "2" (uuid "8c269e8c-6af9-4262-a563-142aae5e3700")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D87") (unit 1))))) 
 
 (wire (pts 
 
@@ -5706,7 +5706,7 @@
 
 (property "Datasheet" "~" (at 219.71 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 219.71 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "df5865d0-572e-41f3-b9b9-6f19b7b418e1")) (pin "2" (uuid "ad9a5e04-fc25-48bc-b720-fa244b506180")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW88") (unit 1))))) 
+(property "Description" "" (at 219.71 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "df5865d0-572e-41f3-b9b9-6f19b7b418e1")) (pin "2" (uuid "ad9a5e04-fc25-48bc-b720-fa244b506180")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW88") (unit 1))))) 
 
 (wire (pts 
 
@@ -5736,7 +5736,7 @@
 
 (property "Sim.Device" "D" (at 222.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 222.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "20245712-c8f4-4f2b-8350-c2821cf3122c")) (pin "2" (uuid "cc9fc487-04df-46fe-8581-0288b4569077")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D88") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 222.25 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "20245712-c8f4-4f2b-8350-c2821cf3122c")) (pin "2" (uuid "cc9fc487-04df-46fe-8581-0288b4569077")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D88") (unit 1))))) 
 
 (wire (pts 
 
@@ -5768,7 +5768,7 @@
 
 (property "Datasheet" "~" (at 245.11 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 245.11 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e6672592-e275-49b4-858f-51718179de11")) (pin "2" (uuid "202df006-d2f6-4d28-a865-5038b9127c0c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW89") (unit 1))))) 
+(property "Description" "" (at 245.11 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e6672592-e275-49b4-858f-51718179de11")) (pin "2" (uuid "202df006-d2f6-4d28-a865-5038b9127c0c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW89") (unit 1))))) 
 
 (wire (pts 
 
@@ -5798,7 +5798,7 @@
 
 (property "Sim.Device" "D" (at 247.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 247.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "11228349-9211-4a12-9c2c-c27a273985a4")) (pin "2" (uuid "133ef6dc-7269-46fc-ae50-25e688172dbe")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D89") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 247.65 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "11228349-9211-4a12-9c2c-c27a273985a4")) (pin "2" (uuid "133ef6dc-7269-46fc-ae50-25e688172dbe")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D89") (unit 1))))) 
 
 (wire (pts 
 
@@ -5830,7 +5830,7 @@
 
 (property "Datasheet" "~" (at 257.81 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 257.81 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "755566d0-e5d2-41d8-a78f-91957ebd9ffb")) (pin "2" (uuid "abc1dca2-6bb2-457c-8c22-02c6269e4471")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW90") (unit 1))))) 
+(property "Description" "" (at 257.81 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "755566d0-e5d2-41d8-a78f-91957ebd9ffb")) (pin "2" (uuid "abc1dca2-6bb2-457c-8c22-02c6269e4471")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW90") (unit 1))))) 
 
 (wire (pts 
 
@@ -5860,7 +5860,7 @@
 
 (property "Sim.Device" "D" (at 260.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 260.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "573a22cc-aa1c-4d0b-b6f9-04ab2538b824")) (pin "2" (uuid "b35cf29b-d3d9-44fc-aea8-96ee5bca874b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D90") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 260.35 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "573a22cc-aa1c-4d0b-b6f9-04ab2538b824")) (pin "2" (uuid "b35cf29b-d3d9-44fc-aea8-96ee5bca874b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D90") (unit 1))))) 
 
 (wire (pts 
 
@@ -5892,7 +5892,7 @@
 
 (property "Datasheet" "~" (at 270.51 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 270.51 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "59923116-ab44-4a90-9720-38905d01dd80")) (pin "2" (uuid "d0c5d836-bb33-4d8b-93f1-87fd618becb0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW91") (unit 1))))) 
+(property "Description" "" (at 270.51 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "59923116-ab44-4a90-9720-38905d01dd80")) (pin "2" (uuid "d0c5d836-bb33-4d8b-93f1-87fd618becb0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW91") (unit 1))))) 
 
 (wire (pts 
 
@@ -5922,7 +5922,7 @@
 
 (property "Sim.Device" "D" (at 273.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 273.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f167a578-fb73-4205-885b-95722f1bdeae")) (pin "2" (uuid "5ca83e11-4dfa-40b4-8452-88c08a78c412")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D91") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 273.05 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f167a578-fb73-4205-885b-95722f1bdeae")) (pin "2" (uuid "5ca83e11-4dfa-40b4-8452-88c08a78c412")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D91") (unit 1))))) 
 
 (wire (pts 
 
@@ -5954,7 +5954,7 @@
 
 (property "Datasheet" "~" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "860c62c1-0673-4067-9866-25d48a1b010d")) (pin "2" (uuid "c91a632c-5621-49ff-a5bb-4cf74060ec5f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW92") (unit 1))))) 
+(property "Description" "" (at 283.21 104.14 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "860c62c1-0673-4067-9866-25d48a1b010d")) (pin "2" (uuid "c91a632c-5621-49ff-a5bb-4cf74060ec5f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW92") (unit 1))))) 
 
 (wire (pts 
 
@@ -5984,7 +5984,7 @@
 
 (property "Sim.Device" "D" (at 285.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 285.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "80e0280c-f72f-4d31-8986-b700d2b344b7")) (pin "2" (uuid "6d61a3ad-7786-426d-8326-cdb1a751a43c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D92") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 285.75 113.03 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "80e0280c-f72f-4d31-8986-b700d2b344b7")) (pin "2" (uuid "6d61a3ad-7786-426d-8326-cdb1a751a43c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D92") (unit 1))))) 
 
 (wire (pts 
 
@@ -6016,7 +6016,7 @@
 
 (property "Datasheet" "~" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c912fc71-279f-4d5a-9e10-b759d32f93bc")) (pin "2" (uuid "c2da1149-156f-4f84-b7e1-6656a58de6a5")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW93") (unit 1))))) 
+(property "Description" "" (at 29.21 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c912fc71-279f-4d5a-9e10-b759d32f93bc")) (pin "2" (uuid "c2da1149-156f-4f84-b7e1-6656a58de6a5")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW93") (unit 1))))) 
 
 (wire (pts 
 
@@ -6046,7 +6046,7 @@
 
 (property "Sim.Device" "D" (at 31.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 31.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "22dcc073-645b-4e76-bb80-1eda17cd7b3b")) (pin "2" (uuid "7f0db772-52be-4267-9468-3a4a8ba8c3cc")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D93") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 31.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "22dcc073-645b-4e76-bb80-1eda17cd7b3b")) (pin "2" (uuid "7f0db772-52be-4267-9468-3a4a8ba8c3cc")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D93") (unit 1))))) 
 
 (wire (pts 
 
@@ -6080,7 +6080,7 @@
 
 (property "Datasheet" "~" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "488e8150-6a8c-4d95-b8c0-d8e846094233")) (pin "2" (uuid "43131acb-41ed-49d9-bd66-e583b3017d76")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW94") (unit 1))))) 
+(property "Description" "" (at 41.91 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "488e8150-6a8c-4d95-b8c0-d8e846094233")) (pin "2" (uuid "43131acb-41ed-49d9-bd66-e583b3017d76")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW94") (unit 1))))) 
 
 (wire (pts 
 
@@ -6110,7 +6110,7 @@
 
 (property "Sim.Device" "D" (at 44.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 44.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ca47546-af8b-4747-9f9f-0e82c2722c08")) (pin "2" (uuid "0ae5998a-d682-44dd-ac31-3eae319a7c42")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D94") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 44.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ca47546-af8b-4747-9f9f-0e82c2722c08")) (pin "2" (uuid "0ae5998a-d682-44dd-ac31-3eae319a7c42")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D94") (unit 1))))) 
 
 (wire (pts 
 
@@ -6142,7 +6142,7 @@
 
 (property "Datasheet" "~" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5d69c91a-6484-4d2e-a44b-1ee897c3dc21")) (pin "2" (uuid "db5e6d0f-e6e0-47a6-af39-ca9b730595c9")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW95") (unit 1))))) 
+(property "Description" "" (at 67.31 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5d69c91a-6484-4d2e-a44b-1ee897c3dc21")) (pin "2" (uuid "db5e6d0f-e6e0-47a6-af39-ca9b730595c9")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW95") (unit 1))))) 
 
 (wire (pts 
 
@@ -6172,7 +6172,7 @@
 
 (property "Sim.Device" "D" (at 69.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 69.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ae00859-4817-4ece-ad7d-b73c7d94b078")) (pin "2" (uuid "25cb417a-40fc-42ad-8abf-279f9fda2cba")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D95") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 69.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ae00859-4817-4ece-ad7d-b73c7d94b078")) (pin "2" (uuid "25cb417a-40fc-42ad-8abf-279f9fda2cba")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D95") (unit 1))))) 
 
 (wire (pts 
 
@@ -6204,7 +6204,7 @@
 
 (property "Datasheet" "~" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7c74b171-92b5-4329-a056-5184ec9afd87")) (pin "2" (uuid "ccd13dd8-7609-4f3f-95e0-9ec255c7f142")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW96") (unit 1))))) 
+(property "Description" "" (at 105.41 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7c74b171-92b5-4329-a056-5184ec9afd87")) (pin "2" (uuid "ccd13dd8-7609-4f3f-95e0-9ec255c7f142")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW96") (unit 1))))) 
 
 (wire (pts 
 
@@ -6234,7 +6234,7 @@
 
 (property "Sim.Device" "D" (at 107.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 107.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "07377412-fb63-445a-bdac-110360e8d335")) (pin "2" (uuid "ace6d2e3-2a7f-40cd-bad6-dc598ef8b701")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D96") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 107.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "07377412-fb63-445a-bdac-110360e8d335")) (pin "2" (uuid "ace6d2e3-2a7f-40cd-bad6-dc598ef8b701")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D96") (unit 1))))) 
 
 (wire (pts 
 
@@ -6266,7 +6266,7 @@
 
 (property "Datasheet" "~" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8ea98381-adb1-4842-9411-d553ce5cae1a")) (pin "2" (uuid "5fad8033-54c1-49b6-8068-5a812fb4ce3e")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW97") (unit 1))))) 
+(property "Description" "" (at 156.21 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8ea98381-adb1-4842-9411-d553ce5cae1a")) (pin "2" (uuid "5fad8033-54c1-49b6-8068-5a812fb4ce3e")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW97") (unit 1))))) 
 
 (wire (pts 
 
@@ -6296,7 +6296,7 @@
 
 (property "Sim.Device" "D" (at 158.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 158.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ccb6c4d9-4c79-408e-bcfa-9fa65ffc3a0c")) (pin "2" (uuid "e6a8ae5e-a082-4d56-9908-30f1f11cd563")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D97") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 158.75 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ccb6c4d9-4c79-408e-bcfa-9fa65ffc3a0c")) (pin "2" (uuid "e6a8ae5e-a082-4d56-9908-30f1f11cd563")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D97") (unit 1))))) 
 
 (wire (pts 
 
@@ -6328,7 +6328,7 @@
 
 (property "Datasheet" "~" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0e476f4f-d51a-4509-b03f-dfa517342140")) (pin "2" (uuid "71c4dfe5-e8c0-4803-a40e-6ba4326c09d0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW98") (unit 1))))) 
+(property "Description" "" (at 168.91 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0e476f4f-d51a-4509-b03f-dfa517342140")) (pin "2" (uuid "71c4dfe5-e8c0-4803-a40e-6ba4326c09d0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW98") (unit 1))))) 
 
 (wire (pts 
 
@@ -6358,7 +6358,7 @@
 
 (property "Sim.Device" "D" (at 171.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 171.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2e0b4018-c47c-4349-82e5-eacd9c497ca6")) (pin "2" (uuid "882ddde7-f991-463a-931c-279e9a297144")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D98") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 171.45 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2e0b4018-c47c-4349-82e5-eacd9c497ca6")) (pin "2" (uuid "882ddde7-f991-463a-931c-279e9a297144")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D98") (unit 1))))) 
 
 (wire (pts 
 
@@ -6390,7 +6390,7 @@
 
 (property "Datasheet" "~" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f30a94f1-566a-40c9-8743-256631c0b9f4")) (pin "2" (uuid "cf741480-b0da-4ba0-b48b-bc8cf2ae0769")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW99") (unit 1))))) 
+(property "Description" "" (at 181.61 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f30a94f1-566a-40c9-8743-256631c0b9f4")) (pin "2" (uuid "cf741480-b0da-4ba0-b48b-bc8cf2ae0769")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW99") (unit 1))))) 
 
 (wire (pts 
 
@@ -6420,7 +6420,7 @@
 
 (property "Sim.Device" "D" (at 184.15 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 184.15 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "18906b64-bb9e-42e5-abf0-d8db0b500162")) (pin "2" (uuid "fde27c70-4244-46a0-8b26-0124d199178c")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D99") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 184.15 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "18906b64-bb9e-42e5-abf0-d8db0b500162")) (pin "2" (uuid "fde27c70-4244-46a0-8b26-0124d199178c")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D99") (unit 1))))) 
 
 (wire (pts 
 
@@ -6452,7 +6452,7 @@
 
 (property "Datasheet" "~" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3ee4e1e7-ce62-491c-b9f9-b722075186b7")) (pin "2" (uuid "2959f382-8d6e-4924-81a7-418110adc4b5")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW100") (unit 1))))) 
+(property "Description" "" (at 194.31 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3ee4e1e7-ce62-491c-b9f9-b722075186b7")) (pin "2" (uuid "2959f382-8d6e-4924-81a7-418110adc4b5")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW100") (unit 1))))) 
 
 (wire (pts 
 
@@ -6482,7 +6482,7 @@
 
 (property "Sim.Device" "D" (at 196.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 196.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ddfd754-6b4f-41f6-9532-748b58077862")) (pin "2" (uuid "88735b2a-4ff4-4c0a-833b-acbf28cb5cc9")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D100") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 196.85 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5ddfd754-6b4f-41f6-9532-748b58077862")) (pin "2" (uuid "88735b2a-4ff4-4c0a-833b-acbf28cb5cc9")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D100") (unit 1))))) 
 
 (wire (pts 
 
@@ -6514,7 +6514,7 @@
 
 (property "Datasheet" "~" (at 207.01 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 207.01 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a8911ad3-5858-480c-8cad-fccba45aea6f")) (pin "2" (uuid "b6d3bef5-24f3-4661-a48f-fc8877f45fb8")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW101") (unit 1))))) 
+(property "Description" "" (at 207.01 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a8911ad3-5858-480c-8cad-fccba45aea6f")) (pin "2" (uuid "b6d3bef5-24f3-4661-a48f-fc8877f45fb8")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW101") (unit 1))))) 
 
 (wire (pts 
 
@@ -6544,7 +6544,7 @@
 
 (property "Sim.Device" "D" (at 209.55 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 209.55 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f8514b96-4eca-4f4f-a9cd-4574a7a65fb2")) (pin "2" (uuid "84bf684a-0255-4876-83f7-c0b2d5586ee0")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D101") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 209.55 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f8514b96-4eca-4f4f-a9cd-4574a7a65fb2")) (pin "2" (uuid "84bf684a-0255-4876-83f7-c0b2d5586ee0")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D101") (unit 1))))) 
 
 (wire (pts 
 
@@ -6576,7 +6576,7 @@
 
 (property "Datasheet" "~" (at 219.71 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 219.71 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c1fdc659-39b4-4631-8639-f4631f7b304b")) (pin "2" (uuid "b3f4e237-6d70-4f73-9af4-cf236ac1660b")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW102") (unit 1))))) 
+(property "Description" "" (at 219.71 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c1fdc659-39b4-4631-8639-f4631f7b304b")) (pin "2" (uuid "b3f4e237-6d70-4f73-9af4-cf236ac1660b")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW102") (unit 1))))) 
 
 (wire (pts 
 
@@ -6606,7 +6606,7 @@
 
 (property "Sim.Device" "D" (at 222.25 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 222.25 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d31b6b4e-05cb-4771-ae47-263ff095b606")) (pin "2" (uuid "4cd9f5e7-f831-40b1-adb2-0abb14a42728")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D102") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 222.25 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d31b6b4e-05cb-4771-ae47-263ff095b606")) (pin "2" (uuid "4cd9f5e7-f831-40b1-adb2-0abb14a42728")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D102") (unit 1))))) 
 
 (wire (pts 
 
@@ -6638,7 +6638,7 @@
 
 (property "Datasheet" "~" (at 232.41 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 232.41 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "361a8357-211c-4924-8d27-3d0d35fdd245")) (pin "2" (uuid "2696d039-1082-465b-974b-8f34e58cefd7")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW103") (unit 1))))) 
+(property "Description" "" (at 232.41 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "361a8357-211c-4924-8d27-3d0d35fdd245")) (pin "2" (uuid "2696d039-1082-465b-974b-8f34e58cefd7")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW103") (unit 1))))) 
 
 (wire (pts 
 
@@ -6668,7 +6668,7 @@
 
 (property "Sim.Device" "D" (at 234.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 234.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "84d4308e-1d95-4117-8fe4-843b32c1a9ff")) (pin "2" (uuid "7c0ea1fa-560b-45c5-b0b5-943a96c24560")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D103") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 234.95 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "84d4308e-1d95-4117-8fe4-843b32c1a9ff")) (pin "2" (uuid "7c0ea1fa-560b-45c5-b0b5-943a96c24560")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D103") (unit 1))))) 
 
 (wire (pts 
 
@@ -6700,7 +6700,7 @@
 
 (property "Datasheet" "~" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6f6c5738-2a57-45c0-805f-1d84324959be")) (pin "2" (uuid "72811c2f-46ad-42fe-bfd4-fb26fe9c3807")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW104") (unit 1))))) 
+(property "Description" "" (at 245.11 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6f6c5738-2a57-45c0-805f-1d84324959be")) (pin "2" (uuid "72811c2f-46ad-42fe-bfd4-fb26fe9c3807")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW104") (unit 1))))) 
 
 (wire (pts 
 
@@ -6730,7 +6730,7 @@
 
 (property "Sim.Device" "D" (at 247.65 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 247.65 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "16335a1b-4655-4b8e-bf88-92e4d89f4531")) (pin "2" (uuid "2f7d19b2-6739-476b-a614-7eb6967035db")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D104") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 247.65 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "16335a1b-4655-4b8e-bf88-92e4d89f4531")) (pin "2" (uuid "2f7d19b2-6739-476b-a614-7eb6967035db")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D104") (unit 1))))) 
 
 (wire (pts 
 
@@ -6762,7 +6762,7 @@
 
 (property "Datasheet" "~" (at 270.51 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Description" "" (at 270.51 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1aa67ba8-7590-426f-bd3a-23c37cbdb631")) (pin "2" (uuid "15f65e73-174a-4b3c-a4a8-e23b32e80b62")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW105") (unit 1))))) 
+(property "Description" "" (at 270.51 124.46 0) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1aa67ba8-7590-426f-bd3a-23c37cbdb631")) (pin "2" (uuid "15f65e73-174a-4b3c-a4a8-e23b32e80b62")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "SW105") (unit 1))))) 
 
 (wire (pts 
 
@@ -6792,7 +6792,7 @@
 
 (property "Sim.Device" "D" (at 273.05 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) 
 
-(property "Sim.Pins" "1=K 2=A" (at 273.05 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9fed4f9d-6634-4e03-8d90-a7724710207f")) (pin "2" (uuid "fe8156a3-8a69-4648-96ec-30e07d6b9a1f")) (instances (project "keyboard-fullsize" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D105") (unit 1))))) 
+(property "Sim.Pins" "1=K 2=A" (at 273.05 133.35 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9fed4f9d-6634-4e03-8d90-a7724710207f")) (pin "2" (uuid "fe8156a3-8a69-4648-96ec-30e07d6b9a1f")) (instances (project "convertible-keyboard-pcb" (path "/adcd902f-6f68-4580-a98c-38219e33a0b5" (reference "D105") (unit 1))))) 
 
 (wire (pts 
 
