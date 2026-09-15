@@ -1384,8 +1384,224 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016)
+						(xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762)
+						(xy -0.508 1.27)
+						(xy -0.254 1.27)
+						(xy -0.508 1.27)
+						(xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27)
+						(xy 0 1.778)
+						(xy 0.254 1.778)
+						(xy 0 1.778)
+						(xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016)
+						(xy -0.762 0)
+						(xy 0.762 1.016)
+						(xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0)
+						(xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "Backlight - every lit key has its own LED (unit B of the switch symbol) and series resistor.\nThe through-hole LEDs are optional; resistors and drivers are always populated.\nLED pin 3 = anode, pin 4 = cathode. 1k gives about 2 mA per white LED at 5 V.\nCaps Lock (SW58) and Num Lock (SW34) LEDs are lock indicators with their own drivers.\nSW106 (ANSI backslash) has no LED."
+	(text "Backlight - every lit key has its own LED (unit B of the switch symbol) and series resistor.\nThe through-hole LEDs are optional; resistors and drivers are always populated.\nLED pin 3 = anode, pin 4 = cathode. 1k gives about 2 mA per white LED at 5 V.\nCaps Lock and Num Lock have separate indicator LEDs above the navigation cluster (bottom right).\nSW106 (ANSI backslash) has no LED."
 		(exclude_from_sim no)
 		(at 22.86 12.7 0)
 		(effects
@@ -9579,7 +9795,7 @@
 		)
 		(uuid "42b9fa29-c2b8-54b3-b613-e363bbc4fc0e")
 	)
-	(label "NUM_K"
+	(label "BL_K"
 		(at 297.18 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15363,7 +15579,7 @@
 		)
 		(uuid "aaf87c69-3e2d-5be6-a6cb-6fd987a3b86b")
 	)
-	(label "CAPS_K"
+	(label "BL_K"
 		(at 297.18 147.32 0)
 		(fields_autoplaced yes)
 		(effects
@@ -28465,6 +28681,735 @@
 				)
 			)
 		)
+	)
+	(text "Lock indicators above the navigation cluster - populate either the 3 mm THT or the 0805 LED"
+		(exclude_from_sim no)
+		(at 228.6 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3d7ed4f5-5834-574a-b3fb-ca0f8ea8f351")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 233.68 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acf7e197-3e8b-5906-83ad-5c3574992009")
+		(property "Reference" "R128"
+			(at 235.712 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 235.712 258.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 233.68 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0720bc3e-7449-52cd-82d3-11dfd5af0e7e")
+		)
+		(pin "2"
+			(uuid "8cbe50f4-35ff-58f7-91e3-e26926b6ceab")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "R128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f984b9ce-2d1f-5285-8384-7562f2f5481b")
+		(property "Reference" "#PWR0114"
+			(at 233.68 257.81 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 233.68 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 233.68 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7d365c1-2605-50d4-b855-19a117122d90")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 233.68 264.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9cbb94c-feca-5825-83c8-7704828f249b")
+		(property "Reference" "D123"
+			(at 229.87 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3mm"
+			(at 229.87 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 233.68 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 233.68 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93006c8c-3252-5421-a61b-69e86ef7e3df")
+		)
+		(pin "2"
+			(uuid "a20de66e-8d5b-58f4-9d5c-2a520a2f1658")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "D123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 241.3 264.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a99cb8e0-e137-51b0-9cb6-803222dd0392")
+		(property "Reference" "D124"
+			(at 245.11 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805"
+			(at 245.11 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 241.3 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 241.3 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a2928fa-ef1c-5b74-83a9-a007c008c5f3")
+		)
+		(pin "2"
+			(uuid "4f17d034-af4c-52bf-aec9-8a2b239f8c21")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "D124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 233.68 259.08)
+			(xy 233.68 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20d6013-d66b-5147-ace6-fd696be1984b")
+	)
+	(wire
+		(pts
+			(xy 233.68 261.62)
+			(xy 241.3 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b8c98b-4cb1-5efe-9072-312d320e9aa4")
+	)
+	(junction
+		(at 233.68 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84bba527-bc75-582b-9f49-a79ae2877a7d")
+	)
+	(wire
+		(pts
+			(xy 233.68 266.7)
+			(xy 233.68 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f8345e-9d2b-5f4e-a602-c3ea310049b5")
+	)
+	(wire
+		(pts
+			(xy 241.3 266.7)
+			(xy 241.3 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc58e0b3-b56a-5e80-8e41-33f0ecabbee9")
+	)
+	(wire
+		(pts
+			(xy 233.68 269.24)
+			(xy 241.3 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18179932-eb4e-5925-a02d-94171aca8aef")
+	)
+	(label "NUM_K"
+		(at 241.3 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b754f16-93bc-5951-94cc-f4d062c021ee")
+	)
+	(text "Num Lock"
+		(exclude_from_sim no)
+		(at 231.14 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "18faf6a0-a925-5f57-a615-0ca152081a42")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c4400bf-9c85-5a9c-a183-af61c43df9ef")
+		(property "Reference" "R127"
+			(at 266.192 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 266.192 258.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 264.16 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 264.16 256.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c070f3d3-5153-5baa-9218-733ac2bf0fcb")
+		)
+		(pin "2"
+			(uuid "61bf44fb-850f-5c82-8988-c29713eb9c96")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 264.16 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f1a3fc1-c4d6-53a8-a8d5-aef549006f6a")
+		(property "Reference" "#PWR0115"
+			(at 264.16 257.81 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 264.16 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 254 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94f00010-1017-5f13-804f-a51ad88c18c8")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 264.16 264.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8a912cb-91f1-5f77-ba44-53038894d0ae")
+		(property "Reference" "D121"
+			(at 260.35 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3mm"
+			(at 260.35 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 264.16 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 264.16 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dc9446f-9864-5126-bd3c-e6bbac97cdeb")
+		)
+		(pin "2"
+			(uuid "422009ba-4bcb-50cd-95e0-8aac98da2965")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "D121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 271.78 264.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c3192ec-6c88-5dfb-8489-3994fd64d565")
+		(property "Reference" "D122"
+			(at 275.59 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805"
+			(at 275.59 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 271.78 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 271.78 264.16 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10c96c7e-1a20-54c2-a097-0ef201077db9")
+		)
+		(pin "2"
+			(uuid "ea8e4aea-b452-5556-b456-aa4ecbc77d7a")
+		)
+		(instances
+			(project "convertible-keyboard-pcb"
+				(path "/adcd902f-6f68-4580-a98c-38219e33a0b5/d7953a0c-6ebe-5939-8a80-35988f28d299"
+					(reference "D122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 264.16 259.08)
+			(xy 264.16 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed8e1f5-1bf4-5163-86b1-bdb0c13584d9")
+	)
+	(wire
+		(pts
+			(xy 264.16 261.62)
+			(xy 271.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6eae27-f7c6-5662-949a-e1c500ccba4e")
+	)
+	(junction
+		(at 264.16 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c554d9-ef4f-5c96-baf1-c4558ea3efd9")
+	)
+	(wire
+		(pts
+			(xy 264.16 266.7)
+			(xy 264.16 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409f7e95-da0d-57d9-b5e1-cab6ae7653f6")
+	)
+	(wire
+		(pts
+			(xy 271.78 266.7)
+			(xy 271.78 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423e7aaf-0752-5744-9f2d-6141d8fda145")
+	)
+	(wire
+		(pts
+			(xy 264.16 269.24)
+			(xy 271.78 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f149f1e-fb39-5825-85a9-1a522b1623b8")
+	)
+	(label "CAPS_K"
+		(at 271.78 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26ea401-d332-5ec7-b89f-dca7963ca648")
+	)
+	(text "Caps Lock"
+		(exclude_from_sim no)
+		(at 261.62 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a4962e10-135f-5e34-9764-ddea4e7a3d23")
 	)
 	(embedded_fonts no)
 )

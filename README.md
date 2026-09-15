@@ -50,7 +50,8 @@ bending it into something else.
 - USB-C (USB 2.0) with ESD protection, 500 mA polyfuse and a 3.3 V LDO
 - Single-colour backlight: resistors and MOSFET on the board, the LEDs themselves
   are optional — switched, dimmed and "breathing" via QMK
-- Caps Lock and Num Lock indicators: the LEDs in those two keys
+- Caps Lock and Num Lock indicators above the navigation cluster, so they stay on
+  the TKL – 3 mm THT or 0805 SMD, whichever you populate
 - All 30 RP2040 GPIOs in use: 27 matrix lines, backlight PWM, Caps Lock and
   Num Lock
 

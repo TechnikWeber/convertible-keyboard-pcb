@@ -16,7 +16,10 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 ## Wandel-Konzept Full-Size ↔ TKL
 
 - Alles Aktive (MCU, USB-C, Treiber für Beleuchtung und Lock-LEDs) auf dem TKL-Teil. Über die Bruchkante nur
-  Matrixleitungen des Ziffernblocks (COL17–COL20, ROW1–ROW5) sowie +5V, BL_K und NUM_K für die Ziffernblock-LEDs.
+  Matrixleitungen des Ziffernblocks (COL17–COL20, ROW1–ROW5) sowie +5V und BL_K für die Ziffernblock-LEDs.
+- Lock-Anzeigen über dem Navigationsblock im Spalt zwischen F-Reihe und Zahlenreihe (TKL-Teil, vom Nutzer gewählt):
+  Num x = 338,14, Caps x = 357,19 (Mitte zwischen den Navigationstasten), THT bei y = 51, 0805 bei y = 56,5,
+  Widerstände auf B.Cu. Fest in tools/place_override.json ("absolute").
 - Nach dem Abbrechen: Ziffernblocktasten existieren nicht mehr, Firmware unverändert (QMK mit beiden Layouts).
   Abgebrochener Ziffernblock hat keinen eigenen Controller.
 - Bruchkante: Navigationsblock-Tastenrand x = 376.2375, Ziffernblock-Tastenrand x = 381.0 (mm).
@@ -26,8 +29,9 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 
 - Root `convertible-keyboard-pcb.kicad_sch`: Matrix (kbplacer) + ANSI-Alternativen SW106–108/D106–108 + Blattsymbole.
 - `backlight.kicad_sch`: je beleuchteter Taste Einheit B von `keyboard:SW_MX_LED` + Rn (1k, 0603, gleiche Nummer
-  wie die Taste) an +5V, Kathoden an BL_K. Q1 AO3400A (Gate BL_PWM), Q2/Q3 2N7002 für CAPS_K (SW58) und
-  NUM_K (SW34); Gate 100 Ω, Pulldown 100k (R121–R126).
+  wie die Taste) an +5V, Kathoden an BL_K (auch Caps und Num). Q1 AO3400A (Gate BL_PWM), Q2/Q3 2N7002 für
+  CAPS_K und NUM_K; Gate 100 Ω, Pulldown 100k (R121–R126). Lock-Anzeigen: je 1k (R127 Caps, R128 Num) und
+  zwei LEDs parallel, eine davon bestücken (Nutzerwunsch): D121/D123 3 mm THT, D122/D124 0805 SMD.
 - `mcu.kicad_sch`: U1 RP2040, U2 W25Q16JVSS, Y1 12 MHz (2× 15p, 1k an XOUT), U3 AP2112K-3.3, U4 USBLC6-2SC6,
   J1 USB-C HRO TYPE-C-31-M-12 (CC 5k1, Schirm 1M‖4n7), F1 Polyfuse 500 mA, R204/R205 27 Ω,
   SW201 RESET (RUN, 10k Pull-up), SW202 BOOTSEL (1k an QSPI_SS), TP1–TP4 SWCLK/SWDIO/RUN/GND.
@@ -77,8 +81,7 @@ Footprint-Änderungen immer in Schaltplan (`Footprint`-Property der Symbolinstan
 | SW30 | Backspace | 2u | 1/13 | MXOnly-2U |
 | SW38 | Tab | 1.5u | 2/0 | MXOnly-1.5U |
 | SW57 | Num + | 2u vertikal | 2/20 | MXOnly-2U-VerticalStabilizers |
-| SW58 | Caps (LED = Caps-Lock-Anzeige) | 1.75u | 3/0 | MXOnly-1.75U |
-| SW34 | Num Lock (LED = Num-Lock-Anzeige) | 1u | 1/17 | MXOnly-1U |
+| SW58 | Caps | 1.75u | 3/0 | MXOnly-1.75U |
 | SW70 | `#` (ISO) | 1u | 3/12 | MXOnly-1U |
 | SW71 | ISO-Enter | ISO | 3/13 | keyboard:MXOnly-ISO-FLIPPED |
 | SW75 | Shift links (ISO) | 1.25u | 4/0 | MXOnly-1.25U |
@@ -103,6 +106,7 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°. Ausnahmen wegen ISO/ANSI:
   D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°; R108 (−3.0, +9.7) und
   D108 (+3.5, +9.7) 0°.
+- Lock-Anzeigen D121–D124 mit R127/R128 stehen bereits an ihrer Position über dem Navigationsblock.
 - MCU-, USB- und Treiberbauteile liegen unplatziert in einem Raster unterhalb der Tasten (y ≥ 175 mm).
 
 ## Bekannter DRC-Stand (2026-09-15)
@@ -119,7 +123,8 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] 17 Nicht-1u-Footprints, Projekt-Bibliothekstabellen
 - [x] Öffentliches GitHub-Repo mit README (EN/DE), LICENSE; Umbenennung in convertible-keyboard-pcb
 - [x] ANSI-Alternativen (Schaltplan + PCB)
-- [x] Einfarbige Beleuchtung: LED-Footprints, Vorwiderstände, MOSFET-Treiber, Caps-/Num-Lock-Anzeige
+- [x] Einfarbige Beleuchtung: LED-Footprints, Vorwiderstände, MOSFET-Treiber
+- [x] Eigene Caps-/Num-Lock-Anzeige über dem Navigationsblock (3 mm THT oder 0805)
 - [x] MCU-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD, Taster, SWD-Testpads
 - [ ] Platzierung MCU/USB/Treiber auf dem TKL-Teil (USB-C-Lage mit Gehäuse-Designer abstimmen)
 - [ ] Sollbruchstelle (Mouse Bites) zwischen Navigationsblock und Ziffernblock

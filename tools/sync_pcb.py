@@ -23,7 +23,9 @@ KEYPOS = {"SW106": (314.325 - 1.5 * U / 2, 85.725, 270),
           "SW107": (314.325 - 2.25 * U / 2, 104.775, 0),
           "SW108": (28.575 + 2.25 * U / 2, 123.825, 0)}
 REL = {"D": (5.08, 4.0), "R": (-5.08, 4.0)}          # relative to the switch, B.Cu, 90°
-OVERRIDE = json.load(open(f"{HERE}/place_override.json")) if os.path.exists(f"{HERE}/place_override.json") else {}
+_place = json.load(open(f"{HERE}/place_override.json"))
+OVERRIDE = _place["relative"]   # ref: (dx, dy, rot) from its switch, B.Cu
+ABSOLUTE = _place["absolute"]   # ref: (x, y, rot, side)
 
 
 def mm(x, y):
@@ -86,6 +88,12 @@ for ref, o, new in todo:
         if o.IsFlipped():
             new.SetLayerAndFlip(pcbnew.B_Cu)
         new.SetOrientation(o.GetOrientation())
+    elif ref in ABSOLUTE:
+        x, y, rot, side = ABSOLUTE[ref]
+        new.SetPosition(mm(x, y))
+        if side == "B":
+            new.SetLayerAndFlip(pcbnew.B_Cu)
+        new.SetOrientationDegrees(rot)
     elif ref in KEYPOS:
         x, y, rot = KEYPOS[ref]
         new.SetPosition(mm(x, y))

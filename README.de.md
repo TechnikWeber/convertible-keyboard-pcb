@@ -54,7 +54,8 @@ diesem Kern auf, statt ihn zu verbiegen.
 - USB-C (USB 2.0) mit ESD-Schutz, 500-mA-Polyfuse und 3,3-V-LDO
 - Einfarbige Hintergrundbeleuchtung: Widerstände und MOSFET sind auf der Platine,
   die LEDs selbst sind optional — über QMK schaltbar, dimmbar und mit „Breathing“
-- Anzeige für Caps Lock und Num Lock: die LEDs in diesen beiden Tasten
+- Anzeige für Caps Lock und Num Lock über dem Navigationsblock, damit sie auch bei
+  der TKL bleibt – wahlweise 3-mm-THT oder 0805-SMD bestückt
 - Alle 30 GPIOs des RP2040 belegt: 27 Matrixleitungen, Beleuchtungs-PWM,
   Caps Lock und Num Lock
 

@@ -335,13 +335,13 @@ if STAGE >= 2:
     bl = new_sheet("Backlight")
     B = Sheet(bl, f"/{ROOT_UUID}/{bl_uuid}")
     sheets["backlight.kicad_sch"] = bl
-    LOCK = {58: "CAPS_K", 34: "NUM_K"}
+    LOCK = {}   # Caps/Num Lock have separate indicator LEDs, see indicator() below
     lit.sort()
     x0, y0, dx, dy, cols = 22.86, 38.1, 30.48, 22.86, 12
     text(B, "Backlight - every lit key has its own LED (unit B of the switch symbol) and series resistor.\\n"
             "The through-hole LEDs are optional; resistors and drivers are always populated.\\n"
             "LED pin 3 = anode, pin 4 = cathode. 1k gives about 2 mA per white LED at 5 V.\\n"
-            "Caps Lock (SW58) and Num Lock (SW34) LEDs are lock indicators with their own drivers.\\n"
+            "Caps Lock and Num Lock have separate indicator LEDs above the navigation cluster (bottom right).\\n"
             "SW106 (ANSI backslash) has no LED.", 22.86, 12.7)
     for i, (n, fp) in enumerate(lit):
         cx, cy = x0 + (i % cols) * dx, y0 + (i // cols) * dy
@@ -382,6 +382,34 @@ if STAGE >= 2:
     driver(50.8, 266.7, "Q1", "AO3400A", "BL_PWM", "BL_K", "R121", "R122")
     driver(127.0, 266.7, "Q2", "2N7002", "CAPS_LED", "CAPS_K", "R123", "R124")
     driver(203.2, 266.7, "Q3", "2N7002", "NUM_LED", "NUM_K", "R125", "R126")
+
+    def indicator(cx, name, net, r_ref, d_tht, d_smd):
+        """1k from +5V feeding a 3 mm THT and an 0805 LED in parallel - populate one of them."""
+        r = symbol(B, "Device", "R_Small", r_ref, cx, 256.54, 0, value="1k", footprint=R0603,
+                   fpos={"Reference": (2.032, -0.635, "left"), "Value": (2.032, 1.905, "left")})
+        connect(B, r, {"1": "+5V"})
+        l1 = symbol(B, "Device", "LED_Small", d_tht, cx, 264.16, 90, value="3mm", footprint="LED_THT:LED_D3.0mm",
+                    fpos={"Reference": (-3.81, -1.27, None), "Value": (-3.81, 1.27, None)})
+        l2 = symbol(B, "Device", "LED_Small", d_smd, cx + 3 * U, 264.16, 90, value="0805",
+                    footprint="LED_SMD:LED_0805_2012Metric",
+                    fpos={"Reference": (3.81, -1.27, None), "Value": (3.81, 1.27, None)})
+        a1, a2, k1, k2 = l1.pin("2")[0], l2.pin("2")[0], l1.pin("1")[0], l2.pin("1")[0]
+        wire(B, r.pin("2")[0], a1)
+        wire(B, a1, a2)
+        junction(B, a1)
+        kb1, kb2 = (k1[0], round(k1[1] + U, 4)), (k2[0], round(k2[1] + U, 4))
+        wire(B, k1, kb1)
+        wire(B, k2, kb2)
+        wire(B, kb1, kb2)
+        label(B, net, kb2, 0)
+        text(B, name, cx - 2.54, 246.38)
+        EXPECT.update({(r_ref, "2"): f"~{r_ref}", (d_tht, "2"): f"~{r_ref}", (d_smd, "2"): f"~{r_ref}",
+                       (d_tht, "1"): net, (d_smd, "1"): net})
+
+    text(B, "Lock indicators above the navigation cluster - populate either the 3 mm THT or the 0805 LED",
+         228.6, 241.3)
+    indicator(233.68, "Num Lock", "NUM_K", "R128", "D123", "D124")
+    indicator(264.16, "Caps Lock", "CAPS_K", "R127", "D121", "D122")
 
 # ============================================================ MCU
 if STAGE >= 3:
