@@ -85,6 +85,7 @@ diesem Kern auf, statt ihn zu verbiegen.
 | `fp-lib-table`, `convertible-keyboard-pcb.kicad_dru` | Footprint-Bibliothekstabelle, Designregel für die LED-Aussparungen |
 | `lib/MX_Alps_Hybrid` | Schalter-Footprints von ai03 (Git-Submodul) |
 | `tools/` | Skripte, die die Blätter erzeugt und die Platine aktualisiert haben – siehe [tools/README.de.md](tools/README.de.md) |
+| `docs/production/` | Gerber, Bohrdatei, Stückliste und Bestückungsdaten für JLCPCB |
 
 Die Footprints liegen in einem Submodul, deshalb so klonen:
 
@@ -112,8 +113,9 @@ Sollbruchstelle vor dem Ziffernblock.
 
 ![3D, Schalterseite](docs/images/pcb-3d-front.png)
 
-Bestückungsseite: Hier sitzt alles, die Bestückung bleibt also einseitig. Je Taste Diode und Vorwiderstand, die
-Reverse-Mount-LEDs leuchten durch ihre Aussparungen, und der Controller sitzt in der Lücke zwischen F4 und F5.
+Bestückungsseite: Hier sitzt fast alles. Je Taste Diode und Vorwiderstand, die Reverse-Mount-LEDs leuchten
+durch ihre Aussparungen, und der Controller sitzt in der Lücke zwischen F4 und F5. Auf der anderen Seite
+liegen nur die beiden Lock-Anzeigen über dem Ziffernblock.
 
 ![3D, Bestückungsseite](docs/images/pcb-3d-back.png)
 
@@ -126,8 +128,8 @@ und zwar durch die vier Stege.
 ![Beide Kupferlagen](docs/images/pcb-both-layers.png)
 
 Der Controller sitzt in der Lücke zwischen F4 und F5. Spalten- und Zeilenleitungen laufen in festen Kanälen und
-enden jeweils auf einem Via, das auf die Spaltenleitung der Taste führt. Alle SMD-Bauteile liegen auf der
-Rückseite, die Bestückung bleibt also einseitig.
+enden jeweils auf einem Via, das auf die Spaltenleitung der Taste führt. Jedes SMD-Bauteil in diesem Bereich
+liegt auf der Rückseite.
 
 ![Controller-Bereich](docs/images/pcb-controller.png)
 
@@ -152,6 +154,16 @@ Controller: RP2040, Flash, Quarz, LDO, USB-C mit ESD-Schutz, Daughterboard-Ansch
 
 ![Controller](docs/images/schematic-mcu.png)
 
+## Fertigen lassen
+
+Gerber, Bohrdatei, Stückliste und Bestückungsdaten für JLCPCB liegen in
+[`docs/production/`](docs/production/README.de.md) und werden aus dem KiCad-Projekt erzeugt. Die Platine
+misst 431,225 × 126,425 mm auf zwei Lagen. 371 Bauteile werden maschinell bestückt, die 108 MX-Schalter
+von Hand gelötet, drei Teile bleiben bewusst unbestückt.
+
+Gebaut wurde davon noch nichts. Die Dateien bestehen DRC und Schaltplan-Parität, mehr nicht — vor dem
+Bestellen selbst prüfen.
+
 ## Fahrplan
 
 - [x] Tastenmatrix und Dioden
@@ -161,11 +173,13 @@ Controller: RP2040, Flash, Quarz, LDO, USB-C mit ESD-Schutz, Daughterboard-Ansch
 - [x] Controller-Blatt: RP2040, Flash, Quarz, LDO, USB-C, ESD-Schutz
 - [x] Sollbruchstelle für den Ziffernblock
 - [x] Platinenumriss (erster Entwurf)
-- [ ] Befestigungslöcher (gemeinsam mit dem Gehäuse)
+- [x] Befestigungslöcher: 14 × M2, in die freien Flächen gesetzt; endgültige Lage gemeinsam mit dem
+      Gehäuse-Designer
 - [x] Platzierung von Controller, USB und Treibern (vorläufig)
 - [x] Routing vollständig: Tastenfeld und Controller-Bereich (DRC ohne Meldung, Parität sauber,
       keine offenen Verbindungen)
-- [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
+- [x] Fertigungsdaten für JLCPCB: Gerber, Bohrdatei, Stückliste und Bestückungsdaten, LCSC-Nummer an
+      jedem Teil
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
 
 ## Lizenz

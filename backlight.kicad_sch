@@ -5221,6 +5221,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 358.14 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 358.14 111.76 0)
 			(hide yes)
@@ -5493,6 +5523,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5962,6 +6022,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 157.48 0)
 			(hide yes)
@@ -6352,6 +6442,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 297.18 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 297.18 66.04 0)
 			(hide yes)
@@ -6547,6 +6667,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 83.82 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6746,6 +6896,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 43.18 0)
 			(hide yes)
@@ -6904,6 +7084,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 144.78 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 144.78 180.34 0)
 			(hide yes)
@@ -6983,6 +7193,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7066,6 +7306,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 175.26 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 203.2 0)
 			(hide yes)
@@ -7147,6 +7417,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 111.76 0)
 			(hide yes)
@@ -7226,6 +7526,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 175.26 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7423,6 +7753,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 297.18 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7660,6 +8020,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 83.82 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 83.82 226.06 0)
 			(hide yes)
@@ -7739,6 +8129,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8015,6 +8435,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 144.78 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 144.78 134.62 0)
 			(hide yes)
@@ -8096,6 +8546,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 203.2 0)
 			(hide yes)
@@ -8175,6 +8655,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8412,6 +8922,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 226.06 0)
 			(hide yes)
@@ -8491,6 +9031,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8651,6 +9221,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 297.18 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 297.18 43.18 0)
 			(hide yes)
@@ -8730,6 +9330,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 175.26 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9045,6 +9675,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 175.26 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 43.18 0)
 			(hide yes)
@@ -9126,6 +9786,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 175.26 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 226.06 0)
 			(hide yes)
@@ -9205,6 +9895,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 83.82 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9481,6 +10201,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 43.18 0)
 			(hide yes)
@@ -9755,6 +10505,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 134.62 0)
 			(hide yes)
@@ -9834,6 +10614,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 266.7 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9917,6 +10727,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 236.22 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 236.22 226.06 0)
 			(hide yes)
@@ -9996,6 +10836,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10079,6 +10949,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 66.04 0)
 			(hide yes)
@@ -10158,6 +11058,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10355,6 +11285,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10631,6 +11591,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 297.18 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 297.18 226.06 0)
 			(hide yes)
@@ -10829,6 +11819,36 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C8545"
+			(at 137.16 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 137.16 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 137.16 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 137.16 270.51 0)
 			(hide yes)
@@ -10914,6 +11934,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 88.9 0)
 			(hide yes)
@@ -10993,6 +12043,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 53.34 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11151,6 +12231,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 144.78 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11504,6 +12614,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 114.3 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 114.3 180.34 0)
 			(hide yes)
@@ -11855,6 +12995,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 66.04 0)
 			(hide yes)
@@ -12088,6 +13258,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 144.78 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12439,6 +13639,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12908,6 +14138,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 226.06 0)
 			(hide yes)
@@ -13336,6 +14596,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 88.9 0)
 			(hide yes)
@@ -13610,6 +14900,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 111.76 0)
 			(hide yes)
@@ -13689,6 +15009,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14042,6 +15392,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 175.26 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 66.04 0)
 			(hide yes)
@@ -14353,6 +15733,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14706,6 +16116,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 83.82 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 83.82 134.62 0)
 			(hide yes)
@@ -14862,6 +16302,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 358.14 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15061,6 +16531,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 226.06 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 226.06 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 226.06 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 226.06 256.54 0)
 			(hide yes)
@@ -15140,6 +16640,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16188,6 +17718,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 134.62 0)
 			(hide yes)
@@ -16383,6 +17943,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 266.7 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16659,6 +18249,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 180.34 0)
 			(hide yes)
@@ -16856,6 +18476,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 124.46 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1000T5E"
+			(at 124.46 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 124.46 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 124.46 266.7 90)
 			(hide yes)
@@ -16935,6 +18585,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 358.14 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17404,6 +19084,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 358.14 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 358.14 66.04 0)
 			(hide yes)
@@ -17560,6 +19270,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 358.14 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17836,6 +19576,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 297.18 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 297.18 111.76 0)
 			(hide yes)
@@ -17990,6 +19760,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 195.58 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0805W"
+			(at 195.58 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 195.58 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -18189,6 +19989,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 83.82 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 83.82 157.48 0)
 			(hide yes)
@@ -18268,6 +20098,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 175.26 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -18544,6 +20404,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 88.9 0)
 			(hide yes)
@@ -18700,6 +20590,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 266.7 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -19092,6 +21012,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 114.3 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 114.3 134.62 0)
 			(hide yes)
@@ -19366,6 +21316,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 358.14 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 358.14 43.18 0)
 			(hide yes)
@@ -19445,6 +21425,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -19721,6 +21731,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 33.02 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1000T5E"
+			(at 33.02 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 33.02 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 33.02 266.7 90)
 			(hide yes)
@@ -19802,6 +21842,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 297.18 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 297.18 180.34 0)
 			(hide yes)
@@ -19881,6 +21951,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 144.78 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -20234,6 +22334,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 83.82 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 83.82 111.76 0)
 			(hide yes)
@@ -20313,6 +22443,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 83.82 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -20897,6 +23057,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 175.26 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 180.34 0)
 			(hide yes)
@@ -20976,6 +23166,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -21754,6 +23974,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 111.76 0)
 			(hide yes)
@@ -22026,6 +24276,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 144.78 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -22610,6 +24890,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 327.66 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 327.66 43.18 0)
 			(hide yes)
@@ -22691,6 +25001,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 111.76 0)
 			(hide yes)
@@ -22768,6 +25108,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 165.1 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0805W"
+			(at 165.1 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 165.1 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -22849,6 +25219,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 358.14 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23163,6 +25563,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 180.34 0)
 			(hide yes)
@@ -23242,6 +25672,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 165.1 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 165.1 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 165.1 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23634,6 +26094,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 226.06 0)
 			(hide yes)
@@ -23713,6 +26203,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 53.34 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23910,6 +26430,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -24186,6 +26736,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 180.34 0)
 			(hide yes)
@@ -24265,6 +26845,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 205.74 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -24578,6 +27188,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 83.82 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -25009,6 +27649,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 127 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 127 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 127 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 127 271.78 0)
 			(hide yes)
@@ -25202,6 +27872,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C34499"
+			(at 226.06 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0805W"
+			(at 226.06 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 226.06 264.16 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -25401,6 +28101,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 88.9 0)
 			(hide yes)
@@ -25480,6 +28210,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 205.74 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -26026,6 +28786,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 22.86 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 22.86 134.62 0)
 			(hide yes)
@@ -26105,6 +28895,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 327.66 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -26263,6 +29083,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 297.18 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -27157,6 +30007,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 114.3 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 114.3 111.76 0)
 			(hide yes)
@@ -27238,6 +30118,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 134.62 0)
 			(hide yes)
@@ -27317,6 +30227,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 81.28 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 81.28 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 81.28 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -27632,6 +30572,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 144.78 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 226.06 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 144.78 226.06 0)
 			(hide yes)
@@ -27788,6 +30758,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -28139,6 +31139,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 297.18 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -28569,6 +31599,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 195.58 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 195.58 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 195.58 256.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 195.58 256.54 0)
 			(hide yes)
@@ -28648,6 +31708,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 111.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -29928,6 +33018,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 327.66 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 327.66 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 327.66 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 327.66 88.9 0)
 			(hide yes)
@@ -30394,6 +33514,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 91.44 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 91.44 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 91.44 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
@@ -31137,6 +34287,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 66.04 0)
 			(hide yes)
@@ -31450,6 +34630,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 83.82 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 83.82 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 83.82 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 83.82 43.18 0)
 			(hide yes)
@@ -31529,6 +34739,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 114.3 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 114.3 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 114.3 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -31882,6 +35122,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 144.78 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 144.78 157.48 0)
 			(hide yes)
@@ -31961,6 +35231,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 175.26 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 175.26 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 175.26 88.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -32894,6 +36194,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 205.74 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 205.74 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 205.74 43.18 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 205.74 43.18 0)
 			(hide yes)
@@ -33708,6 +37038,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 144.78 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 144.78 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 144.78 66.04 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 144.78 66.04 0)
 			(hide yes)
@@ -33787,6 +37147,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 78.74 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1000T5E"
+			(at 78.74 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 78.74 266.7 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -34526,6 +37916,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 358.14 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 358.14 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 358.14 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 358.14 180.34 0)
 			(hide yes)
@@ -34607,6 +38027,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 53.34 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 53.34 203.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 53.34 203.2 0)
 			(hide yes)
@@ -34686,6 +38136,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 22.86 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 22.86 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 22.86 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -35155,6 +38635,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 236.22 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 134.62 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 236.22 134.62 0)
 			(hide yes)
@@ -35235,6 +38745,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 45.72 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 45.72 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega"
+			(at 45.72 268.605 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
@@ -35476,6 +39016,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 266.7 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 266.7 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 266.7 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 266.7 180.34 0)
 			(hide yes)
@@ -35555,6 +39125,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 297.18 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 297.18 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 297.18 157.48 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -36063,6 +39663,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 35.56 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 35.56 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 35.56 271.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 35.56 271.78 0)
 			(hide yes)
@@ -36142,6 +39772,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 236.22 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 236.22 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 236.22 180.34 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

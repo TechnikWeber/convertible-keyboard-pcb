@@ -79,6 +79,7 @@ bending it into something else.
 | `fp-lib-table`, `convertible-keyboard-pcb.kicad_dru` | Footprint library table, design rule for the LED cutouts |
 | `lib/MX_Alps_Hybrid` | Switch footprints by ai03 (git submodule) |
 | `tools/` | Scripts that generated the sheets and updated the PCB – see [tools/README.md](tools/README.md) |
+| `docs/production/` | Gerbers, drill file, BOM and placement file for JLCPCB |
 
 The footprints come from a submodule, so clone with:
 
@@ -106,8 +107,9 @@ front of the numpad.
 
 ![3D, switch side](docs/images/pcb-3d-front.png)
 
-Component side: everything sits here, so assembly stays single-sided. Diodes and resistors per key, the
-reverse-mount LEDs shining through their cutouts, and the controller in the gap between F4 and F5.
+Component side: nearly everything sits here. Diodes and resistors per key, the reverse-mount LEDs shining
+through their cutouts, and the controller in the gap between F4 and F5. The only parts on the other side are
+the two lock indicators above the numpad.
 
 ![3D, component side](docs/images/pcb-3d-back.png)
 
@@ -119,7 +121,7 @@ breakaway line; only matrix lines, +5V, BL_K and the two lock-LED lines cross it
 ![Both copper layers](docs/images/pcb-both-layers.png)
 
 The controller sits in the gap between F4 and F5. Column and row buses run in fixed lanes and each one ends on a
-via that drops onto the column trace of its key. All SMD parts are on the back, so assembly stays single-sided.
+via that drops onto the column trace of its key. Every SMD part in this area is on the back.
 
 ![Controller area](docs/images/pcb-controller.png)
 
@@ -143,6 +145,16 @@ Controller: RP2040, flash, crystal, LDO, USB-C with ESD protection, daughterboar
 
 ![Controller](docs/images/schematic-mcu.png)
 
+## Having it made
+
+Gerbers, drill file, BOM and placement file for JLCPCB are in
+[`docs/production/`](docs/production/README.md), all generated from the KiCad project. The board is
+431.225 × 126.425 mm on two layers. 371 parts are machine-assembled; the 108 MX switches are soldered by
+hand, and three parts are deliberately left unpopulated.
+
+Nothing here has been built in hardware yet. The files pass DRC and schematic parity, nothing more —
+review them before you spend money.
+
 ## Roadmap
 
 - [x] Key matrix and diodes
@@ -152,10 +164,10 @@ Controller: RP2040, flash, crystal, LDO, USB-C with ESD protection, daughterboar
 - [x] Controller sheet: RP2040, flash, crystal, LDO, USB-C, ESD protection
 - [x] Breakaway line for the numpad
 - [x] Board outline (first draft)
-- [ ] Mounting holes (together with the case)
+- [x] Mounting holes: 14 × M2, placed in the free areas; final positions together with the case designer
 - [x] Placement of controller, USB and drivers (preliminary)
 - [x] Routing complete: key matrix and controller area (DRC clean, schematic parity clean, no open nets)
-- [ ] Manufacturing files (LCSC part numbers for every component)
+- [x] Manufacturing files for JLCPCB: gerbers, drill, BOM and placement file, an LCSC number on every part
 - [ ] Firmware (QMK) with full-size and TKL layouts
 
 ## Licence

@@ -6529,6 +6529,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 171.45 72.39 90)
 			(hide yes)
@@ -6632,6 +6662,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 234.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 234.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 234.95 52.07 90)
 			(hide yes)
@@ -6733,6 +6793,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6917,6 +7007,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 146.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 146.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 146.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 146.05 52.07 90)
 			(hide yes)
@@ -7018,6 +7138,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 209.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 209.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 209.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7123,6 +7273,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 158.75 72.39 90)
 			(hide yes)
@@ -7224,6 +7404,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 44.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7408,6 +7618,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 82.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 82.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 82.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 82.55 72.39 90)
 			(hide yes)
@@ -7509,6 +7749,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7614,6 +7884,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 107.95 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 107.95 113.03 90)
 			(hide yes)
@@ -7717,6 +8017,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 158.75 52.07 90)
 			(hide yes)
@@ -7818,6 +8148,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 234.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 234.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 234.95 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8002,6 +8362,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 69.85 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 69.85 72.39 90)
 			(hide yes)
@@ -8103,6 +8493,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 82.55 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 82.55 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 82.55 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8445,6 +8865,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 133.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 133.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 133.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 133.35 72.39 90)
 			(hide yes)
@@ -8546,6 +8996,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 196.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 196.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 196.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8731,6 +9211,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 31.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 31.75 92.71 90)
 			(hide yes)
@@ -8832,6 +9342,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 260.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 260.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 260.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9175,6 +9715,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 222.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 222.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 222.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 222.25 113.03 90)
 			(hide yes)
@@ -9276,6 +9846,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 171.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9539,6 +10139,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 120.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 120.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 120.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 120.65 72.39 90)
 			(hide yes)
@@ -9721,6 +10351,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 69.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 69.85 52.07 90)
 			(hide yes)
@@ -9824,6 +10484,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 196.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 196.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 196.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 196.85 92.71 90)
 			(hide yes)
@@ -9925,6 +10615,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 184.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10267,6 +10987,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 222.25 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 222.25 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 222.25 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 222.25 133.35 90)
 			(hide yes)
@@ -10368,6 +11118,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 171.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10552,6 +11332,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 31.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 31.75 113.03 90)
 			(hide yes)
@@ -10734,6 +11544,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 260.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 260.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 260.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 260.35 113.03 90)
 			(hide yes)
@@ -10835,6 +11675,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 69.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11335,6 +12205,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 171.45 92.71 90)
 			(hide yes)
@@ -11596,6 +12496,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 184.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 184.15 92.71 90)
 			(hide yes)
@@ -11697,6 +12627,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 44.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11802,6 +12762,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 260.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 260.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 260.35 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 260.35 72.39 90)
 			(hide yes)
@@ -11905,6 +12895,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 120.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 120.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 120.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 120.65 52.07 90)
 			(hide yes)
@@ -12006,6 +13026,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 209.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 209.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 209.55 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12743,6 +13793,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 184.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 184.15 72.39 90)
 			(hide yes)
@@ -13004,6 +14084,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 133.35 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 133.35 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 133.35 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 133.35 31.75 90)
 			(hide yes)
@@ -13186,6 +14296,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 146.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 146.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 146.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 146.05 113.03 90)
 			(hide yes)
@@ -13287,6 +14427,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 57.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 57.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 57.15 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13392,6 +14562,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 273.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 273.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 273.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 273.05 92.71 90)
 			(hide yes)
@@ -13495,6 +14695,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 158.75 133.35 90)
 			(hide yes)
@@ -13596,6 +14826,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 120.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 120.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 120.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13780,6 +15040,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 107.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 107.95 133.35 90)
 			(hide yes)
@@ -13962,6 +15252,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 146.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 146.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 146.05 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 146.05 92.71 90)
 			(hide yes)
@@ -14063,6 +15383,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 273.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 273.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 273.05 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14168,6 +15518,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 95.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 95.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 95.25 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 95.25 113.03 90)
 			(hide yes)
@@ -14269,6 +15649,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 44.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14451,6 +15861,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 82.55 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 82.55 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 82.55 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14714,6 +16154,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 171.45 52.07 90)
 			(hide yes)
@@ -14817,6 +16287,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 222.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 222.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 222.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 222.25 52.07 90)
 			(hide yes)
@@ -14918,6 +16418,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 31.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15103,6 +16633,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 31.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 31.75 133.35 90)
 			(hide yes)
@@ -15285,6 +16845,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 184.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 184.15 113.03 90)
 			(hide yes)
@@ -15386,6 +16976,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 31.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15568,6 +17188,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 158.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15910,6 +17560,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 285.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 285.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 285.75 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 285.75 72.39 90)
 			(hide yes)
@@ -16011,6 +17691,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 222.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 222.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 222.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16590,6 +18300,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 82.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 82.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 82.55 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 82.55 31.75 90)
 			(hide yes)
@@ -16693,6 +18433,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 273.05 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 273.05 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 273.05 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 273.05 133.35 90)
 			(hide yes)
@@ -16794,6 +18564,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 285.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 285.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 285.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17057,6 +18857,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 171.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 171.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 171.45 133.35 90)
 			(hide yes)
@@ -17160,6 +18990,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 69.85 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 69.85 31.75 90)
 			(hide yes)
@@ -17261,6 +19121,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 184.15 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17524,6 +19414,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 222.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 222.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 222.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 222.25 72.39 90)
 			(hide yes)
@@ -17625,6 +19545,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 57.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 57.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 57.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17730,6 +19680,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 158.75 92.71 90)
 			(hide yes)
@@ -17831,6 +19811,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 133.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 133.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 133.35 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -18013,6 +20023,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 273.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 273.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 273.05 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -18355,6 +20395,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 95.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 95.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 95.25 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 95.25 31.75 90)
 			(hide yes)
@@ -18537,6 +20607,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 196.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 196.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 196.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 196.85 133.35 90)
 			(hide yes)
@@ -18640,6 +20740,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 325.12 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 325.12 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 325.12 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 325.12 46.99 90)
 			(hide yes)
@@ -18720,6 +20850,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 247.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 247.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 247.65 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -19062,6 +21222,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 69.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 69.85 133.35 90)
 			(hide yes)
@@ -19242,6 +21432,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 365.76 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 365.76 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 365.76 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -19721,6 +21941,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 247.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 247.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 247.65 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 247.65 52.07 90)
 			(hide yes)
@@ -19822,6 +22072,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 133.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 133.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 133.35 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -20006,6 +22286,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 82.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 82.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 82.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 82.55 52.07 90)
 			(hide yes)
@@ -20186,6 +22496,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 247.65 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 247.65 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 247.65 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -20449,6 +22789,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 234.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 234.95 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 234.95 31.75 90)
 			(hide yes)
@@ -20629,6 +22999,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 273.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 273.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 273.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -20971,6 +23371,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 234.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 234.95 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 234.95 133.35 90)
 			(hide yes)
@@ -21232,6 +23662,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 345.44 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 345.44 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 345.44 46.99 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 345.44 46.99 90)
 			(hide yes)
@@ -21391,6 +23851,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 285.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 285.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 285.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -21573,6 +24063,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 95.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 95.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 95.25 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -21994,6 +24514,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 57.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 57.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 57.15 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 57.15 72.39 90)
 			(hide yes)
@@ -22176,6 +24726,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 44.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 44.45 133.35 90)
 			(hide yes)
@@ -22277,6 +24857,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 95.25 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 95.25 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 95.25 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -22540,6 +25150,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 120.65 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 120.65 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 120.65 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 120.65 31.75 90)
 			(hide yes)
@@ -22641,6 +25281,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 107.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -22904,6 +25574,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 133.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 133.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 133.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 133.35 92.71 90)
 			(hide yes)
@@ -23005,6 +25705,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 44.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23110,6 +25840,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 260.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 260.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 260.35 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 260.35 92.71 90)
 			(hide yes)
@@ -23211,6 +25971,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 184.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 184.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 184.15 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23316,6 +26106,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 146.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 146.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 146.05 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 146.05 72.39 90)
 			(hide yes)
@@ -23417,6 +26237,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 146.05 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 146.05 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 146.05 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23522,6 +26372,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 209.55 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 209.55 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 209.55 133.35 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 209.55 133.35 90)
 			(hide yes)
@@ -23623,6 +26503,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 120.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 120.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 120.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -23728,6 +26638,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 247.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 247.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 247.65 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 247.65 92.71 90)
 			(hide yes)
@@ -23829,6 +26769,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 31.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 31.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 31.75 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -24092,6 +27062,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 107.95 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 107.95 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 107.95 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 107.95 92.71 90)
 			(hide yes)
@@ -24193,6 +27193,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 69.85 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 69.85 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 69.85 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -24535,6 +27565,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 44.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 44.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 44.45 31.75 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 44.45 31.75 90)
 			(hide yes)
@@ -24638,6 +27698,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 57.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 57.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 57.15 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 57.15 113.03 90)
 			(hide yes)
@@ -24739,6 +27829,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 209.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 209.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 209.55 52.07 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -25079,6 +28199,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 57.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 57.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 57.15 92.71 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -25658,6 +28808,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 95.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 95.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 95.25 72.39 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 95.25 72.39 90)
 			(hide yes)
@@ -25761,6 +28941,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 158.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 158.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 158.75 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 158.75 113.03 90)
 			(hide yes)
@@ -25862,6 +29072,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 247.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 247.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CJ(Changjiang Elec)"
+			(at 247.65 113.03 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

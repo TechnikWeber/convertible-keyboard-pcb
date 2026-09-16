@@ -129,14 +129,15 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 
 ## PCB-Stand
 
-- **Vollständig geroutet** (5349 Leiterbahnen, 899 Vias, 2 GND-Zonen). DRC ohne Meldung, Parität 0,
+- **Vollständig geroutet** (5372 Leiterbahnen, 906 Vias, 2 GND-Zonen). DRC ohne Meldung, Parität 0,
   keine offenen Verbindungen. ROW5 hat der Nutzer am 2026-09-16 von Hand in KiCad gezogen (Commit c2931ee).
 - **Nach jeder Board-Änderung Zonen neu füllen**, sonst meldet DRC Abstandsfehler gegen den alten Füllstand:
   `kicad-cli pcb drc --refill-zones --save-board --schematic-parity …`
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°, LEDs bei (0, 5.08).
   Ausnahmen ISO/ANSI: D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°;
   R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
-- Alle SMD-Bauteile auf B.Cu → einseitige Bestückung. TP1–TP4 sind reines Kupfer auf F.Cu (keine Bestückung).
+- SMD-Bauteile auf B.Cu, **außer D126/D128** (Lock-Anzeigen über dem Numpad, auf F.Cu) → der JLC-Auftrag ist
+  beidseitig und damit teurer. TP1–TP4 sind reines Kupfer auf F.Cu (keine Bestückung).
 - Controller-Block in der F4/F5-Lücke (Nutzerentscheidung 2026-09-15):
   - Oberkante über der Lücke: J1 USB-C (147,64/30,975), darunter U4 ESD (147,64/39,3), R201/R202 CC,
     R203/C201 Schirm, R204/R205 27 Ω, F1 + C202 rechts.
@@ -160,11 +161,45 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
   Stege soll kein Kupfer laufen). Voller Pad-Anschluss statt Wärmefallen (Reflow), Inseln werden entfernt,
   dazu ~100 GND-Vias (Exposed Pad, Bauteil-Pads, Stitching-Raster).
 
+## Fertigungsdaten (JLCPCB)
+
+Liegen fertig in `docs/production/` (Gerber-ZIP, `BOM.csv`, `CPL.csv`, README EN/DE). Neu erzeugen:
+
+```sh
+kicad-cli pcb drc --refill-zones --save-board --schematic-parity --format json -o /tmp/drc.json <pcb>
+kicad-cli pcb export gerbers --no-x2 --subtract-soldermask \
+  --layers 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts' -o <dir> <pcb>
+kicad-cli pcb export drill --drill-origin absolute --excellon-units mm --generate-map --map-format gerberx2 -o <dir> <pcb>
+kicad-cli pcb export pos --format csv --units mm --side both -o cpl_raw.csv <pcb>
+kicad-cli sch export bom --fields 'Reference,Value,Footprint,LCSC,MPN,Manufacturer' --group-by 'Value,Footprint,LCSC' ...
+```
+
+- **`--layers` zwingend angeben**, sonst schreibt der Export 27 Dateien inklusive Courtyard-, Fab-, Adhesive-
+  und User-Lagen ins ZIP; eine Fertigung kann die als zusätzliche Kupferlagen fehldeuten. Richtig sind 12.
+- Bohrdatei enthält PTH und NPTH gemeinsam → bei JLC **mixed plating**. Bohrursprung absolut, damit Bohrdatei
+  und Gerber dasselbe Koordinatensystem haben.
+- **CPL-Y bleibt negativ** (Edge.Cuts-Gerber läuft Y −153,7…0). Das Vorzeichen nicht umdrehen – sonst wird
+  spiegelverkehrt bestückt. Drehwinkel modulo 360.
+- Nicht in BOM/CPL: SW1–SW108 (Schalter werden von Hand gelötet) und die DNP-Teile D122, J2, J3.
+  Es bleiben 371 Bauteile in 25 Gruppen, davon 369 auf B.Cu und 2 (D126/D128) auf F.Cu.
+- **LCSC/MPN/Manufacturer müssen am Symbol *und* am Footprint stehen**, sonst meldet die Parität für jedes
+  Bauteil `Fehlendes Symbolfeld "LCSC" in Footprint` (waren 199). Setzen mit `fp.SetField(name, wert)` –
+  `FOOTPRINT.AddField` gibt es in KiCad 10 nicht – und danach zwingend `SetVisible(False)`, weil `SetField`
+  neue Felder **sichtbar** anlegt (waren 798 Texte, die sonst im Bestückungsdruck landen).
+- Aus den Reparaturrunden des Routings blieben ein doppeltes Via (zwei RUN-Vias 0,1 mm auseinander →
+  `hole_to_hole` 0,000 mm) und 13 deckungsgleiche Bahnsegmente zurück. Beim Entfernen eines Vias die
+  Bahnenden auf das verbleibende umhängen, sonst hängen sie in der Luft. Vor dem Fertigen darauf prüfen.
+
 ## Bekannter DRC-Stand
 
+**0 Fehler, Parität 0, keine offenen Verbindungen.** Es bleiben 69 Warnungen, alle gewollt:
+
 - 5× `hole_to_hole`: gewollte NPTH-Überlappungen ISO/ANSI (SW70/107, SW71/107 ×2, SW75/108, SW76/108).
-- Wenige Silkscreen-Warnungen an ISO/ANSI-Stellen → beim Layout aufräumen.
+- 43× `silk_over_copper` + 17× `silk_overlap` an ISO/ANSI-Stellen → rein kosmetisch.
 - 2× `silk_edge_clearance`: Silkscreen von J1 an der Oberkante (Buchse bündig) – unkritisch.
+- 2× `lib_footprint_mismatch` für J2/J3: deren Courtyards wurden absichtlich entfernt (liegen im
+  J1-Footprint). Beide sind DNP.
+- `kicad-cli` zählt Warnungen als „Verstöße“ mit – „70 Verstöße gefunden“ heißt nicht 70 Fehler.
 
 ## Stand
 
@@ -178,7 +213,10 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [x] Platinenumriss: Tastenfeld + 1,3 mm (x 27,275–458,5, y 27,275–153,7), Ecken r = 1; 1,3 mm nötig wegen
       Stabi-Löchern Leertaste/Num 0 (bis y 153,12) und Num+ (bis x 457,92)
 - [x] Sollbruchstelle: Schlitz + 4 Mouse-Bite-Stege mit Leitungskanälen (siehe Wandel-Konzept)
-- [ ] Befestigungslöcher (mit Gehäuse-Designer)
+- [x] Befestigungslöcher: 14 × Ø 2,2 mm (M2), NPTH, `board_only`, Footprint
+      `keyboard:MountingHole_2.2mm_M2` (aus der KiCad-Bibliothek ins Repo kopiert, damit es eigenständig
+      bleibt). Lage nach Freiflächen-Suche gesetzt (Kupferabstand 5,2–8,2 mm), endgültig mit dem
+      Gehäuse-Designer – Nutzerentscheidung 2026-09-16: „so lassen, später anpassen“
 - [x] Routing vollständig: Tastenfeld und Controller-Bereich (eigener Grid-Router, Kanäle konstruiert, kurze
       Stücke per Wegsuche, ROW5 vom Nutzer von Hand); DRC ohne Meldung, Parität 0, keine offenen Verbindungen
 - [x] Bilder für Review ohne KiCad in `docs/images/`, eingebunden in beide READMEs:
@@ -189,5 +227,6 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
         `schematic-backlight.png`, `schematic-mcu.png`
       - bei Layout-/Schaltplanänderungen neu erzeugen: `kicad-cli sch export svg` bzw. `pcb export svg`,
         danach mit ImageMagick auf 1600–2000 px Breite verkleinern
-- [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
+- [x] Fertigungsdaten in `docs/production/`, LCSC/MPN/Manufacturer an allen 373 Symbolen und Footprints
+      (geprüfte Nummern; Vorsicht: C22966 ist 270 Ω, nicht 27 Ω – dafür C25190)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

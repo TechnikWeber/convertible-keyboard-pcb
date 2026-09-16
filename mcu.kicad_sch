@@ -7456,6 +7456,36 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C106264"
+			(at 123.19 109.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMD1206P050TF/15"
+			(at 123.19 109.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PTTC(Polytronics Tech)"
+			(at 123.19 109.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 121.92 104.14 0)
 			(hide yes)
@@ -7998,6 +8028,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 215.9 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 215.9 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 215.9 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 215.9 76.2 0)
 			(hide yes)
@@ -8075,6 +8135,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 44.45 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 44.45 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 44.45 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
@@ -8203,6 +8293,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 81.28 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 81.28 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 81.28 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 81.28 236.22 0)
 			(hide yes)
@@ -8282,6 +8402,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C25190"
+			(at 149.86 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF270JT5E"
+			(at 149.86 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 149.86 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8365,6 +8515,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 236.22 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 236.22 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 236.22 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 236.22 76.2 0)
 			(hide yes)
@@ -8446,6 +8626,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C25190"
+			(at 137.16 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF270JT5E"
+			(at 137.16 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 137.16 104.14 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 137.16 104.14 0)
 			(hide yes)
@@ -8525,6 +8735,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 226.06 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 226.06 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 226.06 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8761,6 +9001,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 91.44 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF5101T5E"
+			(at 91.44 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 91.44 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 91.44 60.96 0)
 			(hide yes)
@@ -8994,6 +9264,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 195.58 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 195.58 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 195.58 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9462,6 +9762,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C53987"
+			(at 111.76 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603B472K500NT"
+			(at 111.76 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua)"
+			(at 111.76 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 111.76 60.96 0)
 			(hide yes)
@@ -9618,6 +9948,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 185.42 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 185.42 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 185.42 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9778,6 +10138,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C1644"
+			(at 119.38 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 119.38 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 119.38 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 119.38 187.96 0)
 			(hide yes)
@@ -9936,6 +10326,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 160.02 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 160.02 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 160.02 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 160.02 238.76 0)
 			(hide yes)
@@ -10092,6 +10512,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 81.28 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF5101T5E"
+			(at 81.28 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 81.28 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10253,6 +10703,36 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C7519"
+			(at 87.63 110.49 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 87.63 110.49 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 87.63 110.49 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 87.63 112.395 0)
 			(hide yes)
@@ -10345,6 +10825,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 205.74 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 205.74 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 205.74 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10657,6 +11167,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2040"
+			(at 228.6 149.86 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP2040"
+			(at 228.6 149.86 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 228.6 149.86 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
@@ -10980,6 +11520,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 266.7 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 266.7 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 266.7 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11371,6 +11941,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 165.1 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 165.1 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 165.1 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 165.1 76.2 0)
 			(hide yes)
@@ -11448,6 +12048,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C82317"
+			(at 144.78 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q16JVSSIQ"
+			(at 144.78 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 144.78 238.76 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
@@ -11856,6 +12486,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 58.42 131.445 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 58.42 131.445 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 58.42 131.445 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
 			(at 58.42 137.16 0)
 			(hide yes)
@@ -11944,6 +12604,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 101.6 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 101.6 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 101.6 236.22 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13028,6 +13718,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 78.74 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 78.74 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 78.74 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 78.74 144.78 0)
 			(hide yes)
@@ -13417,6 +14137,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 175.26 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 175.26 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 175.26 76.2 0)
 			(hide yes)
@@ -13573,6 +14323,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 134.62 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X322512MSB4SI"
+			(at 134.62 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXC"
+			(at 134.62 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13739,6 +14519,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 246.38 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 246.38 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 246.38 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 246.38 76.2 0)
 			(hide yes)
@@ -13897,6 +14707,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C1644"
+			(at 149.86 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C150JB8NNNC"
+			(at 149.86 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 149.86 187.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 149.86 187.96 0)
 			(hide yes)
@@ -13976,6 +14816,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 162.56 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 162.56 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 162.56 172.72 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14365,6 +15235,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 38.1 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 38.1 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 38.1 144.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14833,6 +15733,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 276.86 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 276.86 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 276.86 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 276.86 76.2 0)
 			(hide yes)
@@ -14911,6 +15841,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2886894"
+			(at 96.52 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL3342F260QG"
+			(at 96.52 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 96.52 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14992,6 +15952,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 101.6 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 101.6 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL ELEC"
+			(at 101.6 60.96 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15306,6 +16296,36 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 256.54 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 256.54 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG"
+			(at 256.54 76.2 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
 			(at 256.54 76.2 0)
 			(hide yes)
@@ -15461,6 +16481,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2886894"
+			(at 76.2 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL3342F260QG"
+			(at 76.2 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 76.2 254 90)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -15892,6 +16942,36 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 152.4 63.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
+			(at 152.4 63.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 152.4 63.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
