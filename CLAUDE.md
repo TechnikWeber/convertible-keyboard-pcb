@@ -76,7 +76,10 @@ README-Fahrplan bei jedem erledigten Schritt mitpflegen.
 
 ## GPIO-Belegung RP2040 (alle 30 belegt)
 
-GPIO0–20 → COL0–20, GPIO21–26 → ROW0–5, GPIO27 → BL_PWM, GPIO28 → CAPS_LED, GPIO29 → NUM_LED.
+GPIO0–5 → COL0–5, GPIO6 → ROW0, GPIO7–20 → COL7–20, GPIO21 → BL_PWM, GPIO22 → CAPS_LED, GPIO23 → NUM_LED,
+GPIO24 → COL6, GPIO25–29 → ROW1–5. Reihenfolge fürs Fan-out gewählt (Pintausch 2026-09-15 im Schaltplan,
+QMK muss diese Zuordnung übernehmen): oben COL0–11 + ROW0 (ROW0 geht über die F-Reihen-Schiene),
+rechts COL12–17, unten links ROW1–5 + COL6 nach unten, unten rechts COL18–20 + LED-Steuerung nach rechts.
 Kein Scroll-Lock-Indikator. Debug über SWD-Testpads. Beim Routen dürfen Pins getauscht werden (Schaltplan + QMK).
 
 ## Werkzeuge
@@ -126,18 +129,35 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 
 ## PCB-Stand
 
-- Keine Leiterbahnen. Footprints mit Schaltplan verknüpft, Parität sauber.
+- Tastenfeld und Controller-Bereich geroutet (~1200 Leiterbahnen, 318 Vias). DRC ohne Meldung, Parität 0.
+  **Offen: ROW5 vom RP2040 (U1 Pin 41, 145,80/57,94) zur untersten Zeile (D96 Pad 1, 164,62/148,53)** –
+  vom Nutzer in KiCad von Hand zu ziehen. Vorarbeit liegt: Via bei (144,9/59,2), freies F.Cu-Band bis x 151,9.
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°, LEDs bei (0, 5.08).
   Ausnahmen ISO/ANSI: D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°;
   R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
-- Lock-Anzeigen stehen an ihren Positionen.
-- Vorläufige Platzierung (alles B.Cu, Feinschliff beim Routing):
-  - Esc/F1-Lücke (x 45–70): J1 USB-C (57,15 / 30,975, Front bündig mit der Oberkante), U4 ESD, R201/R202 CC, R203/C201 Schirm, R204/R205 27 Ω, F1 + C202, U3 LDO + C203,
-    J2 Pico-EZmate (51,5 / 56,5), J3 JST-SH (63,5 / 56,5).
-  - Streifen unter der F-Reihe (frei y 44,5–60,5): U2 Flash (79 / 52,5), U1 RP2040 (90 / 52,5, 270°: USB/QSPI
-    links, XIN rechts), Entkopplung C210–C221 in Reihen bei y 46,3 und 58,6 (Referenzen ausgeblendet),
-    Y1 + C204/C205 + R206 rechts davon, SW202 BOOTSEL (110), SW201 RESET (120,5), TP1–TP4 (127,5–135).
-  - F4/F5-Lücke: Q1/Q2/Q3 bei x 144 / 150,5 / 157,5 (y 48) mit Gate- und Pulldown-Widerständen darunter.
+- Alle SMD-Bauteile auf B.Cu → einseitige Bestückung. TP1–TP4 sind reines Kupfer auf F.Cu (keine Bestückung).
+- Controller-Block in der F4/F5-Lücke (Nutzerentscheidung 2026-09-15):
+  - Oberkante über der Lücke: J1 USB-C (147,64/30,975), darunter U4 ESD (147,64/39,3), R201/R202 CC,
+    R203/C201 Schirm, R204/R205 27 Ω, F1 + C202 rechts.
+  - J2 (Pico-EZmate) und J3 (JST-SH) liegen **im J1-Footprint** (147,64/31,0 bzw. /30,6), Pads auf denselben
+    Netzen – nur eine der drei Buchsen wird je bestückt. Ihre Courtyards werden auf der Platine entfernt
+    (`tools/udb_courtyard.py`-Prinzip, Attribut `allow_missing_courtyard`), sonst meldet DRC Überlappung.
+  - Streifen unter der F-Reihe: U1 RP2040 (148/54,5, 270°), U2 Flash (137,4/54,3), Quarz Y1 (155,8/53,75) mit
+    C204 (159,6/52,0 liegend), C205, R206; Entkopplung C210–C221 in einer Reihe bei y 54,3; U3 LDO + C203;
+    Treiber Q3/Q2/Q1 bei x 199/207,4/215,8 mit Gate-Widerständen in der unteren Reihe (y 55,25).
+  - Links im Streifen: SW201 RESET (115,6/54,3), SW202 BOOTSEL (124,4/54,3), R207/R208, J2/J3 entfallen dort.
+  - R127 (TKL-Caps-Vorwiderstand) bei (369,5/58,3) unter den Kanälen.
+- Kanal-Konzept beim Routen (0,2 mm Bahnen, 0,35 mm Raster = Design-Mindestabstand 0,15):
+  - F-Reihen-Schienen ROW0/BL_K/+5V bei y 44,9 / 45,65 / 46,45, in der F4/F5-Lücke **nur B.Cu**
+    (F.Cu bleibt dort für USB frei).
+  - Spalten-Kanäle auf B.Cu: links COL5–COL0 (47,95 aufwärts), rechts oben COL7–COL15, rechts unten
+    COL16–COL20 + LED-Steuerung; jede Bahn endet mit einem Via auf der vorhandenen Spaltenleitung.
+  - Ab x 222 steigen die unteren Kanäle in den mittleren Streifen (Stabi-Löcher der Rücktaste blockieren unten).
+  - Steg BRK1 (y 52,3875): F.Cu COL19/COL18/COL17, B.Cu NUM_K/CAPS_K/COL20 – auf der Numpad-Seite fächern
+    beide Lagen kreuzungsfrei auf (K-Leitungen nach oben, Spalten in absteigender Reihenfolge nach unten).
+- GND: Flächen auf F.Cu und B.Cu über dem TKL-Teil (x 27–377,2; der Ziffernblock braucht kein GND, und über die
+  Stege soll kein Kupfer laufen). Voller Pad-Anschluss statt Wärmefallen (Reflow), Inseln werden entfernt,
+  dazu ~100 GND-Vias (Exposed Pad, Bauteil-Pads, Stitching-Raster).
 
 ## Bekannter DRC-Stand
 
@@ -158,6 +178,8 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
       Stabi-Löchern Leertaste/Num 0 (bis y 153,12) und Num+ (bis x 457,92)
 - [x] Sollbruchstelle: Schlitz + 4 Mouse-Bite-Stege mit Leitungskanälen (siehe Wandel-Konzept)
 - [ ] Befestigungslöcher (mit Gehäuse-Designer)
-- [ ] Routing (Nutzer wartet noch; Optionen: Skript für Matrix/LED-Raster, Freerouting – Java 25 vorhanden –,
-      KI-Router wie DeepPCB/Quilter), DRC, Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
+- [x] Routing Tastenfeld und Controller-Bereich (eigener Grid-Router in `tools/`-Skripten, Kanäle konstruiert,
+      kurze Stücke per Wegsuche); DRC ohne Meldung, Parität 0
+- [ ] ROW5 (U1 Pin 41 → D96) von Hand in KiCad ziehen – einzige offene Verbindung
+- [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

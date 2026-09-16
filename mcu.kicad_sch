@@ -4958,7 +4958,7 @@
 		)
 		(uuid "0e106699-cade-5e0d-b8f5-daf285b992ac")
 	)
-	(text "GPIO assignment\nGPIO0-GPIO20: COL0-COL20\nGPIO21-GPIO26: ROW0-ROW5\nGPIO27: BL_PWM (backlight, PWM)\nGPIO28: CAPS_LED\nGPIO29: NUM_LED\nNo Scroll Lock indicator - its pin drives the backlight"
+	(text "GPIO assignment\nGPIO0-GPIO5, GPIO7-GPIO20: COL0-COL5, COL7-COL20\nGPIO24: COL6\nGPIO6: ROW0, GPIO25-GPIO29: ROW1-ROW5\nGPIO21: BL_PWM (backlight, PWM)\nGPIO22: CAPS_LED\nGPIO23: NUM_LED\n(order chosen for the PCB fan-out)\nNo Scroll Lock indicator - its pin drives the backlight"
 		(exclude_from_sim no)
 		(at 279.4 106.68 0)
 		(effects
@@ -6615,7 +6615,7 @@
 		)
 		(uuid "fa99a4d8-3d6a-500b-8041-c77e13483e82")
 	)
-	(global_label "ROW1"
+	(global_label "CAPS_LED"
 		(shape bidirectional)
 		(at 256.54 167.64 0)
 		(fields_autoplaced yes)
@@ -6759,7 +6759,7 @@
 			)
 		)
 	)
-	(global_label "ROW5"
+	(global_label "ROW2"
 		(shape bidirectional)
 		(at 256.54 180.34 0)
 		(fields_autoplaced yes)
@@ -6807,7 +6807,7 @@
 			)
 		)
 	)
-	(global_label "COL6"
+	(global_label "ROW0"
 		(shape bidirectional)
 		(at 256.54 127 0)
 		(fields_autoplaced yes)
@@ -6927,7 +6927,7 @@
 			)
 		)
 	)
-	(global_label "BL_PWM"
+	(global_label "ROW3"
 		(shape bidirectional)
 		(at 256.54 182.88 0)
 		(fields_autoplaced yes)
@@ -6951,7 +6951,7 @@
 			)
 		)
 	)
-	(global_label "ROW0"
+	(global_label "BL_PWM"
 		(shape bidirectional)
 		(at 256.54 165.1 0)
 		(fields_autoplaced yes)
@@ -6999,7 +6999,7 @@
 			)
 		)
 	)
-	(global_label "ROW2"
+	(global_label "NUM_LED"
 		(shape bidirectional)
 		(at 256.54 170.18 0)
 		(fields_autoplaced yes)
@@ -7047,7 +7047,7 @@
 			)
 		)
 	)
-	(global_label "CAPS_LED"
+	(global_label "ROW4"
 		(shape bidirectional)
 		(at 256.54 185.42 0)
 		(fields_autoplaced yes)
@@ -7071,7 +7071,7 @@
 			)
 		)
 	)
-	(global_label "ROW3"
+	(global_label "COL6"
 		(shape bidirectional)
 		(at 256.54 172.72 0)
 		(fields_autoplaced yes)
@@ -7095,7 +7095,7 @@
 			)
 		)
 	)
-	(global_label "ROW4"
+	(global_label "ROW1"
 		(shape bidirectional)
 		(at 256.54 175.26 0)
 		(fields_autoplaced yes)
@@ -7287,7 +7287,7 @@
 			)
 		)
 	)
-	(global_label "NUM_LED"
+	(global_label "ROW5"
 		(shape bidirectional)
 		(at 256.54 187.96 0)
 		(fields_autoplaced yes)

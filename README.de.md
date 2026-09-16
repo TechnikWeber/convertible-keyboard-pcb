@@ -103,7 +103,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] Platinenumriss (erster Entwurf)
 - [ ] Befestigungslöcher (gemeinsam mit dem Gehäuse)
 - [x] Platzierung von Controller, USB und Treibern (vorläufig)
-- [ ] Routing, DRC, Fertigungsdaten
+- [x] Routing von Tastenfeld und Controller-Bereich (DRC ohne Meldung, Parität sauber)
+- [ ] Letzte Verbindung (ROW5) und Fertigungsdaten
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
 
 ## Lizenz
