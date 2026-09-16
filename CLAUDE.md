@@ -129,9 +129,10 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 
 ## PCB-Stand
 
-- Tastenfeld und Controller-Bereich geroutet (~1200 Leiterbahnen, 318 Vias). DRC ohne Meldung, Parität 0.
-  **Offen: ROW5 vom RP2040 (U1 Pin 41, 145,80/57,94) zur untersten Zeile (D96 Pad 1, 164,62/148,53)** –
-  vom Nutzer in KiCad von Hand zu ziehen. Vorarbeit liegt: Via bei (144,9/59,2), freies F.Cu-Band bis x 151,9.
+- **Vollständig geroutet** (5349 Leiterbahnen, 899 Vias, 2 GND-Zonen). DRC ohne Meldung, Parität 0,
+  keine offenen Verbindungen. ROW5 hat der Nutzer am 2026-09-16 von Hand in KiCad gezogen (Commit c2931ee).
+- **Nach jeder Board-Änderung Zonen neu füllen**, sonst meldet DRC Abstandsfehler gegen den alten Füllstand:
+  `kicad-cli pcb drc --refill-zones --save-board --schematic-parity …`
 - Dioden auf B.Cu bei Schalter +(5.08, 4.0) 90°, Vorwiderstände bei (−5.08, 4.0) 90°, LEDs bei (0, 5.08).
   Ausnahmen ISO/ANSI: D71 (+6.6, +4.0), D106 (−9.2, +3.2), D107 (+6.6, +6.7), R107 (−3.6, +7.2) jeweils 90°;
   R108 (−3.0, +9.7), D108 (+3.5, +9.7) 0°.
@@ -178,8 +179,9 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
       Stabi-Löchern Leertaste/Num 0 (bis y 153,12) und Num+ (bis x 457,92)
 - [x] Sollbruchstelle: Schlitz + 4 Mouse-Bite-Stege mit Leitungskanälen (siehe Wandel-Konzept)
 - [ ] Befestigungslöcher (mit Gehäuse-Designer)
-- [x] Routing Tastenfeld und Controller-Bereich (eigener Grid-Router in `tools/`-Skripten, Kanäle konstruiert,
-      kurze Stücke per Wegsuche); DRC ohne Meldung, Parität 0
-- [ ] ROW5 (U1 Pin 41 → D96) von Hand in KiCad ziehen – einzige offene Verbindung
+- [x] Routing vollständig: Tastenfeld und Controller-Bereich (eigener Grid-Router, Kanäle konstruiert, kurze
+      Stücke per Wegsuche, ROW5 vom Nutzer von Hand); DRC ohne Meldung, Parität 0, keine offenen Verbindungen
+- [x] Bilder für Review ohne KiCad in `docs/images/` (Layout beide Lagen, Controller-Detail, Vorder-/Rückseite,
+      drei Schaltplanblätter), eingebunden in beide READMEs – bei Layout-/Schaltplanänderungen neu erzeugen
 - [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

@@ -92,6 +92,45 @@ Die Footprints liegen in einem Submodul, deshalb so klonen:
 git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keyboard-pcb.git
 ```
 
+## Wie es aussieht
+
+Mit diesen Bildern lässt sich das Design ohne KiCad durchsehen.
+
+### Platine
+
+Beide Kupferlagen, Kupferflächen ausgeblendet, damit die Leiterbahnen lesbar bleiben. Der Ziffernblock rechts
+bricht an der Sollbruchstelle ab; darüber laufen nur Matrixleitungen, +5V, BL_K und die zwei Lock-LED-Leitungen,
+und zwar durch die vier Stege.
+
+![Beide Kupferlagen](docs/images/pcb-both-layers.png)
+
+Der Controller sitzt in der Lücke zwischen F4 und F5. Spalten- und Zeilenleitungen laufen in festen Kanälen und
+enden jeweils auf einem Via, das auf die Spaltenleitung der Taste führt. Alle SMD-Bauteile liegen auf der
+Rückseite, die Bestückung bleibt also einseitig.
+
+![Controller-Bereich](docs/images/pcb-controller.png)
+
+Vorderseite (Schalterseite, im Wesentlichen Durchkontaktierungen und die Tastenmatrix) und Rückseite (alle
+Bauteile, Reverse-Mount-LEDs):
+
+![Vorderseite](docs/images/pcb-front.png)
+
+![Rückseite](docs/images/pcb-back.png)
+
+### Schaltplan
+
+Tastenmatrix mit den ANSI-Alternativen:
+
+![Matrix](docs/images/schematic-matrix.png)
+
+Beleuchtung, Lock-Anzeigen und ihre Treiber:
+
+![Beleuchtung](docs/images/schematic-backlight.png)
+
+Controller: RP2040, Flash, Quarz, LDO, USB-C mit ESD-Schutz, Daughterboard-Anschlüsse, Taster, Testpads:
+
+![Controller](docs/images/schematic-mcu.png)
+
 ## Fahrplan
 
 - [x] Tastenmatrix und Dioden
@@ -103,8 +142,9 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] Platinenumriss (erster Entwurf)
 - [ ] Befestigungslöcher (gemeinsam mit dem Gehäuse)
 - [x] Platzierung von Controller, USB und Treibern (vorläufig)
-- [x] Routing von Tastenfeld und Controller-Bereich (DRC ohne Meldung, Parität sauber)
-- [ ] Letzte Verbindung (ROW5) und Fertigungsdaten
+- [x] Routing vollständig: Tastenfeld und Controller-Bereich (DRC ohne Meldung, Parität sauber,
+      keine offenen Verbindungen)
+- [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
 
 ## Lizenz

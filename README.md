@@ -86,6 +86,42 @@ The footprints come from a submodule, so clone with:
 git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keyboard-pcb.git
 ```
 
+## What it looks like
+
+These renders let you review the design without installing KiCad.
+
+### Board
+
+Both copper layers, zone fills hidden so the traces stay readable. The numpad on the right snaps off along the
+breakaway line; only matrix lines, +5V, BL_K and the two lock-LED lines cross it, through the four tabs.
+
+![Both copper layers](docs/images/pcb-both-layers.png)
+
+The controller sits in the gap between F4 and F5. Column and row buses run in fixed lanes and each one ends on a
+via that drops onto the column trace of its key. All SMD parts are on the back, so assembly stays single-sided.
+
+![Controller area](docs/images/pcb-controller.png)
+
+Front (switch side, mostly through holes and the key matrix) and back (all components, reverse-mount LEDs):
+
+![Front](docs/images/pcb-front.png)
+
+![Back](docs/images/pcb-back.png)
+
+### Schematic
+
+Key matrix with the ANSI alternatives:
+
+![Matrix](docs/images/schematic-matrix.png)
+
+Backlight, lock indicators and their drivers:
+
+![Backlight](docs/images/schematic-backlight.png)
+
+Controller: RP2040, flash, crystal, LDO, USB-C with ESD protection, daughterboard connectors, buttons, test pads:
+
+![Controller](docs/images/schematic-mcu.png)
+
 ## Roadmap
 
 - [x] Key matrix and diodes
@@ -97,8 +133,8 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 - [x] Board outline (first draft)
 - [ ] Mounting holes (together with the case)
 - [x] Placement of controller, USB and drivers (preliminary)
-- [x] Routing of key matrix and controller area (DRC clean, schematic parity clean)
-- [ ] One last connection (ROW5) and manufacturing files
+- [x] Routing complete: key matrix and controller area (DRC clean, schematic parity clean, no open nets)
+- [ ] Manufacturing files (LCSC part numbers for every component)
 - [ ] Firmware (QMK) with full-size and TKL layouts
 
 ## Licence
