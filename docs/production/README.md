@@ -50,6 +50,21 @@ Deliberately **not** in the BOM or CPL:
 The key LEDs (`LED1`–`LED108`, minus `LED106`) are reverse-mount parts that
 shine *through* the board, so they sit on the bottom side like everything else.
 
+## What it costs
+
+JLCPCB's minimum order is **5 boards**. Prices checked on 2026-09-16, in US
+dollars, shipping included, customs and import VAT **not** included:
+
+| Order | Price | Per board |
+|---|---|---|
+| 5 bare PCBs, Standard Global Direct Line | $45 | $9 |
+| 5 PCBs, 2 of them assembled, Euro Packet | $112 | — |
+
+The assembled order is the honest number to plan with: you cannot buy a single
+assembled board, and the two populated ones carry most of the $112. Switches,
+keycaps, stabilisers and a case are on top of this and are not part of any
+JLCPCB order.
+
 ## Ordering
 
 1. **PCB:** upload `gerber.zip`. Leave the defaults;
@@ -77,6 +92,11 @@ kicad-cli pcb export drill --drill-origin absolute --excellon-units mm \
 
 Always refill the zones first — a stale zone fill produces phantom clearance
 errors and, worse, gerbers that do not match the board you checked.
+
+**The uploaded archive must not have `convert` in its name.** JLCPCB rejects
+such uploads, which is why it is called `gerber.zip` and not
+`convertible-keyboard-pcb-gerber.zip`. The twelve files *inside* the archive
+keep the project name and are accepted as they are.
 
 `BOM.csv` and `CPL.csv` come from `kicad-cli sch export bom` and
 `kicad-cli pcb export pos`, with the DNP parts and the hand-soldered switches

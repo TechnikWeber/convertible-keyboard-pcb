@@ -162,6 +162,9 @@ Gerber, Bohrdatei, Stückliste und Bestückungsdaten für JLCPCB liegen in
 misst 431,225 × 126,425 mm auf zwei Lagen. 371 Bauteile werden maschinell bestückt, die 108 MX-Schalter
 von Hand gelötet, drei Teile bleiben bewusst unbestückt.
 
+JLCPCB fertigt ab 5 Platinen: **45 $ für fünf unbestückte**, oder **112 $ für fünf, davon zwei bestückt**
+(geprüft am 2026-09-16, Versand drin, Zoll nicht). Schalter, Tastenkappen und Gehäuse kommen obendrauf.
+
 Gebaut wurde davon noch nichts. Die Dateien bestehen DRC und Schaltplan-Parität, mehr nicht — vor dem
 Bestellen selbst prüfen.
 

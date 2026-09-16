@@ -153,6 +153,9 @@ Gerbers, drill file, BOM and placement file for JLCPCB are in
 431.225 × 126.425 mm on two layers. 371 parts are machine-assembled; the 108 MX switches are soldered by
 hand, and three parts are deliberately left unpopulated.
 
+JLCPCB's minimum order is 5 boards: **$45 for five bare PCBs**, or **$112 for five with two of them
+assembled** (checked 2026-09-16, shipping in, customs out). Switches, keycaps and a case come on top.
+
 Nothing here has been built in hardware yet. The files pass DRC and schematic parity, nothing more —
 review them before you spend money.
 

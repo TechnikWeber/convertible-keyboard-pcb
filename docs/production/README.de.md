@@ -50,6 +50,21 @@ Bewusst **nicht** in BOM und CPL:
 Die Tasten-LEDs (`LED1`–`LED108`, ohne `LED106`) sind Reverse-Mount-Typen, die
 *durch* die Platine leuchten, und sitzen deshalb wie alles andere unten.
 
+## Was es kostet
+
+JLCPCB fertigt ab **5 Platinen**. Preise vom 2026-09-16, in US-Dollar, Versand
+enthalten, Zoll und Einfuhrumsatzsteuer **nicht**:
+
+| Bestellung | Preis | Je Platine |
+|---|---|---|
+| 5 unbestückte Platinen, Standard Global Direct Line | 45 $ | 9 $ |
+| 5 Platinen, davon 2 bestückt, Euro Packet | 112 $ | — |
+
+Mit der bestückten Bestellung sollte man rechnen: Eine einzelne bestückte
+Platine gibt es nicht, und die beiden bestückten tragen den Großteil der 112 $.
+Schalter, Tastenkappen, Stabilisatoren und ein Gehäuse kommen obendrauf und
+stecken in keiner JLCPCB-Bestellung.
+
 ## Bestellen
 
 1. **Platine:** `gerber.zip` hochladen. Voreinstellungen
@@ -78,6 +93,11 @@ kicad-cli pcb export drill --drill-origin absolute --excellon-units mm \
 Immer zuerst die Zonen neu füllen — eine veraltete Füllung erzeugt Phantom-
 Abstandsfehler und, schlimmer, Gerber, die nicht zu der Platine passen, die man
 geprüft hat.
+
+**Das hochgeladene Archiv darf kein `convert` im Namen haben.** JLCPCB weist
+solche Uploads ab – deshalb heißt es `gerber.zip` und nicht
+`convertible-keyboard-pcb-gerber.zip`. Die zwölf Dateien *im* Archiv behalten
+den Projektnamen und werden so akzeptiert.
 
 `BOM.csv` und `CPL.csv` entstehen aus `kicad-cli sch export bom` und
 `kicad-cli pcb export pos`, ohne die DNP-Teile und die handgelöteten Schalter

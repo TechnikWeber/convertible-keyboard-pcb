@@ -180,6 +180,11 @@ kicad-cli sch export bom --fields 'Reference,Value,Footprint,LCSC,MPN,Manufactur
   und Gerber dasselbe Koordinatensystem haben.
 - **CPL-Y bleibt negativ** (Edge.Cuts-Gerber läuft Y −153,7…0). Das Vorzeichen nicht umdrehen – sonst wird
   spiegelverkehrt bestückt. Drehwinkel modulo 360.
+- **JLC lehnt das hochgeladene Archiv ab, wenn `convert` im Namen steht** (Nutzerbefund 2026-09-16) –
+  deshalb `gerber.zip`. Beim Neuerzeugen nicht wieder auf den Projektnamen umbenennen. Die zwölf
+  Dateien *innerhalb* des Archivs heißen weiter `convertible-keyboard-pcb-*` und werden akzeptiert.
+- Preise vom 2026-09-16 (USD, Versand drin, Zoll/EUSt nicht): 5 unbestückte Platinen mit Standard Global
+  Direct Line 45 $ (9 $/Stück); 5 Platinen, davon 2 bestückt, mit Euro Packet 112 $. MOQ ist 5.
 - Nicht in BOM/CPL: SW1–SW108 (Schalter werden von Hand gelötet) und die DNP-Teile D122, J2, J3.
   Es bleiben 371 Bauteile in 25 Gruppen, davon 369 auf B.Cu und 2 (D126/D128) auf F.Cu.
 - **LCSC/MPN/Manufacturer müssen am Symbol *und* am Footprint stehen**, sonst meldet die Parität für jedes
