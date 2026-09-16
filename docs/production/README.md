@@ -12,7 +12,7 @@ page) whenever the board changes.
 
 | File | What it is |
 |---|---|
-| `convertible-keyboard-pcb-gerber.zip` | Gerber X1 + Excellon drill, ready to upload |
+| `gerber.zip` | Gerber X1 + Excellon drill, ready to upload |
 | `BOM.csv` | Bill of materials, JLCPCB column names |
 | `CPL.csv` | Component placement (pick and place) |
 
@@ -52,7 +52,7 @@ shine *through* the board, so they sit on the bottom side like everything else.
 
 ## Ordering
 
-1. **PCB:** upload `convertible-keyboard-pcb-gerber.zip`. Leave the defaults;
+1. **PCB:** upload `gerber.zip`. Leave the defaults;
    2 layers, 1.6 mm, HASL is fine. The breakaway slot and mouse bites are part
    of the outline, so no extra instructions are needed.
 2. **Assembly:** turn it on, choose **both sides**, upload `BOM.csv` and

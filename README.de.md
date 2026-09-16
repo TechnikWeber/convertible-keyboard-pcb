@@ -86,6 +86,7 @@ diesem Kern auf, statt ihn zu verbiegen.
 | `lib/MX_Alps_Hybrid` | Schalter-Footprints von ai03 (Git-Submodul) |
 | `tools/` | Skripte, die die Blätter erzeugt und die Platine aktualisiert haben – siehe [tools/README.de.md](tools/README.de.md) |
 | `docs/production/` | Gerber, Bohrdatei, Stückliste und Bestückungsdaten für JLCPCB |
+| `firmware/` | QMK-Definition und Keymaps – siehe [firmware/README.de.md](firmware/README.de.md) |
 
 Die Footprints liegen in einem Submodul, deshalb so klonen:
 
@@ -180,7 +181,8 @@ Bestellen selbst prüfen.
       keine offenen Verbindungen)
 - [x] Fertigungsdaten für JLCPCB: Gerber, Bohrdatei, Stückliste und Bestückungsdaten, LCSC-Nummer an
       jedem Teil
-- [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
+- [x] Firmware (QMK): vier Layouts (Full-Size und TKL, je ISO und ANSI), Matrix aus der Platinendatei
+      erzeugt, Beleuchtung und Lock-Anzeigen; kompiliert, noch nicht auf Hardware gelaufen
 
 ## Lizenz
 

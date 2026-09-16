@@ -80,6 +80,7 @@ bending it into something else.
 | `lib/MX_Alps_Hybrid` | Switch footprints by ai03 (git submodule) |
 | `tools/` | Scripts that generated the sheets and updated the PCB – see [tools/README.md](tools/README.md) |
 | `docs/production/` | Gerbers, drill file, BOM and placement file for JLCPCB |
+| `firmware/` | QMK keyboard definition and keymaps – see [firmware/README.md](firmware/README.md) |
 
 The footprints come from a submodule, so clone with:
 
@@ -168,7 +169,8 @@ review them before you spend money.
 - [x] Placement of controller, USB and drivers (preliminary)
 - [x] Routing complete: key matrix and controller area (DRC clean, schematic parity clean, no open nets)
 - [x] Manufacturing files for JLCPCB: gerbers, drill, BOM and placement file, an LCSC number on every part
-- [ ] Firmware (QMK) with full-size and TKL layouts
+- [x] Firmware (QMK): four layouts (full-size and TKL, each ISO and ANSI), matrix generated from the
+      board file, backlight and lock indicators; compiles, not yet run on hardware
 
 ## Licence
 

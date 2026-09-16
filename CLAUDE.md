@@ -190,6 +190,33 @@ kicad-cli sch export bom --fields 'Reference,Value,Footprint,LCSC,MPN,Manufactur
   `hole_to_hole` 0,000 mm) und 13 deckungsgleiche Bahnsegmente zurück. Beim Entfernen eines Vias die
   Bahnenden auf das verbleibende umhängen, sonst hängen sie in der Luft. Vor dem Fertigen darauf prüfen.
 
+## Firmware (QMK)
+
+Quelle ist `firmware/technikweber/convertible/`; zum Bauen in eine QMK-Arbeitskopie **verlinken**
+(`qmk_firmware/keyboards/technikweber/convertible`), nicht kopieren. Bauen mit QMK-CLI aus einer venv,
+`QMK_HOME` auf den Klon, `arm-none-eabi-gcc` genügt generisch (die aus `/opt/st/stm32cubeclt_*` baut RP2040).
+
+- **`keyboard.json` und die vier Keymaps werden aus der Platine erzeugt** (Matrixnetze je Schalter, Position
+  aus der Footprint-Lage) – nie von Hand nachziehen, sonst driftet die Firmware von der Platine weg.
+- Layouts: `LAYOUT_fullsize_iso` (105, = `keymaps/default`), `fullsize_ansi` (104), `tkl_iso` (88),
+  `tkl_ansi` (87). ISO und ANSI teilen sich Matrixplätze (ROW3/COL13, ROW4/COL0) → getrennte Makros nötig.
+- Umrechnung Platine → Layout: `kle_x = (x − 38,1)/19,05 + 0,5 − w/2`, ebenso in y. Unsere Zahlenreihe sitzt
+  0,25 u tiefer als die QMK-Community-Layouts (Platinenraster), die **Reihenfolge** stimmt trotzdem –
+  deshalb ist `community_layouts` zulässig.
+- **Schema-Fallen:** `w2/h2/x2` (L-Form ISO-Enter) sind in `keyboard.json` **nicht** erlaubt, obwohl die
+  KLE-Quelldateien sie führen – ISO-Enter schlicht als `w:1.25, h:2`. `bootmagic.matrix [0,0]` ist bereits
+  Vorgabe und wird als Dopplung bemängelt. `qmk lint` verlangt eine `readme.md` im Keyboard-Ordner.
+- **Backlight-PWM auf RP2040:** GPIO n → Slice `(n/2) % 8`, Kanal A bei geradem, B bei ungeradem Pin.
+  GP21 → `PWMD2`, `RP2040_PWM_CHANNEL_B`. Dafür sind `config.h`, `halconf.h` (`HAL_USE_PWM`) und
+  `mcuconf.h` (`RP_PWM_USE_PWM2`) nötig; **ohne sie** greift die STM32-Vorgabe `PWMD4` und der Bau bricht mit
+  `PWMD4 undeclared` ab. Dass eine Konfiguration in einem anderen Board existiert, heißt nicht, dass sie baut –
+  erst der Kompilierlauf zählt.
+- Lock-Anzeigen datengetrieben über `indicators` (`caps_lock` GP22, `num_lock` GP23), kein C-Code.
+- Fn liegt auf der Menü-Taste (SW99), Menü bleibt als Fn+Menü erhalten. Fn+Esc = `QK_BOOT`.
+- QMK-Schema- und Layoutdateien sind **kein striktes JSON** (`//`-Kommentare, KLE-Rohformat) – mit `hjson`
+  aus der QMK-venv lesen, nicht mit `json.load`.
+- USB-VID/PID sind QMK-Platzhalter `0xFEED/0x0001` – vor Stückzahl eigene Kennung anmelden.
+
 ## Bekannter DRC-Stand
 
 **0 Fehler, Parität 0, keine offenen Verbindungen.** Es bleiben 69 Warnungen, alle gewollt:
@@ -229,4 +256,5 @@ kicad-cli sch export bom --fields 'Reference,Value,Footprint,LCSC,MPN,Manufactur
         danach mit ImageMagick auf 1600–2000 px Breite verkleinern
 - [x] Fertigungsdaten in `docs/production/`, LCSC/MPN/Manufacturer an allen 373 Symbolen und Footprints
       (geprüfte Nummern; Vorsicht: C22966 ist 270 Ω, nicht 27 Ω – dafür C25190)
-- [ ] Firmware (QMK) mit Full-Size- und TKL-Layout
+- [x] Firmware (QMK) in `firmware/technikweber/convertible/` (+ `firmware/README` EN/DE): vier Layouts,
+      alle vier bauen zum `.uf2`, `qmk lint` sauber; noch nie auf Hardware gelaufen

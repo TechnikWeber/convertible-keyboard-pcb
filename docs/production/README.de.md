@@ -12,7 +12,7 @@ erzeugen (siehe unten).
 
 | Datei | Inhalt |
 |---|---|
-| `convertible-keyboard-pcb-gerber.zip` | Gerber X1 + Excellon-Bohrdatei, direkt hochladbar |
+| `gerber.zip` | Gerber X1 + Excellon-Bohrdatei, direkt hochladbar |
 | `BOM.csv` | Stückliste mit den Spaltennamen von JLCPCB |
 | `CPL.csv` | Bestückungsdaten (Pick and Place) |
 
@@ -52,7 +52,7 @@ Die Tasten-LEDs (`LED1`–`LED108`, ohne `LED106`) sind Reverse-Mount-Typen, die
 
 ## Bestellen
 
-1. **Platine:** `convertible-keyboard-pcb-gerber.zip` hochladen. Voreinstellungen
+1. **Platine:** `gerber.zip` hochladen. Voreinstellungen
    passen; 2 Lagen, 1,6 mm, HASL genügt. Schlitz und Mouse Bites stecken im
    Umriss, es braucht keine Sonderhinweise.
 2. **Bestückung:** einschalten, **beide Seiten** wählen, `BOM.csv` und `CPL.csv`
