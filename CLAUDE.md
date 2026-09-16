@@ -181,7 +181,13 @@ SW106 ohne LED und gedreht ist die einzige kollisionsfreie Lösung gegen den ISO
 - [ ] Befestigungslöcher (mit Gehäuse-Designer)
 - [x] Routing vollständig: Tastenfeld und Controller-Bereich (eigener Grid-Router, Kanäle konstruiert, kurze
       Stücke per Wegsuche, ROW5 vom Nutzer von Hand); DRC ohne Meldung, Parität 0, keine offenen Verbindungen
-- [x] Bilder für Review ohne KiCad in `docs/images/` (Layout beide Lagen, Controller-Detail, Vorder-/Rückseite,
-      drei Schaltplanblätter), eingebunden in beide READMEs – bei Layout-/Schaltplanänderungen neu erzeugen
+- [x] Bilder für Review ohne KiCad in `docs/images/`, eingebunden in beide READMEs:
+      - vom Nutzer beigesteuert: `layout-iso.png`, `layout-ansi.png` (Tastenlayouts, Grundlage des Projekts),
+        `pcb-3d-front.png`, `pcb-3d-back.png` (3D-Ansichten aus dem KiCad-Viewer)
+      - aus `kicad-cli` erzeugt: `pcb-both-layers.png`, `pcb-controller.png`, `pcb-front.png`, `pcb-back.png`
+        (Layout ohne Kupferflächen, sonst überdeckt GND die Bahnen), `schematic-matrix.png`,
+        `schematic-backlight.png`, `schematic-mcu.png`
+      - bei Layout-/Schaltplanänderungen neu erzeugen: `kicad-cli sch export svg` bzw. `pcb export svg`,
+        danach mit ImageMagick auf 1600–2000 px Breite verkleinern
 - [ ] Fertigungsdaten (LCSC-Nummern für alle Teile ergänzen)
 - [ ] Firmware (QMK) mit Full-Size- und TKL-Layout

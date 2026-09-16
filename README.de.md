@@ -96,6 +96,27 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 
 Mit diesen Bildern lässt sich das Design ohne KiCad durchsehen.
 
+### Tastenlayouts
+
+Darauf baut alles auf: ISO-DE mit 105 Tasten und ANSI mit 104. Die Platine trägt beide. Die ANSI-Positionen sind
+Alternativ-Footprints, die bei einem ISO-Aufbau unbestückt bleiben – und umgekehrt.
+
+![ISO-DE-Layout](docs/images/layout-iso.png)
+
+![ANSI-Layout](docs/images/layout-ansi.png)
+
+### Platine in 3D
+
+Schalterseite: Durchkontaktierungen für Schalter und Stabilisatoren, keine Bauteile. Gut zu sehen ist die
+Sollbruchstelle vor dem Ziffernblock.
+
+![3D, Schalterseite](docs/images/pcb-3d-front.png)
+
+Bestückungsseite: Hier sitzt alles, die Bestückung bleibt also einseitig. Je Taste Diode und Vorwiderstand, die
+Reverse-Mount-LEDs leuchten durch ihre Aussparungen, und der Controller sitzt in der Lücke zwischen F4 und F5.
+
+![3D, Bestückungsseite](docs/images/pcb-3d-back.png)
+
 ### Platine
 
 Beide Kupferlagen, Kupferflächen ausgeblendet, damit die Leiterbahnen lesbar bleiben. Der Ziffernblock rechts

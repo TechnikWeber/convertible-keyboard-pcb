@@ -90,6 +90,27 @@ git clone --recurse-submodules https://github.com/TechnikWeber/convertible-keybo
 
 These renders let you review the design without installing KiCad.
 
+### Key layouts
+
+Everything is built around these two: ISO-DE with 105 keys and ANSI with 104. The board carries both. The ANSI
+positions are alternative footprints that stay unpopulated on an ISO build, and the other way round.
+
+![ISO-DE layout](docs/images/layout-iso.png)
+
+![ANSI layout](docs/images/layout-ansi.png)
+
+### Board in 3D
+
+Switch side: through holes for the switches and their stabilisers, no components. Note the breakaway line in
+front of the numpad.
+
+![3D, switch side](docs/images/pcb-3d-front.png)
+
+Component side: everything sits here, so assembly stays single-sided. Diodes and resistors per key, the
+reverse-mount LEDs shining through their cutouts, and the controller in the gap between F4 and F5.
+
+![3D, component side](docs/images/pcb-3d-back.png)
+
 ### Board
 
 Both copper layers, zone fills hidden so the traces stay readable. The numpad on the right snaps off along the
