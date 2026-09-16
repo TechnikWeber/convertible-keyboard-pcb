@@ -215,7 +215,10 @@ Quelle ist `firmware/technikweber/convertible/`; zum Bauen in eine QMK-Arbeitsko
 - Fn liegt auf der Menü-Taste (SW99), Menü bleibt als Fn+Menü erhalten. Fn+Esc = `QK_BOOT`.
 - QMK-Schema- und Layoutdateien sind **kein striktes JSON** (`//`-Kommentare, KLE-Rohformat) – mit `hjson`
   aus der QMK-venv lesen, nicht mit `json.load`.
-- USB-VID/PID sind QMK-Platzhalter `0xFEED/0x0001` – vor Stückzahl eigene Kennung anmelden.
+- USB-VID/PID bleiben bei den QMK-Platzhaltern `0xFEED/0x0001` (Nutzerentscheidung 2026-09-16:
+  „so lassen, dokumentiert“) – Hinweis steht in `firmware/README`. Erst vor Stückzahl eigene Kennung.
+- **Einreichung bei QMK erst nach dem Hardware-Test** (Nutzerentscheidung 2026-09-16). QMK nimmt ungern
+  Boards auf, die nie gelaufen sind – also nicht von selbst wieder vorschlagen, bis ein Prototyp läuft.
 
 ## Bekannter DRC-Stand
 
