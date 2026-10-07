@@ -175,8 +175,8 @@ review them before you spend money.
 - [x] Firmware (QMK): four layouts (full-size and TKL, each ISO and ANSI), matrix generated from the
       board file, backlight and lock indicators; compiles, not yet run on hardware
 
-## Licence
+## License
 
-CC BY-NC-SA 4.0 — see [LICENSE](LICENSE). The switch footprints in
+[CC-BY-NC-SA-4.0](LICENSE), notes in [NOTICE.md](NOTICE.md). The switch footprints in
 `lib/MX_Alps_Hybrid` are by ai03 under the MIT License;
 the THT LED footprints in `lib/keyboard.pretty` use their pad geometry.

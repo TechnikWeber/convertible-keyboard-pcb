@@ -189,6 +189,6 @@ Bestellen selbst prüfen.
 
 ## Lizenz
 
-CC BY-NC-SA 4.0 — siehe [LICENSE](LICENSE). Die Schalter-Footprints in
+[CC-BY-NC-SA-4.0](LICENSE), Hinweise in [NOTICE.md](NOTICE.md). Die Schalter-Footprints in
 `lib/MX_Alps_Hybrid` stammen von ai03 und stehen unter der MIT-Lizenz;
 die THT-LED-Footprints in `lib/keyboard.pretty` übernehmen deren Pad-Geometrie.
