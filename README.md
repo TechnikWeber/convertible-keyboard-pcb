@@ -1,5 +1,11 @@
 # convertible-keyboard-pcb
 
+<p>
+  <img alt="Status: PCB in progress" src="https://img.shields.io/badge/status-PCB%20in%20progress-orange">
+  <img alt="Platform: RP2040 · USB-C · KiCad" src="https://img.shields.io/badge/platform-RP2040%20%C2%B7%20USB--C%20%C2%B7%20KiCad-blue">
+  <a href="LICENSE"><img alt="License: CC BY-NC-SA 4.0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey"></a>
+</p>
+
 > ### 🔎 Looking for a case designer
 > This keyboard has a PCB in progress but no case yet. If you design keyboard
 > cases — 3D-printed, CNC-milled or laser-cut — and would like to take this on,
