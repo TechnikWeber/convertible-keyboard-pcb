@@ -6,12 +6,11 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 4.0 International License (CC BY-NC-SA 4.0). The full text is in [LICENSE](LICENSE);
 a summary is at <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
 
-## Kurzfassung (unverbindlich — es gilt der volle Lizenztext)
+## Summary (not binding — the full license text applies)
 
-Du darfst die Tastatur nachbauen, verändern und veränderte Fassungen weitergeben — zum
-Beispiel eine angepasste Platine oder ein eigenes Gehäuse. Bedingungen: Du nennst die
-Quelle, nutzt es nicht kommerziell und gibst Abwandlungen unter derselben Lizenz weiter
-(ShareAlike).
+You may build the keyboard, modify it and share modified versions — for example an
+adapted PCB or your own case. Conditions: you credit the source, do not use it
+commercially and share derivatives under the same license (ShareAlike).
 
 ## Notes
 

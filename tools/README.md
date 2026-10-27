@@ -1,5 +1,3 @@
-**English** · [Deutsch](README.de.md)
-
 # tools
 
 Scripts that generated the schematic sheets and updated the PCB for the ANSI

@@ -1,5 +1,3 @@
-**English** · [Deutsch](README.de.md)
-
 # convertible-keyboard-pcb
 
 > ### 🔎 Looking for a case designer

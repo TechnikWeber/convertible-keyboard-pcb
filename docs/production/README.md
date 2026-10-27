@@ -1,5 +1,3 @@
-**English** · [Deutsch](README.de.md)
-
 # Production files (JLCPCB)
 
 Everything in this folder is generated from the KiCad project in the repository

@@ -1,5 +1,3 @@
-**English** · [Deutsch](README.de.md)
-
 # Firmware (QMK)
 
 QMK keyboard definition for the convertible-keyboard-pcb. The matrix assignment

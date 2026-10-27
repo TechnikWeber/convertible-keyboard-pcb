@@ -5,8 +5,8 @@ abbrechbar → TKL (88 Tasten). Kommunikation auf Deutsch.
 Bis 2026-09-15 hieß das Projekt `keyboard-fullsize` (Ordner, Dateien, GitHub-Repo umbenannt).
 
 Öffentlich auf GitHub: `TechnikWeber/convertible-keyboard-pcb`, Lizenz CC BY-NC-SA 4.0 (ohne Military-Zusatz).
-README zweisprachig: `README.md` (Englisch, Standard) + `README.de.md`, Umschalter in Zeile 1.
-Ganz oben in beiden READMEs: Suche nach einem Gehäuse-Designer – beim Aktualisieren drin lassen.
+README und Doku nur auf Englisch, keine `.de.md`-Kopien (Browser übersetzen).
+Ganz oben in der README: Suche nach einem Gehäuse-Designer – beim Aktualisieren drin lassen.
 Anspruch des Projekts (so auch in README): kein Einmal-DIY-Keyboard, sondern standardisiertes Kernprojekt,
 auf dem man aufbauen kann – günstig, einfach, aber sehr sauber und modern. NICHT „stetig wachsen“:
 Varianten (Gehäuse, Licht, Layouts) setzen auf dem Kern auf, der Kern bleibt schlank.
